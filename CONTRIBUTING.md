@@ -73,7 +73,7 @@ If Veo refuses a shot, run `FALLBACK=wan uv run --env-file .env python video/gen
 uv run pytest
 ```
 
-The smoke tests in [`tests/`](tests/) run offline in about a second. They check that the committed shot list matches `video/shots.py`, that the EDL builds, and that the captions build from the committed timeline and fonts. [CI](.github/workflows/ci.yml) runs them on every push and pull request, along with a compile check of every Python file. It installs only the core dependencies, has no secrets, and never calls fal or any other API.
+The smoke tests in [`tests/`](tests/) run offline in about a second. They check that the committed shot list matches `video/shots.py`, that the EDL builds, and that the captions build from the committed timeline and fonts. [CI](.github/workflows/test.yml) runs them on every push and pull request, along with a compile check of every Python file. It installs only the core dependencies, has no secrets, and never calls fal or any other API.
 
 ## What’s in the repo
 
