@@ -4,7 +4,7 @@
 
 [![Slow It Down – AI Music Video](https://assets.cultural-alignment.com/personal-site/media/5a28d2e05504f914a9e2fa0935e3ccc7ff960b865aae0c8cfd1a91fcd682bffa.webp)](https://www.transitivebullsh.it/projects/slow-it-down-ai-music-video)
 
-**[▶ Watch the video and read the write-up](https://www.transitivebullsh.it/projects/slow-it-down-ai-music-video)** · [download the mp4](https://assets.cultural-alignment.com/personal-site/media/19045126f62b86bf803fc131c662b2786899c3276b48e10169caece9ce7c66c5.mp4)
+**[▶ Watch the video and read the write-up](https://www.transitivebullsh.it/projects/slow-it-down-ai-music-video)**
 
 An AI-made R&B parody of THE-DREAM feat. Fabolous, “Slow It Down” (2013), made almost entirely by Claude Code with Opus 5.5, Suno, and fal. This repo is the whole working directory behind it.
 
@@ -16,7 +16,7 @@ Meanwhile, the labs keep saying they want to [“pace” the frontier](https://w
 
 So I wanted to try flipping this and make slowing down feel sexy.
 
-THE-DREAM’s “Slow It Down” is literally a guy begging the club DJ to stop playing fast dance songs so he can actually get close to someone. It barely needed rewriting. ([Watch the original.](https://www.youtube.com/watch?v=yPwkzdYN4JE))
+THE-DREAM’s “Slow It Down” is literally a guy begging the club DJ to stop playing fast dance songs so he can actually get close to someone. It barely needed rewriting. ([Watch the original](https://www.youtube.com/watch?v=yPwkzdYN4JE))
 
 ## Welcome to Club Frontier
 
@@ -173,7 +173,7 @@ Everybody know slow AGI, way better than no AGI
 
 ## License
 
-The code is [MIT](license) © Travis Fischer. The video is a parody, not affiliated with any lab, artist, or head of state. The original song belongs to its owners.
+The code is [MIT](license) © [Travis Fischer](https://x.com/transitive_bs). The video is a parody, not affiliated with any lab, artist, or head of state. The original song belongs to its owners.
 
 ---
 
