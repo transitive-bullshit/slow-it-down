@@ -1,0 +1,28 @@
+{
+ "endpoint": "fal-ai/wan/v2.2-a14b/image-to-video",
+ "args": {
+  "prompt": "the bear slowly scoops a dripping pawful of golden honey out of the jar labeled WEIGHTS and lifts it with guilty delight; his mouth stays closed in a sly smile, he is not talking; the jar and its WEIGHTS label stay steady and readable; the shadow on the wall does not move Painterly neo-noir graphic-novel animation: keep the hand-painted brushwork, ink lines and lighting of the first frame, same characters, faces and outfits throughout, smooth cinematic camera, no on-screen text changes.",
+  "image_url": "https://v3b.fal.media/files/b/0aac3ad1/g28k_u7xMybL_CgfMKjBq_R05.png",
+  "resolution": "720p",
+  "aspect_ratio": "16:9",
+  "num_frames": 61,
+  "frames_per_second": 16,
+  "video_quality": "high",
+  "interpolator_model": "film",
+  "num_interpolated_frames": 1,
+  "adjust_fps_for_interpolation": true,
+  "negative_prompt": "blur, distortion, low quality, garbled text, morphing faces, photorealistic, 3D render, talking, lip sync, mouth moving, speaking, morphing shadow",
+  "end_image_url": "https://v3b.fal.media/files/b/0aac3ad2/BIgec1Gt-fe2dFXIsiekb_R05_end.png"
+ },
+ "seconds": 74.6,
+ "result": {
+  "video": {
+   "url": "https://v3b.fal.media/files/b/0aac3ada/n-k_4J-UKB6soE6NP4bPP_36pPhwBB.mp4",
+   "content_type": "video/mp4",
+   "file_name": "n-k_4J-UKB6soE6NP4bPP_36pPhwBB.mp4",
+   "file_size": 1786729
+  },
+  "prompt": "the bear slowly scoops a dripping pawful of golden honey out of the jar labeled WEIGHTS and lifts it with guilty delight; his mouth stays closed in a sly smile, he is not talking; the jar and its WEIGHTS label stay steady and readable; the shadow on the wall does not move Painterly neo-noir graphic-novel animation: keep the hand-painted brushwork, ink lines and lighting of the first frame, same characters, faces and outfits throughout, smooth cinematic camera, no on-screen text changes.",
+  "seed": 1020844734
+ }
+}

@@ -1,0 +1,24 @@
+{
+ "endpoint": "fal-ai/veo3.1/fast/first-last-frame-to-video",
+ "args": {
+  "prompt": "he walks past the window glancing at the TV with a knowing smirk, then turns toward the camera and smiles, camera tracking alongside Painterly neo-noir graphic-novel animation: keep the hand-painted brushwork, ink lines and lighting of the first frame, same characters, faces and outfits throughout, smooth cinematic camera, no on-screen text changes.",
+  "first_frame_url": "https://v3b.fal.media/files/b/0aac397b/cY0_gH4OVarMv2bHN9o3U_S04.png",
+  "resolution": "1080p",
+  "aspect_ratio": "16:9",
+  "generate_audio": false,
+  "safety_tolerance": "5",
+  "auto_fix": true,
+  "negative_prompt": "garbled or changing text, morphing faces, extra limbs, flicker, photorealistic, glossy 3D render, oversaturated neon",
+  "last_frame_url": "https://v3b.fal.media/files/b/0aac397c/IIME0xall6cKLbnUGnlXk_S04_end.png",
+  "duration": "4s"
+ },
+ "seconds": 143.4,
+ "result": {
+  "video": {
+   "url": "https://v3b.fal.media/files/b/0aac3989/kiXUxI6qjm1xgkPLxcROE_01a8d9f4b07e45d49eb1e6e05c63e96d.mp4",
+   "content_type": "video/mp4",
+   "file_name": "01a8d9f4b07e45d49eb1e6e05c63e96d.mp4",
+   "file_size": 8415145
+  }
+ }
+}

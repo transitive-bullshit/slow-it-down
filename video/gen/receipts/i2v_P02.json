@@ -1,0 +1,23 @@
+{
+ "endpoint": "fal-ai/veo3.1/fast/image-to-video",
+ "args": {
+  "prompt": "the vault door's wheel spins and locks with a heavy clunk as she leans back against it and smiles Painterly cyberpunk-noir graphic-novel animation: keep the hand-painted brushwork, ink lines and neon lighting of the first frame, same characters and outfits throughout, smooth cinematic camera, no on-screen text changes.",
+  "image_url": "https://v3b.fal.media/files/b/0aac32de/G2ve0FVPDZJWWqXFQciXP_P02.png",
+  "resolution": "1080p",
+  "aspect_ratio": "16:9",
+  "generate_audio": false,
+  "negative_prompt": "garbled or changing text, morphing faces, extra limbs, flicker, photorealistic, glossy 3D render, oversaturated neon",
+  "safety_tolerance": "5",
+  "auto_fix": true,
+  "duration": "4s"
+ },
+ "seconds": 108.4,
+ "result": {
+  "video": {
+   "url": "https://v3b.fal.media/files/b/0aac32e9/KT2XCdnrskDcg_VYnhOpG_d4ae975beafe47099ac08c91e84f9a0d.mp4",
+   "content_type": "video/mp4",
+   "file_name": "d4ae975beafe47099ac08c91e84f9a0d.mp4",
+   "file_size": 7223829
+  }
+ }
+}

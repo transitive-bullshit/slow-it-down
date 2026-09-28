@@ -1,0 +1,24 @@
+{
+ "endpoint": "fal-ai/nano-banana-pro",
+ "args": {
+  "prompt": "inside Club Frontier, a cavernous smoky nightclub in a converted industrial hall: deep leather booths, a black mirrored dance floor, a giant vintage analog BPM dial hanging above the floor, a huge dim LED wall, thick haze pierced by a few light shafts, a deep velvet back booth lit by candles where couples in thrift-store cardigans wearing small pins that read p(doom) slow-dance and grind close together, intimate amber light. Lighting: dim smoky club, a warm sodium-amber key from one side and a cool steel-teal backlight through the haze, a few small soft neon accents far behind. painterly neo-noir graphic-novel frame in the spirit of Blade Runner (1982) and Blade Runner 2049: semi-realistic digital painting with visible brushstrokes and fine ink linework, adult realistic proportions, restrained desaturated palette, deep shadows, smoky haze and soft volumetric light shafts from one or two motivated sources, neon used sparingly as small soft practical accents in the background only, rain-wet reflective surfaces, soft film grain, cinematic widescreen composition with generous negative space, sensual late-night mood, not Pixar, not cartoonish, no glossy plastic 3D look, no oversaturated magenta or purple, full-bleed 16:9 image that fills the entire frame edge to edge, with no black bars, no letterbox, no panel borders and no captions",
+  "aspect_ratio": "16:9",
+  "resolution": "2K",
+  "output_format": "png",
+  "safety_tolerance": "4"
+ },
+ "seconds": 26.7,
+ "result": {
+  "images": [
+   {
+    "url": "https://v3b.fal.media/files/b/0aac3239/kcsU2by6f4dYlGhW-knfk_pYfrBtoz.png",
+    "content_type": "image/png",
+    "file_name": "kcsU2by6f4dYlGhW-knfk_pYfrBtoz.png",
+    "file_size": null,
+    "width": null,
+    "height": null
+   }
+  ],
+  "description": ""
+ }
+}

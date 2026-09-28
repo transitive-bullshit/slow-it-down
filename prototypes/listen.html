@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Vocal Prototypes</title>
+<style>
+ :root { --bg:#120c0b; --panel:#1c1413; --line:#2a1f1d; --text:#efe4d8; --muted:#9c8a7c; --amber:#f0a64a; --rose:#e0607a; }
+ body { margin:0; background:radial-gradient(1000px 500px at 70% -10%, #3a1c16 0%, var(--bg) 60%); color:var(--text);
+        font:15px/1.5 -apple-system, "Helvetica Neue", Arial, sans-serif; }
+ main { max-width: 860px; margin: 0 auto; padding: 24px 16px 60px; }
+ h1 { font-size: 20px; margin: 0 0 4px; } h2 { font-size: 13px; letter-spacing: .14em; text-transform: uppercase; color: var(--amber); margin: 30px 0 10px; }
+ p.lede { color: var(--muted); margin: 0 0 8px; }
+ .card { background: var(--panel); border: 1px solid var(--line); border-radius: 10px; padding: 12px 14px; margin: 10px 0; }
+ .card h3 { margin: 0 0 2px; font-size: 15px; } .card .how { color: var(--muted); font-size: 13px; margin: 0 0 8px; }
+ .card.ref { border-style: dashed; } audio { width: 100%; height: 34px; }
+ .tag { display:inline-block; font-size: 11px; border: 1px solid var(--line); border-radius: 99px; padding: 0 8px; margin-left: 6px; color: var(--muted); }
+ ul { color: var(--muted); margin: 6px 0 0 18px; padding: 0; } li { margin: 2px 0; }
+</style></head>
+<body><main>
+<h1>Slow It Down: vocal prototypes</h1>
+<p class="lede">Every mix sits on our extracted original instrumental. The hook excerpt runs from the verse into the end of hook 1 (0:31–1:35). The rap excerpt is the full Daddy Sama verse. To hear any of these with the lyrics scrolling, open <b>lyric-lab.html</b> and use the Vocal dropdown.</p>
+<p class="lede">Tell me what you like and dislike about: the lead voice, the refrain melody against the original, timing and feel, and the rap voice and flow.</p>
+
+<h2>Round 5 · The stubborn hook lines 1–2</h2>
+<p class="lede">ACE-Step won't change hook lines 1 and 2, even for a one-word swap. Line 1 was "work" → "train" and line 2 was "ear" → "prompt": "train" came through in 0 of 12 takes, "prompt" in 1. Tencent AuK edits the words on the vocal track itself and kept the same length and pitch. The free demo ran once before hitting its daily limit. Does the word actually change? Transcription can't tell, so this needs your ear.</p>
+<div class="card"><h3>AuK, line 1 · vocal only: before → after</h3><p class="how">The original vocal for that phrase, then AuK's edit ("work" → "train"). Output is only 24 kHz.</p>
+ <audio controls preload="none" src="out/ace/auk_line1_before.mp3"></audio><audio controls preload="none" src="out/ace/auk_line1_after.mp3"></audio></div>
+<div class="card"><h3>arms-s1991 with AuK's line-1 patch <span class="tag">in context</span></h3><p class="how">Your arms-s1991 take, with 1:06–1:10 replaced by the instrumental plus AuK's edited vocal (level-matched, 120 ms crossfades).</p><audio controls preload="none" src="out/ace/arms1991_auk_line1.mp3"></audio></div>
+
+<h2>Round 4 · Whole-mix edit with "arms race" + second passes on your two favorites</h2>
+<p class="lede">Same method as your favorites: the original mix in, the original voice kept, only the words changed. Hook answer lines 1 and 2 ("Give her time to grow…", "Read her chain of thought…") still won't change in any take. Everything else improved.</p>
+<div class="card"><h3>arms-s7 · fresh single pass <span class="tag">start here</span></h3><p class="how">Full quality (about 90% of the original mix intact). "Arms race" lands, and hook lines 3 and 4 ("steer it left…", "now she's aligned") come through.</p><audio controls preload="none" src="out/ace/p1arms_s7.mp3"></audio></div>
+<div class="card"><h3>p2 of LG-s123 · seed 123 <span class="tag">most words changed</span></h3><p class="how">Your LG-s123 re-edited: hook lines 3 and 4 are near word-perfect and "arms race" lands. The second pass costs some fidelity (84% of the original mix vs 90%), so listen for softness.</p><audio controls preload="none" src="out/ace/p2_s123_s123.mp3"></audio></div>
+<div class="card"><h3>p2 of LG-s77 · seed 123</h3><p class="how">Your LG-s77 re-edited. Clearest "DJ Moloch, you wrong."</p><audio controls preload="none" src="out/ace/p2_s77_s123.mp3"></audio></div>
+<div class="card"><h3>arms-s1991 · fresh single pass</h3><p class="how">"She's self-improving on me" is word-perfect; the hook changes less.</p><audio controls preload="none" src="out/ace/p1arms_s1991.mp3"></audio></div>
+
+<h2>Round 3 · Whole-mix lyric edit (ACE-Step): original recording in, new words out</h2>
+<p class="lede">No stem separation, no layering. The full original mix of the pre-hook and hook 1 (0:46–1:34) went into ACE-Step's lyric-edit mode with only the words changed. The refrain was left verbatim. Every take keeps about 90% of the original mix, with no breakdown. The pre-hook's new words come through best. The hook's answer lines only partly changed, and lines 1 and 2 not at all yet.</p>
+<div class="card ref"><h3>Reference: the original clip <span class="tag">0:46–1:34</span></h3><audio controls preload="none" src="out/ace/chorus_original.mp3"></audio></div>
+<div class="card"><h3>Best-of composite <span class="tag">start here</span></h3><p class="how">The best-scoring take of each changed line across all 12 takes, spliced at line boundaries. Every take shares the original's exact timeline, so there's no drift. Hook answer lines 1 and 2 are still the original words, because no take changed them yet.</p><audio controls preload="none" src="out/ace/chorus_bestof.mp3"></audio></div>
+<div class="card"><h3>Take LG-s123 <span class="tag">stronger lyric guidance</span></h3><p class="how">Highest single-take score. Pre-hook mostly swapped; "now she's aligned" comes through.</p><audio controls preload="none" src="out/ace/chorusLG_s123.mp3"></audio></div>
+<div class="card"><h3>Take LG-s77</h3><audio controls preload="none" src="out/ace/chorusLG_s77.mp3"></audio></div>
+<div class="card"><h3>Take s2026 <span class="tag">most balanced</span></h3><p class="how">Pre-hook mostly swapped. Hook answer lines 3 and 4 ("steer it left…", "now she's aligned") come through.</p><audio controls preload="none" src="out/ace/chorus_s2026.mp3"></audio></div>
+<div class="card"><h3>Take s1991 <span class="tag">cleanest pre-hook</span></h3><p class="how">The first four pre-hook lines are nearly word-perfect. The hook answers mostly didn't change.</p><audio controls preload="none" src="out/ace/chorus_s1991.mp3"></audio></div>
+<div class="card"><h3>Take s123</h3><p class="how">Strong pre-hook. "Now she's aligned" comes through.</p><audio controls preload="none" src="out/ace/chorus_s123.mp3"></audio></div>
+<details><summary style="cursor:pointer;color:var(--muted)">More seeds (s42, s7, s31337)</summary>
+<div class="card"><h3>Take s42</h3><audio controls preload="none" src="out/ace/chorus_s42.mp3"></audio></div>
+<div class="card"><h3>Take s7</h3><audio controls preload="none" src="out/ace/chorus_s7.mp3"></audio></div>
+<div class="card"><h3>Take s31337</h3><audio controls preload="none" src="out/ace/chorus_s31337.mp3"></audio></div>
+</details>
+
+<h2>Round 2 · Lyria 3.5 + the original performance, re-voiced</h2>
+<p class="lede">What you liked in round 1 turned out to be the original singer (the ACE-Step model left the first 15 s untouched). So round 2 keeps the original performance wherever the words don't change. The refrain and the backing stack are the original's exact melody and timing, converted into Lyria's singer with Seed-VC (95% of refrain frames within a semitone of the original). Only the new lyric lines are sung by Lyria.</p>
+<div class="card ref"><h3>Reference: the original <span class="tag">for comparison</span></h3><audio controls preload="none" src="out/ref_original_hook.mp3"></audio></div>
+<div class="card"><h3>L2 · Layered: Lyria lead lines + ORIGINAL refrain & backing re-voiced <span class="tag">recommended</span></h3>
+ <p class="how">The "(DJ) you gotta slow it down" pickups, the six "downs," the tag and the "ahoo" stacks are the original performance in Lyria's voice. The new lines are Lyria take 1, isolated and snapped to where the original singer sings each line.</p>
+ <audio controls preload="none" src="out/L2_ly_t1_layered.mp3"></audio>
+ <ul><li>Same thing, vocals only (to judge the voice and the seams):</li></ul>
+ <audio controls preload="none" src="out/L2_ly_t1_layered__acapella.mp3"></audio></div>
+<div class="card"><h3>L1 · Lyria 3.5 one-shot</h3>
+ <p class="how">Lyria's whole vocal, lead and backing, laid over our instrumental. This is its own melody for everything, including the refrain.</p>
+ <audio controls preload="none" src="out/L1_ly_t1_oneshot.mp3"></audio></div>
+<div class="card"><h3>Raw Lyria take 1 · its own beat <span class="tag">voice reference</span></h3>
+ <p class="how">What Lyria generated, before we pulled out the vocal. The L2 re-voicing uses this singer's timbre.</p>
+ <audio controls preload="none" src="out/raw_lyria_t1.mp3"></audio></div>
+
+<details><summary style="cursor:pointer;color:var(--muted);margin-top:26px">Round 1 (rejected) · click to expand</summary>
+
+<h2>Main chorus · verse → pre-hook → hook</h2>
+<div class="card ref"><h3>Reference: the original <span class="tag">for comparison</span></h3><audio controls preload="none" src="out/ref_original_hook.mp3"></audio></div>
+<div class="card"><h3>A · ElevenLabs Music, one-shot <span class="tag">most natural</span></h3>
+ <p class="how">One continuous generated performance to our exact section lengths, lightly stretched from 122 to 123 BPM and laid on the beat.</p>
+ <audio controls preload="none" src="out/A_elevenlabs_oneshot.mp3"></audio>
+ <ul><li>It sings its own melody and phrasing, including its own take on the refrain. It is not the original melody.</li><li>It skips the PHASEONE line and rushes hook units 3–4, landing early.</li></ul></div>
+<div class="card"><h3>B · ElevenLabs lines snapped to the original's slots <span class="tag">on the original's beats</span></h3>
+ <p class="how">The best take of each line, taken from four ElevenLabs generations and placed where the original singer sings that line.</p>
+ <audio controls preload="none" src="out/B_elevenlabs_comped.mp3"></audio>
+ <ul><li>The timing now follows the original song. The refrain is still ElevenLabs' melody.</li><li>The lines come from different generations, so the voice shifts slightly from line to line. The planned voice-conversion step would fix that.</li><li>Some words are still garbled (for example "take off with me, man").</li></ul></div>
+
+<h2>Rap verse · Daddy Sama</h2>
+<div class="card ref"><h3>Reference: the original <span class="tag">for comparison</span></h3><audio controls preload="none" src="out/ref_original_rap.mp3"></audio></div>
+<div class="card"><h3>RA · ElevenLabs Music rap, one-shot</h3><p class="how">A generated rap verse at exactly 123 BPM, two lines per bar.</p><audio controls preload="none" src="out/RA_rap_elevenlabs_oneshot.mp3"></audio></div>
+<div class="card"><h3>RB · ElevenLabs Music rap, snapped to the original line grid</h3><p class="how">The same take, with each line moved to start where the original rapper's lines start.</p><audio controls preload="none" src="out/RB_rap_elevenlabs_comped.mp3"></audio></div>
+<div class="card"><h3>RC · Designed "Daddy Sama" voice, ElevenLabs TTS v3, on the grid</h3><p class="how">An original designed voice (laid-back NY baritone, not a Sam clone), spoken-rapped line by line.</p><audio controls preload="none" src="out/RC_rap_tts_v3.mp3"></audio></div>
+<div class="card"><h3>RC2 · Same designed voice, TTS multilingual v2</h3><audio controls preload="none" src="out/RC_rap_tts_multilingual_v2.mp3"></audio></div>
+
+<h2>Raw generations · judge the voice only</h2>
+<p class="lede">These are unaligned outputs from fal (MiniMax Music, ACE-Step), each on its own beat and tempo. Listen only for whether one of these singers is the voice we want.</p>
+<div class="card"><h3>ACE-Step inpaint #1 <span class="tag">re-sung over the original backing</span></h3><audio controls preload="none" src="out/raw_fal/ace-step-inpaint_E1_1.mp3"></audio></div>
+<div class="card"><h3>ACE-Step inpaint #2</h3><audio controls preload="none" src="out/raw_fal/ace-step-inpaint_E1_2.mp3"></audio></div>
+<div class="card"><h3>MiniMax Music 2.6 · hook section</h3><audio controls preload="none" src="out/raw_fal/minimax-music-v2.6_E1_1.mp3"></audio></div>
+<div class="card"><h3>MiniMax Music 3 · hook section #1</h3><audio controls preload="none" src="out/raw_fal/minimax-music-3_E1_1.mp3"></audio></div>
+<div class="card"><h3>MiniMax Music 3 · hook section #2</h3><audio controls preload="none" src="out/raw_fal/minimax-music-3_E1_2.mp3"></audio></div>
+<div class="card"><h3>MiniMax Music 3 · rap #1</h3><audio controls preload="none" src="out/raw_fal/minimax-music-3_E2_1.mp3"></audio></div>
+<div class="card"><h3>MiniMax Music 3 · rap #2</h3><audio controls preload="none" src="out/raw_fal/minimax-music-3_E2_2.mp3"></audio></div>
+<div class="card"><h3>ACE-Step text-to-music #1</h3><audio controls preload="none" src="out/raw_fal/ace-step_E1_1.mp3"></audio></div>
+<div class="card"><h3>ACE-Step text-to-music #2</h3><audio controls preload="none" src="out/raw_fal/ace-step_E1_2.mp3"></audio></div>
+</details>
+</main></body></html>

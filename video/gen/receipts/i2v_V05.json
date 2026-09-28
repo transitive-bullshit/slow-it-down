@@ -1,0 +1,23 @@
+{
+ "endpoint": "fal-ai/veo3.1/fast/image-to-video",
+ "args": {
+  "prompt": "the glowing meter spins rapidly upward as he gives a small satisfied thumbs-up Painterly cyberpunk-noir graphic-novel animation: keep the hand-painted brushwork, ink lines and neon lighting of the first frame, same characters and outfits throughout, smooth cinematic camera, no on-screen text changes.",
+  "image_url": "https://v3b.fal.media/files/b/0aac32f7/TBDWLDHmb0bw_gE_AHCD-_V05.png",
+  "resolution": "1080p",
+  "aspect_ratio": "16:9",
+  "generate_audio": false,
+  "negative_prompt": "garbled or changing text, morphing faces, extra limbs, flicker, photorealistic, glossy 3D render, oversaturated neon",
+  "safety_tolerance": "5",
+  "auto_fix": true,
+  "duration": "4s"
+ },
+ "seconds": 98.3,
+ "result": {
+  "video": {
+   "url": "https://v3b.fal.media/files/b/0aac3301/Jh-bAu7640fINWnx_md5G_734dbd65abb94c2e9abba704d82a6b03.mp4",
+   "content_type": "video/mp4",
+   "file_name": "734dbd65abb94c2e9abba704d82a6b03.mp4",
+   "file_size": 8062285
+  }
+ }
+}

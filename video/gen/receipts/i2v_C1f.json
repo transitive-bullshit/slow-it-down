@@ -1,0 +1,23 @@
+{
+ "endpoint": "fal-ai/veo3.1/fast/image-to-video",
+ "args": {
+  "prompt": "his hands gently guide her hips slowly to the left, then slowly to the right, their bodies moving together Graceful slow motion. Painterly cyberpunk-noir graphic-novel animation: keep the hand-painted brushwork, ink lines and neon lighting of the first frame, same characters and outfits throughout, smooth cinematic camera, no on-screen text changes.",
+  "image_url": "https://v3b.fal.media/files/b/0aac32b4/hq5_vQdFaQ964Kfa__ri2_C1f.png",
+  "resolution": "1080p",
+  "aspect_ratio": "16:9",
+  "generate_audio": false,
+  "negative_prompt": "garbled or changing text, morphing faces, extra limbs, flicker, photorealistic, glossy 3D render, oversaturated neon",
+  "safety_tolerance": "5",
+  "auto_fix": true,
+  "duration": "4s"
+ },
+ "seconds": 109.9,
+ "result": {
+  "video": {
+   "url": "https://v3b.fal.media/files/b/0aac32c0/1fUNgIAnnWmBha3-5qKu-_9477f126bb6e42118537c32141090bf2.mp4",
+   "content_type": "video/mp4",
+   "file_name": "9477f126bb6e42118537c32141090bf2.mp4",
+   "file_size": 9654329
+  }
+ }
+}

@@ -1,0 +1,23 @@
+{
+ "endpoint": "fal-ai/veo3.1/fast/image-to-video",
+ "args": {
+  "prompt": "in slow motion the DJ lifts off his mask, revealing a tired gentle face, as warm gold light washes over him Graceful slow motion. Painterly cyberpunk-noir graphic-novel animation: keep the hand-painted brushwork, ink lines and neon lighting of the first frame, same characters and outfits throughout, smooth cinematic camera, no on-screen text changes.",
+  "image_url": "https://v3b.fal.media/files/b/0aac3326/g9pJA6OHpyyGoFDI0HntD_C3a.png",
+  "resolution": "1080p",
+  "aspect_ratio": "16:9",
+  "generate_audio": false,
+  "negative_prompt": "garbled or changing text, morphing faces, extra limbs, flicker, photorealistic, glossy 3D render, oversaturated neon",
+  "safety_tolerance": "5",
+  "auto_fix": true,
+  "duration": "4s"
+ },
+ "seconds": 106.5,
+ "result": {
+  "video": {
+   "url": "https://v3b.fal.media/files/b/0aac3330/5TgpuGk8Z-YF-N77gW9Cz_e4eb8cceac1f4ec38f25b25c5b226c11.mp4",
+   "content_type": "video/mp4",
+   "file_name": "e4eb8cceac1f4ec38f25b25c5b226c11.mp4",
+   "file_size": 8385386
+  }
+ }
+}

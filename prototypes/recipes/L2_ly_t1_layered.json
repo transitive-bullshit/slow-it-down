@@ -1,0 +1,262 @@
+{
+ "name": "L2_ly_t1_layered",
+ "window": [
+  30.6,
+  95.2
+ ],
+ "clips": [
+  {
+   "src": "prototypes/work/ly_t1/orig_lead_as_ly_t1.wav",
+   "src_start": 31.75078,
+   "src_end": 37.506820000000005,
+   "dst": 61.25078,
+   "bus": "lead",
+   "fit": null,
+   "gain_db": 0
+  },
+  {
+   "src": "prototypes/work/ly_t1/orig_backing_as_ly_t1.wav",
+   "src_start": 33.0654,
+   "src_end": 37.506820000000005,
+   "dst": 62.5654,
+   "bus": "backing",
+   "fit": null,
+   "gain_db": 0
+  },
+  {
+   "src": "prototypes/work/ly_t1/orig_lead_as_ly_t1.wav",
+   "src_start": 39.555580000000006,
+   "src_end": 45.311620000000005,
+   "dst": 69.05558,
+   "bus": "lead",
+   "fit": null,
+   "gain_db": 0
+  },
+  {
+   "src": "prototypes/work/ly_t1/orig_backing_as_ly_t1.wav",
+   "src_start": 40.87020000000001,
+   "src_end": 45.311620000000005,
+   "dst": 70.37020000000001,
+   "bus": "backing",
+   "fit": null,
+   "gain_db": 0
+  },
+  {
+   "src": "prototypes/work/ly_t1/orig_lead_as_ly_t1.wav",
+   "src_start": 47.360380000000006,
+   "src_end": 53.116420000000005,
+   "dst": 76.86038,
+   "bus": "lead",
+   "fit": null,
+   "gain_db": 0
+  },
+  {
+   "src": "prototypes/work/ly_t1/orig_backing_as_ly_t1.wav",
+   "src_start": 48.67500000000001,
+   "src_end": 53.116420000000005,
+   "dst": 78.17500000000001,
+   "bus": "backing",
+   "fit": null,
+   "gain_db": 0
+  },
+  {
+   "src": "prototypes/work/ly_t1/orig_lead_as_ly_t1.wav",
+   "src_start": 55.16518000000001,
+   "src_end": 60.921220000000005,
+   "dst": 84.66518,
+   "bus": "lead",
+   "fit": null,
+   "gain_db": 0
+  },
+  {
+   "src": "prototypes/work/ly_t1/orig_backing_as_ly_t1.wav",
+   "src_start": 56.47980000000001,
+   "src_end": 60.921220000000005,
+   "dst": 85.97980000000001,
+   "bus": "backing",
+   "fit": null,
+   "gain_db": 0
+  },
+  {
+   "src": "prototypes/work/ly_t1/orig_lead_as_ly_t1.wav",
+   "src_start": 62.48218,
+   "src_end": 65.65288000000001,
+   "dst": 91.98218,
+   "bus": "lead",
+   "fit": null,
+   "gain_db": 0
+  },
+  {
+   "src": "prototypes/work/ly_t1/orig_backing_as_ly_t1.wav",
+   "src_start": 62.48218,
+   "src_end": 65.65288000000001,
+   "dst": 91.98218,
+   "bus": "backing",
+   "fit": null,
+   "gain_db": 0
+  },
+  {
+   "src": "prototypes/work/ly_t1/orig_backing_as_ly_t1.wav",
+   "src_start": 2.0925399999999996,
+   "src_end": 3.8974000000000046,
+   "dst": 31.59254,
+   "bus": "backing",
+   "fit": null,
+   "gain_db": 0
+  },
+  {
+   "src": "prototypes/work/ly_t1/orig_backing_as_ly_t1.wav",
+   "src_start": 5.99494,
+   "src_end": 7.799799999999998,
+   "dst": 35.49494,
+   "bus": "backing",
+   "fit": null,
+   "gain_db": 0
+  },
+  {
+   "src": "prototypes/work/ly_t1/orig_backing_as_ly_t1.wav",
+   "src_start": 9.89734,
+   "src_end": 11.702199999999998,
+   "dst": 39.39734,
+   "bus": "backing",
+   "fit": null,
+   "gain_db": 0
+  },
+  {
+   "src": "prototypes/work/ly_t1/orig_backing_as_ly_t1.wav",
+   "src_start": 13.79974,
+   "src_end": 15.604599999999998,
+   "dst": 43.29974,
+   "bus": "backing",
+   "fit": null,
+   "gain_db": 0
+  },
+  {
+   "src": "prototypes/work/ly_t1/kara/vocals_(Vocals)_bs_roformer_karaoke_frazer_becruily.wav",
+   "src_start": 0.0,
+   "src_end": 1.9,
+   "dst": 33.12,
+   "bus": "lead",
+   "fit": 3.8100000000000023,
+   "gain_db": 0
+  },
+  {
+   "src": "prototypes/work/ly_t1/kara/vocals_(Vocals)_bs_roformer_karaoke_frazer_becruily.wav",
+   "src_start": 3.48,
+   "src_end": 5.74,
+   "dst": 36.68,
+   "bus": "lead",
+   "fit": 4.07,
+   "gain_db": 0
+  },
+  {
+   "src": "prototypes/work/ly_t1/kara/vocals_(Vocals)_bs_roformer_karaoke_frazer_becruily.wav",
+   "src_start": 7.38,
+   "src_end": 9.76,
+   "dst": 40.5,
+   "bus": "lead",
+   "fit": 4.229999999999997,
+   "gain_db": 0
+  },
+  {
+   "src": "prototypes/work/ly_t1/kara/vocals_(Vocals)_bs_roformer_karaoke_frazer_becruily.wav",
+   "src_start": 11.6,
+   "src_end": 13.62,
+   "dst": 44.48,
+   "bus": "lead",
+   "fit": 2.510000000000005,
+   "gain_db": 0
+  },
+  {
+   "src": "prototypes/work/ly_t1/kara/vocals_(Vocals)_bs_roformer_karaoke_frazer_becruily.wav",
+   "src_start": 15.18,
+   "src_end": 17.88,
+   "dst": 46.74,
+   "bus": "lead",
+   "fit": 2.229999999999997,
+   "gain_db": 0
+  },
+  {
+   "src": "prototypes/work/ly_t1/kara/vocals_(Vocals)_bs_roformer_karaoke_frazer_becruily.wav",
+   "src_start": 17.88,
+   "src_end": 21.06,
+   "dst": 48.72,
+   "bus": "lead",
+   "fit": 2.1499999999999986,
+   "gain_db": 0
+  },
+  {
+   "src": "prototypes/work/ly_t1/kara/vocals_(Vocals)_bs_roformer_karaoke_frazer_becruily.wav",
+   "src_start": 21.06,
+   "src_end": 24.98,
+   "dst": 50.62,
+   "bus": "lead",
+   "fit": 4.210000000000001,
+   "gain_db": 0
+  },
+  {
+   "src": "prototypes/work/ly_t1/kara/vocals_(Vocals)_bs_roformer_karaoke_frazer_becruily.wav",
+   "src_start": 24.98,
+   "src_end": 27.42,
+   "dst": 54.58,
+   "bus": "lead",
+   "fit": 1.7700000000000031,
+   "gain_db": 0
+  },
+  {
+   "src": "prototypes/work/ly_t1/kara/vocals_(Vocals)_bs_roformer_karaoke_frazer_becruily.wav",
+   "src_start": 27.42,
+   "src_end": 29.32,
+   "dst": 56.1,
+   "bus": "lead",
+   "fit": 2.25,
+   "gain_db": 0
+  },
+  {
+   "src": "prototypes/work/ly_t1/kara/vocals_(Vocals)_bs_roformer_karaoke_frazer_becruily.wav",
+   "src_start": 29.32,
+   "src_end": 31.3,
+   "dst": 58.1,
+   "bus": "lead",
+   "fit": 3.5899999999999963,
+   "gain_db": 0
+  },
+  {
+   "src": "prototypes/work/ly_t1/kara/vocals_(Vocals)_bs_roformer_karaoke_frazer_becruily.wav",
+   "src_start": 34.78,
+   "src_end": 38.8,
+   "dst": 67.05,
+   "bus": "lead",
+   "fit": 2.200000000000003,
+   "gain_db": 0
+  },
+  {
+   "src": "prototypes/work/ly_t1/kara/vocals_(Vocals)_bs_roformer_karaoke_frazer_becruily.wav",
+   "src_start": 42.620000000000005,
+   "src_end": 46.66,
+   "dst": 74.61,
+   "bus": "lead",
+   "fit": 2.8400000000000034,
+   "gain_db": 0
+  },
+  {
+   "src": "prototypes/work/ly_t1/kara/vocals_(Vocals)_bs_roformer_karaoke_frazer_becruily.wav",
+   "src_start": 50.33999999999999,
+   "src_end": 54.0,
+   "dst": 82.9,
+   "bus": "lead",
+   "fit": 2.049999999999997,
+   "gain_db": 0
+  },
+  {
+   "src": "prototypes/work/ly_t1/kara/vocals_(Vocals)_bs_roformer_karaoke_frazer_becruily.wav",
+   "src_start": 58.5,
+   "src_end": 60.1,
+   "dst": 91.19,
+   "bus": "lead",
+   "fit": 1.55,
+   "gain_db": 0
+  }
+ ],
+ "normalize_clips": true
+}

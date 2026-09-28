@@ -1,0 +1,20 @@
+{
+ "endpoint": "fal-ai/bytedance/omnihuman/v1.5",
+ "args": {
+  "image_url": "https://v3b.fal.media/files/b/0aac32dc/hj_JW1lLE98m1pyxQ10Pk_R01_in.jpg",
+  "audio_url": "https://v3b.fal.media/files/b/0aac32dc/AVbvlO-qw8ZxiK_j0-icN_R01_vocal.wav",
+  "resolution": "720p",
+  "mask_url": "https://v3b.fal.media/files/b/0aac32dc/BnULdu4J0UiECLaENSf4P_R01_mask_in.png",
+  "prompt": "he raps confidently toward the lens with hand gestures, singing expressively with natural mouth shapes, painterly cyberpunk-noir graphic-novel look, same character and outfit"
+ },
+ "seconds": 155.4,
+ "result": {
+  "video": {
+   "url": "https://v3b.fal.media/files/b/0aac32eb/IbkM4otEt0QHpLx0Wr-rw_video.mp4",
+   "content_type": "video/mp4",
+   "file_name": "video.mp4",
+   "file_size": 2646735
+  },
+  "duration": 4.7
+ }
+}

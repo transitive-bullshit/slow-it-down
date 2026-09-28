@@ -1,0 +1,23 @@
+{
+ "endpoint": "fal-ai/veo3.1/fast/image-to-video",
+ "args": {
+  "prompt": "the couples in the foreground pull each other closer and sway sensually while all over the club more couples pair up and begin to slow dance, in slow motion Graceful slow motion. Painterly neo-noir graphic-novel animation: keep the hand-painted brushwork, ink lines and lighting of the first frame, same characters, faces and outfits throughout, smooth cinematic camera, no on-screen text changes.",
+  "image_url": "https://v3b.fal.media/files/b/0aac398a/bZI6k9cwJhrXOWyQ4ddYR_C3b.png",
+  "resolution": "1080p",
+  "aspect_ratio": "16:9",
+  "generate_audio": false,
+  "negative_prompt": "garbled or changing text, morphing faces, extra limbs, flicker, photorealistic, glossy 3D render, oversaturated neon",
+  "safety_tolerance": "5",
+  "auto_fix": true,
+  "duration": "4s"
+ },
+ "seconds": 113.7,
+ "result": {
+  "video": {
+   "url": "https://v3b.fal.media/files/b/0aac3995/NsUhtyMo31X8vCZ0o7mvd_bd3c26788bec40cebfbf72530ae8d1e4.mp4",
+   "content_type": "video/mp4",
+   "file_name": "bd3c26788bec40cebfbf72530ae8d1e4.mp4",
+   "file_size": 11152945
+  }
+ }
+}

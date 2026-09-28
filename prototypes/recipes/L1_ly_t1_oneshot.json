@@ -1,0 +1,18 @@
+{
+ "name": "L1_ly_t1_oneshot",
+ "window": [
+  30.6,
+  95.2
+ ],
+ "takes": [
+  {
+   "src": "prototypes/work/ly_t1/vocals.wav",
+   "grid": {
+    "beat_period": 0.48965553235908144,
+    "t0": 0.43913361169100906
+   },
+   "bar_time": 31.4462,
+   "bus": "lead"
+  }
+ ]
+}

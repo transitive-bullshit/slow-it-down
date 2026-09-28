@@ -1,0 +1,453 @@
+{
+ "version": "full_v3",
+ "overall": "",
+ "overallUpdated": "",
+ "items": {
+  "OPEN": {
+   "status": null,
+   "tags": [],
+   "note": "remove this scene. You want to get into the actual video quicker",
+   "updated": "2026-09-28T09:48:10.534Z"
+  },
+  "S01": {
+   "status": "redo",
+   "tags": [
+    "image"
+   ],
+   "note": "the first keyframe of dario needs to look more like him. his face needs to be more recognizable from a recent photograph",
+   "updated": "2026-09-28T09:47:32.904Z"
+  },
+  "S02": {
+   "status": "redo",
+   "tags": [
+    "image"
+   ],
+   "note": "the first keyframe and end keyframe of dario needs to look more like him. his face needs to be more recognizable from a recent photograph",
+   "updated": "2026-09-28T09:47:50.246Z"
+  },
+  "S03": {
+   "status": "redo",
+   "tags": [
+    "image"
+   ],
+   "note": "the end keyframe of dario needs to look more like him. his face needs to be more recognizable from a recent photograph",
+   "updated": "2026-09-28T09:47:48.837Z"
+  },
+  "S04": {
+   "status": "redo",
+   "tags": [
+    "image"
+   ],
+   "note": "the start keyframe of dario needs to look more like him. his face needs to be more recognizable from a recent photograph",
+   "updated": "2026-09-28T09:47:47.196Z"
+  },
+  "S05": {
+   "status": "keep",
+   "tags": [],
+   "note": "",
+   "updated": "2026-09-28T09:48:28.608Z"
+  },
+  "S06": {
+   "status": "keep",
+   "tags": [],
+   "note": "",
+   "updated": "2026-09-28T09:48:26.942Z"
+  },
+  "S07": {
+   "status": "keep",
+   "tags": [],
+   "note": "",
+   "updated": "2026-09-28T09:48:24.872Z"
+  },
+  "S08": {
+   "status": "keep",
+   "tags": [],
+   "note": "",
+   "updated": "2026-09-28T09:48:33.660Z"
+  },
+  "S09": {
+   "status": "keep",
+   "tags": [],
+   "note": "",
+   "updated": "2026-09-28T09:47:14.283Z"
+  },
+  "S10": {
+   "status": "keep",
+   "tags": [],
+   "note": "",
+   "updated": "2026-09-28T09:48:39.497Z"
+  },
+  "S11": {
+   "status": "keep",
+   "tags": [],
+   "note": "",
+   "updated": "2026-09-28T09:48:43.029Z"
+  },
+  "P01": {
+   "status": "keep",
+   "tags": [],
+   "note": "",
+   "updated": "2026-09-28T09:48:44.129Z"
+  },
+  "P02": {
+   "status": "keep",
+   "tags": [],
+   "note": "",
+   "updated": "2026-09-28T09:48:45.321Z"
+  },
+  "P03": {
+   "status": "keep",
+   "tags": [],
+   "note": "",
+   "updated": "2026-09-28T09:48:53.400Z"
+  },
+  "P04": {
+   "status": "keep",
+   "tags": [],
+   "note": "",
+   "updated": "2026-09-28T09:48:55.117Z"
+  },
+  "P05": {
+   "status": "keep",
+   "tags": [],
+   "note": "",
+   "updated": "2026-09-28T09:48:56.283Z"
+  },
+  "P06": {
+   "status": "keep",
+   "tags": [],
+   "note": "",
+   "updated": "2026-09-28T09:48:57.429Z"
+  },
+  "C1a": {
+   "status": "keep",
+   "tags": [],
+   "note": "",
+   "updated": "2026-09-28T09:49:01.658Z"
+  },
+  "C1b": {
+   "status": "keep",
+   "tags": [],
+   "note": "",
+   "updated": "2026-09-28T09:49:06.625Z"
+  },
+  "C1c": {
+   "status": "redo",
+   "tags": [],
+   "note": "Replace Dario in the scene with a slow cut of our featured model dancing very sensually, sexually suggestively, moving her hips. We don't actually need the character on screen to be lip syncing in this case.",
+   "updated": "2026-09-28T09:50:30.568Z"
+  },
+  "C1d": {
+   "status": "keep",
+   "tags": [],
+   "note": "",
+   "updated": "2026-09-28T09:50:50.246Z"
+  },
+  "C1e": {
+   "status": "keep",
+   "tags": [],
+   "note": "",
+   "updated": "2026-09-28T09:50:49.089Z"
+  },
+  "C1f": {
+   "status": "keep",
+   "tags": [],
+   "note": "",
+   "updated": "2026-09-28T09:51:00.405Z"
+  },
+  "C1g": {
+   "status": "redo",
+   "tags": [],
+   "note": "Yeah, again, we don't want the OmniHuman lip sync scenes. So, instead, here they're just getting cuddly and progressively closer suggestively.",
+   "updated": "2026-09-28T09:52:04.414Z"
+  },
+  "C1h": {
+   "status": "keep",
+   "tags": [],
+   "note": "",
+   "updated": "2026-09-28T09:52:18.634Z"
+  },
+  "V01": {
+   "status": "keep",
+   "tags": [],
+   "note": "",
+   "updated": "2026-09-28T09:52:19.900Z"
+  },
+  "V02": {
+   "status": "keep",
+   "tags": [],
+   "note": "",
+   "updated": "2026-09-28T09:52:32.400Z"
+  },
+  "V03": {
+   "status": "keep",
+   "tags": [],
+   "note": "",
+   "updated": "2026-09-28T09:52:35.167Z"
+  },
+  "V04": {
+   "status": "keep",
+   "tags": [],
+   "note": "Maybe change the dial turn it back to be a Hitachi magic wand. The scene doesn't need that much changing overall, it's great. I just think him changing the dial on a Hitachi magic wand could be really cool.",
+   "updated": "2026-09-28T09:53:13.508Z"
+  },
+  "V05": {
+   "status": "keep",
+   "tags": [],
+   "note": "",
+   "updated": "2026-09-28T09:53:18.375Z"
+  },
+  "V06": {
+   "status": "keep",
+   "tags": [],
+   "note": "",
+   "updated": "2026-09-28T09:53:23.521Z"
+  },
+  "V07": {
+   "status": "keep",
+   "tags": [],
+   "note": "",
+   "updated": "2026-09-28T09:53:28.905Z"
+  },
+  "V08": {
+   "status": "keep",
+   "tags": [],
+   "note": "",
+   "updated": "2026-09-28T09:53:30.180Z"
+  },
+  "V09": {
+   "status": "keep",
+   "tags": [],
+   "note": "",
+   "updated": "2026-09-28T09:53:38.896Z"
+  },
+  "V10": {
+   "status": "keep",
+   "tags": [],
+   "note": "",
+   "updated": "2026-09-28T09:53:46.230Z"
+  },
+  "P11": {
+   "status": "keep",
+   "tags": [],
+   "note": "",
+   "updated": "2026-09-28T09:53:48.543Z"
+  },
+  "P12": {
+   "status": "keep",
+   "tags": [],
+   "note": "",
+   "updated": "2026-09-28T09:53:51.235Z"
+  },
+  "P13": {
+   "status": "keep",
+   "tags": [],
+   "note": "",
+   "updated": "2026-09-28T09:53:54.089Z"
+  },
+  "P14": {
+   "status": "keep",
+   "tags": [],
+   "note": "",
+   "updated": "2026-09-28T09:53:59.660Z"
+  },
+  "P15": {
+   "status": "keep",
+   "tags": [],
+   "note": "",
+   "updated": "2026-09-28T09:54:01.205Z"
+  },
+  "P16": {
+   "status": "keep",
+   "tags": [],
+   "note": "",
+   "updated": "2026-09-28T09:54:06.989Z"
+  },
+  "C2a": {
+   "status": "keep",
+   "tags": [],
+   "note": "",
+   "updated": "2026-09-28T09:54:13.580Z"
+  },
+  "C2b": {
+   "status": "keep",
+   "tags": [],
+   "note": "",
+   "updated": "2026-09-28T09:54:17.547Z"
+  },
+  "C2c": {
+   "status": "redo",
+   "tags": [],
+   "note": "Similar to my previous feedback. We don't want Dario lip syncing at all. Replace this scene with sort of a close-up similar to this scene S11 of our lead model dancing very sexually and seductively. She should sort of have her hands up in the air or be moving rhymically, sensually. ",
+   "updated": "2026-09-28T09:55:45.914Z"
+  },
+  "C2d": {
+   "status": "keep",
+   "tags": [],
+   "note": "",
+   "updated": "2026-09-28T09:56:03.276Z"
+  },
+  "C2e": {
+   "status": "keep",
+   "tags": [],
+   "note": "",
+   "updated": "2026-09-28T09:56:01.843Z"
+  },
+  "C2f": {
+   "status": "keep",
+   "tags": [],
+   "note": "",
+   "updated": "2026-09-28T09:56:08.751Z"
+  },
+  "C2g": {
+   "status": "keep",
+   "tags": [],
+   "note": "",
+   "updated": "2026-09-28T09:56:11.397Z"
+  },
+  "C2h": {
+   "status": "keep",
+   "tags": [],
+   "note": "",
+   "updated": "2026-09-28T09:56:16.951Z"
+  },
+  "R01": {
+   "status": "keep",
+   "tags": [],
+   "note": "",
+   "updated": "2026-09-28T09:56:22.289Z"
+  },
+  "R02": {
+   "status": "keep",
+   "tags": [],
+   "note": "",
+   "updated": "2026-09-28T09:56:24.944Z"
+  },
+  "R03": {
+   "status": "keep",
+   "tags": [],
+   "note": "",
+   "updated": "2026-09-28T09:56:28.044Z"
+  },
+  "R04": {
+   "status": "keep",
+   "tags": [],
+   "note": "",
+   "updated": "2026-09-28T09:56:31.626Z"
+  },
+  "R05": {
+   "status": "tweak",
+   "tags": [
+    "image"
+   ],
+   "note": "The end scene of this. The word \"weights\" is getting distorted; otherwise, this is great. So I think it's just a better keyframe to make sure that the ending text actually looks...is readable for the weights.",
+   "updated": "2026-09-28T09:57:11.158Z"
+  },
+  "R06": {
+   "status": "keep",
+   "tags": [],
+   "note": "",
+   "updated": "2026-09-28T09:57:15.056Z"
+  },
+  "R07": {
+   "status": "keep",
+   "tags": [],
+   "note": "",
+   "updated": "2026-09-28T09:57:18.410Z"
+  },
+  "R08": {
+   "status": "keep",
+   "tags": [],
+   "note": "",
+   "updated": "2026-09-28T09:57:20.822Z"
+  },
+  "R09": {
+   "status": "tweak",
+   "tags": [
+    "caption"
+   ],
+   "note": "replace the word \"Meter\" with \"METR\" in our lyric's subtitles. we used \"Meter\" because it was easier phonetically for the audio model to pronounce",
+   "updated": "2026-09-28T09:58:16.635Z"
+  },
+  "C3a": {
+   "status": "keep",
+   "tags": [],
+   "note": "",
+   "updated": "2026-09-28T09:58:19.208Z"
+  },
+  "C3b": {
+   "status": "tweak",
+   "tags": [
+    "color"
+   ],
+   "note": "Why did we suddenly shift to a different era? That is way less sexy. I feel like we went back to like the 1950s or something. And slowing down. Doesn't... The whole point is we want to keep it feeling sexy.",
+   "updated": "2026-09-28T09:59:03.789Z"
+  },
+  "C3c": {
+   "status": "redo",
+   "tags": [],
+   "note": "Similar to my previous feedback. We don't want Dario lip syncing at all. Replace this scene with sort of a close-up similar to this scene S11 of our lead model dancing very sexually and seductively. She should be laying on her side and writhing rhythmically, sensually.",
+   "updated": "2026-09-28T10:00:15.059Z"
+  },
+  "C3d": {
+   "status": "keep",
+   "tags": [],
+   "note": "",
+   "updated": "2026-09-28T10:00:23.036Z"
+  },
+  "C3e": {
+   "status": "keep",
+   "tags": [],
+   "note": "",
+   "updated": "2026-09-28T10:00:31.131Z"
+  },
+  "C3f": {
+   "status": "keep",
+   "tags": [],
+   "note": "",
+   "updated": "2026-09-28T10:00:35.278Z"
+  },
+  "C3g": {
+   "status": "keep",
+   "tags": [],
+   "note": "",
+   "updated": "2026-09-28T10:00:41.866Z"
+  },
+  "C3h": {
+   "status": "keep",
+   "tags": [],
+   "note": "",
+   "updated": "2026-09-28T10:00:47.119Z"
+  },
+  "O01": {
+   "status": "keep",
+   "tags": [],
+   "note": "",
+   "updated": "2026-09-28T10:00:50.010Z"
+  },
+  "O02": {
+   "status": "keep",
+   "tags": [],
+   "note": "",
+   "updated": "2026-09-28T10:00:52.273Z"
+  },
+  "O03": {
+   "status": "keep",
+   "tags": [],
+   "note": "",
+   "updated": "2026-09-28T10:00:54.736Z"
+  },
+  "O04": {
+   "status": "keep",
+   "tags": [],
+   "note": "",
+   "updated": "2026-09-28T10:00:58.727Z"
+  },
+  "END": {
+   "status": "keep",
+   "tags": [],
+   "note": "",
+   "updated": "2026-09-28T10:01:01.344Z"
+  }
+ }
+}

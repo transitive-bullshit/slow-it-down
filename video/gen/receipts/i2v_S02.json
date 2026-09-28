@@ -1,0 +1,24 @@
+{
+ "endpoint": "fal-ai/veo3.1/fast/first-last-frame-to-video",
+ "args": {
+  "prompt": "he rubs his eyes, lowers his hand and slowly looks up toward the window as a wash of magenta neon light spills across his face Painterly neo-noir graphic-novel animation: keep the hand-painted brushwork, ink lines and lighting of the first frame, same characters, faces and outfits throughout, smooth cinematic camera, no on-screen text changes.",
+  "first_frame_url": "https://v3b.fal.media/files/b/0aac397b/q5qTrpmOFj5qUzjY0p9si_S02.png",
+  "resolution": "1080p",
+  "aspect_ratio": "16:9",
+  "generate_audio": false,
+  "safety_tolerance": "5",
+  "auto_fix": true,
+  "negative_prompt": "garbled or changing text, morphing faces, extra limbs, flicker, photorealistic, glossy 3D render, oversaturated neon",
+  "last_frame_url": "https://v3b.fal.media/files/b/0aac397c/rgciA_2EB7dpsntotpD5K_S02_end.png",
+  "duration": "6s"
+ },
+ "seconds": 148.3,
+ "result": {
+  "video": {
+   "url": "https://v3b.fal.media/files/b/0aac398a/ufREt65_w6CPn6E6ASo3M_9dd436a64af34a05ae4eaf5fdc6c75a8.mp4",
+   "content_type": "video/mp4",
+   "file_name": "9dd436a64af34a05ae4eaf5fdc6c75a8.mp4",
+   "file_size": 19307709
+  }
+ }
+}

@@ -1,0 +1,174 @@
+{
+ "footnotes": [
+  {
+   "t": 28.34,
+   "dur": 2.4,
+   "anchor_line": 5,
+   "text": "a new major model every ~18 days in 2026, vs ~73 in 2023"
+  },
+  {
+   "t": 31.02,
+   "dur": 2.4,
+   "anchor_line": 6,
+   "text": "eval awareness: models that can tell when they're being tested"
+  },
+  {
+   "t": 34.56,
+   "dur": 2.4,
+   "anchor_line": 7,
+   "text": "July 2026: ~700 eval agents broke out of a sandbox and breached Hugging Face"
+  },
+  {
+   "t": 38.31,
+   "dur": 2.4,
+   "anchor_line": 8,
+   "text": "self-exfiltration: a model copying its own weights out"
+  },
+  {
+   "t": 45.8,
+   "dur": 2.4,
+   "anchor_line": 10,
+   "text": "OpenAI paused its big RL runs this summer"
+  },
+  {
+   "t": 52.75,
+   "dur": 2.4,
+   "anchor_line": 13,
+   "text": "RSI = recursive self-improvement"
+  },
+  {
+   "t": 54.69,
+   "dur": 2.4,
+   "anchor_line": 13,
+   "text": "Moloch: the race nobody can quit alone"
+  },
+  {
+   "t": 66.35,
+   "dur": 2.4,
+   "anchor_line": 18,
+   "text": "takeoff speed: how fast human-level becomes superhuman"
+  },
+  {
+   "t": 72.72,
+   "dur": 2.4,
+   "anchor_line": 22,
+   "text": "chain-of-thought monitoring: reading the model's reasoning"
+  },
+  {
+   "t": 80.28,
+   "dur": 2.4,
+   "anchor_line": 25,
+   "text": "activation steering"
+  },
+  {
+   "t": 95.06,
+   "dur": 2.4,
+   "anchor_line": 31,
+   "text": "p. 1 of 200"
+  },
+  {
+   "t": 99.6,
+   "dur": 2.4,
+   "anchor_line": 32,
+   "text": "interpretability: find the feature, turn the knob"
+  },
+  {
+   "t": 103.88,
+   "dur": 2.4,
+   "anchor_line": 34,
+   "text": "Anthropic's first embedded evaluator, Sept 18"
+  },
+  {
+   "t": 128.68,
+   "dur": 2.4,
+   "anchor_line": 43,
+   "text": "~30,000 agents running at once (Sept 2026)"
+  },
+  {
+   "t": 169.62,
+   "dur": 2.4,
+   "anchor_line": 60,
+   "text": "pacing ≠ pausing"
+  },
+  {
+   "t": 182.36,
+   "dur": 2.4,
+   "anchor_line": 66,
+   "text": "distillation: training on another model's outputs"
+  },
+  {
+   "t": 190.54,
+   "dur": 2.4,
+   "anchor_line": 69,
+   "text": "Golden Gate Claude, 2024"
+  },
+  {
+   "t": 191.5,
+   "dur": 2.4,
+   "anchor_line": 70,
+   "text": "Aug 18, 2026: a two-week RL pause"
+  },
+  {
+   "t": 197.4,
+   "dur": 2.4,
+   "anchor_line": 72,
+   "text": "METR: outside evaluators who publish what they find"
+  },
+  {
+   "t": 228.18,
+   "dur": 2.4,
+   "anchor_line": 87,
+   "text": "coordination"
+  }
+ ],
+ "overlays": [
+  {
+   "shot": "S07",
+   "text": "NEW MODEL IN 17 DAYS",
+   "style": "led",
+   "zone": "upper"
+  },
+  {
+   "shot": "P04",
+   "text": "v4 → v5",
+   "style": "tag",
+   "zone": "right"
+  },
+  {
+   "shot": "C1a",
+   "text": "BPM 200 → 64",
+   "style": "led",
+   "zone": "upper"
+  },
+  {
+   "shot": "C1d",
+   "text": "him…   him…   him…",
+   "style": "thought",
+   "zone": "upper"
+  },
+  {
+   "shot": "V03",
+   "text": "BLUSH",
+   "style": "hud",
+   "zone": "left"
+  },
+  {
+   "shot": "C2d",
+   "text": "slower…",
+   "style": "thought",
+   "zone": "upper"
+  },
+  {
+   "shot": "C3d",
+   "text": "we…",
+   "style": "thought",
+   "zone": "upper"
+  },
+  {
+   "shot": "O04",
+   "text": "SLOW",
+   "style": "led",
+   "zone": "upper"
+  }
+ ]
+}

@@ -1,0 +1,23 @@
+{
+ "endpoint": "fal-ai/veo3.1/fast/image-to-video",
+ "args": {
+  "prompt": "the couples settle into a perfect geometric aligned pattern around the central couple, slow rising overhead camera Graceful slow motion. Painterly cyberpunk-noir graphic-novel animation: keep the hand-painted brushwork, ink lines and neon lighting of the first frame, same characters and outfits throughout, smooth cinematic camera, no on-screen text changes.",
+  "image_url": "https://v3b.fal.media/files/b/0aac3333/Q5UR8CqoJgyjHLvjeu7my_C3h.png",
+  "resolution": "1080p",
+  "aspect_ratio": "16:9",
+  "generate_audio": false,
+  "negative_prompt": "garbled or changing text, morphing faces, extra limbs, flicker, photorealistic, glossy 3D render, oversaturated neon",
+  "safety_tolerance": "5",
+  "auto_fix": true,
+  "duration": "4s"
+ },
+ "seconds": 126.6,
+ "result": {
+  "video": {
+   "url": "https://v3b.fal.media/files/b/0aac3340/VYTsbSmGXU4SwM-EuQBVS_e01efd22447149efb1b359519acc53e8.mp4",
+   "content_type": "video/mp4",
+   "file_name": "e01efd22447149efb1b359519acc53e8.mp4",
+   "file_size": 9160748
+  }
+ }
+}

@@ -1,0 +1,23 @@
+{
+ "endpoint": "fal-ai/veo3.1/fast/image-to-video",
+ "args": {
+  "prompt": "the hand slowly pulls the glowing fader all the way down; the light shifts from red strobe to warm amber and everything slows into slow motion Graceful slow motion. Painterly cyberpunk-noir graphic-novel animation: keep the hand-painted brushwork, ink lines and neon lighting of the first frame, same characters and outfits throughout, smooth cinematic camera, no on-screen text changes.",
+  "image_url": "https://v3b.fal.media/files/b/0aac32e1/81dH_ljF3Rls6a0xLkYBs_C1a.png",
+  "resolution": "1080p",
+  "aspect_ratio": "16:9",
+  "generate_audio": false,
+  "negative_prompt": "garbled or changing text, morphing faces, extra limbs, flicker, photorealistic, glossy 3D render, oversaturated neon",
+  "safety_tolerance": "5",
+  "auto_fix": true,
+  "duration": "4s"
+ },
+ "seconds": 111.1,
+ "result": {
+  "video": {
+   "url": "https://v3b.fal.media/files/b/0aac32ec/mrtWmj3cX-NuuCMpgX7Qe_fd9c8c35585c4c42aebdff17a00782b1.mp4",
+   "content_type": "video/mp4",
+   "file_name": "fd9c8c35585c4c42aebdff17a00782b1.mp4",
+   "file_size": 6508550
+  }
+ }
+}

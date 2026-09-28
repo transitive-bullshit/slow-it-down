@@ -1,0 +1,28 @@
+{
+ "endpoint": "fal-ai/nano-banana-pro/edit",
+ "args": {
+  "prompt": "a man in his early 40s with short dense dark-brown curly hair, round dark-rimmed glasses, a round friendly clean-shaven face, a big warm toothy smile and a fit athletic build, wearing a tailored charcoal cashmere shawl-collar cardigan over a black t-shirt, seen from behind walking out of an office building into a rain-slicked city street at night, a glowing neon sign reading FRONTIER above a velvet rope, reflections in puddles, magenta and teal neon. Lighting: dim smoky club, a warm sodium-amber key from one side and a cool steel-teal backlight through the haze, a few small soft neon accents far behind. painterly neo-noir graphic-novel frame in the spirit of Blade Runner (1982) and Blade Runner 2049: semi-realistic digital painting with visible brushstrokes and fine ink linework, adult realistic proportions, restrained desaturated palette, deep shadows, smoky haze and soft volumetric light shafts from one or two motivated sources, neon used sparingly as small soft practical accents in the background only, rain-wet reflective surfaces, soft film grain, cinematic widescreen composition with generous negative space, sensual late-night mood, not Pixar, not cartoonish, no glossy plastic 3D look, no oversaturated magenta or purple, full-bleed 16:9 image that fills the entire frame edge to edge, with no black bars, no letterbox, no panel borders and no captions Use the reference images only for the characters' faces, hair and outfits, keeping them consistent and recognizable; compose a new scene exactly as described, with its own background and lighting.",
+  "image_urls": [
+   "https://v3b.fal.media/files/b/0aac3239/keoogwY_g535JHKcnvtEx_dario.png",
+   "https://v3b.fal.media/files/b/0aac323a/F3JKo9OiHS0cePrj5W_Tl_dario_b.png"
+  ],
+  "aspect_ratio": "16:9",
+  "resolution": "2K",
+  "output_format": "png",
+  "safety_tolerance": "4"
+ },
+ "seconds": 26.6,
+ "result": {
+  "images": [
+   {
+    "url": "https://v3b.fal.media/files/b/0aac323a/oOhYHTG4rMCVuDPsBSq9X_Wvg36V72.png",
+    "content_type": "image/png",
+    "file_name": "oOhYHTG4rMCVuDPsBSq9X_Wvg36V72.png",
+    "file_size": null,
+    "width": null,
+    "height": null
+   }
+  ],
+  "description": ""
+ }
+}

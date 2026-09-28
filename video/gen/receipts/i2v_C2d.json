@@ -1,0 +1,23 @@
+{
+ "endpoint": "fal-ai/veo3.1/fast/image-to-video",
+ "args": {
+  "prompt": "glowing handwritten words drift slowly around the swaying couple Graceful slow motion. Painterly cyberpunk-noir graphic-novel animation: keep the hand-painted brushwork, ink lines and neon lighting of the first frame, same characters and outfits throughout, smooth cinematic camera, no on-screen text changes.",
+  "image_url": "https://v3b.fal.media/files/b/0aac3311/xtEASBWcsFYet8XQerXhH_C2d.png",
+  "resolution": "1080p",
+  "aspect_ratio": "16:9",
+  "generate_audio": false,
+  "negative_prompt": "garbled or changing text, morphing faces, extra limbs, flicker, photorealistic, glossy 3D render, oversaturated neon",
+  "safety_tolerance": "5",
+  "auto_fix": true,
+  "duration": "4s"
+ },
+ "seconds": 99.4,
+ "result": {
+  "video": {
+   "url": "https://v3b.fal.media/files/b/0aac331b/L1oTSPNJ8eeAgzT2Lmqbl_2ea2ee27f29f4ff896dc39dd9e5cd4b4.mp4",
+   "content_type": "video/mp4",
+   "file_name": "2ea2ee27f29f4ff896dc39dd9e5cd4b4.mp4",
+   "file_size": 9618382
+  }
+ }
+}

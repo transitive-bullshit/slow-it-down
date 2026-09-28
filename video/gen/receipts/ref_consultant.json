@@ -1,0 +1,24 @@
+{
+ "endpoint": "fal-ai/nano-banana-pro",
+ "args": {
+  "prompt": "character reference portrait, a crisp corporate consultant in a navy suit with an ID lanyard, holding a tablet, nightclub corner booth. stylized semi-realistic 3D animated film still, mature prestige adult-animation aesthetic, realistic proportions and anatomy, hand-painted brush textures on skin and fabric, cinematic volumetric light, deep inky blacks, rich neon and warm tones, shallow depth of field, anamorphic lens flare, sensual late-night R&B music video mood, 16:9 widescreen",
+  "aspect_ratio": "16:9",
+  "resolution": "2K",
+  "output_format": "png",
+  "safety_tolerance": "4"
+ },
+ "seconds": 22.6,
+ "result": {
+  "images": [
+   {
+    "url": "https://v3b.fal.media/files/b/0aac310b/1cWDv0BuMTY-LBfQZIh2s_kp86Etum.png",
+    "content_type": "image/png",
+    "file_name": "1cWDv0BuMTY-LBfQZIh2s_kp86Etum.png",
+    "file_size": null,
+    "width": null,
+    "height": null
+   }
+  ],
+  "description": ""
+ }
+}

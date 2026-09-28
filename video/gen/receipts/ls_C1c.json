@@ -1,0 +1,19 @@
+{
+ "endpoint": "fal-ai/bytedance/omnihuman/v1.5",
+ "args": {
+  "image_url": "https://v3b.fal.media/files/b/0aac32cc/dj4jBRBDunI90QSIPs6jh_C1c_in.jpg",
+  "audio_url": "https://v3b.fal.media/files/b/0aac32cc/AxxVqB_9DZLW7jzALENNn_C1c_vocal.wav",
+  "resolution": "720p",
+  "prompt": "he sings softly, swaying slightly, singing expressively with natural mouth shapes, painterly cyberpunk-noir graphic-novel look, same character and outfit"
+ },
+ "seconds": 125.7,
+ "result": {
+  "video": {
+   "url": "https://v3b.fal.media/files/b/0aac32d8/txJn_nR8V63xUzkFJ8BHx_video.mp4",
+   "content_type": "video/mp4",
+   "file_name": "video.mp4",
+   "file_size": 1516863
+  },
+  "duration": 4.36
+ }
+}

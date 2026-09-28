@@ -1,0 +1,18 @@
+{
+ "name": "A_elevenlabs_oneshot",
+ "window": [
+  30.6,
+  95.2
+ ],
+ "takes": [
+  {
+   "src": "prototypes/work/el_E1_s11/vocals.wav",
+   "grid": {
+    "beat_period": 0.49181875636842026,
+    "t0": 0.043318156608330875
+   },
+   "bar_time": 31.446,
+   "bus": "lead"
+  }
+ ]
+}

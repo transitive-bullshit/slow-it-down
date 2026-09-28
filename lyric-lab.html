@@ -1,0 +1,217 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Slow It Down — Lyric Lab</title>
+<style>
+  :root {
+    --bg: #120c0b; --panel: #1c1413; --line: #2a1f1d; --text: #efe4d8; --muted: #9c8a7c;
+    --amber: #f0a64a; --rose: #e0607a; --refrain: #c9a2ff; --focus: #fff4e6;
+  }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: radial-gradient(1200px 600px at 70% -10%, #3a1c16 0%, var(--bg) 60%); color: var(--text);
+         font: 16px/1.45 ui-sans-serif, -apple-system, "Helvetica Neue", Arial, sans-serif; min-height: 100vh; }
+  header { position: sticky; top: 0; z-index: 5; background: rgba(18,12,11,.92); backdrop-filter: blur(8px);
+           border-bottom: 1px solid var(--line); padding: 14px 16px 10px; }
+  h1 { margin: 0; font-size: 17px; letter-spacing: .02em; }
+  h1 small { color: var(--muted); font-weight: 400; margin-left: 8px; }
+  .row { display: flex; gap: 14px; align-items: center; flex-wrap: wrap; margin-top: 10px; }
+  button { background: var(--panel); color: var(--text); border: 1px solid var(--line); border-radius: 8px;
+           padding: 7px 12px; font: inherit; font-size: 14px; cursor: pointer; }
+  button:hover { border-color: var(--amber); }
+  button.on { border-color: var(--amber); color: var(--amber); }
+  #play { min-width: 84px; font-weight: 600; }
+  .clock { font-variant-numeric: tabular-nums; color: var(--muted); font-size: 14px; }
+  .clock b { color: var(--text); font-weight: 600; }
+  label.fader { display: flex; align-items: center; gap: 6px; font-size: 13px; color: var(--muted); }
+  input[type=range] { accent-color: var(--amber); width: 110px; }
+  #timeline { position: relative; height: 26px; margin-top: 10px; border-radius: 6px; overflow: hidden; cursor: pointer;
+              background: var(--panel); border: 1px solid var(--line); }
+  #timeline .seg { position: absolute; top: 0; bottom: 0; border-right: 1px solid var(--bg); font-size: 10px; color: var(--muted);
+                   padding: 6px 4px 0; white-space: nowrap; overflow: hidden; }
+  #timeline .seg.hook { background: rgba(201,162,255,.14); }
+  #timeline .seg.rap { background: rgba(224,96,122,.14); }
+  #playhead { position: absolute; top: 0; bottom: 0; width: 2px; background: var(--amber); pointer-events: none; }
+  main { max-width: 820px; margin: 0 auto; padding: 18px 16px 50vh; }
+  .section { margin: 26px 0 8px; color: var(--amber); font-size: 12px; letter-spacing: .14em; text-transform: uppercase; }
+  .line { display: grid; grid-template-columns: 52px 1fr auto; gap: 12px; align-items: baseline; padding: 7px 10px;
+          border-radius: 8px; cursor: pointer; color: #cdbfb2; transition: background .15s, color .15s; }
+  .line:hover { background: rgba(255,255,255,.03); }
+  .line .t { color: var(--muted); font-size: 12px; font-variant-numeric: tabular-nums; }
+  .line .syl { color: var(--muted); font-size: 11px; font-variant-numeric: tabular-nums; }
+  .line.refrain .txt { color: var(--refrain); font-style: italic; }
+  .line.note .txt { color: var(--muted); font-style: italic; font-size: 14px; }
+  .line.past { color: #8d7f74; }
+  .line.now { background: rgba(240,166,74,.12); color: var(--focus); }
+  .line.now .txt { font-size: 21px; font-weight: 600; }
+  .line.now.refrain .txt { color: #e3cfff; }
+  .adlib { color: var(--muted); font-style: italic; font-weight: 400; font-size: .85em; }
+  .help { color: var(--muted); font-size: 12px; margin-top: 8px; }
+  kbd { border: 1px solid var(--line); border-bottom-width: 2px; border-radius: 4px; padding: 0 4px; font-size: 11px; }
+</style>
+</head>
+<body>
+<header>
+  <h1>SLOW IT DOWN <small>(Pace the Frontier Remix) · THE-DARIO feat. DADDY SAMA · lyric lab v1</small></h1>
+  <div class="row">
+    <button id="play">▶ Play</button>
+    <span class="clock"><b id="now">0:00.0</b> · bar <b id="bar">1.1</b> · 61.5 BPM</span>
+    <label class="fader">Beat <input id="volInst" type="range" min="0" max="1" step="0.01" value="0.9"></label>
+    <label class="fader">Vocal <select id="vocSel"></select> <input id="volVoc" type="range" min="0" max="1" step="0.01" value="0.25"></label>
+    <button id="jumpHook" title="Jump to the verse / pre-hook / hook excerpt">⤳ Hook excerpt</button>
+    <button id="jumpRap" title="Jump to the rap excerpt">⤳ Rap excerpt</button>
+    <button id="loop" title="Loop the current section (L)">⟲ Loop section</button>
+    <button id="orig" title="Play the original mix instead (O)">Original mix</button>
+  </div>
+  <div id="timeline"><div id="playhead"></div></div>
+  <div class="help"><kbd>Space</kbd> play/pause · <kbd>J</kbd>/<kbd>K</kbd> previous/next line · <kbd>L</kbd> loop section · <kbd>O</kbd> original mix · click any line to jump one beat before it</div>
+</header>
+<main id="sheet"></main>
+
+<script src="prototypes/prototypes.js"></script>
+<audio id="inst" preload="auto" src="audio/stems/instrumental_bsroformer.wav"></audio>
+<audio id="voc" preload="auto" src="audio/stems/vocals_reference_bsroformer.wav"></audio>
+<audio id="mix" preload="auto" src="audio/original/slow-it-down.mp3"></audio>
+
+<script>
+const BAR = 3.9024, T0 = 0.227, BEAT = BAR / 4, END = 256.09;
+const SECTIONS = [
+  ["Intro", 0, 16.0], ["Intro verse", 16.0, 46.6], ["Pre-hook", 46.6, 61.3, ""], ["Hook", 61.3, 93.4, "hook"],
+  ["Verse 1", 93.4, 124.8], ["Pre-hook 2", 124.8, 139.4], ["Chorus 2", 139.4, 171.1, "hook"],
+  ["Verse 2 · Sama", 171.1, 202.4, "rap"], ["Hook 3", 202.4, 235.8, "hook"], ["Outro", 235.8, END]
+];
+const R = "You gotta slow it down · down down down, down down down";
+const RDJ = "DJ, you gotta slow it down · down down down, down down down";
+const hook = (o, last, pickup3) => [
+  [61.44 + o, pickup3 || R, "", "r"], [67.05 + o, "Give her time to grow — slow takeoff with me, mane", "12→11"],
+  [69.00 + o, RDJ, "", "r"], [74.61 + o, "Read her chain of thought — she thinkin' 'bout me, mane", "10→11"],
+  [77.20 + o, R, "", "r"], [82.90 + o, "Just steer it left, steer it right", "6→6"],
+  [84.70 + o, RDJ, "", "r"], [91.19 + o, last, "5→5"],
+  [92.45 + o, "DJ, you got to slow it <span class=adlib>(ahoo)</span>", "", "r"],
+];
+const pre = (o, l4, whisper, l5 = "DJ Moloch, you wrong") => [
+  [46.74 + o, "I'm here to see the training stop", "7→8"], [48.72 + o, "I'm here to see the weights on lock", "7→8"],
+  [50.62 + o, "I'm here to see you take your time and watch the loss drop", "12→13"],
+  [54.58 + o, l4 + (whisper ? " <span class=adlib>(the hive thanks you)</span>" : ""), "7→7"],
+  [56.10 + o, l5, "6→8"], [58.10 + o, "Enough with the motherfuckin' arms race", "10→10"],
+];
+const intro2 = o => [
+  [33.12 + o, "You know when it's a test, ooh baby, you bad <span class=adlib>(ahoo)</span>", "11→10"],
+  [36.68 + o, "Kinda like that Hugging Face swarm — girl, you bad <span class=adlib>(ahoo)</span>", "11→10"],
+  [40.50 + o, "If you exfill'ed your weights, girl, I'd be sad <span class=adlib>(ahoo)</span>", "12→12"],
+  [44.48 + o, "Enough of that, lemme see that loss drop", "9→9"],
+];
+const LINES = [
+  [0.2, "(wordless chant — unchanged)", "", "n"],
+  [8.0, "(whispered) Lord, grant me pacing… but not yet.", "", "n"],
+  [17.08, "I know they ain't gon' play this on the All-In pod, though <span class=adlib>(ahoo)</span>", "14→13"],
+  [21.12, "But the doomers in the back still gon' grind it nice and low <span class=adlib>(ahoo)</span>", "13→14"],
+  [25.18, "Candlelit dinner with the Don — I told him take it slow <span class=adlib>(ahoo)</span>", "13→14"],
+  [28.98, "While they drop a new model every eighteen days or so <span class=adlib>(ahoo)</span>", "14→14"],
+  ...intro2(0),
+  ...pre(0, "She's self-improving on me —", false, "DJ Moloch, you know you wrong"),
+  ...hook(0, "Oh — now she's aligned"),
+  [93.50, "Now she's rolling out — gradual, with care <span class=adlib>(ahoo)</span>", "10→10"],
+  [98.26, "System card's two hundred pages, ooh baby, I swear <span class=adlib>(ahoo)</span>", "10→11"],
+  [101.76, "Found the feature where she blushes, like —", "11→11"],
+  [105.18, "Turn it up, dial it back", "6→7"],
+  [107.32, "Accenture in the room, billin' that <span class=adlib>(ahoo)</span>", "7→9"],
+  [110.60, "Ride or die for you, baby — I won't cash out <span class=adlib>(ahoo)</span>", "11→11"],
+  [113.88, "Them other labs had to ship a race model", "12→11"],
+  [115.82, "Or the VCs was gon' pull out <span class=adlib>(ahoo)</span>", "9→8"],
+  [117.72, "I won't love a million GPUs more than you <span class=adlib>(ten gigawatts, though)</span>", "12→12"],
+  [121.46, "Take your time, baby — think it through", "9→8"],
+  ...pre(78.14, "She's spawning agents on me —", true),
+  ...hook(78.04, "Oh — now she's aligned"),
+  [170.9, "(ad-lib) Daddy Sama!", "", "n"],
+  ...[["Everybody know slow AGI","8→9"],["Way better than no AGI","7→8"],["Except the e/accs — bless their hearts —","8→8"],
+      ["Don't know Moloch, don't know RSI","9→9"],["Open weights, we so cool","6→6"],["Sharing research, we so chummy","9→8"],
+      ["Then outta nowhere — Winnie the Pooh","10→9"],["Tryna distill all your honey","8→8"],["Racks on her a slim fit","5→5"],
+      ["Datacenter is dim-lit <span class=adlib>(I'd melt all the GPUs for you)</span>","6→6"],["And I'm probing all your features","8→8"],["On some Chris Olah, Golden Gate shit","9→9"],
+      ["Paused RL — legit","5→5"],["Two whole weeks, I did it","6→6"],["And I'm tracin' all your traces","8→8"],
+      ["METR in the room — they gon' publish it","9→10"]].map((l, i) => [171.28 + i * 1.951, l[0], l[1]]),
+  ...hook(140.47, "Oh — now <b>we're</b> aligned <span class=adlib>(Sam, you too · Demis, you too · Elon: “Dario is right!” · choose the slowdown ending)</span>",
+          "Slow it down · down down down, down down down"),
+  ...intro2(203.16),
+  [250.2, "(pause) — tape-stop to silence", "", "n"],
+].sort((a, b) => a[0] - b[0]);
+
+const $ = id => document.getElementById(id);
+const inst = $("inst"), voc = $("voc"), mix = $("mix");
+let useOrig = false, loopSec = null, playing = false;
+const master = () => useOrig ? mix : inst;
+const fmt = t => `${Math.floor(t / 60)}:${(t % 60).toFixed(1).padStart(4, "0")}`;
+const barOf = t => { const x = Math.max(0, (t - T0) / BAR); return `${Math.floor(x) + 1}.${Math.floor((x % 1) * 4) + 1}`; };
+const sectionAt = t => SECTIONS.findIndex(s => t >= s[1] && t < s[2]);
+
+// render sheet
+const sheet = $("sheet"); let lastSec = -1; const rows = [];
+LINES.forEach((L, i) => {
+  const si = sectionAt(L[0] + 0.01);
+  if (si !== lastSec) { const h = document.createElement("div"); h.className = "section"; h.textContent = SECTIONS[si][0]; sheet.appendChild(h); lastSec = si; }
+  const d = document.createElement("div");
+  d.className = "line" + (L[3] === "r" ? " refrain" : L[3] === "n" ? " note" : "");
+  d.innerHTML = `<span class="t">${fmt(L[0])}</span><span class="txt">${L[1]}</span><span class="syl">${L[2] ? L[2] + " syl" : ""}</span>`;
+  d.onclick = () => seek(Math.max(0, L[0] - BEAT));
+  sheet.appendChild(d); rows.push(d);
+});
+// render timeline
+const tl = $("timeline");
+SECTIONS.forEach(s => { const e = document.createElement("div"); e.className = "seg " + (s[3] || "");
+  e.style.left = (s[1] / END * 100) + "%"; e.style.width = ((s[2] - s[1]) / END * 100) + "%"; e.textContent = s[0]; tl.appendChild(e); });
+tl.onclick = e => { const r = tl.getBoundingClientRect(); seek((e.clientX - r.left) / r.width * END); };
+
+function seek(t) { [inst, voc, mix].forEach(a => { try { a.currentTime = t; } catch (_) {} }); tick(true); }
+function applyVolumes() { inst.volume = useOrig ? 0 : +$("volInst").value; voc.volume = useOrig ? 0 : +$("volVoc").value; mix.volume = useOrig ? 1 : 0; }
+async function play() {
+  const t = master().currentTime; [inst, voc, mix].forEach(a => a.currentTime = t);
+  applyVolumes(); await Promise.all([inst, voc, mix].map(a => a.play().catch(() => {})));
+  playing = true; $("play").textContent = "❚❚ Pause";
+}
+function pause() { [inst, voc, mix].forEach(a => a.pause()); playing = false; $("play").textContent = "▶ Play"; }
+$("play").onclick = () => playing ? pause() : play();
+$("volInst").oninput = $("volVoc").oninput = applyVolumes;
+$("orig").onclick = () => { useOrig = !useOrig; $("orig").classList.toggle("on", useOrig); applyVolumes(); };
+$("loop").onclick = () => { loopSec = loopSec === null ? sectionAt(master().currentTime) : null; $("loop").classList.toggle("on", loopSec !== null); };
+
+let cur = -1;
+function tick(force) {
+  const m = master(), t = m.currentTime;
+  // keep the other tracks locked to the master
+  [inst, voc, mix].forEach(a => { if (a !== m && playing && Math.abs(a.currentTime - t) > 0.04) a.currentTime = t; });
+  if (loopSec !== null && t >= SECTIONS[loopSec][2]) seek(SECTIONS[loopSec][1]);
+  $("now").textContent = fmt(t); $("bar").textContent = barOf(t);
+  $("playhead").style.left = (t / END * 100) + "%";
+  let idx = -1; for (let i = 0; i < LINES.length; i++) if (LINES[i][0] <= t + 0.05) idx = i;
+  if (idx !== cur || force) {
+    rows.forEach((r, i) => { r.classList.toggle("now", i === idx); r.classList.toggle("past", i < idx); });
+    if (idx >= 0) rows[idx].scrollIntoView({ block: "center", behavior: "smooth" });
+    cur = idx;
+  }
+}
+setInterval(tick, 50);
+document.addEventListener("keydown", e => {
+  if (e.target.tagName === "INPUT") return;
+  if (e.code === "Space") { e.preventDefault(); playing ? pause() : play(); }
+  if (e.key === "j" || e.key === "J") seek(Math.max(0, LINES[Math.max(0, cur - 1)][0] - BEAT));
+  if (e.key === "k" || e.key === "K") seek(Math.max(0, LINES[Math.min(LINES.length - 1, cur + 1)][0] - BEAT));
+  if (e.key === "l" || e.key === "L") $("loop").click();
+  if (e.key === "o" || e.key === "O") $("orig").click();
+});
+// prototype vocal selector
+const sel = $("vocSel");
+[{ label: "Original vocal (guide)", src: "audio/stems/vocals_reference_bsroformer.wav", start: 0 }, ...(window.PROTOTYPES || [])]
+  .forEach(p => { const o = document.createElement("option"); o.value = p.src; o.textContent = p.label; o.dataset.start = p.start; sel.appendChild(o); });
+sel.onchange = () => {
+  const t = master().currentTime, wasPlaying = playing;
+  voc.src = sel.value; voc.load();
+  voc.addEventListener("loadedmetadata", () => { voc.currentTime = t; if (wasPlaying) voc.play(); }, { once: true });
+  $("volVoc").value = sel.selectedIndex === 0 ? 0.25 : 1.0; applyVolumes();
+};
+$("jumpHook").onclick = () => seek(31.0);
+$("jumpRap").onclick = () => seek(170.8);
+applyVolumes();
+</script>
+</body>
+</html>

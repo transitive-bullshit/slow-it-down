@@ -1,0 +1,23 @@
+{
+ "endpoint": "fal-ai/veo3.1/fast/image-to-video",
+ "args": {
+  "prompt": "she closes her eyes as a soft shimmer ripples around her, then opens them with a slow knowing smile Painterly cyberpunk-noir graphic-novel animation: keep the hand-painted brushwork, ink lines and neon lighting of the first frame, same characters and outfits throughout, smooth cinematic camera, no on-screen text changes.",
+  "image_url": "https://v3b.fal.media/files/b/0aac3301/jCHoeFeSTVQRx6pSvltt5_V10.png",
+  "resolution": "1080p",
+  "aspect_ratio": "16:9",
+  "generate_audio": false,
+  "negative_prompt": "garbled or changing text, morphing faces, extra limbs, flicker, photorealistic, glossy 3D render, oversaturated neon",
+  "safety_tolerance": "5",
+  "auto_fix": true,
+  "duration": "4s"
+ },
+ "seconds": 107.2,
+ "result": {
+  "video": {
+   "url": "https://v3b.fal.media/files/b/0aac330c/hBOojGMNZYjuflCtG3Y4j_59fb17cdade34ed882de5c1fd3a01c56.mp4",
+   "content_type": "video/mp4",
+   "file_name": "59fb17cdade34ed882de5c1fd3a01c56.mp4",
+   "file_size": 9472466
+  }
+ }
+}

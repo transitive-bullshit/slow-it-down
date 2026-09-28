@@ -1,0 +1,23 @@
+{
+ "endpoint": "fal-ai/veo3.1/fast/image-to-video",
+ "args": {
+  "prompt": "the printing press runs, spitting out stamped pages that pile up and flutter; far in the background a single small, soft camera flash pops once; the press stays the focus Painterly neo-noir graphic-novel animation: keep the hand-painted brushwork, ink lines and lighting of the first frame, same characters, faces and outfits throughout, smooth cinematic camera, no on-screen text changes.",
+  "image_url": "https://v3b.fal.media/files/b/0aac3ae4/5U_tcZB0TeOzsvFV8Hg0q_R09.png",
+  "resolution": "1080p",
+  "aspect_ratio": "16:9",
+  "generate_audio": false,
+  "negative_prompt": "garbled or changing text, morphing faces, extra limbs, flicker, photorealistic, glossy 3D render, oversaturated neon, smoke or spray shooting out of objects, liquid, mist jets",
+  "safety_tolerance": "5",
+  "auto_fix": true,
+  "duration": "4s"
+ },
+ "seconds": 119.1,
+ "result": {
+  "video": {
+   "url": "https://v3b.fal.media/files/b/0aac3af0/GuyLrlvAnTI6IbW8kQY4X_45ad76bac3774ab6ac2a2ae16956e9ba.mp4",
+   "content_type": "video/mp4",
+   "file_name": "45ad76bac3774ab6ac2a2ae16956e9ba.mp4",
+   "file_size": 9014231
+  }
+ }
+}

@@ -1,0 +1,23 @@
+{
+ "endpoint": "fal-ai/veo3.1/fast/image-to-video",
+ "args": {
+  "prompt": "they launch the toy rocket off the table and spray champagne everywhere, chaotic Painterly cyberpunk-noir graphic-novel animation: keep the hand-painted brushwork, ink lines and neon lighting of the first frame, same characters and outfits throughout, smooth cinematic camera, no on-screen text changes.",
+  "image_url": "https://v3b.fal.media/files/b/0aac32f8/yyexnVy0dkgEUPryhNEka_V07.png",
+  "resolution": "1080p",
+  "aspect_ratio": "16:9",
+  "generate_audio": false,
+  "negative_prompt": "garbled or changing text, morphing faces, extra limbs, flicker, photorealistic, glossy 3D render, oversaturated neon",
+  "safety_tolerance": "5",
+  "auto_fix": true,
+  "duration": "4s"
+ },
+ "seconds": 131.2,
+ "result": {
+  "video": {
+   "url": "https://v3b.fal.media/files/b/0aac3305/VysDC2zL3GlSsJ_Fxk4th_6c4ff5f48b4249869a4e5e80cc739651.mp4",
+   "content_type": "video/mp4",
+   "file_name": "6c4ff5f48b4249869a4e5e80cc739651.mp4",
+   "file_size": 21135723
+  }
+ }
+}

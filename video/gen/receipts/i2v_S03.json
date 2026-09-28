@@ -1,0 +1,24 @@
+{
+ "endpoint": "fal-ai/veo3.1/fast/first-last-frame-to-video",
+ "args": {
+  "prompt": "he walks toward the club entrance as the FRONTIER neon sign flickers on, then glances back over his shoulder at the camera with a knowing half-smile, rain glittering, slow tracking shot Painterly neo-noir graphic-novel animation: keep the hand-painted brushwork, ink lines and lighting of the first frame, same characters, faces and outfits throughout, smooth cinematic camera, no on-screen text changes.",
+  "first_frame_url": "https://v3b.fal.media/files/b/0aac397b/7kx2TD7bGfMQ4Yg2y1T21_S03.png",
+  "resolution": "1080p",
+  "aspect_ratio": "16:9",
+  "generate_audio": false,
+  "safety_tolerance": "5",
+  "auto_fix": true,
+  "negative_prompt": "garbled or changing text, morphing faces, extra limbs, flicker, photorealistic, glossy 3D render, oversaturated neon",
+  "last_frame_url": "https://v3b.fal.media/files/b/0aac397c/P3Eivn2zOdq7pbZc66c2a_S03_end.png",
+  "duration": "6s"
+ },
+ "seconds": 135.8,
+ "result": {
+  "video": {
+   "url": "https://v3b.fal.media/files/b/0aac3989/MlddTc7bx_GbEnmM1xqhx_30ddd623b56c40709bb3284c3c70ada0.mp4",
+   "content_type": "video/mp4",
+   "file_name": "30ddd623b56c40709bb3284c3c70ada0.mp4",
+   "file_size": 14822081
+  }
+ }
+}

@@ -1,0 +1,23 @@
+{
+ "endpoint": "fal-ai/veo3.1/fast/image-to-video",
+ "args": {
+  "prompt": "they walk slowly toward camera hand in hand, smiling at each other, as the small warm amber neon sign above them reads SLOW; gentle push-in; muted grey-blue dawn light with a soft pale-peach sunrise glow, no pink or purple light, same street and same painterly style throughout Painterly cyberpunk-noir graphic-novel animation: keep the hand-painted brushwork, ink lines and neon lighting of the first frame, same characters and outfits throughout, smooth cinematic camera, no on-screen text changes.",
+  "image_url": "https://v3b.fal.media/files/b/0aac335a/aTz1mZBE26RKoAZlo_Ox4_O04.png",
+  "resolution": "1080p",
+  "aspect_ratio": "16:9",
+  "generate_audio": false,
+  "negative_prompt": "garbled or changing text, morphing faces, extra limbs, flicker, photorealistic, glossy 3D render, oversaturated neon",
+  "safety_tolerance": "5",
+  "auto_fix": true,
+  "duration": "6s"
+ },
+ "seconds": 124.2,
+ "result": {
+  "video": {
+   "url": "https://v3b.fal.media/files/b/0aac3367/csFqRH3KlWZpJAnjk_9iT_1833a209a7ee49dfba6c1efaaabb6d4a.mp4",
+   "content_type": "video/mp4",
+   "file_name": "1833a209a7ee49dfba6c1efaaabb6d4a.mp4",
+   "file_size": 17674305
+  }
+ }
+}

@@ -1,0 +1,185 @@
+{
+ "name": "B_elevenlabs_comped",
+ "window": [
+  30.6,
+  95.2
+ ],
+ "clips": [
+  {
+   "src": "prototypes/work/sep_el_E1_s7/el_E1_s7_(Vocals)_model_bs_roformer_ep_317_sdr_12.wav",
+   "src_start": 0.0,
+   "src_end": 3.22,
+   "dst": 33.12,
+   "bus": "lead",
+   "fit": 3.9100000000000024
+  },
+  {
+   "src": "prototypes/work/el_V_s17/vocals.wav",
+   "src_start": 7.639999999999999,
+   "src_end": 12.24,
+   "dst": 40.5,
+   "bus": "lead",
+   "fit": 4.3299999999999965
+  },
+  {
+   "src": "prototypes/work/el_V_s17/vocals.wav",
+   "src_start": 12.82,
+   "src_end": 15.2,
+   "dst": 44.48,
+   "bus": "lead",
+   "fit": 2.610000000000005
+  },
+  {
+   "src": "prototypes/work/el_E1_s11/vocals.wav",
+   "src_start": 15.66,
+   "src_end": 17.52,
+   "dst": 46.74,
+   "bus": "lead",
+   "fit": 2.329999999999997
+  },
+  {
+   "src": "prototypes/work/el_E1_s11/vocals.wav",
+   "src_start": 17.52,
+   "src_end": 19.54,
+   "dst": 48.72,
+   "bus": "lead",
+   "fit": 2.2499999999999987
+  },
+  {
+   "src": "prototypes/work/el_E1_s11/vocals.wav",
+   "src_start": 19.54,
+   "src_end": 23.36,
+   "dst": 50.62,
+   "bus": "lead",
+   "fit": 4.3100000000000005
+  },
+  {
+   "src": "prototypes/work/el_E1_s11/vocals.wav",
+   "src_start": 23.36,
+   "src_end": 25.54,
+   "dst": 54.58,
+   "bus": "lead",
+   "fit": 1.8700000000000032
+  },
+  {
+   "src": "prototypes/work/sep_el_E1_s7/el_E1_s7_(Vocals)_model_bs_roformer_ep_317_sdr_12.wav",
+   "src_start": 26.04,
+   "src_end": 27.74,
+   "dst": 56.1,
+   "bus": "lead",
+   "fit": 2.35
+  },
+  {
+   "src": "prototypes/work/el_VP_s3/vocals.wav",
+   "src_start": 27.62,
+   "src_end": 30.92,
+   "dst": 58.1,
+   "bus": "lead",
+   "fit": 3.6899999999999964
+  },
+  {
+   "src": "prototypes/work/el_E1_s11/vocals.wav",
+   "src_start": 38.18,
+   "src_end": 39.76,
+   "dst": 61.44,
+   "bus": "lead",
+   "fit": 1.810000000000001
+  },
+  {
+   "src": "prototypes/work/el_E1_s11/vocals.wav",
+   "src_start": 31.38,
+   "src_end": 34.26,
+   "dst": 62.9,
+   "bus": "backing",
+   "fit": 4.499999999999998
+  },
+  {
+   "src": "prototypes/work/el_E1_s11/vocals.wav",
+   "src_start": 34.86,
+   "src_end": 37.54,
+   "dst": 67.05,
+   "bus": "lead",
+   "fit": 2.300000000000003
+  },
+  {
+   "src": "prototypes/work/el_E1_s11/vocals.wav",
+   "src_start": 37.54,
+   "src_end": 39.76,
+   "dst": 69.0,
+   "bus": "lead",
+   "fit": 2.050000000000003
+  },
+  {
+   "src": "prototypes/work/el_E1_s11/vocals.wav",
+   "src_start": 31.38,
+   "src_end": 34.26,
+   "dst": 70.7,
+   "bus": "backing",
+   "fit": 4.259999999999996
+  },
+  {
+   "src": "prototypes/work/el_E1_s11/vocals.wav",
+   "src_start": 42.72,
+   "src_end": 45.44,
+   "dst": 74.61,
+   "bus": "lead",
+   "fit": 2.9400000000000035
+  },
+  {
+   "src": "prototypes/work/el_E1_s11/vocals.wav",
+   "src_start": 38.18,
+   "src_end": 39.76,
+   "dst": 77.2,
+   "bus": "lead",
+   "fit": 1.7499999999999916
+  },
+  {
+   "src": "prototypes/work/el_E1_s11/vocals.wav",
+   "src_start": 31.38,
+   "src_end": 34.26,
+   "dst": 78.6,
+   "bus": "backing",
+   "fit": 4.650000000000011
+  },
+  {
+   "src": "prototypes/work/el_E1_s11/vocals.wav",
+   "src_start": 48.44,
+   "src_end": 50.46,
+   "dst": 82.9,
+   "bus": "lead",
+   "fit": 2.1499999999999972
+  },
+  {
+   "src": "prototypes/work/el_E1_s11/vocals.wav",
+   "src_start": 37.54,
+   "src_end": 39.76,
+   "dst": 84.7,
+   "bus": "lead",
+   "fit": 2.050000000000003
+  },
+  {
+   "src": "prototypes/work/el_E1_s11/vocals.wav",
+   "src_start": 31.38,
+   "src_end": 34.26,
+   "dst": 86.4,
+   "bus": "backing",
+   "fit": 5.139999999999992
+  },
+  {
+   "src": "prototypes/work/el_E1_s11/vocals.wav",
+   "src_start": 55.34,
+   "src_end": 57.46,
+   "dst": 91.19,
+   "bus": "lead",
+   "fit": 1.6100000000000052
+  },
+  {
+   "src": "prototypes/work/el_E1_s11/vocals.wav",
+   "src_start": 56.82,
+   "src_end": 58.96,
+   "dst": 92.45,
+   "bus": "lead",
+   "fit": 3.0
+  }
+ ]
+}

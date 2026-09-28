@@ -1,0 +1,75 @@
+# Commit code, prompts, timelines, receipts and docs. Keep media out of git: the showcase copies are hosted on R2
+# (linked from the README), and everything else is either regenerable, third-party, or copyrighted source audio.
+
+# --- general
+.DS_Store
+.idea
+.vscode/
+*.pem
+__pycache__/
+.pytest_cache/
+*.pyc
+*.log
+npm-debug.log*
+/work/
+
+# --- local env files
+.env
+.env.*
+!.env.example
+
+# --- environments and third-party checkouts (see "Running it" in the README)
+.venv/
+.venv-seedvc/
+tools/seed-vc/
+.claude/settings.local.json
+
+# --- the original song, its stems, and every audio prototype built on them (copyrighted: never commit)
+/audio/
+prototypes/raw/
+prototypes/work/
+prototypes/out/
+
+# --- generated media: renders, render caches, keyframes, clips, lip-sync, refs, test renders
+video/build/
+video/tests/
+video/gen/keyframes/
+video/gen/clips/
+video/gen/lipsync/
+video/gen/refs/
+video/audio/sep_*/
+video/tools/fonts/.fccache/
+video/review/cut/
+video/review/frames/
+video/review/posters/
+video/review/data.js
+video/poster/base/
+video/poster/options/
+video/notion/assets/
+video/notion/page.json
+video/scout/frames/
+video/scout/i2v/
+video/scout/img/
+video/scout/lipsync/
+video/scout/post/
+video/scout/refs/
+video/scout/uploads.json
+
+# --- safety net: no media files anywhere (use `git add -f` for a deliberate exception)
+*.wav
+*.mp3
+*.m4a
+*.flac
+*.aiff
+*.mp4
+*.mov
+*.webm
+*.png
+*.jpg
+*.jpeg
+*.webp
+*.gif
+
+# --- superseded working files
+video/*_backup.py
+video/timeline_provisional.json

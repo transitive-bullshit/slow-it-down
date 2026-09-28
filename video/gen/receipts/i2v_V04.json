@@ -1,0 +1,23 @@
+{
+ "endpoint": "fal-ai/veo3.1/fast/image-to-video",
+ "args": {
+  "prompt": "he clicks the dial on the white wand up with his thumb and grins at her; her cheeks flush pink as she giggles and bites her lip, then he clicks it back down and she bursts out laughing; the wand stays still in his hand and the background stays calm Painterly neo-noir graphic-novel animation: keep the hand-painted brushwork, ink lines and lighting of the first frame, same characters, faces and outfits throughout, smooth cinematic camera, no on-screen text changes.",
+  "image_url": "https://v3b.fal.media/files/b/0aac39ba/I_1ySK5_Qs1_V9j0V3nEu_V04.png",
+  "resolution": "1080p",
+  "aspect_ratio": "16:9",
+  "generate_audio": false,
+  "negative_prompt": "garbled or changing text, morphing faces, extra limbs, flicker, photorealistic, glossy 3D render, oversaturated neon, smoke or spray shooting out of objects, liquid, mist jets",
+  "safety_tolerance": "5",
+  "auto_fix": true,
+  "duration": "4s"
+ },
+ "seconds": 115.4,
+ "result": {
+  "video": {
+   "url": "https://v3b.fal.media/files/b/0aac39c6/6CDhBfvepJNosmnfPohko_a540b023a8c74db1ba25fd282848b787.mp4",
+   "content_type": "video/mp4",
+   "file_name": "a540b023a8c74db1ba25fd282848b787.mp4",
+   "file_size": 9901558
+  }
+ }
+}

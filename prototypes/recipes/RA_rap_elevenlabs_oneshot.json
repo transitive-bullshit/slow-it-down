@@ -1,0 +1,19 @@
+{
+ "name": "RA_rap_elevenlabs_oneshot",
+ "window": [
+  170.6,
+  204.6
+ ],
+ "vocal_over_inst_lu": 4.0,
+ "takes": [
+  {
+   "src": "prototypes/work/el_E2_s21/vocals.wav",
+   "grid": {
+    "beat_period": 0.48781417112299463,
+    "t0": 0.022067736185384483
+   },
+   "bar_time": 171.933,
+   "bus": "rap"
+  }
+ ]
+}

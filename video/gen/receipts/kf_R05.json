@@ -1,0 +1,28 @@
+{
+ "endpoint": "fal-ai/nano-banana-pro/edit",
+ "args": {
+  "prompt": "a round golden-yellow cartoon honey bear with small black dot eyes, round ears and a short snout, dressed in a grey Mao-style tunic suit buttoned to the collar tiptoeing behind a dim nightclub bar with one paw in a large honey jar labeled WEIGHTS, frozen mid-step as a spotlight catches him; the spotlight throws his shadow large onto the bare wall behind him, and the shadow is not bear-shaped: it is the flat black silhouette of a stern, portly middle-aged man in a buttoned tunic suit with neatly combed-back hair, in the same pose. Lighting: glossy late-night rap-video look inside the same restrained palette, gold highlights, deep shadow, one hard spotlight, wide-angle lens. painterly neo-noir graphic-novel frame in the spirit of Blade Runner (1982) and Blade Runner 2049: semi-realistic digital painting with visible brushstrokes and fine ink linework, adult realistic proportions, restrained desaturated palette, deep shadows, smoky haze and soft volumetric light shafts from one or two motivated sources, neon used sparingly as small soft practical accents in the background only, rain-wet reflective surfaces, soft film grain, cinematic widescreen composition with generous negative space, playful late-night mood, not Pixar, not cartoonish, no glossy plastic 3D look, no oversaturated magenta or purple, full-bleed 16:9 image that fills the entire frame edge to edge, with no black bars, no letterbox, no panel borders and no captions Use the reference images only for the characters' faces, hair and outfits, keeping them consistent and recognizable; compose a new scene exactly as described, with its own background and lighting.",
+  "image_urls": [
+   "https://v3b.fal.media/files/b/0aac3256/SpMJxf8sbb7MnVuDxKmOc_bear.png",
+   "https://v3b.fal.media/files/b/0aac3256/skwOIngB6hkscMaGtnq6V_bear_b.png"
+  ],
+  "aspect_ratio": "16:9",
+  "resolution": "2K",
+  "output_format": "png",
+  "safety_tolerance": "4"
+ },
+ "seconds": 27.1,
+ "result": {
+  "images": [
+   {
+    "url": "https://v3b.fal.media/files/b/0aac3256/saxd7hQbTQHvXTD3UNWa2_bPZj27kz.png",
+    "content_type": "image/png",
+    "file_name": "saxd7hQbTQHvXTD3UNWa2_bPZj27kz.png",
+    "file_size": null,
+    "width": null,
+    "height": null
+   }
+  ],
+  "description": ""
+ }
+}

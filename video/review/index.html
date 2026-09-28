@@ -1,0 +1,489 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Scene Review</title>
+<style>
+:root {
+  --bg: #0e0d0c; --panel: #161412; --panel-2: #1c1916; --line: #2b2723; --line-2: #3a342e;
+  --text: #ece6da; --muted: #a39a8c; --faint: #6f685e;
+  --amber: #e3a55a; --teal: #6bb3b0; --keep: #8cc084; --tweak: #e3a55a; --redo: #e0705e;
+  --radius: 10px;
+}
+* { box-sizing: border-box; }
+html, body { margin: 0; background: var(--bg); color: var(--text);
+  font: 14px/1.45 -apple-system, BlinkMacSystemFont, "Inter", "Segoe UI", system-ui, sans-serif; }
+button { font: inherit; color: inherit; }
+kbd { font: 11px ui-monospace, "SF Mono", Menlo, monospace; color: var(--faint); border: 1px solid var(--line-2);
+  border-radius: 4px; padding: 0 4px; margin-left: 6px; }
+.mono { font-family: ui-monospace, "SF Mono", Menlo, monospace; }
+
+/* ---------- header */
+.top { position: sticky; top: 0; z-index: 20; background: rgba(14,13,12,.94); backdrop-filter: blur(8px);
+  border-bottom: 1px solid var(--line); display: flex; align-items: center; gap: 18px; padding: 10px 20px; flex-wrap: wrap; }
+.brand { display: flex; align-items: baseline; gap: 10px; min-width: 0; }
+.brand h1 { font-size: 16px; margin: 0; font-weight: 650; letter-spacing: .2px; white-space: nowrap; }
+.brand .ver { color: var(--muted); font-size: 12px; white-space: nowrap; }
+.progress { display: flex; align-items: center; gap: 10px; flex: 1; min-width: 260px; }
+.bar { flex: 1; height: 6px; background: var(--panel-2); border-radius: 3px; overflow: hidden; display: flex; max-width: 360px; }
+.bar i { display: block; height: 100%; }
+.counts { display: flex; gap: 12px; color: var(--muted); font-size: 12px; white-space: nowrap; }
+.dot { display: inline-block; width: 8px; height: 8px; border-radius: 50%; margin-right: 5px; vertical-align: 0; }
+.dot.keep { background: var(--keep); } .dot.tweak { background: var(--tweak); } .dot.redo { background: var(--redo); } .dot.none { background: var(--line-2); }
+.seg { display: inline-flex; border: 1px solid var(--line-2); border-radius: 8px; overflow: hidden; }
+.seg button { background: none; border: 0; padding: 5px 10px; cursor: pointer; color: var(--muted); font-size: 12px; }
+.seg button + button { border-left: 1px solid var(--line-2); }
+.seg button.on { background: var(--panel-2); color: var(--text); }
+.actions { display: flex; align-items: center; gap: 10px; }
+.btn { background: var(--panel-2); border: 1px solid var(--line-2); border-radius: 8px; padding: 6px 11px; cursor: pointer; font-size: 12px; }
+.btn:hover { border-color: var(--faint); }
+.save { font-size: 12px; color: var(--faint); white-space: nowrap; }
+.save.disk { color: var(--keep); } .save.local { color: var(--amber); }
+
+/* ---------- layout */
+.layout { display: grid; grid-template-columns: 210px minmax(0, 1fr); }
+.side { position: sticky; top: 53px; align-self: start; height: calc(100vh - 53px); overflow: auto; padding: 16px 14px 40px;
+  border-right: 1px solid var(--line); }
+.side h2 { font-size: 11px; text-transform: uppercase; letter-spacing: 1.2px; color: var(--faint); margin: 0 0 10px; font-weight: 600; }
+.nav-sec { margin-bottom: 12px; }
+.nav-sec a { color: var(--muted); text-decoration: none; font-size: 13px; display: flex; justify-content: space-between; }
+.nav-sec a:hover { color: var(--text); }
+.nav-sec a small { color: var(--faint); font-size: 11px; }
+.pips { display: flex; flex-wrap: wrap; gap: 3px; margin-top: 5px; }
+.pip { width: 14px; height: 9px; border-radius: 2px; background: var(--line-2); cursor: pointer; border: 0; padding: 0; }
+.pip.keep { background: var(--keep); } .pip.tweak { background: var(--tweak); } .pip.redo { background: var(--redo); }
+.pip.cur { outline: 1.5px solid var(--text); outline-offset: 1px; }
+.help { color: var(--faint); font-size: 11px; line-height: 1.7; margin-top: 18px; }
+main { padding: 18px 24px 120px; min-width: 0; }
+
+.overall { background: var(--panel); border: 1px solid var(--line); border-radius: var(--radius); padding: 12px 14px; margin-bottom: 26px; }
+.overall label { font-size: 12px; color: var(--muted); display: block; margin-bottom: 6px; }
+
+/* ---------- sections and scenes */
+.section { margin-bottom: 34px; }
+.sec-head { display: flex; align-items: baseline; gap: 12px; margin: 0 0 12px; padding-bottom: 8px; border-bottom: 1px solid var(--line); }
+.sec-head h2 { margin: 0; font-size: 18px; font-weight: 650; }
+.sec-head .meta { color: var(--faint); font-size: 12px; }
+.sec-head .btn { margin-left: auto; }
+.scene { background: var(--panel); border: 1px solid var(--line); border-left: 3px solid var(--line-2); border-radius: var(--radius);
+  padding: 12px 14px 14px; margin-bottom: 14px; display: grid; gap: 12px 16px;
+  grid-template-columns: minmax(0, .82fr) minmax(0, 1.18fr) minmax(290px, 1fr); scroll-margin-top: 70px; }
+.scene[data-status="keep"] { border-left-color: var(--keep); }
+.scene[data-status="tweak"] { border-left-color: var(--tweak); }
+.scene[data-status="redo"] { border-left-color: var(--redo); }
+.scene.cur { border-color: var(--line-2); box-shadow: 0 0 0 1px var(--line-2); }
+.scene.cur[data-status="keep"] { border-left-color: var(--keep); } .scene.cur[data-status="tweak"] { border-left-color: var(--tweak); }
+.scene.cur[data-status="redo"] { border-left-color: var(--redo); }
+.s-head { grid-column: 1 / -1; display: flex; align-items: baseline; gap: 10px; flex-wrap: wrap; }
+.s-id { font: 600 17px ui-monospace, "SF Mono", Menlo, monospace; letter-spacing: .5px; }
+.s-time { color: var(--muted); font-size: 12px; }
+.chip { font-size: 11px; color: var(--muted); border: 1px solid var(--line-2); border-radius: 999px; padding: 1px 8px; white-space: nowrap; }
+.chip.gen { color: var(--teal); border-color: #2d4645; }
+.chip.warn { color: var(--amber); border-color: #4a3a24; }
+figure { margin: 0; min-width: 0; }
+figcaption { display: flex; align-items: center; justify-content: space-between; color: var(--faint); font-size: 11px;
+  text-transform: uppercase; letter-spacing: 1px; margin-bottom: 5px; height: 22px; }
+.frame { position: relative; aspect-ratio: 16 / 9; background: #000; border-radius: 6px; overflow: hidden; }
+.frame img, .frame video { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; display: block; }
+.frame video { object-fit: contain; background: #000; }
+.poster a { display: block; }
+.poster .frame:hover::after { content: "open full-res"; position: absolute; right: 8px; bottom: 6px; font-size: 11px;
+  background: rgba(0,0,0,.6); padding: 2px 7px; border-radius: 4px; color: var(--text); text-transform: none; letter-spacing: 0; }
+.tabs { display: inline-flex; gap: 2px; text-transform: none; letter-spacing: 0; }
+.tabs button { background: none; border: 1px solid transparent; border-radius: 6px; padding: 1px 8px; cursor: pointer;
+  color: var(--faint); font-size: 12px; }
+.tabs button.on { color: var(--text); border-color: var(--line-2); background: var(--panel-2); }
+.tabs button:disabled { opacity: .35; cursor: default; }
+.side-col { display: flex; flex-direction: column; gap: 10px; min-width: 0; }
+.lyrics { display: flex; flex-direction: column; gap: 3px; }
+.ly { display: flex; gap: 8px; align-items: baseline; }
+.ly .k { font-size: 10px; text-transform: uppercase; letter-spacing: 1px; color: var(--faint); width: 52px; flex: none; }
+.ly .t { color: var(--text); }
+.ly.backing .t { color: var(--teal); }
+.ly.rap .t { color: #d9c38f; }
+.ly.none .t { color: var(--faint); font-style: italic; }
+.card-desc { color: var(--muted); }
+.feed { display: flex; align-items: center; justify-content: center; aspect-ratio: 16 / 9; background: #0a0908; border-radius: 6px; }
+.feed img { width: min(100%, 400px); border-radius: 4px; display: block; }
+.changed { grid-column: 1 / -1; margin-top: -4px; font-size: 13px; color: var(--text); background: #221c14; border: 1px solid #4a3a24;
+  border-radius: 8px; padding: 6px 10px; }
+.changed b { color: var(--amber); font-weight: 600; margin-right: 6px; }
+.chip.new { color: var(--bg); background: var(--amber); border-color: var(--amber); }
+.note-bar { background: #221c14; border: 1px solid #4a3a24; border-radius: var(--radius); padding: 9px 14px; margin-bottom: 14px; font-size: 13px; }
+.status { display: flex; gap: 6px; }
+.status button { flex: 1; background: var(--panel-2); border: 1px solid var(--line-2); border-radius: 8px; padding: 6px 8px;
+  cursor: pointer; font-size: 13px; color: var(--muted); display: flex; align-items: center; justify-content: center; }
+.status button:hover { color: var(--text); }
+.status button[aria-pressed="true"][data-s="keep"] { background: #1f2a1c; border-color: var(--keep); color: var(--keep); }
+.status button[aria-pressed="true"][data-s="tweak"] { background: #2d2417; border-color: var(--tweak); color: var(--tweak); }
+.status button[aria-pressed="true"][data-s="redo"] { background: #2f1c18; border-color: var(--redo); color: var(--redo); }
+.tags { display: flex; flex-wrap: wrap; gap: 5px; }
+.tags button { background: none; border: 1px solid var(--line-2); border-radius: 999px; padding: 2px 9px; cursor: pointer;
+  font-size: 11.5px; color: var(--muted); }
+.tags button[aria-pressed="true"] { color: var(--bg); background: var(--amber); border-color: var(--amber); }
+textarea { width: 100%; resize: vertical; min-height: 58px; background: var(--bg); color: var(--text); border: 1px solid var(--line-2);
+  border-radius: 8px; padding: 8px 10px; font: 13px/1.45 inherit; font-family: inherit; }
+textarea:focus { outline: none; border-color: var(--amber); }
+details.prompts { color: var(--muted); font-size: 12.5px; }
+details.prompts summary { cursor: pointer; color: var(--faint); font-size: 12px; }
+details.prompts dl { margin: 8px 0 0; display: grid; grid-template-columns: 58px 1fr; gap: 6px 10px; }
+details.prompts dt { color: var(--faint); font-size: 11px; text-transform: uppercase; letter-spacing: .8px; padding-top: 2px; }
+details.prompts dd { margin: 0; }
+.hidden { display: none !important; }
+
+/* ---------- overlay player */
+#overlay { position: fixed; inset: 0; z-index: 50; background: rgba(0,0,0,.86); display: flex; align-items: center; justify-content: center; padding: 30px; }
+#overlay[hidden] { display: none; }
+#overlay .box { width: min(1200px, 100%); }
+#overlay .bar2 { display: flex; justify-content: space-between; align-items: center; margin-bottom: 8px; color: var(--muted); }
+#overlay video { width: 100%; aspect-ratio: 16/9; background: #000; border-radius: 8px; }
+
+/* ---------- responsive */
+@media (max-width: 1280px) {
+  .scene { grid-template-columns: minmax(0, 1fr) minmax(0, 1.3fr); }
+  .side-col { grid-column: 1 / -1; }
+}
+@media (max-width: 980px) {
+  .layout { grid-template-columns: 1fr; }
+  .side { display: none; }
+  main { padding: 14px 16px 100px; }
+}
+@media (max-width: 640px) {
+  .scene { grid-template-columns: 1fr; }
+  .top { padding: 10px 16px; }
+}
+</style>
+</head>
+<body>
+<header class="top">
+  <div class="brand"><h1>Slow It Down · scene review</h1><span class="ver" id="ver"></span></div>
+  <div class="progress">
+    <div class="bar" id="bar"></div>
+    <div class="counts" id="counts"></div>
+  </div>
+  <div class="seg" id="filter">
+    <button data-f="all" class="on">All</button><button data-f="todo">To review</button>
+    <button data-f="keep">Keep</button><button data-f="tweak">Tweak</button><button data-f="redo">Redo</button>
+  </div>
+  <div class="actions">
+    <button class="btn" id="copy">Copy notes</button>
+    <span class="save" id="save">not saved yet</span>
+  </div>
+</header>
+<div class="layout">
+  <nav class="side" id="side"></nav>
+  <main id="main">
+    <div class="note-bar hidden" id="note-bar"></div>
+    <div class="overall">
+      <label for="overall">Overall notes for this cut</label>
+      <textarea id="overall" rows="2" placeholder="Anything that applies across scenes: pacing, look, captions, likeness…"></textarea>
+    </div>
+  </main>
+</div>
+<div id="overlay" hidden>
+  <div class="box">
+    <div class="bar2"><span id="ov-title"></span><button class="btn" id="ov-close">Close <kbd>Esc</kbd></button></div>
+    <video id="ov-video" controls playsinline></video>
+  </div>
+</div>
+<script src="data.js"></script>
+<script>
+"use strict";
+const R = window.REVIEW, ROOT = "../../";
+const ITEMS = R.items, BY_ID = Object.fromEntries(ITEMS.map(it => [it.id, it]));
+const TAGS = [["image", "Keyframe / image"], ["motion", "Motion"], ["likeness", "Likeness"], ["caption", "Captions"],
+              ["timing", "Timing / edit"], ["color", "Color / grade"], ["text", "Text in frame"], ["other", "Other"]];
+const TAG_LABEL = Object.fromEntries(TAGS);
+const STATUS = [["keep", "✓ Keep", "1"], ["tweak", "✎ Tweak", "2"], ["redo", "↻ Redo", "3"]];
+const LS_KEY = "scene-review:" + R.meta.version;
+const HTTP = location.protocol.startsWith("http");
+let state = { version: R.meta.version, overall: "", overallUpdated: "", items: {} };
+let filter = "all", current = null;
+
+const esc = s => String(s ?? "").replace(/[&<>"']/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
+const fmt = t => { const s = Math.max(0, t), m = Math.floor(s / 60); return `${m}:${(s - m * 60).toFixed(1).padStart(4, "0")}`; };
+const fb = id => state.items[id] || (state.items[id] = { status: null, tags: [], note: "", updated: "" });
+const now = () => new Date().toISOString();
+const timeLabel = it => it.type === "poster" ? "first-frame option" : it.type === "card" ? `video ${fmt(it.vstart)}–${fmt(it.vend)}`
+  : `${fmt(it.start)}–${fmt(it.end)} · ${it.dur.toFixed(1)}s`;
+
+// ---------- persistence: file via the local server, localStorage as a backup
+function merge(a, b) {
+  if (!a || !a.items) return b && b.items ? b : null;
+  if (!b || !b.items) return a;
+  const out = { version: a.version || b.version, items: { ...a.items } };
+  const aNewer = (a.overallUpdated || "") >= (b.overallUpdated || "");
+  out.overall = aNewer ? a.overall : b.overall; out.overallUpdated = aNewer ? a.overallUpdated : b.overallUpdated;
+  for (const [k, v] of Object.entries(b.items)) if (!out.items[k] || (v.updated || "") > (out.items[k].updated || "")) out.items[k] = v;
+  return out;
+}
+async function load() {
+  let local = null, remote = null;
+  try { local = JSON.parse(localStorage.getItem(LS_KEY) || "null"); } catch (e) {}
+  if (HTTP) { try { const r = await fetch("/api/feedback", { cache: "no-store" }); if (r.ok) remote = await r.json(); } catch (e) {} }
+  const m = merge(remote, local);
+  if (m) state = { ...state, ...m, items: m.items || {} };
+}
+let saveTimer = null;
+function setSave(kind, text) { const el = document.getElementById("save"); el.className = "save " + kind; el.textContent = text; }
+function scheduleSave() { setSave("", "saving…"); clearTimeout(saveTimer); saveTimer = setTimeout(save, 400); }
+function compact() {   // only scenes that have feedback (or had it and were cleared, so the clear wins a merge)
+  const items = Object.fromEntries(Object.entries(state.items).filter(([, v]) => v.updated));
+  return { ...state, items };
+}
+async function save() {
+  const snap = compact();
+  try { localStorage.setItem(LS_KEY, JSON.stringify(snap)); } catch (e) {}
+  if (HTTP) {
+    try {
+      const r = await fetch("/api/feedback", { method: "POST", headers: { "Content-Type": "application/json" },
+                                              body: JSON.stringify({ state: snap, markdown: toMarkdown() }) });
+      if (r.ok) { setSave("disk", "saved · video/review/feedback.md"); return; }
+    } catch (e) {}
+  }
+  setSave("local", "saved in this browser only — use Copy notes");
+}
+
+// ---------- markdown for Claude
+function toMarkdown() {
+  const c = counts(), lines = [];
+  lines.push(`# Scene feedback — Slow It Down (${R.meta.version})`, "");
+  lines.push(`Saved ${new Date().toLocaleString()} · ${c.redo} redo · ${c.tweak} tweak · ${c.keep} keep · ${c.none} not reviewed`, "");
+  if (state.overall.trim()) lines.push("## Overall", "", state.overall.trim(), "");
+  const posters = ITEMS.filter(it => it.type === "poster");
+  if (posters.length) {
+    const picked = posters.filter(it => fb(it.id).status === "keep");
+    lines.push("## Poster (first frame)", "", picked.length ? `Picked: ${picked.map(it => `${it.id} (${it.title})`).join(", ")}` : "Not picked yet", "");
+    for (const it of posters) { const f = fb(it.id); if (f.note.trim() || (f.status && f.status !== "keep")) lines.push(`- **${it.id}** (${it.title})${f.status ? " [" + f.status + "]" : ""}: ${f.note.trim()}`); }
+    lines.push("");
+  }
+  for (const [s, title] of [["redo", "Redo"], ["tweak", "Tweak"]]) {
+    const its = ITEMS.filter(it => it.type !== "poster" && fb(it.id).status === s);
+    if (!its.length) continue;
+    lines.push(`## ${title}`, "");
+    for (const it of its) {
+      const f = fb(it.id);
+      lines.push(`### ${it.id} — ${it.section} · ${timeLabel(it)}${it.gen ? " · " + it.gen : ""}`);
+      if (it.changed) lines.push(`Changed in this version: ${it.changed}`);
+      if (f.tags.length) lines.push(`Tags: ${f.tags.map(t => TAG_LABEL[t] || t).join(", ")}`);
+      if (f.note.trim()) lines.push("", f.note.trim().split("\n").map(l => "> " + l).join("\n"));
+      if (it.lyrics && it.lyrics.length) lines.push("", "Lyrics: " + it.lyrics.map(l => `"${l.text}"`).join(" / "));
+      lines.push("");
+    }
+  }
+  const noted = ITEMS.filter(it => it.type !== "poster" && fb(it.id).status === "keep" && fb(it.id).note.trim());
+  const keep = ITEMS.filter(it => it.type !== "poster" && fb(it.id).status === "keep").map(it => it.id);
+  if (keep.length) lines.push("## Keep", "", keep.join(", "), "");
+  if (noted.length) { lines.push("Notes on kept scenes:", ""); for (const it of noted) lines.push(`- **${it.id}**: ${fb(it.id).note.trim()}`); lines.push(""); }
+  const loose = ITEMS.filter(it => it.type !== "poster" && !fb(it.id).status && (fb(it.id).note.trim() || fb(it.id).tags.length));
+  if (loose.length) { lines.push("## Notes without a status", ""); for (const it of loose) lines.push(`- **${it.id}** [${fb(it.id).tags.join(", ")}]: ${fb(it.id).note.trim()}`); lines.push(""); }
+  const todo = ITEMS.filter(it => it.type !== "poster" && !fb(it.id).status).map(it => it.id);
+  if (todo.length) lines.push("## Not reviewed yet", "", todo.join(", "), "");
+  return lines.join("\n");
+}
+
+// ---------- rendering
+function counts() {
+  const c = { keep: 0, tweak: 0, redo: 0, none: 0 };
+  for (const it of ITEMS) if (it.type !== "poster") c[fb(it.id).status || "none"]++;
+  return c;
+}
+function renderTop() {
+  const c = counts(), n = ITEMS.filter(it => it.type !== "poster").length, done = n - c.none;
+  document.getElementById("ver").textContent = `${R.meta.version} · ${n} scenes · built ${R.meta.built}`;
+  document.getElementById("bar").innerHTML = ["keep", "tweak", "redo"].map(s => `<i style="width:${100 * c[s] / n}%;background:var(--${s})"></i>`).join("");
+  document.getElementById("counts").innerHTML = `<span>${done}/${n} reviewed</span>` +
+    ["keep", "tweak", "redo"].map(s => `<span><span class="dot ${s}"></span>${c[s]} ${s}</span>`).join("");
+  document.querySelectorAll(".pip").forEach(p => { p.className = "pip " + (fb(p.dataset.id).status || "") + (p.dataset.id === current ? " cur" : ""); });
+}
+function renderSide() {
+  const side = document.getElementById("side");
+  side.innerHTML = `<h2>Sections</h2>` + R.sections.map(s => `
+    <div class="nav-sec"><a href="#sec-${slug(s.name)}">${esc(s.name)} <small>${fmt(s.vstart)}</small></a>
+      <div class="pips">${s.items.map(id => `<button class="pip" data-id="${id}" title="${id}"></button>`).join("")}</div></div>`).join("") +
+    `<div class="help"><b>Keys</b><br>j / k &nbsp;next / previous scene<br>1 · 2 · 3 &nbsp;keep · tweak · redo<br>space &nbsp;play / pause<br>c · r · x &nbsp;cut · raw · in context<br>n &nbsp;write a note · Esc &nbsp;leave it</div>`;
+  side.querySelectorAll(".pip").forEach(p => p.addEventListener("click", () => go(p.dataset.id)));
+}
+const slug = s => s.toLowerCase().replace(/[^a-z0-9]+/g, "-");
+function posterHTML(it) {
+  const f = fb(it.id);
+  return `
+    <div class="s-head"><span class="s-id">${it.id.replace("POSTER-", "")}</span><span class="s-time">${esc(it.title)}</span><span class="chip">poster option</span></div>
+    <figure class="poster"><figcaption><span>Full size</span></figcaption>
+      <a href="${ROOT + it.src}" target="_blank" rel="noopener"><div class="frame"><img loading="lazy" src="${it.poster}" alt="${esc(it.title)}"></div></a></figure>
+    <figure><figcaption><span>At feed size</span></figcaption><div class="feed"><img loading="lazy" src="${it.frame}" alt=""></div></figure>
+    <div class="side-col">
+      <div class="card-desc">${esc(it.desc)}</div>
+      <div class="status">${STATUS.map(([s, label, key]) => `<button data-s="${s}" aria-pressed="${f.status === s}">${s === "keep" ? "✓ Pick" : label}<kbd>${key}</kbd></button>`).join("")}</div>
+      <div class="tags">${[["image", "Image"], ["text", "Title / type"], ["color", "Color"], ["other", "Other"]].map(([tg, label]) =>
+        `<button data-t="${tg}" aria-pressed="${f.tags.includes(tg)}">${label}</button>`).join("")}</div>
+      <textarea rows="2" placeholder="Notes on this poster option">${esc(f.note)}</textarea>
+    </div>`;
+}
+function sceneHTML(it) {
+  if (it.type === "poster") return posterHTML(it);
+  const f = fb(it.id), card = it.type === "card";
+  const chips = card ? `<span class="chip">title card</span>` : [
+    `<span class="chip gen">${esc(it.gen)}</span>`, `<span class="chip">grade: ${esc(it.grade)}</span>`,
+    `<span class="chip">captions: ${esc(it.zone)}</span>`, it.letterbox ? `<span class="chip">letterbox</span>` : "",
+    it.raw ? "" : `<span class="chip warn">no raw clip</span>`].join("");
+  const lyr = card ? `<div class="card-desc">${esc(it.detail)}</div>` : (it.lyrics.length ? it.lyrics.map(l =>
+    `<div class="ly ${l.kind}"><span class="k">${l.kind}</span><span class="t">${esc(l.text)}</span></div>`).join("") :
+    `<div class="ly none"><span class="k"></span><span class="t">instrumental</span></div>`);
+  const prompts = card ? "" : `<details class="prompts"><summary>Prompts${it.notes ? " & notes" : ""}</summary><dl>
+      <dt>Image</dt><dd>${esc(it.still)}</dd><dt>Motion</dt><dd>${esc(it.motion)}</dd>${it.notes ? `<dt>Notes</dt><dd>${esc(it.notes)}</dd>` : ""}</dl></details>`;
+  return `
+    <div class="s-head"><span class="s-id">${it.id}</span><span class="s-time">${esc(it.section)} · ${timeLabel(it)}</span>${it.changed ? `<span class="chip new">changed</span>` : ""}${chips}</div>
+    ${it.changed ? `<div class="changed"><b>What changed</b>${esc(it.changed)}</div>` : ""}
+    <figure class="poster"><figcaption><span>${card ? "Frame" : "Keyframe"}</span>${it.poster_end ? `<span class="tabs kf-tabs">
+        <button data-kf="start" class="on">Start</button><button data-kf="end">End</button></span>` : ""}</figcaption>
+      ${card ? `<div class="frame"><img loading="lazy" src="${it.poster}" alt=""></div>` :
+        `<a href="${ROOT + it.keyframe}" target="_blank" rel="noopener"><div class="frame"><img loading="lazy" src="${it.poster}" alt="${it.id} keyframe"></div></a>`}
+    </figure>
+    <figure class="player"><figcaption><span>In the video</span><span class="tabs">
+        <button data-src="cut" class="on">Cut</button><button data-src="raw" ${it.raw ? "" : "disabled"}>Raw clip</button><button data-src="ctx">In context</button></span></figcaption>
+      <div class="frame"><video preload="none" controls playsinline poster="${it.frame}" src="${it.cut}"></video></div>
+    </figure>
+    <div class="side-col">
+      <div class="lyrics">${lyr}</div>
+      <div class="status">${STATUS.map(([s, label, key]) => `<button data-s="${s}" aria-pressed="${f.status === s}">${label}<kbd>${key}</kbd></button>`).join("")}</div>
+      <div class="tags">${TAGS.map(([t, label]) => `<button data-t="${t}" aria-pressed="${f.tags.includes(t)}">${label}</button>`).join("")}</div>
+      <textarea rows="2" placeholder="What should change in ${it.id}?">${esc(f.note)}</textarea>
+      ${prompts}
+    </div>`;
+}
+function renderMain() {
+  const main = document.getElementById("main");
+  for (const s of R.sections) {
+    const sec = document.createElement("section");
+    sec.className = "section"; sec.id = "sec-" + slug(s.name); sec.dataset.name = s.name;
+    const isPoster = BY_ID[s.items[0]].type === "poster";
+    sec.innerHTML = isPoster
+      ? `<div class="sec-head"><h2>${esc(s.name)}</h2><span class="meta">${s.items.length} options · pick one with ✓ Pick; it becomes the video's first frame (what X shows before playing)</span></div>`
+      : `<div class="sec-head"><h2>${esc(s.name)}</h2><span class="meta">video ${fmt(s.vstart)}–${fmt(s.vend)} · ${s.items.length} scene${s.items.length > 1 ? "s" : ""}</span>
+      <button class="btn play-sec">▶ Play section</button></div>`;
+    if (!isPoster) sec.querySelector(".play-sec").addEventListener("click", () => openOverlay(`${s.name} · video ${fmt(s.vstart)}–${fmt(s.vend)}`, s.vstart, s.vend));
+    for (const id of s.items) {
+      const it = BY_ID[id], el = document.createElement("article");
+      el.className = "scene"; el.id = "scene-" + id; el.dataset.id = id; el.dataset.status = fb(id).status || "";
+      el.innerHTML = sceneHTML(it); wire(el, it); sec.appendChild(el);
+    }
+    main.appendChild(sec);
+  }
+}
+function wire(el, it) {
+  const f = () => fb(it.id);
+  el.addEventListener("pointerdown", () => setCurrent(it.id, false));
+  el.querySelectorAll(".status button").forEach(b => b.addEventListener("click", () => setStatus(it.id, b.dataset.s)));
+  el.querySelectorAll(".tags button").forEach(b => b.addEventListener("click", () => {
+    const t = b.dataset.t, x = f(); x.tags = x.tags.includes(t) ? x.tags.filter(y => y !== t) : [...x.tags, t];
+    x.updated = now(); b.setAttribute("aria-pressed", x.tags.includes(t)); scheduleSave();
+  }));
+  const ta = el.querySelector("textarea");
+  ta.addEventListener("input", () => { const x = f(); x.note = ta.value; x.updated = now(); scheduleSave(); renderTop(); });
+  el.querySelectorAll(".player .tabs button").forEach(b => b.addEventListener("click", () => setSource(el, it, b.dataset.src)));
+  el.querySelectorAll(".kf-tabs button").forEach(b => b.addEventListener("click", e => {   // first + last frame shots
+    e.preventDefault();
+    const end = b.dataset.kf === "end", img = el.querySelector(".poster img"), a = el.querySelector(".poster a");
+    img.src = end ? it.poster_end : it.poster; if (a) a.href = ROOT + (end ? it.keyframe_end : it.keyframe);
+    el.querySelectorAll(".kf-tabs button").forEach(x => x.classList.toggle("on", x === b));
+  }));
+}
+function setSource(el, it, src) {
+  const video = el.querySelector("video"), b = el.querySelector(`.player .tabs button[data-src="${src}"]`);
+  if (!b || b.disabled) return;
+  el.querySelectorAll(".player .tabs button").forEach(x => x.classList.toggle("on", x === b));
+  const playing = !video.paused;
+  if (src === "cut") { video.poster = it.frame; video.src = it.cut; }
+  if (src === "raw") { video.poster = it.poster; video.src = ROOT + it.raw; }
+  if (src === "ctx") { video.poster = it.frame; video.src = `${ROOT + R.meta.share}#t=${Math.max(0, it.vstart - 2).toFixed(2)},${(it.vend + 2).toFixed(2)}`; }
+  video.load(); if (playing || src === "ctx") video.play().catch(() => {});
+}
+function setStatus(id, s) {
+  const x = fb(id); x.status = x.status === s ? null : s; x.updated = now();
+  const el = document.getElementById("scene-" + id);
+  el.dataset.status = x.status || "";
+  el.querySelectorAll(".status button").forEach(b => b.setAttribute("aria-pressed", b.dataset.s === x.status));
+  renderTop(); applyFilter(false); scheduleSave();
+}
+function applyFilter(scroll = true) {
+  for (const it of ITEMS) {
+    const s = fb(it.id).status, show = filter === "all" || (filter === "todo" ? !s : s === filter);
+    document.getElementById("scene-" + it.id).classList.toggle("hidden", !show);
+  }
+  document.querySelectorAll(".section").forEach(sec => sec.classList.toggle("hidden", !sec.querySelector(".scene:not(.hidden)")));
+  if (scroll) window.scrollTo({ top: 0 });
+}
+function visibleScenes() { return [...document.querySelectorAll(".scene:not(.hidden)")]; }
+function setCurrent(id, scroll) {
+  current = id;
+  document.querySelectorAll(".scene.cur").forEach(e => e.classList.remove("cur"));
+  const el = document.getElementById("scene-" + id); if (!el) return;
+  el.classList.add("cur");
+  if (scroll) el.scrollIntoView({ behavior: "smooth", block: "start" });
+  renderTop();
+}
+function go(id) { setCurrent(id, true); }
+function step(d) {
+  const vs = visibleScenes(); if (!vs.length) return;
+  let i = vs.findIndex(e => e.dataset.id === current);
+  i = i < 0 ? 0 : Math.min(vs.length - 1, Math.max(0, i + d));
+  document.querySelectorAll("video").forEach(v => v.pause());
+  go(vs[i].dataset.id);
+}
+function openOverlay(title, a, b) {
+  const ov = document.getElementById("overlay"), v = document.getElementById("ov-video");
+  document.querySelectorAll("main video").forEach(x => x.pause());
+  document.getElementById("ov-title").textContent = title;
+  v.src = `${ROOT + R.meta.share}#t=${a.toFixed(2)},${b.toFixed(2)}`; ov.hidden = false; v.play().catch(() => {});
+}
+function closeOverlay() { const v = document.getElementById("ov-video"); v.pause(); v.removeAttribute("src"); v.load(); document.getElementById("overlay").hidden = true; }
+
+// ---------- boot
+(async function boot() {
+  await load();
+  renderSide(); renderMain(); renderTop(); applyFilter(false);
+  if (R.meta.changes_note) { const nb = document.getElementById("note-bar"); nb.textContent = R.meta.changes_note; nb.classList.remove("hidden"); }
+  const ov = document.getElementById("overall");
+  ov.value = state.overall || "";
+  ov.addEventListener("input", () => { state.overall = ov.value; state.overallUpdated = now(); scheduleSave(); });
+  document.getElementById("filter").addEventListener("click", e => {
+    const b = e.target.closest("button"); if (!b) return;
+    filter = b.dataset.f; document.querySelectorAll("#filter button").forEach(x => x.classList.toggle("on", x === b)); applyFilter();
+  });
+  document.getElementById("copy").addEventListener("click", async () => {
+    const md = toMarkdown();
+    try { await navigator.clipboard.writeText(md); setSave("disk", "copied as Markdown"); }
+    catch (e) {
+      const a = document.createElement("a"); a.href = URL.createObjectURL(new Blob([md], { type: "text/markdown" }));
+      a.download = "scene-feedback.md"; a.click(); setSave("local", "downloaded scene-feedback.md");
+    }
+  });
+  document.getElementById("ov-close").addEventListener("click", closeOverlay);
+  document.getElementById("overlay").addEventListener("click", e => { if (e.target.id === "overlay") closeOverlay(); });
+  document.addEventListener("play", e => document.querySelectorAll("video").forEach(v => { if (v !== e.target) v.pause(); }), true);
+  // current scene follows scrolling
+  const io = new IntersectionObserver(es => {
+    const vis = es.filter(e => e.isIntersecting).sort((a, b) => a.boundingClientRect.top - b.boundingClientRect.top);
+    if (vis.length && !typing()) setCurrent(vis[0].target.dataset.id, false);
+  }, { rootMargin: "-20% 0px -55% 0px" });
+  document.querySelectorAll(".scene").forEach(el => io.observe(el));
+  document.addEventListener("keydown", e => {
+    if (e.key === "Escape") { if (!document.getElementById("overlay").hidden) return closeOverlay(); if (typing()) document.activeElement.blur(); return; }
+    if (typing() || e.metaKey || e.ctrlKey || e.altKey) return;
+    const el = current && document.getElementById("scene-" + current);
+    if (e.key === "j") { e.preventDefault(); step(1); }
+    else if (e.key === "k") { e.preventDefault(); step(-1); }
+    else if (["1", "2", "3"].includes(e.key) && current) setStatus(current, STATUS[+e.key - 1][0]);
+    else if (e.key === " " && el && el.querySelector("video")) { e.preventDefault(); const v = el.querySelector("video"); v.paused ? v.play().catch(() => {}) : v.pause(); }
+    else if (e.key === "n" && el) { e.preventDefault(); el.querySelector("textarea").focus(); }
+    else if (el && el.querySelector("video") && ["c", "r", "x"].includes(e.key)) setSource(el, BY_ID[current], { c: "cut", r: "raw", x: "ctx" }[e.key]);
+  });
+  if (location.hash.startsWith("#scene-")) go(location.hash.slice(7)); else setCurrent(ITEMS[0].id, false);
+  setSave(HTTP ? "" : "local", HTTP ? "autosaves to video/review/feedback.md" : "opened as a file: notes stay in this browser");
+})();
+function typing() { const a = document.activeElement; return a && (a.tagName === "TEXTAREA" || a.tagName === "INPUT"); }
+</script>
+</body>
+</html>

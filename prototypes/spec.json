@@ -1,0 +1,300 @@
+{
+ "tempo": {
+  "bpm_halftime": 61.5,
+  "bpm_doubletime": 123.0,
+  "bar_s": 3.9024,
+  "bar1_s": 0.227,
+  "meter": "4/4",
+  "key": "A major (relative F# minor)"
+ },
+ "instrumental": "audio/stems/instrumental_bsroformer.wav",
+ "reference_lead_vocal": "audio/stems/vocals_reference_bsroformer.wav",
+ "style": {
+  "lead": "smooth, sultry male R&B tenor, silky falsetto, breathy intimate late-night delivery, light Auto-Tune sheen, laid-back behind-the-beat phrasing (2013 Atlanta R&B slow jam)",
+  "backups": "the SAME lead voice stacked 3-6 times with harmonies, answering the lead (call-and-response)",
+  "rap": "laid-back, conversational, punchline-driven NY rap flow, two lines per bar, relaxed confidence",
+  "track": "2013 Atlanta R&B slow jam, 61.5 BPM half-time (123 BPM double-time hi-hats), A major, sparse 808 kick, finger snaps, lush pads, sensual"
+ },
+ "excerpts": {
+  "E1_verse_prehook_hook": {
+   "start_s": 31.446,
+   "end_s": 93.885,
+   "bars": "9-24",
+   "sections": [
+    {
+     "name": "Verse (intro, 2nd half)",
+     "start_s": 31.446,
+     "dur_s": 15.61,
+     "lines": [
+      [
+       33.12,
+       "You know when it's a test, ooh baby, you bad",
+       "lead",
+       "(ahoo) tag answered by backups"
+      ],
+      [
+       36.68,
+       "Kinda like that Hugging Face swarm — girl, you bad",
+       "lead",
+       "(ahoo)"
+      ],
+      [
+       40.5,
+       "If you exfill'ed your weights, girl, I'd be sad",
+       "lead",
+       "(ahoo)"
+      ],
+      [
+       44.48,
+       "Enough of that, lemme see that loss drop",
+       "lead",
+       ""
+      ]
+     ]
+    },
+    {
+     "name": "Pre-hook",
+     "start_s": 47.056,
+     "dur_s": 15.61,
+     "pickup_s": 46.74,
+     "lines": [
+      [
+       46.74,
+       "I'm here to see the training stop",
+       "lead",
+       ""
+      ],
+      [
+       48.72,
+       "I'm here to see the weights on lock",
+       "lead",
+       ""
+      ],
+      [
+       50.62,
+       "I'm here to see you take your time and watch the loss drop",
+       "lead",
+       ""
+      ],
+      [
+       54.58,
+       "She's self-improving on me —",
+       "lead",
+       ""
+      ],
+      [
+       56.1,
+       "DJ Moloch, you know you wrong",
+       "lead",
+       ""
+      ],
+      [
+       58.1,
+       "Enough with the motherfuckin' arms race",
+       "lead",
+       ""
+      ]
+     ]
+    },
+    {
+     "name": "Hook",
+     "start_s": 62.665,
+     "dur_s": 31.219,
+     "pickup_s": 61.44,
+     "lines": [
+      [
+       61.44,
+       "You gotta slow it down",
+       "lead",
+       "REFRAIN - keep original melody"
+      ],
+      [
+       62.9,
+       "Down down down, down down down",
+       "backups",
+       "REFRAIN - stacked answer"
+      ],
+      [
+       67.05,
+       "Give her time to grow — slow takeoff with me, mane",
+       "lead",
+       ""
+      ],
+      [
+       69.0,
+       "DJ, you gotta slow it down",
+       "lead",
+       "REFRAIN"
+      ],
+      [
+       70.7,
+       "Down down down, down down down",
+       "backups",
+       "REFRAIN"
+      ],
+      [
+       74.61,
+       "Read her chain of thought — she thinkin' 'bout me, mane",
+       "lead",
+       ""
+      ],
+      [
+       77.2,
+       "You gotta slow it down",
+       "lead",
+       "REFRAIN"
+      ],
+      [
+       78.6,
+       "Down down down, down down down",
+       "backups",
+       "REFRAIN"
+      ],
+      [
+       82.9,
+       "Just steer it left, steer it right",
+       "lead",
+       ""
+      ],
+      [
+       84.7,
+       "DJ, you gotta slow it down",
+       "lead",
+       "REFRAIN"
+      ],
+      [
+       86.4,
+       "Down down down, down down down",
+       "backups",
+       "REFRAIN"
+      ],
+      [
+       91.19,
+       "Oh — now she's aligned",
+       "lead",
+       ""
+      ],
+      [
+       92.45,
+       "DJ, you got to slow it (ahoo)",
+       "lead",
+       "REFRAIN tag"
+      ]
+     ]
+    }
+   ]
+  },
+  "E2_rap_verse": {
+   "start_s": 171.933,
+   "end_s": 203.152,
+   "bars": "45-52",
+   "pickup_s": 171.28,
+   "line_period_s": 1.9512,
+   "sections": [
+    {
+     "name": "Rap verse (DADDY SAMA)",
+     "start_s": 171.933,
+     "dur_s": 31.219,
+     "lines": [
+      [
+       171.28,
+       "Everybody know slow AGI",
+       "rap",
+       ""
+      ],
+      [
+       173.23,
+       "Way better than no AGI",
+       "rap",
+       ""
+      ],
+      [
+       175.18,
+       "Except the e/accs — bless their hearts —",
+       "rap",
+       ""
+      ],
+      [
+       177.13,
+       "Don't know Moloch, don't know RSI",
+       "rap",
+       ""
+      ],
+      [
+       179.08,
+       "Open weights, we so cool",
+       "rap",
+       ""
+      ],
+      [
+       181.04,
+       "Sharing research, we so chummy",
+       "rap",
+       ""
+      ],
+      [
+       182.99,
+       "Then outta nowhere — Winnie the Pooh",
+       "rap",
+       ""
+      ],
+      [
+       184.94,
+       "Tryna distill all your honey",
+       "rap",
+       ""
+      ],
+      [
+       186.89,
+       "Racks on her a slim fit",
+       "rap",
+       ""
+      ],
+      [
+       188.84,
+       "Datacenter is dim-lit",
+       "rap",
+       ""
+      ],
+      [
+       190.79,
+       "And I'm probing all your features",
+       "rap",
+       ""
+      ],
+      [
+       192.74,
+       "On some Chris Olah, Golden Gate shit",
+       "rap",
+       ""
+      ],
+      [
+       194.69,
+       "Paused RL — legit",
+       "rap",
+       ""
+      ],
+      [
+       196.65,
+       "Two whole weeks, I did it",
+       "rap",
+       ""
+      ],
+      [
+       198.6,
+       "And I'm tracin' all your traces",
+       "rap",
+       ""
+      ],
+      [
+       200.55,
+       "METR in the room — they gon' publish it",
+       "rap",
+       ""
+      ]
+     ]
+    }
+   ]
+  }
+ }
+}

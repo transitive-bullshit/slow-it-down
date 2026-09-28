@@ -1,0 +1,11 @@
+{
+ "version": "full_v5",
+ "note": "v5: poster B is now the video's first frame (held 2 frames, about 0.08 s); 5 scenes changed. Use the To review filter.",
+ "items": {
+  "S03": "Back to the v3 version (the original clip is restored).",
+  "C1g": "Both of them dancing into it: her arms up, letting go, his hands guiding her hips left and right.",
+  "R05": "No talking: Pooh scoops honey out of the jar from the first frame to the last, with WEIGHTS readable in both (the silhouette stays locked).",
+  "R09": "The camera flash is now a small pop far in the background, so the printing press is the focus; the white flash at the cut is gone too.",
+  "C3g": "A very slow lean-in to a passionate kiss (first + last frame, so the kiss lands at the end)."
+ }
+}

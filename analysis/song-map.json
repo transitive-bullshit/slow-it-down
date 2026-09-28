@@ -1,0 +1,121 @@
+{
+ "tempo_bpm": 61.5,
+ "tempo_bpm_doubletime": 123.0,
+ "meter": "4/4",
+ "bar_s": 3.9025,
+ "bar1_s": 0.227,
+ "key": "A major (relative F# minor)",
+ "duration_s": 256.09,
+ "sections": [
+  {
+   "section": "INTRO-CHANT",
+   "start_bar": 1,
+   "bars": 4,
+   "start_s": 0.23,
+   "end_s": 15.84,
+   "start": "0:00.23",
+   "end": "0:15.84",
+   "performer": "The-Dream",
+   "notes": "wordless 'oh-oh / yo-oh' vocal chant over the groove"
+  },
+  {
+   "section": "INTRO-VERSE",
+   "start_bar": 5,
+   "bars": 8,
+   "start_s": 15.84,
+   "end_s": 47.06,
+   "start": "0:15.84",
+   "end": "0:47.06",
+   "performer": "The-Dream",
+   "notes": "8 sung lines, 1 per bar, each entering just after beat 2; 'ahoo' ad-lib tags"
+  },
+  {
+   "section": "PRE-HOOK 1",
+   "start_bar": 13,
+   "bars": 4,
+   "start_s": 47.06,
+   "end_s": 62.67,
+   "start": "0:47.06",
+   "end": "1:02.67",
+   "performer": "The-Dream",
+   "notes": "6 lines: 3-line 'I'm here to see\u2026' anaphora, then the call-out to the DJ (pickup from bar 12 beat 4.75)"
+  },
+  {
+   "section": "HOOK 1",
+   "start_bar": 17,
+   "bars": 8,
+   "start_s": 62.67,
+   "end_s": 93.89,
+   "start": "1:02.67",
+   "end": "1:33.89",
+   "performer": "The-Dream",
+   "notes": "4 \u00d7 2-bar units: 'slow it down' + 6 'downs' + answer line (pickup bar 16 beat 3.75)"
+  },
+  {
+   "section": "VERSE 1",
+   "start_bar": 25,
+   "bars": 8,
+   "start_s": 93.89,
+   "end_s": 125.11,
+   "start": "1:33.89",
+   "end": "2:05.11",
+   "performer": "The-Dream",
+   "notes": "10 lines; the 'labels forced other artists to make dance records' verse (pickup bar 24 beat 4.5)"
+  },
+  {
+   "section": "PRE-HOOK 2",
+   "start_bar": 33,
+   "bars": 4,
+   "start_s": 125.11,
+   "end_s": 140.72,
+   "start": "2:05.11",
+   "end": "2:20.72",
+   "performer": "The-Dream",
+   "notes": "repeat of pre-hook (pickup bar 32 beat 4.75)"
+  },
+  {
+   "section": "CHORUS 2",
+   "start_bar": 37,
+   "bars": 8,
+   "start_s": 140.72,
+   "end_s": 171.94,
+   "start": "2:20.72",
+   "end": "2:51.94",
+   "performer": "The-Dream",
+   "notes": "repeat of hook (pickup bar 36 beat 3.75)"
+  },
+  {
+   "section": "VERSE 2",
+   "start_bar": 45,
+   "bars": 8,
+   "start_s": 171.94,
+   "end_s": 203.16,
+   "start": "2:51.94",
+   "end": "3:23.16",
+   "performer": "Fabolous",
+   "notes": "16 rap lines, 2 per bar, each entering on the 'and' of 2 / 'and' of 4; last quatrain repeats the third (pickup bar 44 beat 4.25)"
+  },
+  {
+   "section": "HOOK 3",
+   "start_bar": 53,
+   "bars": 8,
+   "start_s": 203.16,
+   "end_s": 234.38,
+   "start": "3:23.16",
+   "end": "3:54.38",
+   "performer": "The-Dream",
+   "notes": "final hook with ad-lib variations (pickup bar 52 beat 4.5)"
+  },
+  {
+   "section": "OUTRO",
+   "start_bar": 61,
+   "bars": 5,
+   "start_s": 234.38,
+   "end_s": 253.89,
+   "start": "3:54.38",
+   "end": "4:13.89",
+   "performer": "The-Dream",
+   "notes": "reprise of intro lines 5\u20138, ends on a spoken '(drop)' cue ~4:10; tail to 4:16"
+  }
+ ]
+}

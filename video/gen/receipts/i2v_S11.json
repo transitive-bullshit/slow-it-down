@@ -1,0 +1,23 @@
+{
+ "endpoint": "fal-ai/veo3.1/fast/image-to-video",
+ "args": {
+  "prompt": "she laughs, turns and sinks low in a smooth sensual dance drop as the glowing graph on the LED wall plunges down Painterly cyberpunk-noir graphic-novel animation: keep the hand-painted brushwork, ink lines and neon lighting of the first frame, same characters and outfits throughout, smooth cinematic camera, no on-screen text changes.",
+  "image_url": "https://v3b.fal.media/files/b/0aac32d5/kNSjQhw9Q5eS0PSOUWWlL_S11.png",
+  "resolution": "1080p",
+  "aspect_ratio": "16:9",
+  "generate_audio": false,
+  "negative_prompt": "garbled or changing text, morphing faces, extra limbs, flicker, photorealistic, glossy 3D render, oversaturated neon",
+  "safety_tolerance": "5",
+  "auto_fix": true,
+  "duration": "4s"
+ },
+ "seconds": 102.5,
+ "result": {
+  "video": {
+   "url": "https://v3b.fal.media/files/b/0aac32df/T4JqL-xhyhlfvVp-_mm_r_d4ba01ad0afe4ad7ab58d2258470678f.mp4",
+   "content_type": "video/mp4",
+   "file_name": "d4ba01ad0afe4ad7ab58d2258470678f.mp4",
+   "file_size": 7772644
+  }
+ }
+}

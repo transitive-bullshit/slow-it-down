@@ -1,0 +1,45 @@
+[project]
+name = "slow-it-down"
+version = "1.0.0"
+description = "An AI-made R&B parody music video about AI safety's branding problem: the pipeline, prompts, receipts, and review tool."
+readme = "README.md"
+license = "MIT"
+requires-python = ">=3.12,<3.13"
+# The video pipeline: storyboard, keyframes/clips/lip-sync on fal, the compositor, the review tool, posters, Notion publisher.
+dependencies = [
+  "fal-client>=1.0.3",
+  "fonttools>=4.66.0",
+  "imageio-ffmpeg>=0.6.0", # its static ffmpeg includes libass, which the caption burn-in needs
+  "numpy>=2.5.3",
+  "pillow>=12.3.0",
+  "requests>=2.34.2",
+  "soundfile>=0.14.0",
+  "uharfbuzz>=0.56.2",
+  "websockets>=17.1",
+]
+
+[dependency-groups]
+# Installed by default with `uv sync`: the offline smoke tests (tests/).
+dev = ["pytest>=8"]
+# Word timings + beat grid (scripts/align_lyrics.py), and pulling the rap vocal for lip-sync (audio-separator).
+timing = [
+  "audio-separator[cpu]>=0.47.0",
+  "beat-this",
+  "mlx-whisper>=0.4.3; sys_platform == 'darwin' and platform_machine == 'arm64'",
+]
+# The rejected audio rounds in scripts/ (ACE-Step, Lyria, stems, voice maps, assembly). Not needed for the video.
+audio-experiments = [
+  { include-group = "timing" },
+  "librosa>=1.0.0",
+  "pedalboard>=0.9.25",
+  "pronouncing>=0.3.0",
+  "pyloudnorm>=0.2.0",
+  "pyphen>=0.18.1",
+  "pyrubberband>=0.4.0",
+]
+
+[tool.uv]
+package = false # a working directory of scripts, not an installable package
+
+[tool.uv.sources]
+beat-this = { git = "https://github.com/CPJKU/beat_this", rev = "b95c8ab0c58c2d9fcfd40508ae8dffbc05ac4f5c" }

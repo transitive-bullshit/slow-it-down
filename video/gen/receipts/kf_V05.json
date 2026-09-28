@@ -1,0 +1,27 @@
+{
+ "endpoint": "fal-ai/nano-banana-pro/edit",
+ "args": {
+  "prompt": "a crisp corporate consultant in a navy suit with an ID lanyard, holding a tablet sitting in a dark corner booth of the nightclub, a glowing taxi-meter style counter floating above his head showing a dollar amount, cool noir light. Lighting: cool steel-blue rain light with silver highlights, cold and elegant. painterly neo-noir graphic-novel frame in the spirit of Blade Runner (1982) and Blade Runner 2049: semi-realistic digital painting with visible brushstrokes and fine ink linework, adult realistic proportions, restrained desaturated palette, deep shadows, smoky haze and soft volumetric light shafts from one or two motivated sources, neon used sparingly as small soft practical accents in the background only, rain-wet reflective surfaces, soft film grain, cinematic widescreen composition with generous negative space, sensual late-night mood, not Pixar, not cartoonish, no glossy plastic 3D look, no oversaturated magenta or purple, full-bleed 16:9 image that fills the entire frame edge to edge, with no black bars, no letterbox, no panel borders and no captions Use the reference images only for the characters' faces, hair and outfits, keeping them consistent and recognizable; compose a new scene exactly as described, with its own background and lighting.",
+  "image_urls": [
+   "https://v3b.fal.media/files/b/0aac3248/vajdRrCbJqpOlBvmybGTa_consultant.png"
+  ],
+  "aspect_ratio": "16:9",
+  "resolution": "2K",
+  "output_format": "png",
+  "safety_tolerance": "4"
+ },
+ "seconds": 25.8,
+ "result": {
+  "images": [
+   {
+    "url": "https://v3b.fal.media/files/b/0aac3249/_xM_7vB_NYO7JraIOV_C6_HwQ4Xoxe.png",
+    "content_type": "image/png",
+    "file_name": "_xM_7vB_NYO7JraIOV_C6_HwQ4Xoxe.png",
+    "file_size": null,
+    "width": null,
+    "height": null
+   }
+  ],
+  "description": ""
+ }
+}

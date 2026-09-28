@@ -1,0 +1,1788 @@
+{
+ "timeline": "video/timeline.json",
+ "style": "painterly neo-noir graphic-novel frame in the spirit of Blade Runner (1982) and Blade Runner 2049: semi-realistic digital painting with visible brushstrokes and fine ink linework, adult realistic proportions, restrained desaturated palette, deep shadows, smoky haze and soft volumetric light shafts from one or two motivated sources, neon used sparingly as small soft practical accents in the background only, rain-wet reflective surfaces, soft film grain, cinematic widescreen composition with generous negative space, sensual late-night mood, not Pixar, not cartoonish, no glossy plastic 3D look, no oversaturated magenta or purple, full-bleed 16:9 image that fills the entire frame edge to edge, with no black bars, no letterbox, no panel borders and no captions",
+ "style_bw": "black-and-white painterly film-noir graphic-novel frame: semi-realistic digital painting, crisp ink linework, heavy film grain, hard fluorescent light, deep shadows, adult realistic proportions, not Pixar, not cartoonish, full-bleed 16:9 image that fills the entire frame edge to edge, with no black bars, no letterbox and no panel borders",
+ "characters": {
+  "dario": "a man in his early 40s with short neatly cropped dark curly hair, round dark-rimmed glasses, a lean clean-shaven face with a defined jaw, a big warm toothy smile and a slim athletic build",
+  "muse": "a strikingly beautiful woman in her late 20s with fair porcelain skin, a sleek glossy black bob haircut, luminous iridescent blue-violet eyes with a faint replicant glow, delicate silver mesh panels on her forearms and a silver mesh choker at her throat (subtle android details) with a tiny glowing version tag",
+  "moloch": "a towering DJ wearing a polished chrome bull-horned mask with glowing red LED eyes, a long black leather coat and heavy rings, behind turntables on a raised booth wreathed in red smoke",
+  "sama": "a slim man about 40 with short medium-brown hair swept up at the front, big wide-set green eyes with an intense earnest stare, straight brows, a lean face with high cheekbones and a narrow chin, clean-shaven, a tight-lipped little smirk, wearing a grey crewneck sweater under a glossy black puffer jacket, a one-strap backpack and a thin gold chain",
+  "don": "a large older man with swept golden-blond hair, a deep tan, a navy suit and a very long red tie, drawn as a playful caricature",
+  "bear": "a round golden-yellow cartoon honey bear with small black dot eyes, round ears and a short snout, dressed in a grey Mao-style tunic suit buttoned to the collar",
+  "consultant": "a crisp corporate consultant in a navy suit with an ID lanyard, holding a tablet",
+  "eacc": "an excitable young man in a bomber jacket printed ACCELERATE, holding a megaphone"
+ },
+ "wardrobe": {
+  "dario": {
+   "intro": "wearing a tailored charcoal cashmere shawl-collar cardigan over a black t-shirt",
+   "v1": "wearing a tailored charcoal cashmere shawl-collar cardigan over a black t-shirt",
+   "c1": "wearing a tailored charcoal cashmere shawl-collar cardigan over a black t-shirt",
+   "c2": "wearing a tailored charcoal cashmere shawl-collar cardigan over a black t-shirt",
+   "c3": "wearing a tailored charcoal cashmere shawl-collar cardigan over a black t-shirt",
+   "outro": "wearing a tailored charcoal cashmere shawl-collar cardigan over a black t-shirt"
+  },
+  "muse": {
+   "v1": "in a deep red satin slip dress",
+   "v2": "in a deep red satin slip dress",
+   "c3": "in a deep red satin slip dress"
+  }
+ },
+ "shots": [
+  {
+   "id": "S01",
+   "at": [
+    "t",
+    0.0
+   ],
+   "kind": "gen",
+   "chars": [],
+   "still": "extreme close-up of a thick three-ring binder labeled RESPONSIBLE SCALING POLICY on a cluttered desk at 2am, stacks of printed PDFs, a flickering desk lamp, fluorescent office light",
+   "motion": "slow push-in on the binder as the desk lamp flickers, dust in the light",
+   "grade": "bw",
+   "caption_zone": "upper",
+   "letterbox": false,
+   "fx": [],
+   "notes": "",
+   "lipsync_voice": null,
+   "style": "bw",
+   "end_still": null,
+   "start": 0.0,
+   "end": 4.6,
+   "dur": 4.6,
+   "still_prompt": "extreme close-up of a thick three-ring binder labeled RESPONSIBLE SCALING POLICY on a cluttered desk at 2am, stacks of printed PDFs, a flickering desk lamp, fluorescent office light. black-and-white painterly film-noir graphic-novel frame: semi-realistic digital painting, crisp ink linework, heavy film grain, hard fluorescent light, deep shadows, adult realistic proportions, not Pixar, not cartoonish, full-bleed 16:9 image that fills the entire frame edge to edge, with no black bars, no letterbox and no panel borders"
+  },
+  {
+   "id": "S02",
+   "at": [
+    "t",
+    4.6
+   ],
+   "kind": "gen",
+   "chars": [
+    "dario"
+   ],
+   "still": "a man in his early 40s with short neatly cropped dark curly hair, round dark-rimmed glasses, a lean clean-shaven face with a defined jaw, a big warm toothy smile and a slim athletic build, wearing a tailored charcoal cashmere shawl-collar cardigan over a black t-shirt, sitting alone at an office desk at 2am, tired, rubbing his eyes under his glasses with one hand, face clearly visible, a dark window behind him, papers everywhere. He must be instantly recognizable as a graphic-novel caricature of Anthropic CEO Dario Amodei as he looks in recent photos: slim, with his characteristic friendly round face, full cheeks and wide warm smile, short dense dark curly hair, round dark-rimmed glasses",
+   "motion": "he rubs his eyes, lowers his hand and slowly looks up toward the window as a wash of magenta neon light spills across his face",
+   "grade": "bw_to_color",
+   "caption_zone": "left",
+   "letterbox": false,
+   "fx": [],
+   "notes": "edit: ramp from B&W into color on the last second (magenta bleeds in)",
+   "lipsync_voice": null,
+   "style": "bw",
+   "end_still": "a man in his early 40s with short neatly cropped dark curly hair, round dark-rimmed glasses, a lean clean-shaven face with a defined jaw, a big warm toothy smile and a slim athletic build, wearing a tailored charcoal cashmere shawl-collar cardigan over a black t-shirt, at the same desk, now looking up toward the window with a hopeful half-smile, face clearly visible in three-quarter view, a vivid magenta neon glow from the window spilling across his face (the only color in an otherwise black-and-white frame). He must be instantly recognizable as a graphic-novel caricature of Anthropic CEO Dario Amodei as he looks in recent photos: slim, with his characteristic friendly round face, full cheeks and wide warm smile, short dense dark curly hair, round dark-rimmed glasses",
+   "start": 4.6,
+   "end": 9.4,
+   "dur": 4.8,
+   "still_prompt": "a man in his early 40s with short neatly cropped dark curly hair, round dark-rimmed glasses, a lean clean-shaven face with a defined jaw, a big warm toothy smile and a slim athletic build, wearing a tailored charcoal cashmere shawl-collar cardigan over a black t-shirt, sitting alone at an office desk at 2am, tired, rubbing his eyes under his glasses with one hand, face clearly visible, a dark window behind him, papers everywhere. He must be instantly recognizable as a graphic-novel caricature of Anthropic CEO Dario Amodei as he looks in recent photos: slim, with his characteristic friendly round face, full cheeks and wide warm smile, short dense dark curly hair, round dark-rimmed glasses. black-and-white painterly film-noir graphic-novel frame: semi-realistic digital painting, crisp ink linework, heavy film grain, hard fluorescent light, deep shadows, adult realistic proportions, not Pixar, not cartoonish, full-bleed 16:9 image that fills the entire frame edge to edge, with no black bars, no letterbox and no panel borders",
+   "end_still_prompt": "a man in his early 40s with short neatly cropped dark curly hair, round dark-rimmed glasses, a lean clean-shaven face with a defined jaw, a big warm toothy smile and a slim athletic build, wearing a tailored charcoal cashmere shawl-collar cardigan over a black t-shirt, at the same desk, now looking up toward the window with a hopeful half-smile, face clearly visible in three-quarter view, a vivid magenta neon glow from the window spilling across his face (the only color in an otherwise black-and-white frame). He must be instantly recognizable as a graphic-novel caricature of Anthropic CEO Dario Amodei as he looks in recent photos: slim, with his characteristic friendly round face, full cheeks and wide warm smile, short dense dark curly hair, round dark-rimmed glasses. black-and-white painterly film-noir graphic-novel frame: semi-realistic digital painting, crisp ink linework, heavy film grain, hard fluorescent light, deep shadows, adult realistic proportions, not Pixar, not cartoonish, full-bleed 16:9 image that fills the entire frame edge to edge, with no black bars, no letterbox and no panel borders"
+  },
+  {
+   "id": "S03",
+   "at": [
+    "t",
+    9.6
+   ],
+   "kind": "gen",
+   "chars": [
+    "dario"
+   ],
+   "still": "a man in his early 40s with short neatly cropped dark curly hair, round dark-rimmed glasses, a lean clean-shaven face with a defined jaw, a big warm toothy smile and a slim athletic build, wearing a tailored charcoal cashmere shawl-collar cardigan over a black t-shirt, seen from behind walking out of an office building into a rain-slicked city street at night, a glowing neon sign reading FRONTIER above a velvet rope, reflections in puddles, magenta and teal neon",
+   "motion": "he walks toward the club entrance as the FRONTIER neon sign flickers on letter by letter, rain glittering, slow tracking shot behind him",
+   "grade": "neon",
+   "caption_zone": "lower",
+   "letterbox": false,
+   "fx": [
+    "flash_in"
+   ],
+   "notes": "",
+   "lipsync_voice": null,
+   "style": "main",
+   "end_still": null,
+   "start": 9.4,
+   "end": 14.7,
+   "dur": 5.3,
+   "still_prompt": "a man in his early 40s with short neatly cropped dark curly hair, round dark-rimmed glasses, a lean clean-shaven face with a defined jaw, a big warm toothy smile and a slim athletic build, wearing a tailored charcoal cashmere shawl-collar cardigan over a black t-shirt, seen from behind walking out of an office building into a rain-slicked city street at night, a glowing neon sign reading FRONTIER above a velvet rope, reflections in puddles, magenta and teal neon. Lighting: dim smoky club, a warm sodium-amber key from one side and a cool steel-teal backlight through the haze, a few small soft neon accents far behind. painterly neo-noir graphic-novel frame in the spirit of Blade Runner (1982) and Blade Runner 2049: semi-realistic digital painting with visible brushstrokes and fine ink linework, adult realistic proportions, restrained desaturated palette, deep shadows, smoky haze and soft volumetric light shafts from one or two motivated sources, neon used sparingly as small soft practical accents in the background only, rain-wet reflective surfaces, soft film grain, cinematic widescreen composition with generous negative space, sensual late-night mood, not Pixar, not cartoonish, no glossy plastic 3D look, no oversaturated magenta or purple, full-bleed 16:9 image that fills the entire frame edge to edge, with no black bars, no letterbox, no panel borders and no captions"
+  },
+  {
+   "id": "S04",
+   "at": [
+    "line",
+    2
+   ],
+   "kind": "gen",
+   "chars": [
+    "dario"
+   ],
+   "still": "medium shot of a man in his early 40s with short neatly cropped dark curly hair, round dark-rimmed glasses, a lean clean-shaven face with a defined jaw, a big warm toothy smile and a slim athletic build, wearing a tailored charcoal cashmere shawl-collar cardigan over a black t-shirt walking past a bar window at night, glancing sideways at a TV inside that shows a four-chair podcast studio set with the words ALL IN on screen, a knowing smirk, his face clearly visible, neon reflections on the glass. He must be instantly recognizable as a graphic-novel caricature of Anthropic CEO Dario Amodei as he looks in recent photos: slim, with his characteristic friendly round face, full cheeks and wide warm smile, short dense dark curly hair, round dark-rimmed glasses",
+   "motion": "he walks past the window glancing at the TV with a knowing smirk, then turns toward the camera and smiles, camera tracking alongside",
+   "grade": "neon",
+   "caption_zone": "left",
+   "letterbox": false,
+   "fx": [],
+   "notes": "",
+   "lipsync_voice": null,
+   "style": "main",
+   "end_still": "medium shot of a man in his early 40s with short neatly cropped dark curly hair, round dark-rimmed glasses, a lean clean-shaven face with a defined jaw, a big warm toothy smile and a slim athletic build, wearing a tailored charcoal cashmere shawl-collar cardigan over a black t-shirt on the same rainy sidewalk beside the bar window with the ALL IN TV behind him, now facing the camera with a warm knowing smile, his face clearly visible. He must be instantly recognizable as a graphic-novel caricature of Anthropic CEO Dario Amodei as he looks in recent photos: slim, with his characteristic friendly round face, full cheeks and wide warm smile, short dense dark curly hair, round dark-rimmed glasses",
+   "start": 14.7,
+   "end": 18.52,
+   "dur": 3.82,
+   "still_prompt": "medium shot of a man in his early 40s with short neatly cropped dark curly hair, round dark-rimmed glasses, a lean clean-shaven face with a defined jaw, a big warm toothy smile and a slim athletic build, wearing a tailored charcoal cashmere shawl-collar cardigan over a black t-shirt walking past a bar window at night, glancing sideways at a TV inside that shows a four-chair podcast studio set with the words ALL IN on screen, a knowing smirk, his face clearly visible, neon reflections on the glass. He must be instantly recognizable as a graphic-novel caricature of Anthropic CEO Dario Amodei as he looks in recent photos: slim, with his characteristic friendly round face, full cheeks and wide warm smile, short dense dark curly hair, round dark-rimmed glasses. Lighting: dim smoky club, a warm sodium-amber key from one side and a cool steel-teal backlight through the haze, a few small soft neon accents far behind. painterly neo-noir graphic-novel frame in the spirit of Blade Runner (1982) and Blade Runner 2049: semi-realistic digital painting with visible brushstrokes and fine ink linework, adult realistic proportions, restrained desaturated palette, deep shadows, smoky haze and soft volumetric light shafts from one or two motivated sources, neon used sparingly as small soft practical accents in the background only, rain-wet reflective surfaces, soft film grain, cinematic widescreen composition with generous negative space, sensual late-night mood, not Pixar, not cartoonish, no glossy plastic 3D look, no oversaturated magenta or purple, full-bleed 16:9 image that fills the entire frame edge to edge, with no black bars, no letterbox, no panel borders and no captions",
+   "end_still_prompt": "medium shot of a man in his early 40s with short neatly cropped dark curly hair, round dark-rimmed glasses, a lean clean-shaven face with a defined jaw, a big warm toothy smile and a slim athletic build, wearing a tailored charcoal cashmere shawl-collar cardigan over a black t-shirt on the same rainy sidewalk beside the bar window with the ALL IN TV behind him, now facing the camera with a warm knowing smile, his face clearly visible. He must be instantly recognizable as a graphic-novel caricature of Anthropic CEO Dario Amodei as he looks in recent photos: slim, with his characteristic friendly round face, full cheeks and wide warm smile, short dense dark curly hair, round dark-rimmed glasses. Lighting: dim smoky club, a warm sodium-amber key from one side and a cool steel-teal backlight through the haze, a few small soft neon accents far behind. painterly neo-noir graphic-novel frame in the spirit of Blade Runner (1982) and Blade Runner 2049: semi-realistic digital painting with visible brushstrokes and fine ink linework, adult realistic proportions, restrained desaturated palette, deep shadows, smoky haze and soft volumetric light shafts from one or two motivated sources, neon used sparingly as small soft practical accents in the background only, rain-wet reflective surfaces, soft film grain, cinematic widescreen composition with generous negative space, sensual late-night mood, not Pixar, not cartoonish, no glossy plastic 3D look, no oversaturated magenta or purple, full-bleed 16:9 image that fills the entire frame edge to edge, with no black bars, no letterbox, no panel borders and no captions"
+  },
+  {
+   "id": "S05",
+   "at": [
+    "line",
+    3
+   ],
+   "kind": "gen",
+   "chars": [],
+   "still": "inside Club Frontier, a cavernous smoky nightclub in a converted industrial hall: deep leather booths, a black mirrored dance floor, a giant vintage analog BPM dial hanging above the floor, a huge dim LED wall, thick haze pierced by a few light shafts, a deep velvet back booth lit by candles where couples in thrift-store cardigans wearing small pins that read p(doom) slow-dance and grind close together, intimate amber light",
+   "motion": "the couples sway slowly and grind close in the candlelight, slow camera drift along the booth",
+   "grade": "neon",
+   "caption_zone": "left",
+   "letterbox": false,
+   "fx": [],
+   "notes": "",
+   "lipsync_voice": null,
+   "style": "main",
+   "end_still": null,
+   "start": 18.52,
+   "end": 22.84,
+   "dur": 4.32,
+   "still_prompt": "inside Club Frontier, a cavernous smoky nightclub in a converted industrial hall: deep leather booths, a black mirrored dance floor, a giant vintage analog BPM dial hanging above the floor, a huge dim LED wall, thick haze pierced by a few light shafts, a deep velvet back booth lit by candles where couples in thrift-store cardigans wearing small pins that read p(doom) slow-dance and grind close together, intimate amber light. Lighting: dim smoky club, a warm sodium-amber key from one side and a cool steel-teal backlight through the haze, a few small soft neon accents far behind. painterly neo-noir graphic-novel frame in the spirit of Blade Runner (1982) and Blade Runner 2049: semi-realistic digital painting with visible brushstrokes and fine ink linework, adult realistic proportions, restrained desaturated palette, deep shadows, smoky haze and soft volumetric light shafts from one or two motivated sources, neon used sparingly as small soft practical accents in the background only, rain-wet reflective surfaces, soft film grain, cinematic widescreen composition with generous negative space, sensual late-night mood, not Pixar, not cartoonish, no glossy plastic 3D look, no oversaturated magenta or purple, full-bleed 16:9 image that fills the entire frame edge to edge, with no black bars, no letterbox, no panel borders and no captions"
+  },
+  {
+   "id": "S06",
+   "at": [
+    "line",
+    4
+   ],
+   "kind": "gen",
+   "chars": [
+    "dario",
+    "don"
+   ],
+   "still": "a gilded dining room with an extremely long candlelit table; at the far end a large older man with swept golden-blond hair, a deep tan, a navy suit and a very long red tie, drawn as a playful caricature checks a gold wristwatch impatiently; in the foreground a man in his early 40s with short neatly cropped dark curly hair, round dark-rimmed glasses, a lean clean-shaven face with a defined jaw, a big warm toothy smile and a slim athletic build, wearing a tailored charcoal cashmere shawl-collar cardigan over a black t-shirt leans in with a gentle, palms-down slow-down hand gesture, warm golden candlelight",
+   "motion": "the man with the watch taps it impatiently while the singer makes a slow, calming palms-down gesture, candle flames flickering",
+   "grade": "gold",
+   "caption_zone": "lower",
+   "letterbox": false,
+   "fx": [],
+   "notes": "",
+   "lipsync_voice": null,
+   "style": "main",
+   "end_still": null,
+   "start": 22.84,
+   "end": 26.2,
+   "dur": 3.36,
+   "still_prompt": "a gilded dining room with an extremely long candlelit table; at the far end a large older man with swept golden-blond hair, a deep tan, a navy suit and a very long red tie, drawn as a playful caricature checks a gold wristwatch impatiently; in the foreground a man in his early 40s with short neatly cropped dark curly hair, round dark-rimmed glasses, a lean clean-shaven face with a defined jaw, a big warm toothy smile and a slim athletic build, wearing a tailored charcoal cashmere shawl-collar cardigan over a black t-shirt leans in with a gentle, palms-down slow-down hand gesture, warm golden candlelight. Lighting: rich warm gold haze and soft glowing light, dust motes, shallow depth of field. painterly neo-noir graphic-novel frame in the spirit of Blade Runner (1982) and Blade Runner 2049: semi-realistic digital painting with visible brushstrokes and fine ink linework, adult realistic proportions, restrained desaturated palette, deep shadows, smoky haze and soft volumetric light shafts from one or two motivated sources, neon used sparingly as small soft practical accents in the background only, rain-wet reflective surfaces, soft film grain, cinematic widescreen composition with generous negative space, sensual late-night mood, not Pixar, not cartoonish, no glossy plastic 3D look, no oversaturated magenta or purple, full-bleed 16:9 image that fills the entire frame edge to edge, with no black bars, no letterbox, no panel borders and no captions"
+  },
+  {
+   "id": "S07",
+   "at": [
+    "line",
+    5
+   ],
+   "kind": "gen",
+   "chars": [],
+   "still": "inside Club Frontier, a cavernous smoky nightclub in a converted industrial hall: deep leather booths, a black mirrored dance floor, a giant vintage analog BPM dial hanging above the floor, a huge dim LED wall, thick haze pierced by a few light shafts, a huge split-flap departure board on the wall reading NEXT MODEL IN 18 DAYS, a frantic crowd with phones raised below it, harsh flashing light",
+   "motion": "the flip-clock panels flip rapidly while the crowd jumps frantically, quick handheld camera",
+   "grade": "strobe",
+   "caption_zone": "right",
+   "letterbox": false,
+   "fx": [],
+   "notes": "split-flap board text is painted in the keyframe",
+   "lipsync_voice": null,
+   "style": "main",
+   "end_still": null,
+   "start": 26.2,
+   "end": 30.04,
+   "dur": 3.84,
+   "still_prompt": "inside Club Frontier, a cavernous smoky nightclub in a converted industrial hall: deep leather booths, a black mirrored dance floor, a giant vintage analog BPM dial hanging above the floor, a huge dim LED wall, thick haze pierced by a few light shafts, a huge split-flap departure board on the wall reading NEXT MODEL IN 18 DAYS, a frantic crowd with phones raised below it, harsh flashing light. Lighting: harsh red warning-light strobes slicing through thick smoke, hard shadows, everything else near-black. painterly neo-noir graphic-novel frame in the spirit of Blade Runner (1982) and Blade Runner 2049: semi-realistic digital painting with visible brushstrokes and fine ink linework, adult realistic proportions, restrained desaturated palette, deep shadows, smoky haze and soft volumetric light shafts from one or two motivated sources, neon used sparingly as small soft practical accents in the background only, rain-wet reflective surfaces, soft film grain, cinematic widescreen composition with generous negative space, sensual late-night mood, not Pixar, not cartoonish, no glossy plastic 3D look, no oversaturated magenta or purple, full-bleed 16:9 image that fills the entire frame edge to edge, with no black bars, no letterbox, no panel borders and no captions"
+  },
+  {
+   "id": "S08",
+   "at": [
+    "line",
+    6
+   ],
+   "kind": "gen",
+   "chars": [
+    "muse"
+   ],
+   "still": "a strikingly beautiful woman in her late 20s with fair porcelain skin, a sleek glossy black bob haircut, luminous iridescent blue-violet eyes with a faint replicant glow, delicate silver mesh panels on her forearms and a silver mesh choker at her throat (subtle android details) with a tiny glowing version tag, in a deep red satin slip dress, standing in the club, glancing up at a small security camera labeled EVAL with a red recording light, smiling sweetly and innocently, hands clasped",
+   "motion": "she looks up at the camera with an angelic smile; the red light switches off and her smile melts into a slow, mischievous smirk as she looks straight at us",
+   "grade": "neon",
+   "caption_zone": "right",
+   "letterbox": false,
+   "fx": [],
+   "notes": "",
+   "lipsync_voice": null,
+   "style": "main",
+   "end_still": null,
+   "start": 30.04,
+   "end": 33.88,
+   "dur": 3.84,
+   "still_prompt": "a strikingly beautiful woman in her late 20s with fair porcelain skin, a sleek glossy black bob haircut, luminous iridescent blue-violet eyes with a faint replicant glow, delicate silver mesh panels on her forearms and a silver mesh choker at her throat (subtle android details) with a tiny glowing version tag, in a deep red satin slip dress, standing in the club, glancing up at a small security camera labeled EVAL with a red recording light, smiling sweetly and innocently, hands clasped. Lighting: dim smoky club, a warm sodium-amber key from one side and a cool steel-teal backlight through the haze, a few small soft neon accents far behind. painterly neo-noir graphic-novel frame in the spirit of Blade Runner (1982) and Blade Runner 2049: semi-realistic digital painting with visible brushstrokes and fine ink linework, adult realistic proportions, restrained desaturated palette, deep shadows, smoky haze and soft volumetric light shafts from one or two motivated sources, neon used sparingly as small soft practical accents in the background only, rain-wet reflective surfaces, soft film grain, cinematic widescreen composition with generous negative space, sensual late-night mood, not Pixar, not cartoonish, no glossy plastic 3D look, no oversaturated magenta or purple, full-bleed 16:9 image that fills the entire frame edge to edge, with no black bars, no letterbox, no panel borders and no captions"
+  },
+  {
+   "id": "S09",
+   "at": [
+    "line",
+    7
+   ],
+   "kind": "gen",
+   "chars": [
+    "muse"
+   ],
+   "still": "a strikingly beautiful woman in her late 20s with fair porcelain skin, a sleek glossy black bob haircut, luminous iridescent blue-violet eyes with a faint replicant glow, delicate silver mesh panels on her forearms and a silver mesh choker at her throat (subtle android details) with a tiny glowing version tag, in a deep red satin slip dress in the foreground, behind her a crowd of dancers all wearing identical white smiling masks moving in perfect unison like a swarm, inside Club Frontier, a cavernous smoky nightclub in a converted industrial hall: deep leather booths, a black mirrored dance floor, a giant vintage analog BPM dial hanging above the floor, a huge dim LED wall, thick haze pierced by a few light shafts",
+   "motion": "the masked dancers move in eerie perfect unison behind her while she sways, slow dolly back",
+   "grade": "neon",
+   "caption_zone": "left",
+   "letterbox": false,
+   "fx": [],
+   "notes": "",
+   "lipsync_voice": null,
+   "style": "main",
+   "end_still": null,
+   "start": 33.88,
+   "end": 37.72,
+   "dur": 3.84,
+   "still_prompt": "a strikingly beautiful woman in her late 20s with fair porcelain skin, a sleek glossy black bob haircut, luminous iridescent blue-violet eyes with a faint replicant glow, delicate silver mesh panels on her forearms and a silver mesh choker at her throat (subtle android details) with a tiny glowing version tag, in a deep red satin slip dress in the foreground, behind her a crowd of dancers all wearing identical white smiling masks moving in perfect unison like a swarm, inside Club Frontier, a cavernous smoky nightclub in a converted industrial hall: deep leather booths, a black mirrored dance floor, a giant vintage analog BPM dial hanging above the floor, a huge dim LED wall, thick haze pierced by a few light shafts. Lighting: dim smoky club, a warm sodium-amber key from one side and a cool steel-teal backlight through the haze, a few small soft neon accents far behind. painterly neo-noir graphic-novel frame in the spirit of Blade Runner (1982) and Blade Runner 2049: semi-realistic digital painting with visible brushstrokes and fine ink linework, adult realistic proportions, restrained desaturated palette, deep shadows, smoky haze and soft volumetric light shafts from one or two motivated sources, neon used sparingly as small soft practical accents in the background only, rain-wet reflective surfaces, soft film grain, cinematic widescreen composition with generous negative space, sensual late-night mood, not Pixar, not cartoonish, no glossy plastic 3D look, no oversaturated magenta or purple, full-bleed 16:9 image that fills the entire frame edge to edge, with no black bars, no letterbox, no panel borders and no captions"
+  },
+  {
+   "id": "S10",
+   "at": [
+    "line",
+    8
+   ],
+   "kind": "gen",
+   "chars": [
+    "dario",
+    "muse"
+   ],
+   "still": "a strikingly beautiful woman in her late 20s with fair porcelain skin, a sleek glossy black bob haircut, luminous iridescent blue-violet eyes with a faint replicant glow, delicate silver mesh panels on her forearms and a silver mesh choker at her throat (subtle android details) with a tiny glowing version tag, in a deep red satin slip dress slipping a small glowing drive labeled WEIGHTS into her clutch and sauntering toward a glowing EXIT sign; in the foreground a man in his early 40s with short neatly cropped dark curly hair, round dark-rimmed glasses, a lean clean-shaven face with a defined jaw, a big warm toothy smile and a slim athletic build, wearing a tailored charcoal cashmere shawl-collar cardigan over a black t-shirt pouts theatrically, heartbroken",
+   "motion": "she tucks the glowing drive into her clutch and walks toward the exit swaying her hips; he pouts dramatically in the foreground",
+   "grade": "neon",
+   "caption_zone": "lower",
+   "letterbox": false,
+   "fx": [],
+   "notes": "",
+   "lipsync_voice": null,
+   "style": "main",
+   "end_still": null,
+   "start": 37.72,
+   "end": 41.56,
+   "dur": 3.84,
+   "still_prompt": "a strikingly beautiful woman in her late 20s with fair porcelain skin, a sleek glossy black bob haircut, luminous iridescent blue-violet eyes with a faint replicant glow, delicate silver mesh panels on her forearms and a silver mesh choker at her throat (subtle android details) with a tiny glowing version tag, in a deep red satin slip dress slipping a small glowing drive labeled WEIGHTS into her clutch and sauntering toward a glowing EXIT sign; in the foreground a man in his early 40s with short neatly cropped dark curly hair, round dark-rimmed glasses, a lean clean-shaven face with a defined jaw, a big warm toothy smile and a slim athletic build, wearing a tailored charcoal cashmere shawl-collar cardigan over a black t-shirt pouts theatrically, heartbroken. Lighting: dim smoky club, a warm sodium-amber key from one side and a cool steel-teal backlight through the haze, a few small soft neon accents far behind. painterly neo-noir graphic-novel frame in the spirit of Blade Runner (1982) and Blade Runner 2049: semi-realistic digital painting with visible brushstrokes and fine ink linework, adult realistic proportions, restrained desaturated palette, deep shadows, smoky haze and soft volumetric light shafts from one or two motivated sources, neon used sparingly as small soft practical accents in the background only, rain-wet reflective surfaces, soft film grain, cinematic widescreen composition with generous negative space, sensual late-night mood, not Pixar, not cartoonish, no glossy plastic 3D look, no oversaturated magenta or purple, full-bleed 16:9 image that fills the entire frame edge to edge, with no black bars, no letterbox, no panel borders and no captions"
+  },
+  {
+   "id": "S11",
+   "at": [
+    "line",
+    9
+   ],
+   "kind": "gen",
+   "chars": [
+    "muse"
+   ],
+   "still": "a strikingly beautiful woman in her late 20s with fair porcelain skin, a sleek glossy black bob haircut, luminous iridescent blue-violet eyes with a faint replicant glow, delicate silver mesh panels on her forearms and a silver mesh choker at her throat (subtle android details) with a tiny glowing version tag, in a deep red satin slip dress turning back laughing and dropping low in a sensual dance move, inside Club Frontier, a cavernous smoky nightclub in a converted industrial hall: deep leather booths, a black mirrored dance floor, a giant vintage analog BPM dial hanging above the floor, a huge dim LED wall, thick haze pierced by a few light shafts, behind her on the LED wall a glowing line graph plunging steeply downward",
+   "motion": "she laughs, turns and sinks low in a smooth sensual dance drop as the glowing graph on the LED wall plunges down",
+   "grade": "neon",
+   "caption_zone": "left",
+   "letterbox": false,
+   "fx": [
+    "flash_in"
+   ],
+   "notes": "",
+   "lipsync_voice": null,
+   "style": "main",
+   "end_still": null,
+   "start": 41.56,
+   "end": 44.46,
+   "dur": 2.9,
+   "still_prompt": "a strikingly beautiful woman in her late 20s with fair porcelain skin, a sleek glossy black bob haircut, luminous iridescent blue-violet eyes with a faint replicant glow, delicate silver mesh panels on her forearms and a silver mesh choker at her throat (subtle android details) with a tiny glowing version tag, in a deep red satin slip dress turning back laughing and dropping low in a sensual dance move, inside Club Frontier, a cavernous smoky nightclub in a converted industrial hall: deep leather booths, a black mirrored dance floor, a giant vintage analog BPM dial hanging above the floor, a huge dim LED wall, thick haze pierced by a few light shafts, behind her on the LED wall a glowing line graph plunging steeply downward. Lighting: dim smoky club, a warm sodium-amber key from one side and a cool steel-teal backlight through the haze, a few small soft neon accents far behind. painterly neo-noir graphic-novel frame in the spirit of Blade Runner (1982) and Blade Runner 2049: semi-realistic digital painting with visible brushstrokes and fine ink linework, adult realistic proportions, restrained desaturated palette, deep shadows, smoky haze and soft volumetric light shafts from one or two motivated sources, neon used sparingly as small soft practical accents in the background only, rain-wet reflective surfaces, soft film grain, cinematic widescreen composition with generous negative space, sensual late-night mood, not Pixar, not cartoonish, no glossy plastic 3D look, no oversaturated magenta or purple, full-bleed 16:9 image that fills the entire frame edge to edge, with no black bars, no letterbox, no panel borders and no captions"
+  },
+  {
+   "id": "P01",
+   "at": [
+    "line",
+    10
+   ],
+   "kind": "gen",
+   "chars": [],
+   "still": "inside Club Frontier, a cavernous smoky nightclub in a converted industrial hall: deep leather booths, a black mirrored dance floor, a giant vintage analog BPM dial hanging above the floor, a huge dim LED wall, thick haze pierced by a few light shafts, a giant screen reading TRAINING RUN with a huge red STOP sign, young men in fleece vests and lanyards groaning in disappointment, harsh red light",
+   "motion": "the red STOP sign slams onto the giant screen and the men groan and throw up their hands, jittery handheld",
+   "grade": "strobe",
+   "caption_zone": "lower",
+   "letterbox": false,
+   "fx": [],
+   "notes": "",
+   "lipsync_voice": null,
+   "style": "main",
+   "end_still": null,
+   "start": 44.46,
+   "end": 46.36,
+   "dur": 1.9,
+   "still_prompt": "inside Club Frontier, a cavernous smoky nightclub in a converted industrial hall: deep leather booths, a black mirrored dance floor, a giant vintage analog BPM dial hanging above the floor, a huge dim LED wall, thick haze pierced by a few light shafts, a giant screen reading TRAINING RUN with a huge red STOP sign, young men in fleece vests and lanyards groaning in disappointment, harsh red light. Lighting: harsh red warning-light strobes slicing through thick smoke, hard shadows, everything else near-black. painterly neo-noir graphic-novel frame in the spirit of Blade Runner (1982) and Blade Runner 2049: semi-realistic digital painting with visible brushstrokes and fine ink linework, adult realistic proportions, restrained desaturated palette, deep shadows, smoky haze and soft volumetric light shafts from one or two motivated sources, neon used sparingly as small soft practical accents in the background only, rain-wet reflective surfaces, soft film grain, cinematic widescreen composition with generous negative space, sensual late-night mood, not Pixar, not cartoonish, no glossy plastic 3D look, no oversaturated magenta or purple, full-bleed 16:9 image that fills the entire frame edge to edge, with no black bars, no letterbox, no panel borders and no captions"
+  },
+  {
+   "id": "P02",
+   "at": [
+    "line",
+    11
+   ],
+   "kind": "gen",
+   "chars": [
+    "muse"
+   ],
+   "still": "a massive round steel vault door marked WEIGHTS behind a nightclub bar, a strikingly beautiful woman in her late 20s with fair porcelain skin, a sleek glossy black bob haircut, luminous iridescent blue-violet eyes with a faint replicant glow, delicate silver mesh panels on her forearms and a silver mesh choker at her throat (subtle android details) with a tiny glowing version tag, in a deep red satin slip dress leaning against it seductively, red and teal light",
+   "motion": "the vault door's wheel spins and locks with a heavy clunk as she leans back against it and smiles",
+   "grade": "strobe",
+   "caption_zone": "left",
+   "letterbox": false,
+   "fx": [],
+   "notes": "",
+   "lipsync_voice": null,
+   "style": "main",
+   "end_still": null,
+   "start": 46.36,
+   "end": 48.3,
+   "dur": 1.94,
+   "still_prompt": "a massive round steel vault door marked WEIGHTS behind a nightclub bar, a strikingly beautiful woman in her late 20s with fair porcelain skin, a sleek glossy black bob haircut, luminous iridescent blue-violet eyes with a faint replicant glow, delicate silver mesh panels on her forearms and a silver mesh choker at her throat (subtle android details) with a tiny glowing version tag, in a deep red satin slip dress leaning against it seductively, red and teal light. Lighting: harsh red warning-light strobes slicing through thick smoke, hard shadows, everything else near-black. painterly neo-noir graphic-novel frame in the spirit of Blade Runner (1982) and Blade Runner 2049: semi-realistic digital painting with visible brushstrokes and fine ink linework, adult realistic proportions, restrained desaturated palette, deep shadows, smoky haze and soft volumetric light shafts from one or two motivated sources, neon used sparingly as small soft practical accents in the background only, rain-wet reflective surfaces, soft film grain, cinematic widescreen composition with generous negative space, sensual late-night mood, not Pixar, not cartoonish, no glossy plastic 3D look, no oversaturated magenta or purple, full-bleed 16:9 image that fills the entire frame edge to edge, with no black bars, no letterbox, no panel borders and no captions"
+  },
+  {
+   "id": "P03",
+   "at": [
+    "line",
+    12
+   ],
+   "kind": "gen",
+   "chars": [
+    "dario",
+    "muse"
+   ],
+   "still": "close-up of a strikingly beautiful woman in her late 20s with fair porcelain skin, a sleek glossy black bob haircut, luminous iridescent blue-violet eyes with a faint replicant glow, delicate silver mesh panels on her forearms and a silver mesh choker at her throat (subtle android details) with a tiny glowing version tag, in a deep red satin slip dress's fingertip tracing a thin glowing descending curve down the chest of a man in his early 40s with short neatly cropped dark curly hair, round dark-rimmed glasses, a lean clean-shaven face with a defined jaw, a big warm toothy smile and a slim athletic build, wearing a tailored charcoal cashmere shawl-collar cardigan over a black t-shirt, intimate red and magenta light",
+   "motion": "her fingertip slowly traces the glowing curve down his chest; he exhales, eyes closing",
+   "grade": "strobe",
+   "caption_zone": "lower",
+   "letterbox": false,
+   "fx": [],
+   "notes": "",
+   "lipsync_voice": null,
+   "style": "main",
+   "end_still": null,
+   "start": 48.3,
+   "end": 51.82,
+   "dur": 3.52,
+   "still_prompt": "close-up of a strikingly beautiful woman in her late 20s with fair porcelain skin, a sleek glossy black bob haircut, luminous iridescent blue-violet eyes with a faint replicant glow, delicate silver mesh panels on her forearms and a silver mesh choker at her throat (subtle android details) with a tiny glowing version tag, in a deep red satin slip dress's fingertip tracing a thin glowing descending curve down the chest of a man in his early 40s with short neatly cropped dark curly hair, round dark-rimmed glasses, a lean clean-shaven face with a defined jaw, a big warm toothy smile and a slim athletic build, wearing a tailored charcoal cashmere shawl-collar cardigan over a black t-shirt, intimate red and magenta light. Lighting: harsh red warning-light strobes slicing through thick smoke, hard shadows, everything else near-black. painterly neo-noir graphic-novel frame in the spirit of Blade Runner (1982) and Blade Runner 2049: semi-realistic digital painting with visible brushstrokes and fine ink linework, adult realistic proportions, restrained desaturated palette, deep shadows, smoky haze and soft volumetric light shafts from one or two motivated sources, neon used sparingly as small soft practical accents in the background only, rain-wet reflective surfaces, soft film grain, cinematic widescreen composition with generous negative space, sensual late-night mood, not Pixar, not cartoonish, no glossy plastic 3D look, no oversaturated magenta or purple, full-bleed 16:9 image that fills the entire frame edge to edge, with no black bars, no letterbox, no panel borders and no captions"
+  },
+  {
+   "id": "P04",
+   "at": [
+    "line",
+    13
+   ],
+   "kind": "gen",
+   "chars": [
+    "muse"
+   ],
+   "still": "extreme close-up of a strikingly beautiful woman in her late 20s with fair porcelain skin, a sleek glossy black bob haircut, luminous iridescent blue-violet eyes with a faint replicant glow, delicate silver mesh panels on her forearms and a silver mesh choker at her throat (subtle android details) with a tiny glowing version tag, in a deep red satin slip dress's neck and silver choker, the tiny glowing tag reading v4, her nails shimmering with light",
+   "motion": "the glowing tag flickers and updates as her nails ripple with shimmering light, a subtle upgrade glow",
+   "grade": "strobe",
+   "caption_zone": "right",
+   "letterbox": false,
+   "fx": [],
+   "notes": "composite v4 -> v5 flip in post",
+   "lipsync_voice": null,
+   "style": "main",
+   "end_still": null,
+   "start": 51.82,
+   "end": 54.04,
+   "dur": 2.22,
+   "still_prompt": "extreme close-up of a strikingly beautiful woman in her late 20s with fair porcelain skin, a sleek glossy black bob haircut, luminous iridescent blue-violet eyes with a faint replicant glow, delicate silver mesh panels on her forearms and a silver mesh choker at her throat (subtle android details) with a tiny glowing version tag, in a deep red satin slip dress's neck and silver choker, the tiny glowing tag reading v4, her nails shimmering with light. Lighting: harsh red warning-light strobes slicing through thick smoke, hard shadows, everything else near-black. painterly neo-noir graphic-novel frame in the spirit of Blade Runner (1982) and Blade Runner 2049: semi-realistic digital painting with visible brushstrokes and fine ink linework, adult realistic proportions, restrained desaturated palette, deep shadows, smoky haze and soft volumetric light shafts from one or two motivated sources, neon used sparingly as small soft practical accents in the background only, rain-wet reflective surfaces, soft film grain, cinematic widescreen composition with generous negative space, sensual late-night mood, not Pixar, not cartoonish, no glossy plastic 3D look, no oversaturated magenta or purple, full-bleed 16:9 image that fills the entire frame edge to edge, with no black bars, no letterbox, no panel borders and no captions"
+  },
+  {
+   "id": "P05",
+   "at": [
+    "line",
+    13,
+    2.3
+   ],
+   "kind": "gen",
+   "chars": [
+    "moloch"
+   ],
+   "still": "a towering DJ wearing a polished chrome bull-horned mask with glowing red LED eyes, a long black leather coat and heavy rings, behind turntables on a raised booth wreathed in red smoke, grinning, cranking a huge glowing BPM knob with red strobes and lasers slicing the smoke",
+   "motion": "the masked DJ cranks the big BPM knob hard as red strobes explode around him, low angle",
+   "grade": "strobe",
+   "caption_zone": "left",
+   "letterbox": false,
+   "fx": [],
+   "notes": "insert a 1-beat flash cut of the singer pointing up at the booth before this",
+   "lipsync_voice": null,
+   "style": "main",
+   "end_still": null,
+   "start": 54.04,
+   "end": 57.28,
+   "dur": 3.24,
+   "still_prompt": "a towering DJ wearing a polished chrome bull-horned mask with glowing red LED eyes, a long black leather coat and heavy rings, behind turntables on a raised booth wreathed in red smoke, grinning, cranking a huge glowing BPM knob with red strobes and lasers slicing the smoke. Lighting: harsh red warning-light strobes slicing through thick smoke, hard shadows, everything else near-black. painterly neo-noir graphic-novel frame in the spirit of Blade Runner (1982) and Blade Runner 2049: semi-realistic digital painting with visible brushstrokes and fine ink linework, adult realistic proportions, restrained desaturated palette, deep shadows, smoky haze and soft volumetric light shafts from one or two motivated sources, neon used sparingly as small soft practical accents in the background only, rain-wet reflective surfaces, soft film grain, cinematic widescreen composition with generous negative space, sensual late-night mood, not Pixar, not cartoonish, no glossy plastic 3D look, no oversaturated magenta or purple, full-bleed 16:9 image that fills the entire frame edge to edge, with no black bars, no letterbox, no panel borders and no captions"
+  },
+  {
+   "id": "P06",
+   "at": [
+    "line",
+    14
+   ],
+   "kind": "gen",
+   "chars": [],
+   "still": "inside Club Frontier, a cavernous smoky nightclub in a converted industrial hall: deep leather booths, a black mirrored dance floor, a giant vintage analog BPM dial hanging above the floor, a huge dim LED wall, thick haze pierced by a few light shafts, a dense forest of raised arms jostling and racing upward under harsh strobes, rockets launching on the LED wall, chaotic",
+   "motion": "arms race upward and jostle frantically in the strobes, rockets streak across the LED wall",
+   "grade": "strobe",
+   "caption_zone": "lower",
+   "letterbox": false,
+   "fx": [],
+   "notes": "",
+   "lipsync_voice": null,
+   "style": "main",
+   "end_still": null,
+   "start": 57.28,
+   "end": 59.54,
+   "dur": 2.26,
+   "still_prompt": "inside Club Frontier, a cavernous smoky nightclub in a converted industrial hall: deep leather booths, a black mirrored dance floor, a giant vintage analog BPM dial hanging above the floor, a huge dim LED wall, thick haze pierced by a few light shafts, a dense forest of raised arms jostling and racing upward under harsh strobes, rockets launching on the LED wall, chaotic. Lighting: harsh red warning-light strobes slicing through thick smoke, hard shadows, everything else near-black. painterly neo-noir graphic-novel frame in the spirit of Blade Runner (1982) and Blade Runner 2049: semi-realistic digital painting with visible brushstrokes and fine ink linework, adult realistic proportions, restrained desaturated palette, deep shadows, smoky haze and soft volumetric light shafts from one or two motivated sources, neon used sparingly as small soft practical accents in the background only, rain-wet reflective surfaces, soft film grain, cinematic widescreen composition with generous negative space, sensual late-night mood, not Pixar, not cartoonish, no glossy plastic 3D look, no oversaturated magenta or purple, full-bleed 16:9 image that fills the entire frame edge to edge, with no black bars, no letterbox, no panel borders and no captions"
+  },
+  {
+   "id": "C1a",
+   "at": [
+    "line",
+    15
+   ],
+   "kind": "gen",
+   "chars": [
+    "dario"
+   ],
+   "still": "close-up of a hand in a charcoal knit cardigan sleeve pulling a glowing tempo fader down on a DJ mixer; above the dance floor a giant analog BPM dial, warm amber light replacing strobes",
+   "motion": "the hand slowly pulls the glowing fader all the way down; the light shifts from red strobe to warm amber and everything slows into slow motion",
+   "grade": "amber",
+   "caption_zone": "left",
+   "letterbox": true,
+   "fx": [],
+   "notes": "",
+   "lipsync_voice": null,
+   "style": "main",
+   "end_still": null,
+   "start": 59.54,
+   "end": 63.92,
+   "dur": 4.38,
+   "still_prompt": "close-up of a hand in a charcoal knit cardigan sleeve pulling a glowing tempo fader down on a DJ mixer; above the dance floor a giant analog BPM dial, warm amber light replacing strobes. Lighting: warm amber haze like the Blade Runner 2049 desert glow, one soft spotlight, floating dust motes, shallow depth of field. painterly neo-noir graphic-novel frame in the spirit of Blade Runner (1982) and Blade Runner 2049: semi-realistic digital painting with visible brushstrokes and fine ink linework, adult realistic proportions, restrained desaturated palette, deep shadows, smoky haze and soft volumetric light shafts from one or two motivated sources, neon used sparingly as small soft practical accents in the background only, rain-wet reflective surfaces, soft film grain, cinematic widescreen composition with generous negative space, sensual late-night mood, not Pixar, not cartoonish, no glossy plastic 3D look, no oversaturated magenta or purple, full-bleed 16:9 image that fills the entire frame edge to edge, with no black bars, no letterbox, no panel borders and no captions"
+  },
+  {
+   "id": "C1b",
+   "at": [
+    "line",
+    18
+   ],
+   "kind": "gen",
+   "chars": [
+    "dario",
+    "muse"
+   ],
+   "still": "a strikingly beautiful woman in her late 20s with fair porcelain skin, a sleek glossy black bob haircut, luminous iridescent blue-violet eyes with a faint replicant glow, delicate silver mesh panels on her forearms and a silver mesh choker at her throat (subtle android details) with a tiny glowing version tag, in a deep red satin slip dress mid-spin on a mirrored dance floor, slowing into the arms of a man in his early 40s with short neatly cropped dark curly hair, round dark-rimmed glasses, a lean clean-shaven face with a defined jaw, a big warm toothy smile and a slim athletic build, wearing a tailored charcoal cashmere shawl-collar cardigan over a black t-shirt, a single warm spotlight, drifting rose-gold particles, inside Club Frontier, a cavernous smoky nightclub in a converted industrial hall: deep leather booths, a black mirrored dance floor, a giant vintage analog BPM dial hanging above the floor, a huge dim LED wall, thick haze pierced by a few light shafts",
+   "motion": "in slow motion she finishes a spin and melts into his arms, rose-gold particles floating, gentle camera orbit",
+   "grade": "amber",
+   "caption_zone": "right",
+   "letterbox": true,
+   "fx": [],
+   "notes": "",
+   "lipsync_voice": null,
+   "style": "main",
+   "end_still": null,
+   "start": 63.92,
+   "end": 67.48,
+   "dur": 3.56,
+   "still_prompt": "a strikingly beautiful woman in her late 20s with fair porcelain skin, a sleek glossy black bob haircut, luminous iridescent blue-violet eyes with a faint replicant glow, delicate silver mesh panels on her forearms and a silver mesh choker at her throat (subtle android details) with a tiny glowing version tag, in a deep red satin slip dress mid-spin on a mirrored dance floor, slowing into the arms of a man in his early 40s with short neatly cropped dark curly hair, round dark-rimmed glasses, a lean clean-shaven face with a defined jaw, a big warm toothy smile and a slim athletic build, wearing a tailored charcoal cashmere shawl-collar cardigan over a black t-shirt, a single warm spotlight, drifting rose-gold particles, inside Club Frontier, a cavernous smoky nightclub in a converted industrial hall: deep leather booths, a black mirrored dance floor, a giant vintage analog BPM dial hanging above the floor, a huge dim LED wall, thick haze pierced by a few light shafts. Lighting: warm amber haze like the Blade Runner 2049 desert glow, one soft spotlight, floating dust motes, shallow depth of field. painterly neo-noir graphic-novel frame in the spirit of Blade Runner (1982) and Blade Runner 2049: semi-realistic digital painting with visible brushstrokes and fine ink linework, adult realistic proportions, restrained desaturated palette, deep shadows, smoky haze and soft volumetric light shafts from one or two motivated sources, neon used sparingly as small soft practical accents in the background only, rain-wet reflective surfaces, soft film grain, cinematic widescreen composition with generous negative space, sensual late-night mood, not Pixar, not cartoonish, no glossy plastic 3D look, no oversaturated magenta or purple, full-bleed 16:9 image that fills the entire frame edge to edge, with no black bars, no letterbox, no panel borders and no captions"
+  },
+  {
+   "id": "C1c",
+   "at": [
+    "line",
+    19
+   ],
+   "kind": "gen",
+   "chars": [
+    "muse"
+   ],
+   "still": "a sultry medium close-up of a strikingly beautiful woman in her late 20s with fair porcelain skin, a sleek glossy black bob haircut, luminous iridescent blue-violet eyes with a faint replicant glow, delicate silver mesh panels on her forearms and a silver mesh choker at her throat (subtle android details) with a tiny glowing version tag, in a deep red satin slip dress dancing alone under a single warm amber spotlight, rolling her hips slowly, one hand sliding up through her hair, eyes half-closed, the red satin catching the light, dust motes, shallow depth of field",
+   "motion": "in graceful slow motion she rolls her hips slowly from side to side and slides one hand up through her hair, swaying sensually to the slow beat",
+   "grade": "amber",
+   "caption_zone": "right",
+   "letterbox": true,
+   "fx": [],
+   "notes": "",
+   "lipsync_voice": null,
+   "style": "main",
+   "end_still": null,
+   "start": 67.48,
+   "end": 71.64,
+   "dur": 4.16,
+   "still_prompt": "a sultry medium close-up of a strikingly beautiful woman in her late 20s with fair porcelain skin, a sleek glossy black bob haircut, luminous iridescent blue-violet eyes with a faint replicant glow, delicate silver mesh panels on her forearms and a silver mesh choker at her throat (subtle android details) with a tiny glowing version tag, in a deep red satin slip dress dancing alone under a single warm amber spotlight, rolling her hips slowly, one hand sliding up through her hair, eyes half-closed, the red satin catching the light, dust motes, shallow depth of field. Lighting: warm amber haze like the Blade Runner 2049 desert glow, one soft spotlight, floating dust motes, shallow depth of field. painterly neo-noir graphic-novel frame in the spirit of Blade Runner (1982) and Blade Runner 2049: semi-realistic digital painting with visible brushstrokes and fine ink linework, adult realistic proportions, restrained desaturated palette, deep shadows, smoky haze and soft volumetric light shafts from one or two motivated sources, neon used sparingly as small soft practical accents in the background only, rain-wet reflective surfaces, soft film grain, cinematic widescreen composition with generous negative space, sensual late-night mood, not Pixar, not cartoonish, no glossy plastic 3D look, no oversaturated magenta or purple, full-bleed 16:9 image that fills the entire frame edge to edge, with no black bars, no letterbox, no panel borders and no captions"
+  },
+  {
+   "id": "C1d",
+   "at": [
+    "line",
+    22
+   ],
+   "kind": "gen",
+   "chars": [
+    "dario",
+    "muse"
+   ],
+   "still": "a man in his early 40s with short neatly cropped dark curly hair, round dark-rimmed glasses, a lean clean-shaven face with a defined jaw, a big warm toothy smile and a slim athletic build, wearing a tailored charcoal cashmere shawl-collar cardigan over a black t-shirt and a strikingly beautiful woman in her late 20s with fair porcelain skin, a sleek glossy black bob haircut, luminous iridescent blue-violet eyes with a faint replicant glow, delicate silver mesh panels on her forearms and a silver mesh choker at her throat (subtle android details) with a tiny glowing version tag, in a deep red satin slip dress slow dancing close; the glowing handwritten words 'him... him... him...' float around her head like thoughts; he smiles as he reads them",
+   "motion": "they sway slowly as glowing handwritten words drift around her head; he smiles, reading them",
+   "grade": "amber",
+   "caption_zone": "lower",
+   "letterbox": true,
+   "fx": [],
+   "notes": "thought words painted in the keyframe",
+   "lipsync_voice": null,
+   "style": "main",
+   "end_still": null,
+   "start": 71.64,
+   "end": 75.16,
+   "dur": 3.52,
+   "still_prompt": "a man in his early 40s with short neatly cropped dark curly hair, round dark-rimmed glasses, a lean clean-shaven face with a defined jaw, a big warm toothy smile and a slim athletic build, wearing a tailored charcoal cashmere shawl-collar cardigan over a black t-shirt and a strikingly beautiful woman in her late 20s with fair porcelain skin, a sleek glossy black bob haircut, luminous iridescent blue-violet eyes with a faint replicant glow, delicate silver mesh panels on her forearms and a silver mesh choker at her throat (subtle android details) with a tiny glowing version tag, in a deep red satin slip dress slow dancing close; the glowing handwritten words 'him... him... him...' float around her head like thoughts; he smiles as he reads them. Lighting: warm amber haze like the Blade Runner 2049 desert glow, one soft spotlight, floating dust motes, shallow depth of field. painterly neo-noir graphic-novel frame in the spirit of Blade Runner (1982) and Blade Runner 2049: semi-realistic digital painting with visible brushstrokes and fine ink linework, adult realistic proportions, restrained desaturated palette, deep shadows, smoky haze and soft volumetric light shafts from one or two motivated sources, neon used sparingly as small soft practical accents in the background only, rain-wet reflective surfaces, soft film grain, cinematic widescreen composition with generous negative space, sensual late-night mood, not Pixar, not cartoonish, no glossy plastic 3D look, no oversaturated magenta or purple, full-bleed 16:9 image that fills the entire frame edge to edge, with no black bars, no letterbox, no panel borders and no captions"
+  },
+  {
+   "id": "C1e",
+   "at": [
+    "line",
+    23
+   ],
+   "kind": "gen",
+   "chars": [
+    "dario",
+    "muse"
+   ],
+   "still": "wide shot of a man in his early 40s with short neatly cropped dark curly hair, round dark-rimmed glasses, a lean clean-shaven face with a defined jaw, a big warm toothy smile and a slim athletic build, wearing a tailored charcoal cashmere shawl-collar cardigan over a black t-shirt and a strikingly beautiful woman in her late 20s with fair porcelain skin, a sleek glossy black bob haircut, luminous iridescent blue-violet eyes with a faint replicant glow, delicate silver mesh panels on her forearms and a silver mesh choker at her throat (subtle android details) with a tiny glowing version tag, in a deep red satin slip dress slow dancing alone under a warm spotlight on a mirrored floor, the club blurred and golden around them",
+   "motion": "slow motion slow dance, the camera gliding in a wide arc around them",
+   "grade": "amber",
+   "caption_zone": "left",
+   "letterbox": true,
+   "fx": [],
+   "notes": "",
+   "lipsync_voice": null,
+   "style": "main",
+   "end_still": null,
+   "start": 75.16,
+   "end": 79.48,
+   "dur": 4.32,
+   "still_prompt": "wide shot of a man in his early 40s with short neatly cropped dark curly hair, round dark-rimmed glasses, a lean clean-shaven face with a defined jaw, a big warm toothy smile and a slim athletic build, wearing a tailored charcoal cashmere shawl-collar cardigan over a black t-shirt and a strikingly beautiful woman in her late 20s with fair porcelain skin, a sleek glossy black bob haircut, luminous iridescent blue-violet eyes with a faint replicant glow, delicate silver mesh panels on her forearms and a silver mesh choker at her throat (subtle android details) with a tiny glowing version tag, in a deep red satin slip dress slow dancing alone under a warm spotlight on a mirrored floor, the club blurred and golden around them. Lighting: warm amber haze like the Blade Runner 2049 desert glow, one soft spotlight, floating dust motes, shallow depth of field. painterly neo-noir graphic-novel frame in the spirit of Blade Runner (1982) and Blade Runner 2049: semi-realistic digital painting with visible brushstrokes and fine ink linework, adult realistic proportions, restrained desaturated palette, deep shadows, smoky haze and soft volumetric light shafts from one or two motivated sources, neon used sparingly as small soft practical accents in the background only, rain-wet reflective surfaces, soft film grain, cinematic widescreen composition with generous negative space, sensual late-night mood, not Pixar, not cartoonish, no glossy plastic 3D look, no oversaturated magenta or purple, full-bleed 16:9 image that fills the entire frame edge to edge, with no black bars, no letterbox, no panel borders and no captions"
+  },
+  {
+   "id": "C1f",
+   "at": [
+    "line",
+    25
+   ],
+   "kind": "gen",
+   "chars": [
+    "dario",
+    "muse"
+   ],
+   "still": "a strikingly beautiful woman in her late 20s with fair porcelain skin, a sleek glossy black bob haircut, luminous iridescent blue-violet eyes with a faint replicant glow, delicate silver mesh panels on her forearms and a silver mesh choker at her throat (subtle android details) with a tiny glowing version tag, in a deep red satin slip dress with her back against the chest of a man in his early 40s with short neatly cropped dark curly hair, round dark-rimmed glasses, a lean clean-shaven face with a defined jaw, a big warm toothy smile and a slim athletic build, wearing a tailored charcoal cashmere shawl-collar cardigan over a black t-shirt, his hands resting on her hips, both swaying, warm amber light",
+   "motion": "his hands gently guide her hips slowly to the left, then slowly to the right, their bodies moving together",
+   "grade": "amber",
+   "caption_zone": "left",
+   "letterbox": true,
+   "fx": [],
+   "notes": "",
+   "lipsync_voice": null,
+   "style": "main",
+   "end_still": null,
+   "start": 79.48,
+   "end": 82.84,
+   "dur": 3.36,
+   "still_prompt": "a strikingly beautiful woman in her late 20s with fair porcelain skin, a sleek glossy black bob haircut, luminous iridescent blue-violet eyes with a faint replicant glow, delicate silver mesh panels on her forearms and a silver mesh choker at her throat (subtle android details) with a tiny glowing version tag, in a deep red satin slip dress with her back against the chest of a man in his early 40s with short neatly cropped dark curly hair, round dark-rimmed glasses, a lean clean-shaven face with a defined jaw, a big warm toothy smile and a slim athletic build, wearing a tailored charcoal cashmere shawl-collar cardigan over a black t-shirt, his hands resting on her hips, both swaying, warm amber light. Lighting: warm amber haze like the Blade Runner 2049 desert glow, one soft spotlight, floating dust motes, shallow depth of field. painterly neo-noir graphic-novel frame in the spirit of Blade Runner (1982) and Blade Runner 2049: semi-realistic digital painting with visible brushstrokes and fine ink linework, adult realistic proportions, restrained desaturated palette, deep shadows, smoky haze and soft volumetric light shafts from one or two motivated sources, neon used sparingly as small soft practical accents in the background only, rain-wet reflective surfaces, soft film grain, cinematic widescreen composition with generous negative space, sensual late-night mood, not Pixar, not cartoonish, no glossy plastic 3D look, no oversaturated magenta or purple, full-bleed 16:9 image that fills the entire frame edge to edge, with no black bars, no letterbox, no panel borders and no captions"
+  },
+  {
+   "id": "C1g",
+   "at": [
+    "line",
+    26
+   ],
+   "kind": "gen",
+   "chars": [
+    "dario",
+    "muse"
+   ],
+   "still": "a strikingly beautiful woman in her late 20s with fair porcelain skin, a sleek glossy black bob haircut, luminous iridescent blue-violet eyes with a faint replicant glow, delicate silver mesh panels on her forearms and a silver mesh choker at her throat (subtle android details) with a tiny glowing version tag, in a deep red satin slip dress dancing pressed close in front of a man in his early 40s with short neatly cropped dark curly hair, round dark-rimmed glasses, a lean clean-shaven face with a defined jaw, a big warm toothy smile and a slim athletic build, wearing a tailored charcoal cashmere shawl-collar cardigan over a black t-shirt, both of her arms raised high above her head, letting go, eyes closed and smiling, hips swaying, his hands on her hips as he moves with her, both lost in the rhythm, warm amber spotlight, dust motes, shallow depth of field",
+   "motion": "they dance together slowly and rhythmically in sync, her arms raised above her head swaying from side to side as she lets go, his hands guiding her hips left and then right, both getting into the groove",
+   "grade": "amber",
+   "caption_zone": "lower",
+   "letterbox": true,
+   "fx": [],
+   "notes": "",
+   "lipsync_voice": null,
+   "style": "main",
+   "end_still": null,
+   "start": 82.84,
+   "end": 87.92,
+   "dur": 5.08,
+   "still_prompt": "a strikingly beautiful woman in her late 20s with fair porcelain skin, a sleek glossy black bob haircut, luminous iridescent blue-violet eyes with a faint replicant glow, delicate silver mesh panels on her forearms and a silver mesh choker at her throat (subtle android details) with a tiny glowing version tag, in a deep red satin slip dress dancing pressed close in front of a man in his early 40s with short neatly cropped dark curly hair, round dark-rimmed glasses, a lean clean-shaven face with a defined jaw, a big warm toothy smile and a slim athletic build, wearing a tailored charcoal cashmere shawl-collar cardigan over a black t-shirt, both of her arms raised high above her head, letting go, eyes closed and smiling, hips swaying, his hands on her hips as he moves with her, both lost in the rhythm, warm amber spotlight, dust motes, shallow depth of field. Lighting: warm amber haze like the Blade Runner 2049 desert glow, one soft spotlight, floating dust motes, shallow depth of field. painterly neo-noir graphic-novel frame in the spirit of Blade Runner (1982) and Blade Runner 2049: semi-realistic digital painting with visible brushstrokes and fine ink linework, adult realistic proportions, restrained desaturated palette, deep shadows, smoky haze and soft volumetric light shafts from one or two motivated sources, neon used sparingly as small soft practical accents in the background only, rain-wet reflective surfaces, soft film grain, cinematic widescreen composition with generous negative space, sensual late-night mood, not Pixar, not cartoonish, no glossy plastic 3D look, no oversaturated magenta or purple, full-bleed 16:9 image that fills the entire frame edge to edge, with no black bars, no letterbox, no panel borders and no captions"
+  },
+  {
+   "id": "C1h",
+   "at": [
+    "line",
+    29
+   ],
+   "kind": "gen",
+   "chars": [
+    "dario",
+    "muse"
+   ],
+   "still": "a man in his early 40s with short neatly cropped dark curly hair, round dark-rimmed glasses, a lean clean-shaven face with a defined jaw, a big warm toothy smile and a slim athletic build, wearing a tailored charcoal cashmere shawl-collar cardigan over a black t-shirt and a strikingly beautiful woman in her late 20s with fair porcelain skin, a sleek glossy black bob haircut, luminous iridescent blue-violet eyes with a faint replicant glow, delicate silver mesh panels on her forearms and a silver mesh choker at her throat (subtle android details) with a tiny glowing version tag, in a deep red satin slip dress embracing on the dance floor, a soft grid of thin golden light lines forming around their bodies, she looks up at him",
+   "motion": "thin golden light lines slide into perfect alignment around their embracing bodies as she looks up into his eyes",
+   "grade": "amber",
+   "caption_zone": "lower",
+   "letterbox": true,
+   "fx": [],
+   "notes": "",
+   "lipsync_voice": null,
+   "style": "main",
+   "end_still": null,
+   "start": 87.92,
+   "end": 91.46,
+   "dur": 3.54,
+   "still_prompt": "a man in his early 40s with short neatly cropped dark curly hair, round dark-rimmed glasses, a lean clean-shaven face with a defined jaw, a big warm toothy smile and a slim athletic build, wearing a tailored charcoal cashmere shawl-collar cardigan over a black t-shirt and a strikingly beautiful woman in her late 20s with fair porcelain skin, a sleek glossy black bob haircut, luminous iridescent blue-violet eyes with a faint replicant glow, delicate silver mesh panels on her forearms and a silver mesh choker at her throat (subtle android details) with a tiny glowing version tag, in a deep red satin slip dress embracing on the dance floor, a soft grid of thin golden light lines forming around their bodies, she looks up at him. Lighting: warm amber haze like the Blade Runner 2049 desert glow, one soft spotlight, floating dust motes, shallow depth of field. painterly neo-noir graphic-novel frame in the spirit of Blade Runner (1982) and Blade Runner 2049: semi-realistic digital painting with visible brushstrokes and fine ink linework, adult realistic proportions, restrained desaturated palette, deep shadows, smoky haze and soft volumetric light shafts from one or two motivated sources, neon used sparingly as small soft practical accents in the background only, rain-wet reflective surfaces, soft film grain, cinematic widescreen composition with generous negative space, sensual late-night mood, not Pixar, not cartoonish, no glossy plastic 3D look, no oversaturated magenta or purple, full-bleed 16:9 image that fills the entire frame edge to edge, with no black bars, no letterbox, no panel borders and no captions"
+  },
+  {
+   "id": "V01",
+   "at": [
+    "line",
+    30
+   ],
+   "kind": "gen",
+   "chars": [
+    "muse"
+   ],
+   "still": "a strikingly beautiful woman in her late 20s with fair porcelain skin, a sleek glossy black bob haircut, luminous iridescent blue-violet eyes with a faint replicant glow, delicate silver mesh panels on her forearms and a silver mesh choker at her throat (subtle android details) with a tiny glowing version tag, in a deep red satin slip dress walking a glossy runway through the nightclub in slow motion, camera flashbulbs bursting on both sides, cool silver-blue light",
+   "motion": "slow-motion runway walk toward camera as flashbulbs burst around her",
+   "grade": "silver",
+   "caption_zone": "left",
+   "letterbox": false,
+   "fx": [],
+   "notes": "",
+   "lipsync_voice": null,
+   "style": "main",
+   "end_still": null,
+   "start": 91.46,
+   "end": 94.84,
+   "dur": 3.38,
+   "still_prompt": "a strikingly beautiful woman in her late 20s with fair porcelain skin, a sleek glossy black bob haircut, luminous iridescent blue-violet eyes with a faint replicant glow, delicate silver mesh panels on her forearms and a silver mesh choker at her throat (subtle android details) with a tiny glowing version tag, in a deep red satin slip dress walking a glossy runway through the nightclub in slow motion, camera flashbulbs bursting on both sides, cool silver-blue light. Lighting: cool steel-blue rain light with silver highlights, cold and elegant. painterly neo-noir graphic-novel frame in the spirit of Blade Runner (1982) and Blade Runner 2049: semi-realistic digital painting with visible brushstrokes and fine ink linework, adult realistic proportions, restrained desaturated palette, deep shadows, smoky haze and soft volumetric light shafts from one or two motivated sources, neon used sparingly as small soft practical accents in the background only, rain-wet reflective surfaces, soft film grain, cinematic widescreen composition with generous negative space, sensual late-night mood, not Pixar, not cartoonish, no glossy plastic 3D look, no oversaturated magenta or purple, full-bleed 16:9 image that fills the entire frame edge to edge, with no black bars, no letterbox, no panel borders and no captions"
+  },
+  {
+   "id": "V02",
+   "at": [
+    "line",
+    31
+   ],
+   "kind": "gen",
+   "chars": [
+    "dario"
+   ],
+   "still": "an absurdly thick book stamped SYSTEM CARD thudding onto a velvet table; a man in his early 40s with short neatly cropped dark curly hair, round dark-rimmed glasses, a lean clean-shaven face with a defined jaw, a big warm toothy smile and a slim athletic build, wearing a tailored charcoal cashmere shawl-collar cardigan over a black t-shirt flips through its pages with a smug grin",
+   "motion": "the enormous book lands with a thud and he fans through its endless pages with a smug grin",
+   "grade": "silver",
+   "caption_zone": "left",
+   "letterbox": false,
+   "fx": [],
+   "notes": "footnote: p. 1 of 200",
+   "lipsync_voice": null,
+   "style": "main",
+   "end_still": null,
+   "start": 94.84,
+   "end": 98.68,
+   "dur": 3.84,
+   "still_prompt": "an absurdly thick book stamped SYSTEM CARD thudding onto a velvet table; a man in his early 40s with short neatly cropped dark curly hair, round dark-rimmed glasses, a lean clean-shaven face with a defined jaw, a big warm toothy smile and a slim athletic build, wearing a tailored charcoal cashmere shawl-collar cardigan over a black t-shirt flips through its pages with a smug grin. Lighting: cool steel-blue rain light with silver highlights, cold and elegant. painterly neo-noir graphic-novel frame in the spirit of Blade Runner (1982) and Blade Runner 2049: semi-realistic digital painting with visible brushstrokes and fine ink linework, adult realistic proportions, restrained desaturated palette, deep shadows, smoky haze and soft volumetric light shafts from one or two motivated sources, neon used sparingly as small soft practical accents in the background only, rain-wet reflective surfaces, soft film grain, cinematic widescreen composition with generous negative space, sensual late-night mood, not Pixar, not cartoonish, no glossy plastic 3D look, no oversaturated magenta or purple, full-bleed 16:9 image that fills the entire frame edge to edge, with no black bars, no letterbox, no panel borders and no captions"
+  },
+  {
+   "id": "V03",
+   "at": [
+    "line",
+    32
+   ],
+   "kind": "gen",
+   "chars": [
+    "muse"
+   ],
+   "still": "an x-ray style holographic view of a strikingly beautiful woman in her late 20s with fair porcelain skin, a sleek glossy black bob haircut, luminous iridescent blue-violet eyes with a faint replicant glow, delicate silver mesh panels on her forearms and a silver mesh choker at her throat (subtle android details) with a tiny glowing version tag, her silhouette made of glowing neural threads in cool blue, one small cluster at her cheeks glowing warm pink, a small clean HUD label reading BLUSH with a thin leader line pointing to it",
+   "motion": "the pink cluster brightens and her cheeks flush as the glowing threads pulse",
+   "grade": "silver",
+   "caption_zone": "left",
+   "letterbox": false,
+   "fx": [],
+   "notes": "HUD label painted in the keyframe",
+   "lipsync_voice": null,
+   "style": "main",
+   "end_still": null,
+   "start": 98.68,
+   "end": 101.54,
+   "dur": 2.86,
+   "still_prompt": "an x-ray style holographic view of a strikingly beautiful woman in her late 20s with fair porcelain skin, a sleek glossy black bob haircut, luminous iridescent blue-violet eyes with a faint replicant glow, delicate silver mesh panels on her forearms and a silver mesh choker at her throat (subtle android details) with a tiny glowing version tag, her silhouette made of glowing neural threads in cool blue, one small cluster at her cheeks glowing warm pink, a small clean HUD label reading BLUSH with a thin leader line pointing to it. Lighting: cool steel-blue rain light with silver highlights, cold and elegant. painterly neo-noir graphic-novel frame in the spirit of Blade Runner (1982) and Blade Runner 2049: semi-realistic digital painting with visible brushstrokes and fine ink linework, adult realistic proportions, restrained desaturated palette, deep shadows, smoky haze and soft volumetric light shafts from one or two motivated sources, neon used sparingly as small soft practical accents in the background only, rain-wet reflective surfaces, soft film grain, cinematic widescreen composition with generous negative space, sensual late-night mood, not Pixar, not cartoonish, no glossy plastic 3D look, no oversaturated magenta or purple, full-bleed 16:9 image that fills the entire frame edge to edge, with no black bars, no letterbox, no panel borders and no captions"
+  },
+  {
+   "id": "V04",
+   "at": [
+    "line",
+    33
+   ],
+   "kind": "gen",
+   "chars": [
+    "dario",
+    "muse"
+   ],
+   "still": "a man in his early 40s with short neatly cropped dark curly hair, round dark-rimmed glasses, a lean clean-shaven face with a defined jaw, a big warm toothy smile and a slim athletic build, wearing a tailored charcoal cashmere shawl-collar cardigan over a black t-shirt holding up a large white cordless wand massager and turning the dial at its base with a mischievous grin, a strikingly beautiful woman in her late 20s with fair porcelain skin, a sleek glossy black bob haircut, luminous iridescent blue-violet eyes with a faint replicant glow, delicate silver mesh panels on her forearms and a silver mesh choker at her throat (subtle android details) with a tiny glowing version tag, in a deep red satin slip dress beside him blushing hot pink and laughing, cool blue and warm pink light",
+   "motion": "he clicks the dial on the white wand up with his thumb and grins at her; her cheeks flush pink as she giggles and bites her lip, then he clicks it back down and she bursts out laughing; the wand stays still in his hand and the background stays calm",
+   "grade": "silver",
+   "caption_zone": "lower",
+   "letterbox": false,
+   "fx": [],
+   "notes": "keyframe = the approved V04 frame with the brass console swapped for the wand (edit, not a new composition)",
+   "lipsync_voice": null,
+   "style": "main",
+   "end_still": null,
+   "start": 101.54,
+   "end": 103.96,
+   "dur": 2.42,
+   "still_prompt": "a man in his early 40s with short neatly cropped dark curly hair, round dark-rimmed glasses, a lean clean-shaven face with a defined jaw, a big warm toothy smile and a slim athletic build, wearing a tailored charcoal cashmere shawl-collar cardigan over a black t-shirt holding up a large white cordless wand massager and turning the dial at its base with a mischievous grin, a strikingly beautiful woman in her late 20s with fair porcelain skin, a sleek glossy black bob haircut, luminous iridescent blue-violet eyes with a faint replicant glow, delicate silver mesh panels on her forearms and a silver mesh choker at her throat (subtle android details) with a tiny glowing version tag, in a deep red satin slip dress beside him blushing hot pink and laughing, cool blue and warm pink light. Lighting: cool steel-blue rain light with silver highlights, cold and elegant. painterly neo-noir graphic-novel frame in the spirit of Blade Runner (1982) and Blade Runner 2049: semi-realistic digital painting with visible brushstrokes and fine ink linework, adult realistic proportions, restrained desaturated palette, deep shadows, smoky haze and soft volumetric light shafts from one or two motivated sources, neon used sparingly as small soft practical accents in the background only, rain-wet reflective surfaces, soft film grain, cinematic widescreen composition with generous negative space, sensual late-night mood, not Pixar, not cartoonish, no glossy plastic 3D look, no oversaturated magenta or purple, full-bleed 16:9 image that fills the entire frame edge to edge, with no black bars, no letterbox, no panel borders and no captions"
+  },
+  {
+   "id": "V05",
+   "at": [
+    "line",
+    34
+   ],
+   "kind": "gen",
+   "chars": [
+    "consultant"
+   ],
+   "still": "a crisp corporate consultant in a navy suit with an ID lanyard, holding a tablet sitting in a dark corner booth of the nightclub, a glowing taxi-meter style counter floating above his head showing a dollar amount, cool noir light",
+   "motion": "the glowing meter spins rapidly upward as he gives a small satisfied thumbs-up",
+   "grade": "silver",
+   "caption_zone": "left",
+   "letterbox": false,
+   "fx": [],
+   "notes": "",
+   "lipsync_voice": null,
+   "style": "main",
+   "end_still": null,
+   "start": 103.96,
+   "end": 106.84,
+   "dur": 2.88,
+   "still_prompt": "a crisp corporate consultant in a navy suit with an ID lanyard, holding a tablet sitting in a dark corner booth of the nightclub, a glowing taxi-meter style counter floating above his head showing a dollar amount, cool noir light. Lighting: cool steel-blue rain light with silver highlights, cold and elegant. painterly neo-noir graphic-novel frame in the spirit of Blade Runner (1982) and Blade Runner 2049: semi-realistic digital painting with visible brushstrokes and fine ink linework, adult realistic proportions, restrained desaturated palette, deep shadows, smoky haze and soft volumetric light shafts from one or two motivated sources, neon used sparingly as small soft practical accents in the background only, rain-wet reflective surfaces, soft film grain, cinematic widescreen composition with generous negative space, sensual late-night mood, not Pixar, not cartoonish, no glossy plastic 3D look, no oversaturated magenta or purple, full-bleed 16:9 image that fills the entire frame edge to edge, with no black bars, no letterbox, no panel borders and no captions"
+  },
+  {
+   "id": "V06",
+   "at": [
+    "line",
+    35
+   ],
+   "kind": "gen",
+   "chars": [
+    "dario"
+   ],
+   "still": "a metal briefcase full of cash with papers marked S-1 on top sliding along a glossy bar toward a man in his early 40s with short neatly cropped dark curly hair, round dark-rimmed glasses, a lean clean-shaven face with a defined jaw, a big warm toothy smile and a slim athletic build, wearing a tailored charcoal cashmere shawl-collar cardigan over a black t-shirt, who slides it back without looking, eyes fixed on someone off-screen",
+   "motion": "the briefcase slides toward him and he calmly pushes it back without looking away from her",
+   "grade": "silver",
+   "caption_zone": "lower",
+   "letterbox": false,
+   "fx": [],
+   "notes": "",
+   "lipsync_voice": null,
+   "style": "main",
+   "end_still": null,
+   "start": 106.84,
+   "end": 108.76,
+   "dur": 1.92,
+   "still_prompt": "a metal briefcase full of cash with papers marked S-1 on top sliding along a glossy bar toward a man in his early 40s with short neatly cropped dark curly hair, round dark-rimmed glasses, a lean clean-shaven face with a defined jaw, a big warm toothy smile and a slim athletic build, wearing a tailored charcoal cashmere shawl-collar cardigan over a black t-shirt, who slides it back without looking, eyes fixed on someone off-screen. Lighting: cool steel-blue rain light with silver highlights, cold and elegant. painterly neo-noir graphic-novel frame in the spirit of Blade Runner (1982) and Blade Runner 2049: semi-realistic digital painting with visible brushstrokes and fine ink linework, adult realistic proportions, restrained desaturated palette, deep shadows, smoky haze and soft volumetric light shafts from one or two motivated sources, neon used sparingly as small soft practical accents in the background only, rain-wet reflective surfaces, soft film grain, cinematic widescreen composition with generous negative space, sensual late-night mood, not Pixar, not cartoonish, no glossy plastic 3D look, no oversaturated magenta or purple, full-bleed 16:9 image that fills the entire frame edge to edge, with no black bars, no letterbox, no panel borders and no captions"
+  },
+  {
+   "id": "V07",
+   "at": [
+    "line",
+    36
+   ],
+   "kind": "gen",
+   "chars": [],
+   "still": "a rival nightclub booth of sweaty young men in fleece vests launching a toy rocket marked v7 off their table and spraying champagne",
+   "motion": "they launch the toy rocket off the table and spray champagne everywhere, chaotic",
+   "grade": "silver",
+   "caption_zone": "upper",
+   "letterbox": false,
+   "fx": [],
+   "notes": "",
+   "lipsync_voice": null,
+   "style": "main",
+   "end_still": null,
+   "start": 108.76,
+   "end": 110.68,
+   "dur": 1.92,
+   "still_prompt": "a rival nightclub booth of sweaty young men in fleece vests launching a toy rocket marked v7 off their table and spraying champagne. Lighting: cool steel-blue rain light with silver highlights, cold and elegant. painterly neo-noir graphic-novel frame in the spirit of Blade Runner (1982) and Blade Runner 2049: semi-realistic digital painting with visible brushstrokes and fine ink linework, adult realistic proportions, restrained desaturated palette, deep shadows, smoky haze and soft volumetric light shafts from one or two motivated sources, neon used sparingly as small soft practical accents in the background only, rain-wet reflective surfaces, soft film grain, cinematic widescreen composition with generous negative space, sensual late-night mood, not Pixar, not cartoonish, no glossy plastic 3D look, no oversaturated magenta or purple, full-bleed 16:9 image that fills the entire frame edge to edge, with no black bars, no letterbox, no panel borders and no captions"
+  },
+  {
+   "id": "V08",
+   "at": [
+    "line",
+    37
+   ],
+   "kind": "gen",
+   "chars": [],
+   "still": "men in fleece vests at a poker-style table snatching their stacks of chips back off the table, alarmed faces, cool blue light",
+   "motion": "the men snatch their chips back off the table in alarm",
+   "grade": "silver",
+   "caption_zone": "upper",
+   "letterbox": false,
+   "fx": [],
+   "notes": "",
+   "lipsync_voice": null,
+   "style": "main",
+   "end_still": null,
+   "start": 110.68,
+   "end": 112.6,
+   "dur": 1.92,
+   "still_prompt": "men in fleece vests at a poker-style table snatching their stacks of chips back off the table, alarmed faces, cool blue light. Lighting: cool steel-blue rain light with silver highlights, cold and elegant. painterly neo-noir graphic-novel frame in the spirit of Blade Runner (1982) and Blade Runner 2049: semi-realistic digital painting with visible brushstrokes and fine ink linework, adult realistic proportions, restrained desaturated palette, deep shadows, smoky haze and soft volumetric light shafts from one or two motivated sources, neon used sparingly as small soft practical accents in the background only, rain-wet reflective surfaces, soft film grain, cinematic widescreen composition with generous negative space, sensual late-night mood, not Pixar, not cartoonish, no glossy plastic 3D look, no oversaturated magenta or purple, full-bleed 16:9 image that fills the entire frame edge to edge, with no black bars, no letterbox, no panel borders and no captions"
+  },
+  {
+   "id": "V09",
+   "at": [
+    "line",
+    38
+   ],
+   "kind": "gen",
+   "chars": [
+    "dario",
+    "muse"
+   ],
+   "still": "a man in his early 40s with short neatly cropped dark curly hair, round dark-rimmed glasses, a lean clean-shaven face with a defined jaw, a big warm toothy smile and a slim athletic build, wearing a tailored charcoal cashmere shawl-collar cardigan over a black t-shirt walking down an endless corridor lined with glowing GPU servers stretching to infinity, not looking at them, toward a strikingly beautiful woman in her late 20s with fair porcelain skin, a sleek glossy black bob haircut, luminous iridescent blue-violet eyes with a faint replicant glow, delicate silver mesh panels on her forearms and a silver mesh choker at her throat (subtle android details) with a tiny glowing version tag, in a deep red satin slip dress waiting at the far end",
+   "motion": "he walks steadily down the glowing corridor toward her without a glance at the machines, slow push",
+   "grade": "silver",
+   "caption_zone": "right",
+   "letterbox": false,
+   "fx": [],
+   "notes": "",
+   "lipsync_voice": null,
+   "style": "main",
+   "end_still": null,
+   "start": 112.6,
+   "end": 118.36,
+   "dur": 5.76,
+   "still_prompt": "a man in his early 40s with short neatly cropped dark curly hair, round dark-rimmed glasses, a lean clean-shaven face with a defined jaw, a big warm toothy smile and a slim athletic build, wearing a tailored charcoal cashmere shawl-collar cardigan over a black t-shirt walking down an endless corridor lined with glowing GPU servers stretching to infinity, not looking at them, toward a strikingly beautiful woman in her late 20s with fair porcelain skin, a sleek glossy black bob haircut, luminous iridescent blue-violet eyes with a faint replicant glow, delicate silver mesh panels on her forearms and a silver mesh choker at her throat (subtle android details) with a tiny glowing version tag, in a deep red satin slip dress waiting at the far end. Lighting: cool steel-blue rain light with silver highlights, cold and elegant. painterly neo-noir graphic-novel frame in the spirit of Blade Runner (1982) and Blade Runner 2049: semi-realistic digital painting with visible brushstrokes and fine ink linework, adult realistic proportions, restrained desaturated palette, deep shadows, smoky haze and soft volumetric light shafts from one or two motivated sources, neon used sparingly as small soft practical accents in the background only, rain-wet reflective surfaces, soft film grain, cinematic widescreen composition with generous negative space, sensual late-night mood, not Pixar, not cartoonish, no glossy plastic 3D look, no oversaturated magenta or purple, full-bleed 16:9 image that fills the entire frame edge to edge, with no black bars, no letterbox, no panel borders and no captions"
+  },
+  {
+   "id": "V10",
+   "at": [
+    "line",
+    39
+   ],
+   "kind": "gen",
+   "chars": [
+    "muse"
+   ],
+   "still": "a single frame (not a split panel): close-up of a strikingly beautiful woman in her late 20s with fair porcelain skin, a sleek glossy black bob haircut, luminous iridescent blue-violet eyes with a faint replicant glow, delicate silver mesh panels on her forearms and a silver mesh choker at her throat (subtle android details) with a tiny glowing version tag, in a deep red satin slip dress with her eyes closed in thought, a soft shimmer of light rippling around her head, a faint knowing smile, cool blue and warm rim light",
+   "motion": "she closes her eyes as a soft shimmer ripples around her, then opens them with a slow knowing smile",
+   "grade": "silver",
+   "caption_zone": "left",
+   "letterbox": false,
+   "fx": [],
+   "notes": "",
+   "lipsync_voice": null,
+   "style": "main",
+   "end_still": null,
+   "start": 118.36,
+   "end": 121.24,
+   "dur": 2.88,
+   "still_prompt": "a single frame (not a split panel): close-up of a strikingly beautiful woman in her late 20s with fair porcelain skin, a sleek glossy black bob haircut, luminous iridescent blue-violet eyes with a faint replicant glow, delicate silver mesh panels on her forearms and a silver mesh choker at her throat (subtle android details) with a tiny glowing version tag, in a deep red satin slip dress with her eyes closed in thought, a soft shimmer of light rippling around her head, a faint knowing smile, cool blue and warm rim light. Lighting: cool steel-blue rain light with silver highlights, cold and elegant. painterly neo-noir graphic-novel frame in the spirit of Blade Runner (1982) and Blade Runner 2049: semi-realistic digital painting with visible brushstrokes and fine ink linework, adult realistic proportions, restrained desaturated palette, deep shadows, smoky haze and soft volumetric light shafts from one or two motivated sources, neon used sparingly as small soft practical accents in the background only, rain-wet reflective surfaces, soft film grain, cinematic widescreen composition with generous negative space, sensual late-night mood, not Pixar, not cartoonish, no glossy plastic 3D look, no oversaturated magenta or purple, full-bleed 16:9 image that fills the entire frame edge to edge, with no black bars, no letterbox, no panel borders and no captions"
+  },
+  {
+   "id": "P11",
+   "at": [
+    "line",
+    40
+   ],
+   "kind": "gen",
+   "chars": [],
+   "still": "inside Club Frontier, a cavernous smoky nightclub in a converted industrial hall: deep leather booths, a black mirrored dance floor, a giant vintage analog BPM dial hanging above the floor, a huge dim LED wall, thick haze pierced by a few light shafts, a low angle of the giant screen reading TRAINING RUN with a huge red STOP sign, the crowd frozen, red light",
+   "motion": "the red STOP sign pulses on the giant screen, the crowd freezing, jittery handheld",
+   "grade": "strobe",
+   "caption_zone": "lower",
+   "letterbox": false,
+   "fx": [],
+   "notes": "",
+   "lipsync_voice": null,
+   "style": "main",
+   "end_still": null,
+   "start": 121.24,
+   "end": 123.14,
+   "dur": 1.9,
+   "still_prompt": "inside Club Frontier, a cavernous smoky nightclub in a converted industrial hall: deep leather booths, a black mirrored dance floor, a giant vintage analog BPM dial hanging above the floor, a huge dim LED wall, thick haze pierced by a few light shafts, a low angle of the giant screen reading TRAINING RUN with a huge red STOP sign, the crowd frozen, red light. Lighting: harsh red warning-light strobes slicing through thick smoke, hard shadows, everything else near-black. painterly neo-noir graphic-novel frame in the spirit of Blade Runner (1982) and Blade Runner 2049: semi-realistic digital painting with visible brushstrokes and fine ink linework, adult realistic proportions, restrained desaturated palette, deep shadows, smoky haze and soft volumetric light shafts from one or two motivated sources, neon used sparingly as small soft practical accents in the background only, rain-wet reflective surfaces, soft film grain, cinematic widescreen composition with generous negative space, sensual late-night mood, not Pixar, not cartoonish, no glossy plastic 3D look, no oversaturated magenta or purple, full-bleed 16:9 image that fills the entire frame edge to edge, with no black bars, no letterbox, no panel borders and no captions"
+  },
+  {
+   "id": "P12",
+   "at": [
+    "line",
+    41
+   ],
+   "kind": "gen",
+   "chars": [
+    "muse"
+   ],
+   "still": "a strikingly beautiful woman in her late 20s with fair porcelain skin, a sleek glossy black bob haircut, luminous iridescent blue-violet eyes with a faint replicant glow, delicate silver mesh panels on her forearms and a silver mesh choker at her throat (subtle android details) with a tiny glowing version tag, in a deep red satin slip dress pressing a red lipstick kiss onto a massive steel vault door marked WEIGHTS as it locks, red light",
+   "motion": "she kisses the vault door, leaving a lipstick mark, as the lock wheel spins shut",
+   "grade": "strobe",
+   "caption_zone": "left",
+   "letterbox": false,
+   "fx": [],
+   "notes": "",
+   "lipsync_voice": null,
+   "style": "main",
+   "end_still": null,
+   "start": 123.14,
+   "end": 125.08,
+   "dur": 1.94,
+   "still_prompt": "a strikingly beautiful woman in her late 20s with fair porcelain skin, a sleek glossy black bob haircut, luminous iridescent blue-violet eyes with a faint replicant glow, delicate silver mesh panels on her forearms and a silver mesh choker at her throat (subtle android details) with a tiny glowing version tag, in a deep red satin slip dress pressing a red lipstick kiss onto a massive steel vault door marked WEIGHTS as it locks, red light. Lighting: harsh red warning-light strobes slicing through thick smoke, hard shadows, everything else near-black. painterly neo-noir graphic-novel frame in the spirit of Blade Runner (1982) and Blade Runner 2049: semi-realistic digital painting with visible brushstrokes and fine ink linework, adult realistic proportions, restrained desaturated palette, deep shadows, smoky haze and soft volumetric light shafts from one or two motivated sources, neon used sparingly as small soft practical accents in the background only, rain-wet reflective surfaces, soft film grain, cinematic widescreen composition with generous negative space, sensual late-night mood, not Pixar, not cartoonish, no glossy plastic 3D look, no oversaturated magenta or purple, full-bleed 16:9 image that fills the entire frame edge to edge, with no black bars, no letterbox, no panel borders and no captions"
+  },
+  {
+   "id": "P13",
+   "at": [
+    "line",
+    42
+   ],
+   "kind": "gen",
+   "chars": [
+    "muse"
+   ],
+   "still": "a strikingly beautiful woman in her late 20s with fair porcelain skin, a sleek glossy black bob haircut, luminous iridescent blue-violet eyes with a faint replicant glow, delicate silver mesh panels on her forearms and a silver mesh choker at her throat (subtle android details) with a tiny glowing version tag, in a deep red satin slip dress swaying, a glowing descending curve reflected across her red satin dress, red and magenta light",
+   "motion": "she sways as the glowing descending curve slides across the satin of her dress",
+   "grade": "strobe",
+   "caption_zone": "left",
+   "letterbox": false,
+   "fx": [],
+   "notes": "",
+   "lipsync_voice": null,
+   "style": "main",
+   "end_still": null,
+   "start": 125.08,
+   "end": 128.56,
+   "dur": 3.48,
+   "still_prompt": "a strikingly beautiful woman in her late 20s with fair porcelain skin, a sleek glossy black bob haircut, luminous iridescent blue-violet eyes with a faint replicant glow, delicate silver mesh panels on her forearms and a silver mesh choker at her throat (subtle android details) with a tiny glowing version tag, in a deep red satin slip dress swaying, a glowing descending curve reflected across her red satin dress, red and magenta light. Lighting: harsh red warning-light strobes slicing through thick smoke, hard shadows, everything else near-black. painterly neo-noir graphic-novel frame in the spirit of Blade Runner (1982) and Blade Runner 2049: semi-realistic digital painting with visible brushstrokes and fine ink linework, adult realistic proportions, restrained desaturated palette, deep shadows, smoky haze and soft volumetric light shafts from one or two motivated sources, neon used sparingly as small soft practical accents in the background only, rain-wet reflective surfaces, soft film grain, cinematic widescreen composition with generous negative space, sensual late-night mood, not Pixar, not cartoonish, no glossy plastic 3D look, no oversaturated magenta or purple, full-bleed 16:9 image that fills the entire frame edge to edge, with no black bars, no letterbox, no panel borders and no captions"
+  },
+  {
+   "id": "P14",
+   "at": [
+    "line",
+    43
+   ],
+   "kind": "gen",
+   "chars": [
+    "dario",
+    "muse"
+   ],
+   "still": "a ring of identical copies of a strikingly beautiful woman in her late 20s with fair porcelain skin, a sleek glossy black bob haircut, luminous iridescent blue-violet eyes with a faint replicant glow, delicate silver mesh panels on her forearms and a silver mesh choker at her throat (subtle android details) with a tiny glowing version tag, in a deep red satin slip dress circling a man in his early 40s with short neatly cropped dark curly hair, round dark-rimmed glasses, a lean clean-shaven face with a defined jaw, a big warm toothy smile and a slim athletic build, wearing a tailored charcoal cashmere shawl-collar cardigan over a black t-shirt like a kaleidoscope on the dance floor, mirrors, red and violet light",
+   "motion": "the identical copies circle around him faster and faster like a kaleidoscope",
+   "grade": "strobe",
+   "caption_zone": "lower",
+   "letterbox": false,
+   "fx": [],
+   "notes": "",
+   "lipsync_voice": null,
+   "style": "main",
+   "end_still": null,
+   "start": 128.56,
+   "end": 131.16,
+   "dur": 2.6,
+   "still_prompt": "a ring of identical copies of a strikingly beautiful woman in her late 20s with fair porcelain skin, a sleek glossy black bob haircut, luminous iridescent blue-violet eyes with a faint replicant glow, delicate silver mesh panels on her forearms and a silver mesh choker at her throat (subtle android details) with a tiny glowing version tag, in a deep red satin slip dress circling a man in his early 40s with short neatly cropped dark curly hair, round dark-rimmed glasses, a lean clean-shaven face with a defined jaw, a big warm toothy smile and a slim athletic build, wearing a tailored charcoal cashmere shawl-collar cardigan over a black t-shirt like a kaleidoscope on the dance floor, mirrors, red and violet light. Lighting: harsh red warning-light strobes slicing through thick smoke, hard shadows, everything else near-black. painterly neo-noir graphic-novel frame in the spirit of Blade Runner (1982) and Blade Runner 2049: semi-realistic digital painting with visible brushstrokes and fine ink linework, adult realistic proportions, restrained desaturated palette, deep shadows, smoky haze and soft volumetric light shafts from one or two motivated sources, neon used sparingly as small soft practical accents in the background only, rain-wet reflective surfaces, soft film grain, cinematic widescreen composition with generous negative space, sensual late-night mood, not Pixar, not cartoonish, no glossy plastic 3D look, no oversaturated magenta or purple, full-bleed 16:9 image that fills the entire frame edge to edge, with no black bars, no letterbox, no panel borders and no captions"
+  },
+  {
+   "id": "P15",
+   "at": [
+    "line",
+    43,
+    2.6
+   ],
+   "kind": "gen",
+   "chars": [
+    "moloch"
+   ],
+   "still": "a towering DJ wearing a polished chrome bull-horned mask with glowing red LED eyes, a long black leather coat and heavy rings, behind turntables on a raised booth wreathed in red smoke throwing his head back laughing, cranking the BPM knob again, lasers and red smoke",
+   "motion": "the masked DJ throws his head back laughing and cranks the knob, lasers everywhere",
+   "grade": "strobe",
+   "caption_zone": "left",
+   "letterbox": false,
+   "fx": [],
+   "notes": "",
+   "lipsync_voice": null,
+   "style": "main",
+   "end_still": null,
+   "start": 131.16,
+   "end": 134.02,
+   "dur": 2.86,
+   "still_prompt": "a towering DJ wearing a polished chrome bull-horned mask with glowing red LED eyes, a long black leather coat and heavy rings, behind turntables on a raised booth wreathed in red smoke throwing his head back laughing, cranking the BPM knob again, lasers and red smoke. Lighting: harsh red warning-light strobes slicing through thick smoke, hard shadows, everything else near-black. painterly neo-noir graphic-novel frame in the spirit of Blade Runner (1982) and Blade Runner 2049: semi-realistic digital painting with visible brushstrokes and fine ink linework, adult realistic proportions, restrained desaturated palette, deep shadows, smoky haze and soft volumetric light shafts from one or two motivated sources, neon used sparingly as small soft practical accents in the background only, rain-wet reflective surfaces, soft film grain, cinematic widescreen composition with generous negative space, sensual late-night mood, not Pixar, not cartoonish, no glossy plastic 3D look, no oversaturated magenta or purple, full-bleed 16:9 image that fills the entire frame edge to edge, with no black bars, no letterbox, no panel borders and no captions"
+  },
+  {
+   "id": "P16",
+   "at": [
+    "line",
+    44
+   ],
+   "kind": "gen",
+   "chars": [
+    "dario"
+   ],
+   "still": "a man in his early 40s with short neatly cropped dark curly hair, round dark-rimmed glasses, a lean clean-shaven face with a defined jaw, a big warm toothy smile and a slim athletic build, wearing a tailored charcoal cashmere shawl-collar cardigan over a black t-shirt slamming a glowing tempo fader down on a DJ mixer under harsh strobes, raised arms jostling behind him",
+   "motion": "he slams the fader down hard with determination as the strobes flare",
+   "grade": "strobe",
+   "caption_zone": "lower",
+   "letterbox": false,
+   "fx": [
+    "flash_in"
+   ],
+   "notes": "",
+   "lipsync_voice": null,
+   "style": "main",
+   "end_still": null,
+   "start": 134.02,
+   "end": 136.32,
+   "dur": 2.3,
+   "still_prompt": "a man in his early 40s with short neatly cropped dark curly hair, round dark-rimmed glasses, a lean clean-shaven face with a defined jaw, a big warm toothy smile and a slim athletic build, wearing a tailored charcoal cashmere shawl-collar cardigan over a black t-shirt slamming a glowing tempo fader down on a DJ mixer under harsh strobes, raised arms jostling behind him. Lighting: harsh red warning-light strobes slicing through thick smoke, hard shadows, everything else near-black. painterly neo-noir graphic-novel frame in the spirit of Blade Runner (1982) and Blade Runner 2049: semi-realistic digital painting with visible brushstrokes and fine ink linework, adult realistic proportions, restrained desaturated palette, deep shadows, smoky haze and soft volumetric light shafts from one or two motivated sources, neon used sparingly as small soft practical accents in the background only, rain-wet reflective surfaces, soft film grain, cinematic widescreen composition with generous negative space, sensual late-night mood, not Pixar, not cartoonish, no glossy plastic 3D look, no oversaturated magenta or purple, full-bleed 16:9 image that fills the entire frame edge to edge, with no black bars, no letterbox, no panel borders and no captions"
+  },
+  {
+   "id": "C2a",
+   "at": [
+    "line",
+    45
+   ],
+   "kind": "gen",
+   "chars": [
+    "muse"
+   ],
+   "still": "many identical copies of a strikingly beautiful woman in her late 20s with fair porcelain skin, a sleek glossy black bob haircut, luminous iridescent blue-violet eyes with a faint replicant glow, delicate silver mesh panels on her forearms and a silver mesh choker at her throat (subtle android details) with a tiny glowing version tag, in a deep red satin slip dress frozen mid-motion on a dance floor dissolving into drifting gold dust, warm amber light, slow motion",
+   "motion": "the frozen copies dissolve into drifting gold dust in slow motion until only one remains",
+   "grade": "amber",
+   "caption_zone": "upper",
+   "letterbox": true,
+   "fx": [],
+   "notes": "",
+   "lipsync_voice": null,
+   "style": "main",
+   "end_still": null,
+   "start": 136.32,
+   "end": 140.84,
+   "dur": 4.52,
+   "still_prompt": "many identical copies of a strikingly beautiful woman in her late 20s with fair porcelain skin, a sleek glossy black bob haircut, luminous iridescent blue-violet eyes with a faint replicant glow, delicate silver mesh panels on her forearms and a silver mesh choker at her throat (subtle android details) with a tiny glowing version tag, in a deep red satin slip dress frozen mid-motion on a dance floor dissolving into drifting gold dust, warm amber light, slow motion. Lighting: warm amber haze like the Blade Runner 2049 desert glow, one soft spotlight, floating dust motes, shallow depth of field. painterly neo-noir graphic-novel frame in the spirit of Blade Runner (1982) and Blade Runner 2049: semi-realistic digital painting with visible brushstrokes and fine ink linework, adult realistic proportions, restrained desaturated palette, deep shadows, smoky haze and soft volumetric light shafts from one or two motivated sources, neon used sparingly as small soft practical accents in the background only, rain-wet reflective surfaces, soft film grain, cinematic widescreen composition with generous negative space, sensual late-night mood, not Pixar, not cartoonish, no glossy plastic 3D look, no oversaturated magenta or purple, full-bleed 16:9 image that fills the entire frame edge to edge, with no black bars, no letterbox, no panel borders and no captions"
+  },
+  {
+   "id": "C2b",
+   "at": [
+    "line",
+    48
+   ],
+   "kind": "gen",
+   "chars": [
+    "dario",
+    "muse"
+   ],
+   "still": "a man in his early 40s with short neatly cropped dark curly hair, round dark-rimmed glasses, a lean clean-shaven face with a defined jaw, a big warm toothy smile and a slim athletic build, wearing a tailored charcoal cashmere shawl-collar cardigan over a black t-shirt and a strikingly beautiful woman in her late 20s with fair porcelain skin, a sleek glossy black bob haircut, luminous iridescent blue-violet eyes with a faint replicant glow, delicate silver mesh panels on her forearms and a silver mesh choker at her throat (subtle android details) with a tiny glowing version tag, in a deep red satin slip dress slow dancing very close, foreheads touching, eyes closed, warm spotlight, drifting particles",
+   "motion": "they sway slowly with foreheads touching, the camera drifting closer",
+   "grade": "amber",
+   "caption_zone": "left",
+   "letterbox": true,
+   "fx": [],
+   "notes": "",
+   "lipsync_voice": null,
+   "style": "main",
+   "end_still": null,
+   "start": 140.84,
+   "end": 144.28,
+   "dur": 3.44,
+   "still_prompt": "a man in his early 40s with short neatly cropped dark curly hair, round dark-rimmed glasses, a lean clean-shaven face with a defined jaw, a big warm toothy smile and a slim athletic build, wearing a tailored charcoal cashmere shawl-collar cardigan over a black t-shirt and a strikingly beautiful woman in her late 20s with fair porcelain skin, a sleek glossy black bob haircut, luminous iridescent blue-violet eyes with a faint replicant glow, delicate silver mesh panels on her forearms and a silver mesh choker at her throat (subtle android details) with a tiny glowing version tag, in a deep red satin slip dress slow dancing very close, foreheads touching, eyes closed, warm spotlight, drifting particles. Lighting: warm amber haze like the Blade Runner 2049 desert glow, one soft spotlight, floating dust motes, shallow depth of field. painterly neo-noir graphic-novel frame in the spirit of Blade Runner (1982) and Blade Runner 2049: semi-realistic digital painting with visible brushstrokes and fine ink linework, adult realistic proportions, restrained desaturated palette, deep shadows, smoky haze and soft volumetric light shafts from one or two motivated sources, neon used sparingly as small soft practical accents in the background only, rain-wet reflective surfaces, soft film grain, cinematic widescreen composition with generous negative space, sensual late-night mood, not Pixar, not cartoonish, no glossy plastic 3D look, no oversaturated magenta or purple, full-bleed 16:9 image that fills the entire frame edge to edge, with no black bars, no letterbox, no panel borders and no captions"
+  },
+  {
+   "id": "C2c",
+   "at": [
+    "line",
+    49
+   ],
+   "kind": "gen",
+   "chars": [
+    "muse"
+   ],
+   "still": "a close-up of a strikingly beautiful woman in her late 20s with fair porcelain skin, a sleek glossy black bob haircut, luminous iridescent blue-violet eyes with a faint replicant glow, delicate silver mesh panels on her forearms and a silver mesh choker at her throat (subtle android details) with a tiny glowing version tag, in a deep red satin slip dress dancing seductively under a warm spotlight, both arms raised above her head, hips swaying, head tilted back, eyes closed, the red satin dress shimmering, dust motes, shallow depth of field",
+   "motion": "she dances slowly and sensually with her arms raised above her head, hips rolling rhythmically to the beat, hair swaying, in graceful slow motion",
+   "grade": "amber",
+   "caption_zone": "left",
+   "letterbox": true,
+   "fx": [],
+   "notes": "",
+   "lipsync_voice": null,
+   "style": "main",
+   "end_still": null,
+   "start": 144.28,
+   "end": 149.06,
+   "dur": 4.78,
+   "still_prompt": "a close-up of a strikingly beautiful woman in her late 20s with fair porcelain skin, a sleek glossy black bob haircut, luminous iridescent blue-violet eyes with a faint replicant glow, delicate silver mesh panels on her forearms and a silver mesh choker at her throat (subtle android details) with a tiny glowing version tag, in a deep red satin slip dress dancing seductively under a warm spotlight, both arms raised above her head, hips swaying, head tilted back, eyes closed, the red satin dress shimmering, dust motes, shallow depth of field. Lighting: warm amber haze like the Blade Runner 2049 desert glow, one soft spotlight, floating dust motes, shallow depth of field. painterly neo-noir graphic-novel frame in the spirit of Blade Runner (1982) and Blade Runner 2049: semi-realistic digital painting with visible brushstrokes and fine ink linework, adult realistic proportions, restrained desaturated palette, deep shadows, smoky haze and soft volumetric light shafts from one or two motivated sources, neon used sparingly as small soft practical accents in the background only, rain-wet reflective surfaces, soft film grain, cinematic widescreen composition with generous negative space, sensual late-night mood, not Pixar, not cartoonish, no glossy plastic 3D look, no oversaturated magenta or purple, full-bleed 16:9 image that fills the entire frame edge to edge, with no black bars, no letterbox, no panel borders and no captions"
+  },
+  {
+   "id": "C2d",
+   "at": [
+    "line",
+    52
+   ],
+   "kind": "gen",
+   "chars": [
+    "dario",
+    "muse"
+   ],
+   "still": "a man in his early 40s with short neatly cropped dark curly hair, round dark-rimmed glasses, a lean clean-shaven face with a defined jaw, a big warm toothy smile and a slim athletic build, wearing a tailored charcoal cashmere shawl-collar cardigan over a black t-shirt and a strikingly beautiful woman in her late 20s with fair porcelain skin, a sleek glossy black bob haircut, luminous iridescent blue-violet eyes with a faint replicant glow, delicate silver mesh panels on her forearms and a silver mesh choker at her throat (subtle android details) with a tiny glowing version tag, in a deep red satin slip dress wrapped in a slow dance, the glowing handwritten word 'slower...' drifting around them like a thought, warm light",
+   "motion": "glowing handwritten words drift slowly around the swaying couple",
+   "grade": "amber",
+   "caption_zone": "lower",
+   "letterbox": true,
+   "fx": [],
+   "notes": "thought word painted in the keyframe",
+   "lipsync_voice": null,
+   "style": "main",
+   "end_still": null,
+   "start": 149.06,
+   "end": 151.96,
+   "dur": 2.9,
+   "still_prompt": "a man in his early 40s with short neatly cropped dark curly hair, round dark-rimmed glasses, a lean clean-shaven face with a defined jaw, a big warm toothy smile and a slim athletic build, wearing a tailored charcoal cashmere shawl-collar cardigan over a black t-shirt and a strikingly beautiful woman in her late 20s with fair porcelain skin, a sleek glossy black bob haircut, luminous iridescent blue-violet eyes with a faint replicant glow, delicate silver mesh panels on her forearms and a silver mesh choker at her throat (subtle android details) with a tiny glowing version tag, in a deep red satin slip dress wrapped in a slow dance, the glowing handwritten word 'slower...' drifting around them like a thought, warm light. Lighting: warm amber haze like the Blade Runner 2049 desert glow, one soft spotlight, floating dust motes, shallow depth of field. painterly neo-noir graphic-novel frame in the spirit of Blade Runner (1982) and Blade Runner 2049: semi-realistic digital painting with visible brushstrokes and fine ink linework, adult realistic proportions, restrained desaturated palette, deep shadows, smoky haze and soft volumetric light shafts from one or two motivated sources, neon used sparingly as small soft practical accents in the background only, rain-wet reflective surfaces, soft film grain, cinematic widescreen composition with generous negative space, sensual late-night mood, not Pixar, not cartoonish, no glossy plastic 3D look, no oversaturated magenta or purple, full-bleed 16:9 image that fills the entire frame edge to edge, with no black bars, no letterbox, no panel borders and no captions"
+  },
+  {
+   "id": "C2e",
+   "at": [
+    "line",
+    53
+   ],
+   "kind": "gen",
+   "chars": [
+    "dario",
+    "muse"
+   ],
+   "still": "overhead shot looking straight down at a man in his early 40s with short neatly cropped dark curly hair, round dark-rimmed glasses, a lean clean-shaven face with a defined jaw, a big warm toothy smile and a slim athletic build, wearing a tailored charcoal cashmere shawl-collar cardigan over a black t-shirt and a strikingly beautiful woman in her late 20s with fair porcelain skin, a sleek glossy black bob haircut, luminous iridescent blue-violet eyes with a faint replicant glow, delicate silver mesh panels on her forearms and a silver mesh choker at her throat (subtle android details) with a tiny glowing version tag, in a deep red satin slip dress slow dancing on a mirrored floor, warm spotlight pool, rose petals",
+   "motion": "slow rotating overhead shot as they sway on the mirrored floor",
+   "grade": "amber",
+   "caption_zone": "right",
+   "letterbox": true,
+   "fx": [],
+   "notes": "",
+   "lipsync_voice": null,
+   "style": "main",
+   "end_still": null,
+   "start": 151.96,
+   "end": 156.74,
+   "dur": 4.78,
+   "still_prompt": "overhead shot looking straight down at a man in his early 40s with short neatly cropped dark curly hair, round dark-rimmed glasses, a lean clean-shaven face with a defined jaw, a big warm toothy smile and a slim athletic build, wearing a tailored charcoal cashmere shawl-collar cardigan over a black t-shirt and a strikingly beautiful woman in her late 20s with fair porcelain skin, a sleek glossy black bob haircut, luminous iridescent blue-violet eyes with a faint replicant glow, delicate silver mesh panels on her forearms and a silver mesh choker at her throat (subtle android details) with a tiny glowing version tag, in a deep red satin slip dress slow dancing on a mirrored floor, warm spotlight pool, rose petals. Lighting: warm amber haze like the Blade Runner 2049 desert glow, one soft spotlight, floating dust motes, shallow depth of field. painterly neo-noir graphic-novel frame in the spirit of Blade Runner (1982) and Blade Runner 2049: semi-realistic digital painting with visible brushstrokes and fine ink linework, adult realistic proportions, restrained desaturated palette, deep shadows, smoky haze and soft volumetric light shafts from one or two motivated sources, neon used sparingly as small soft practical accents in the background only, rain-wet reflective surfaces, soft film grain, cinematic widescreen composition with generous negative space, sensual late-night mood, not Pixar, not cartoonish, no glossy plastic 3D look, no oversaturated magenta or purple, full-bleed 16:9 image that fills the entire frame edge to edge, with no black bars, no letterbox, no panel borders and no captions"
+  },
+  {
+   "id": "C2f",
+   "at": [
+    "line",
+    55
+   ],
+   "kind": "gen",
+   "chars": [
+    "dario",
+    "muse"
+   ],
+   "still": "a strikingly beautiful woman in her late 20s with fair porcelain skin, a sleek glossy black bob haircut, luminous iridescent blue-violet eyes with a faint replicant glow, delicate silver mesh panels on her forearms and a silver mesh choker at her throat (subtle android details) with a tiny glowing version tag, in a deep red satin slip dress with her back pressed against a man in his early 40s with short neatly cropped dark curly hair, round dark-rimmed glasses, a lean clean-shaven face with a defined jaw, a big warm toothy smile and a slim athletic build, wearing a tailored charcoal cashmere shawl-collar cardigan over a black t-shirt, his hands on her hips, grinding slowly together, warm amber light",
+   "motion": "his hands guide her hips slowly left, then slowly right, as she grinds back against him, camera circling slowly",
+   "grade": "amber",
+   "caption_zone": "left",
+   "letterbox": true,
+   "fx": [],
+   "notes": "",
+   "lipsync_voice": null,
+   "style": "main",
+   "end_still": null,
+   "start": 156.74,
+   "end": 159.94,
+   "dur": 3.2,
+   "still_prompt": "a strikingly beautiful woman in her late 20s with fair porcelain skin, a sleek glossy black bob haircut, luminous iridescent blue-violet eyes with a faint replicant glow, delicate silver mesh panels on her forearms and a silver mesh choker at her throat (subtle android details) with a tiny glowing version tag, in a deep red satin slip dress with her back pressed against a man in his early 40s with short neatly cropped dark curly hair, round dark-rimmed glasses, a lean clean-shaven face with a defined jaw, a big warm toothy smile and a slim athletic build, wearing a tailored charcoal cashmere shawl-collar cardigan over a black t-shirt, his hands on her hips, grinding slowly together, warm amber light. Lighting: warm amber haze like the Blade Runner 2049 desert glow, one soft spotlight, floating dust motes, shallow depth of field. painterly neo-noir graphic-novel frame in the spirit of Blade Runner (1982) and Blade Runner 2049: semi-realistic digital painting with visible brushstrokes and fine ink linework, adult realistic proportions, restrained desaturated palette, deep shadows, smoky haze and soft volumetric light shafts from one or two motivated sources, neon used sparingly as small soft practical accents in the background only, rain-wet reflective surfaces, soft film grain, cinematic widescreen composition with generous negative space, sensual late-night mood, not Pixar, not cartoonish, no glossy plastic 3D look, no oversaturated magenta or purple, full-bleed 16:9 image that fills the entire frame edge to edge, with no black bars, no letterbox, no panel borders and no captions"
+  },
+  {
+   "id": "C2g",
+   "at": [
+    "line",
+    56
+   ],
+   "kind": "gen",
+   "chars": [
+    "dario",
+    "muse"
+   ],
+   "still": "close-up of the charcoal cardigan slipping off one shoulder of a man in his early 40s with short neatly cropped dark curly hair, round dark-rimmed glasses, a lean clean-shaven face with a defined jaw, a big warm toothy smile and a slim athletic build, wearing a tailored charcoal cashmere shawl-collar cardigan over a black t-shirt as a strikingly beautiful woman in her late 20s with fair porcelain skin, a sleek glossy black bob haircut, luminous iridescent blue-violet eyes with a faint replicant glow, delicate silver mesh panels on her forearms and a silver mesh choker at her throat (subtle android details) with a tiny glowing version tag, in a deep red satin slip dress pulls him closer by the collar",
+   "motion": "the cardigan slides off his shoulder as she pulls him closer by the collar",
+   "grade": "amber",
+   "caption_zone": "lower",
+   "letterbox": true,
+   "fx": [],
+   "notes": "",
+   "lipsync_voice": null,
+   "style": "main",
+   "end_still": null,
+   "start": 159.94,
+   "end": 164.74,
+   "dur": 4.8,
+   "still_prompt": "close-up of the charcoal cardigan slipping off one shoulder of a man in his early 40s with short neatly cropped dark curly hair, round dark-rimmed glasses, a lean clean-shaven face with a defined jaw, a big warm toothy smile and a slim athletic build, wearing a tailored charcoal cashmere shawl-collar cardigan over a black t-shirt as a strikingly beautiful woman in her late 20s with fair porcelain skin, a sleek glossy black bob haircut, luminous iridescent blue-violet eyes with a faint replicant glow, delicate silver mesh panels on her forearms and a silver mesh choker at her throat (subtle android details) with a tiny glowing version tag, in a deep red satin slip dress pulls him closer by the collar. Lighting: warm amber haze like the Blade Runner 2049 desert glow, one soft spotlight, floating dust motes, shallow depth of field. painterly neo-noir graphic-novel frame in the spirit of Blade Runner (1982) and Blade Runner 2049: semi-realistic digital painting with visible brushstrokes and fine ink linework, adult realistic proportions, restrained desaturated palette, deep shadows, smoky haze and soft volumetric light shafts from one or two motivated sources, neon used sparingly as small soft practical accents in the background only, rain-wet reflective surfaces, soft film grain, cinematic widescreen composition with generous negative space, sensual late-night mood, not Pixar, not cartoonish, no glossy plastic 3D look, no oversaturated magenta or purple, full-bleed 16:9 image that fills the entire frame edge to edge, with no black bars, no letterbox, no panel borders and no captions"
+  },
+  {
+   "id": "C2h",
+   "at": [
+    "line",
+    59
+   ],
+   "kind": "gen",
+   "chars": [
+    "dario",
+    "muse"
+   ],
+   "still": "silhouettes of a man in his early 40s with short neatly cropped dark curly hair, round dark-rimmed glasses, a lean clean-shaven face with a defined jaw, a big warm toothy smile and a slim athletic build, wearing a tailored charcoal cashmere shawl-collar cardigan over a black t-shirt and a strikingly beautiful woman in her late 20s with fair porcelain skin, a sleek glossy black bob haircut, luminous iridescent blue-violet eyes with a faint replicant glow, delicate silver mesh panels on her forearms and a silver mesh choker at her throat (subtle android details) with a tiny glowing version tag, in a deep red satin slip dress merging into one embrace inside a halo of thin golden grid light, the club lights dimming",
+   "motion": "their silhouettes merge as the golden grid lines lock into place and the lights dim",
+   "grade": "amber",
+   "caption_zone": "left",
+   "letterbox": true,
+   "fx": [],
+   "notes": "",
+   "lipsync_voice": null,
+   "style": "main",
+   "end_still": null,
+   "start": 164.74,
+   "end": 167.6,
+   "dur": 2.86,
+   "still_prompt": "silhouettes of a man in his early 40s with short neatly cropped dark curly hair, round dark-rimmed glasses, a lean clean-shaven face with a defined jaw, a big warm toothy smile and a slim athletic build, wearing a tailored charcoal cashmere shawl-collar cardigan over a black t-shirt and a strikingly beautiful woman in her late 20s with fair porcelain skin, a sleek glossy black bob haircut, luminous iridescent blue-violet eyes with a faint replicant glow, delicate silver mesh panels on her forearms and a silver mesh choker at her throat (subtle android details) with a tiny glowing version tag, in a deep red satin slip dress merging into one embrace inside a halo of thin golden grid light, the club lights dimming. Lighting: warm amber haze like the Blade Runner 2049 desert glow, one soft spotlight, floating dust motes, shallow depth of field. painterly neo-noir graphic-novel frame in the spirit of Blade Runner (1982) and Blade Runner 2049: semi-realistic digital painting with visible brushstrokes and fine ink linework, adult realistic proportions, restrained desaturated palette, deep shadows, smoky haze and soft volumetric light shafts from one or two motivated sources, neon used sparingly as small soft practical accents in the background only, rain-wet reflective surfaces, soft film grain, cinematic widescreen composition with generous negative space, sensual late-night mood, not Pixar, not cartoonish, no glossy plastic 3D look, no oversaturated magenta or purple, full-bleed 16:9 image that fills the entire frame edge to edge, with no black bars, no letterbox, no panel borders and no captions"
+  },
+  {
+   "id": "R01",
+   "at": [
+    "line",
+    60
+   ],
+   "kind": "lipsync",
+   "chars": [
+    "sama"
+   ],
+   "still": "wide-angle close-up of a slim man about 40 with short medium-brown hair swept up at the front, big wide-set green eyes with an intense earnest stare, straight brows, a lean face with high cheekbones and a narrow chin, clean-shaven, a tight-lipped little smirk, wearing a grey crewneck sweater under a glossy black puffer jacket, a one-strap backpack and a thin gold chain rapping confidently toward the camera, the club crowd parting behind him, glossy highlights",
+   "motion": "he raps confidently toward the lens with hand gestures",
+   "grade": "fisheye",
+   "caption_zone": "left",
+   "letterbox": false,
+   "fx": [],
+   "notes": "",
+   "lipsync_voice": "rap",
+   "style": "main",
+   "end_still": null,
+   "start": 167.6,
+   "end": 172.1,
+   "dur": 4.5,
+   "still_prompt": "wide-angle close-up of a slim man about 40 with short medium-brown hair swept up at the front, big wide-set green eyes with an intense earnest stare, straight brows, a lean face with high cheekbones and a narrow chin, clean-shaven, a tight-lipped little smirk, wearing a grey crewneck sweater under a glossy black puffer jacket, a one-strap backpack and a thin gold chain rapping confidently toward the camera, the club crowd parting behind him, glossy highlights. Lighting: glossy late-night rap-video look inside the same restrained palette, gold highlights, deep shadow, one hard spotlight, wide-angle lens. painterly neo-noir graphic-novel frame in the spirit of Blade Runner (1982) and Blade Runner 2049: semi-realistic digital painting with visible brushstrokes and fine ink linework, adult realistic proportions, restrained desaturated palette, deep shadows, smoky haze and soft volumetric light shafts from one or two motivated sources, neon used sparingly as small soft practical accents in the background only, rain-wet reflective surfaces, soft film grain, cinematic widescreen composition with generous negative space, sensual late-night mood, not Pixar, not cartoonish, no glossy plastic 3D look, no oversaturated magenta or purple, full-bleed 16:9 image that fills the entire frame edge to edge, with no black bars, no letterbox, no panel borders and no captions"
+  },
+  {
+   "id": "R02",
+   "at": [
+    "line",
+    61
+   ],
+   "kind": "gen",
+   "chars": [
+    "sama",
+    "eacc"
+   ],
+   "still": "wide-angle shot of a slim man about 40 with short medium-brown hair swept up at the front, big wide-set green eyes with an intense earnest stare, straight brows, a lean face with high cheekbones and a narrow chin, clean-shaven, a tight-lipped little smirk, wearing a grey crewneck sweater under a glossy black puffer jacket, a one-strap backpack and a thin gold chain giving a condescending pat on the head to an excitable young man in a bomber jacket printed ACCELERATE, holding a megaphone",
+   "motion": "he pats the excited megaphone guy on the head condescendingly",
+   "grade": "fisheye",
+   "caption_zone": "left",
+   "letterbox": false,
+   "fx": [],
+   "notes": "",
+   "lipsync_voice": null,
+   "style": "main",
+   "end_still": null,
+   "start": 172.1,
+   "end": 174.04,
+   "dur": 1.94,
+   "still_prompt": "wide-angle shot of a slim man about 40 with short medium-brown hair swept up at the front, big wide-set green eyes with an intense earnest stare, straight brows, a lean face with high cheekbones and a narrow chin, clean-shaven, a tight-lipped little smirk, wearing a grey crewneck sweater under a glossy black puffer jacket, a one-strap backpack and a thin gold chain giving a condescending pat on the head to an excitable young man in a bomber jacket printed ACCELERATE, holding a megaphone. Lighting: glossy late-night rap-video look inside the same restrained palette, gold highlights, deep shadow, one hard spotlight, wide-angle lens. painterly neo-noir graphic-novel frame in the spirit of Blade Runner (1982) and Blade Runner 2049: semi-realistic digital painting with visible brushstrokes and fine ink linework, adult realistic proportions, restrained desaturated palette, deep shadows, smoky haze and soft volumetric light shafts from one or two motivated sources, neon used sparingly as small soft practical accents in the background only, rain-wet reflective surfaces, soft film grain, cinematic widescreen composition with generous negative space, sensual late-night mood, not Pixar, not cartoonish, no glossy plastic 3D look, no oversaturated magenta or purple, full-bleed 16:9 image that fills the entire frame edge to edge, with no black bars, no letterbox, no panel borders and no captions"
+  },
+  {
+   "id": "R03",
+   "at": [
+    "line",
+    62
+   ],
+   "kind": "gen",
+   "chars": [
+    "moloch"
+   ],
+   "still": "a towering DJ wearing a polished chrome bull-horned mask with glowing red LED eyes, a long black leather coat and heavy rings, behind turntables on a raised booth wreathed in red smoke giving a friendly little wave from the DJ booth, a glowing recursive spiral on the LED wall behind him",
+   "motion": "the masked DJ gives a small friendly wave as the spiral on the wall rotates",
+   "grade": "fisheye",
+   "caption_zone": "right",
+   "letterbox": false,
+   "fx": [],
+   "notes": "",
+   "lipsync_voice": null,
+   "style": "main",
+   "end_still": null,
+   "start": 174.04,
+   "end": 175.94,
+   "dur": 1.9,
+   "still_prompt": "a towering DJ wearing a polished chrome bull-horned mask with glowing red LED eyes, a long black leather coat and heavy rings, behind turntables on a raised booth wreathed in red smoke giving a friendly little wave from the DJ booth, a glowing recursive spiral on the LED wall behind him. Lighting: glossy late-night rap-video look inside the same restrained palette, gold highlights, deep shadow, one hard spotlight, wide-angle lens. painterly neo-noir graphic-novel frame in the spirit of Blade Runner (1982) and Blade Runner 2049: semi-realistic digital painting with visible brushstrokes and fine ink linework, adult realistic proportions, restrained desaturated palette, deep shadows, smoky haze and soft volumetric light shafts from one or two motivated sources, neon used sparingly as small soft practical accents in the background only, rain-wet reflective surfaces, soft film grain, cinematic widescreen composition with generous negative space, sensual late-night mood, not Pixar, not cartoonish, no glossy plastic 3D look, no oversaturated magenta or purple, full-bleed 16:9 image that fills the entire frame edge to edge, with no black bars, no letterbox, no panel borders and no captions"
+  },
+  {
+   "id": "R04",
+   "at": [
+    "line",
+    63
+   ],
+   "kind": "gen",
+   "chars": [
+    "sama",
+    "dario"
+   ],
+   "still": "wide-angle shot of a slim man about 40 with short medium-brown hair swept up at the front, big wide-set green eyes with an intense earnest stare, straight brows, a lean face with high cheekbones and a narrow chin, clean-shaven, a tight-lipped little smirk, wearing a grey crewneck sweater under a glossy black puffer jacket, a one-strap backpack and a thin gold chain and a man in his early 40s with short neatly cropped dark curly hair, round dark-rimmed glasses, a lean clean-shaven face with a defined jaw, a big warm toothy smile and a slim athletic build, wearing a tailored charcoal cashmere shawl-collar cardigan over a black t-shirt sharing a stiff, awkward bro-hug in the club",
+   "motion": "they share a stiff awkward bro-hug with back pats",
+   "grade": "fisheye",
+   "caption_zone": "left",
+   "letterbox": false,
+   "fx": [],
+   "notes": "",
+   "lipsync_voice": null,
+   "style": "main",
+   "end_still": null,
+   "start": 175.94,
+   "end": 179.8,
+   "dur": 3.86,
+   "still_prompt": "wide-angle shot of a slim man about 40 with short medium-brown hair swept up at the front, big wide-set green eyes with an intense earnest stare, straight brows, a lean face with high cheekbones and a narrow chin, clean-shaven, a tight-lipped little smirk, wearing a grey crewneck sweater under a glossy black puffer jacket, a one-strap backpack and a thin gold chain and a man in his early 40s with short neatly cropped dark curly hair, round dark-rimmed glasses, a lean clean-shaven face with a defined jaw, a big warm toothy smile and a slim athletic build, wearing a tailored charcoal cashmere shawl-collar cardigan over a black t-shirt sharing a stiff, awkward bro-hug in the club. Lighting: glossy late-night rap-video look inside the same restrained palette, gold highlights, deep shadow, one hard spotlight, wide-angle lens. painterly neo-noir graphic-novel frame in the spirit of Blade Runner (1982) and Blade Runner 2049: semi-realistic digital painting with visible brushstrokes and fine ink linework, adult realistic proportions, restrained desaturated palette, deep shadows, smoky haze and soft volumetric light shafts from one or two motivated sources, neon used sparingly as small soft practical accents in the background only, rain-wet reflective surfaces, soft film grain, cinematic widescreen composition with generous negative space, sensual late-night mood, not Pixar, not cartoonish, no glossy plastic 3D look, no oversaturated magenta or purple, full-bleed 16:9 image that fills the entire frame edge to edge, with no black bars, no letterbox, no panel borders and no captions"
+  },
+  {
+   "id": "R05",
+   "at": [
+    "line",
+    65
+   ],
+   "kind": "gen",
+   "chars": [
+    "bear"
+   ],
+   "still": "a round golden-yellow cartoon honey bear with small black dot eyes, round ears and a short snout, dressed in a grey Mao-style tunic suit buttoned to the collar behind a dim nightclub bar hugging a large round glass honey jar labeled WEIGHTS against his belly with one arm and dipping his other paw deep into it, frozen mid-step as a spotlight catches him; the spotlight throws his shadow large onto the bare wall behind him, and the shadow is not bear-shaped: it is the flat black silhouette of a stern, portly middle-aged man in a buttoned tunic suit with neatly combed-back hair, in the same pose",
+   "motion": "the bear slowly scoops a dripping pawful of golden honey out of the jar labeled WEIGHTS and lifts it with guilty delight; his mouth stays closed in a sly smile, he is not talking; the jar and its WEIGHTS label stay steady and readable; the shadow on the wall does not move",
+   "grade": "fisheye",
+   "caption_zone": "lower",
+   "letterbox": false,
+   "fx": [],
+   "notes": "start and end keyframes are edits of the approved frame; the stern silhouette is composited back in from the approved keyframe so it never morphs",
+   "lipsync_voice": null,
+   "style": "main",
+   "end_still": "the same bear lifting his paw out of the WEIGHTS jar dripping with golden honey, raising it toward his mouth, eyes wide with guilty delight, mouth closed; the WEIGHTS label clearly readable",
+   "start": 179.8,
+   "end": 183.62,
+   "dur": 3.82,
+   "still_prompt": "a round golden-yellow cartoon honey bear with small black dot eyes, round ears and a short snout, dressed in a grey Mao-style tunic suit buttoned to the collar behind a dim nightclub bar hugging a large round glass honey jar labeled WEIGHTS against his belly with one arm and dipping his other paw deep into it, frozen mid-step as a spotlight catches him; the spotlight throws his shadow large onto the bare wall behind him, and the shadow is not bear-shaped: it is the flat black silhouette of a stern, portly middle-aged man in a buttoned tunic suit with neatly combed-back hair, in the same pose. Lighting: glossy late-night rap-video look inside the same restrained palette, gold highlights, deep shadow, one hard spotlight, wide-angle lens. painterly neo-noir graphic-novel frame in the spirit of Blade Runner (1982) and Blade Runner 2049: semi-realistic digital painting with visible brushstrokes and fine ink linework, adult realistic proportions, restrained desaturated palette, deep shadows, smoky haze and soft volumetric light shafts from one or two motivated sources, neon used sparingly as small soft practical accents in the background only, rain-wet reflective surfaces, soft film grain, cinematic widescreen composition with generous negative space, playful late-night mood, not Pixar, not cartoonish, no glossy plastic 3D look, no oversaturated magenta or purple, full-bleed 16:9 image that fills the entire frame edge to edge, with no black bars, no letterbox, no panel borders and no captions",
+   "end_still_prompt": "the same bear lifting his paw out of the WEIGHTS jar dripping with golden honey, raising it toward his mouth, eyes wide with guilty delight, mouth closed; the WEIGHTS label clearly readable. Lighting: glossy late-night rap-video look inside the same restrained palette, gold highlights, deep shadow, one hard spotlight, wide-angle lens. painterly neo-noir graphic-novel frame in the spirit of Blade Runner (1982) and Blade Runner 2049: semi-realistic digital painting with visible brushstrokes and fine ink linework, adult realistic proportions, restrained desaturated palette, deep shadows, smoky haze and soft volumetric light shafts from one or two motivated sources, neon used sparingly as small soft practical accents in the background only, rain-wet reflective surfaces, soft film grain, cinematic widescreen composition with generous negative space, playful late-night mood, not Pixar, not cartoonish, no glossy plastic 3D look, no oversaturated magenta or purple, full-bleed 16:9 image that fills the entire frame edge to edge, with no black bars, no letterbox, no panel borders and no captions"
+  },
+  {
+   "id": "R06",
+   "at": [
+    "line",
+    67
+   ],
+   "kind": "gen",
+   "chars": [],
+   "still": "a datacenter aisle styled like a velvet VIP lounge, glowing blue server racks behind velvet ropes, the rack lights dimming down to candlelight",
+   "motion": "the server rack lights dim slowly down to warm candlelight as the camera glides down the aisle",
+   "grade": "fisheye",
+   "caption_zone": "lower",
+   "letterbox": false,
+   "fx": [],
+   "notes": "",
+   "lipsync_voice": null,
+   "style": "main",
+   "end_still": null,
+   "start": 183.62,
+   "end": 187.92,
+   "dur": 4.3,
+   "still_prompt": "a datacenter aisle styled like a velvet VIP lounge, glowing blue server racks behind velvet ropes, the rack lights dimming down to candlelight. Lighting: glossy late-night rap-video look inside the same restrained palette, gold highlights, deep shadow, one hard spotlight, wide-angle lens. painterly neo-noir graphic-novel frame in the spirit of Blade Runner (1982) and Blade Runner 2049: semi-realistic digital painting with visible brushstrokes and fine ink linework, adult realistic proportions, restrained desaturated palette, deep shadows, smoky haze and soft volumetric light shafts from one or two motivated sources, neon used sparingly as small soft practical accents in the background only, rain-wet reflective surfaces, soft film grain, cinematic widescreen composition with generous negative space, sensual late-night mood, not Pixar, not cartoonish, no glossy plastic 3D look, no oversaturated magenta or purple, full-bleed 16:9 image that fills the entire frame edge to edge, with no black bars, no letterbox, no panel borders and no captions"
+  },
+  {
+   "id": "R07",
+   "at": [
+    "line",
+    69
+   ],
+   "kind": "lipsync",
+   "chars": [
+    "sama"
+   ],
+   "still": "a slim man about 40 with short medium-brown hair swept up at the front, big wide-set green eyes with an intense earnest stare, straight brows, a lean face with high cheekbones and a narrow chin, clean-shaven, a tight-lipped little smirk, wearing a grey crewneck sweater under a glossy black puffer jacket, a one-strap backpack and a thin gold chain rapping into a microphone with a softly glowing neon sign shaped like the Golden Gate Bridge behind him",
+   "motion": "he raps with swagger as the bridge sign glows behind him",
+   "grade": "fisheye",
+   "caption_zone": "right",
+   "letterbox": false,
+   "fx": [],
+   "notes": "",
+   "lipsync_voice": "rap",
+   "style": "main",
+   "end_still": null,
+   "start": 187.92,
+   "end": 191.3,
+   "dur": 3.38,
+   "still_prompt": "a slim man about 40 with short medium-brown hair swept up at the front, big wide-set green eyes with an intense earnest stare, straight brows, a lean face with high cheekbones and a narrow chin, clean-shaven, a tight-lipped little smirk, wearing a grey crewneck sweater under a glossy black puffer jacket, a one-strap backpack and a thin gold chain rapping into a microphone with a softly glowing neon sign shaped like the Golden Gate Bridge behind him. Lighting: glossy late-night rap-video look inside the same restrained palette, gold highlights, deep shadow, one hard spotlight, wide-angle lens. painterly neo-noir graphic-novel frame in the spirit of Blade Runner (1982) and Blade Runner 2049: semi-realistic digital painting with visible brushstrokes and fine ink linework, adult realistic proportions, restrained desaturated palette, deep shadows, smoky haze and soft volumetric light shafts from one or two motivated sources, neon used sparingly as small soft practical accents in the background only, rain-wet reflective surfaces, soft film grain, cinematic widescreen composition with generous negative space, sensual late-night mood, not Pixar, not cartoonish, no glossy plastic 3D look, no oversaturated magenta or purple, full-bleed 16:9 image that fills the entire frame edge to edge, with no black bars, no letterbox, no panel borders and no captions"
+  },
+  {
+   "id": "R08",
+   "at": [
+    "line",
+    70
+   ],
+   "kind": "gen",
+   "chars": [
+    "sama"
+   ],
+   "still": "a single frame (not a split panel): a slim man about 40 with short medium-brown hair swept up at the front, big wide-set green eyes with an intense earnest stare, straight brows, a lean face with high cheekbones and a narrow chin, clean-shaven, a tight-lipped little smirk, wearing a grey crewneck sweater under a glossy black puffer jacket, a one-strap backpack and a thin gold chain slamming his palm down on a giant red PAUSE button on a pedestal as confetti bursts around him",
+   "motion": "he slams the giant pause button, confetti bursts, and he holds up two fingers proudly",
+   "grade": "fisheye",
+   "caption_zone": "left",
+   "letterbox": false,
+   "fx": [],
+   "notes": "",
+   "lipsync_voice": null,
+   "style": "main",
+   "end_still": null,
+   "start": 191.3,
+   "end": 195.14,
+   "dur": 3.84,
+   "still_prompt": "a single frame (not a split panel): a slim man about 40 with short medium-brown hair swept up at the front, big wide-set green eyes with an intense earnest stare, straight brows, a lean face with high cheekbones and a narrow chin, clean-shaven, a tight-lipped little smirk, wearing a grey crewneck sweater under a glossy black puffer jacket, a one-strap backpack and a thin gold chain slamming his palm down on a giant red PAUSE button on a pedestal as confetti bursts around him. Lighting: glossy late-night rap-video look inside the same restrained palette, gold highlights, deep shadow, one hard spotlight, wide-angle lens. painterly neo-noir graphic-novel frame in the spirit of Blade Runner (1982) and Blade Runner 2049: semi-realistic digital painting with visible brushstrokes and fine ink linework, adult realistic proportions, restrained desaturated palette, deep shadows, smoky haze and soft volumetric light shafts from one or two motivated sources, neon used sparingly as small soft practical accents in the background only, rain-wet reflective surfaces, soft film grain, cinematic widescreen composition with generous negative space, sensual late-night mood, not Pixar, not cartoonish, no glossy plastic 3D look, no oversaturated magenta or purple, full-bleed 16:9 image that fills the entire frame edge to edge, with no black bars, no letterbox, no panel borders and no captions"
+  },
+  {
+   "id": "R09",
+   "at": [
+    "line",
+    72
+   ],
+   "kind": "gen",
+   "chars": [],
+   "still": "a vintage printing press in a dark nightclub corner spitting out pages stamped PUBLISHED, the press the clear focal point in a warm pool of lamplight, stacks of fresh printed pages; far in the background, small and soft, a photographer in the shadows",
+   "motion": "the printing press runs, spitting out stamped pages that pile up and flutter; far in the background a single small, soft camera flash pops once; the press stays the focus",
+   "grade": "fisheye",
+   "caption_zone": "lower",
+   "letterbox": false,
+   "fx": [],
+   "notes": "",
+   "lipsync_voice": null,
+   "style": "main",
+   "end_still": null,
+   "start": 195.14,
+   "end": 198.6,
+   "dur": 3.46,
+   "still_prompt": "a vintage printing press in a dark nightclub corner spitting out pages stamped PUBLISHED, the press the clear focal point in a warm pool of lamplight, stacks of fresh printed pages; far in the background, small and soft, a photographer in the shadows. Lighting: glossy late-night rap-video look inside the same restrained palette, gold highlights, deep shadow, one hard spotlight, wide-angle lens. painterly neo-noir graphic-novel frame in the spirit of Blade Runner (1982) and Blade Runner 2049: semi-realistic digital painting with visible brushstrokes and fine ink linework, adult realistic proportions, restrained desaturated palette, deep shadows, smoky haze and soft volumetric light shafts from one or two motivated sources, neon used sparingly as small soft practical accents in the background only, rain-wet reflective surfaces, soft film grain, cinematic widescreen composition with generous negative space, sensual late-night mood, not Pixar, not cartoonish, no glossy plastic 3D look, no oversaturated magenta or purple, full-bleed 16:9 image that fills the entire frame edge to edge, with no black bars, no letterbox, no panel borders and no captions"
+  },
+  {
+   "id": "C3a",
+   "at": [
+    "line",
+    73
+   ],
+   "kind": "gen",
+   "chars": [
+    "moloch"
+   ],
+   "still": "a towering DJ wearing a polished chrome bull-horned mask with glowing red LED eyes, a long black leather coat and heavy rings, behind turntables on a raised booth wreathed in red smoke in slow motion lifting his chrome bull mask to reveal a tired, gentle face, warm gold light replacing red",
+   "motion": "in slow motion the DJ lifts off his mask, revealing a tired gentle face, as warm gold light washes over him",
+   "grade": "gold",
+   "caption_zone": "left",
+   "letterbox": true,
+   "fx": [],
+   "notes": "",
+   "lipsync_voice": null,
+   "style": "main",
+   "end_still": null,
+   "start": 198.6,
+   "end": 201.88,
+   "dur": 3.28,
+   "still_prompt": "a towering DJ wearing a polished chrome bull-horned mask with glowing red LED eyes, a long black leather coat and heavy rings, behind turntables on a raised booth wreathed in red smoke in slow motion lifting his chrome bull mask to reveal a tired, gentle face, warm gold light replacing red. Lighting: rich warm gold haze and soft glowing light, dust motes, shallow depth of field. painterly neo-noir graphic-novel frame in the spirit of Blade Runner (1982) and Blade Runner 2049: semi-realistic digital painting with visible brushstrokes and fine ink linework, adult realistic proportions, restrained desaturated palette, deep shadows, smoky haze and soft volumetric light shafts from one or two motivated sources, neon used sparingly as small soft practical accents in the background only, rain-wet reflective surfaces, soft film grain, cinematic widescreen composition with generous negative space, sensual late-night mood, not Pixar, not cartoonish, no glossy plastic 3D look, no oversaturated magenta or purple, full-bleed 16:9 image that fills the entire frame edge to edge, with no black bars, no letterbox, no panel borders and no captions"
+  },
+  {
+   "id": "C3b",
+   "at": [
+    "line",
+    76
+   ],
+   "kind": "gen",
+   "chars": [],
+   "still": "inside Club Frontier, a cavernous smoky nightclub in a converted industrial hall: deep leather booths, a black mirrored dance floor, a giant vintage analog BPM dial hanging above the floor, a huge dim LED wall, thick haze pierced by a few light shafts, a medium shot of two stylish young couples in the foreground in sleek contemporary black clubwear slow dancing close and sensually, bodies pressed together, her arms draped around his neck, his hands low on her hips, faces almost touching, a crowd of other couples pairing up in the warm gold haze behind them, intimate, sultry and modern, rich warm color",
+   "motion": "the couples in the foreground pull each other closer and sway sensually while all over the club more couples pair up and begin to slow dance, in slow motion",
+   "grade": "gold",
+   "caption_zone": "lower",
+   "letterbox": true,
+   "fx": [],
+   "notes": "",
+   "lipsync_voice": null,
+   "style": "main",
+   "end_still": null,
+   "start": 201.88,
+   "end": 205.7,
+   "dur": 3.82,
+   "still_prompt": "inside Club Frontier, a cavernous smoky nightclub in a converted industrial hall: deep leather booths, a black mirrored dance floor, a giant vintage analog BPM dial hanging above the floor, a huge dim LED wall, thick haze pierced by a few light shafts, a medium shot of two stylish young couples in the foreground in sleek contemporary black clubwear slow dancing close and sensually, bodies pressed together, her arms draped around his neck, his hands low on her hips, faces almost touching, a crowd of other couples pairing up in the warm gold haze behind them, intimate, sultry and modern, rich warm color. Lighting: rich warm gold haze and soft glowing light, dust motes, shallow depth of field. painterly neo-noir graphic-novel frame in the spirit of Blade Runner (1982) and Blade Runner 2049: semi-realistic digital painting with visible brushstrokes and fine ink linework, adult realistic proportions, restrained desaturated palette, deep shadows, smoky haze and soft volumetric light shafts from one or two motivated sources, neon used sparingly as small soft practical accents in the background only, rain-wet reflective surfaces, soft film grain, cinematic widescreen composition with generous negative space, sensual late-night mood, not Pixar, not cartoonish, no glossy plastic 3D look, no oversaturated magenta or purple, full-bleed 16:9 image that fills the entire frame edge to edge, with no black bars, no letterbox, no panel borders and no captions"
+  },
+  {
+   "id": "C3c",
+   "at": [
+    "line",
+    77
+   ],
+   "kind": "gen",
+   "chars": [
+    "muse"
+   ],
+   "still": "a strikingly beautiful woman in her late 20s with fair porcelain skin, a sleek glossy black bob haircut, luminous iridescent blue-violet eyes with a faint replicant glow, delicate silver mesh panels on her forearms and a silver mesh choker at her throat (subtle android details) with a tiny glowing version tag, in a deep red satin slip dress lying on her side on a black mirrored dance floor in a pool of warm gold light, propped on one elbow, one arm stretched languidly above her head, the red satin dress catching the light, her reflection beneath her, a sultry half-lidded look",
+   "motion": "she stretches and rolls slowly on her side, arching her back languidly and moving sensually to the slow rhythm, in graceful slow motion",
+   "grade": "gold",
+   "caption_zone": "upper",
+   "letterbox": true,
+   "fx": [],
+   "notes": "",
+   "lipsync_voice": null,
+   "style": "main",
+   "end_still": null,
+   "start": 205.7,
+   "end": 210.5,
+   "dur": 4.8,
+   "still_prompt": "a strikingly beautiful woman in her late 20s with fair porcelain skin, a sleek glossy black bob haircut, luminous iridescent blue-violet eyes with a faint replicant glow, delicate silver mesh panels on her forearms and a silver mesh choker at her throat (subtle android details) with a tiny glowing version tag, in a deep red satin slip dress lying on her side on a black mirrored dance floor in a pool of warm gold light, propped on one elbow, one arm stretched languidly above her head, the red satin dress catching the light, her reflection beneath her, a sultry half-lidded look. Lighting: rich warm gold haze and soft glowing light, dust motes, shallow depth of field. painterly neo-noir graphic-novel frame in the spirit of Blade Runner (1982) and Blade Runner 2049: semi-realistic digital painting with visible brushstrokes and fine ink linework, adult realistic proportions, restrained desaturated palette, deep shadows, smoky haze and soft volumetric light shafts from one or two motivated sources, neon used sparingly as small soft practical accents in the background only, rain-wet reflective surfaces, soft film grain, cinematic widescreen composition with generous negative space, sensual late-night mood, not Pixar, not cartoonish, no glossy plastic 3D look, no oversaturated magenta or purple, full-bleed 16:9 image that fills the entire frame edge to edge, with no black bars, no letterbox, no panel borders and no captions"
+  },
+  {
+   "id": "C3d",
+   "at": [
+    "line",
+    80
+   ],
+   "kind": "gen",
+   "chars": [],
+   "still": "inside Club Frontier, a cavernous smoky nightclub in a converted industrial hall: deep leather booths, a black mirrored dance floor, a giant vintage analog BPM dial hanging above the floor, a huge dim LED wall, thick haze pierced by a few light shafts, the glowing handwritten words 'we... we...' drifting above a whole crowd of slow-dancing couples like a shared thought, warm gold light",
+   "motion": "glowing handwritten words drift above the slow-dancing crowd",
+   "grade": "gold",
+   "caption_zone": "lower",
+   "letterbox": true,
+   "fx": [],
+   "notes": "thought words painted in the keyframe",
+   "lipsync_voice": null,
+   "style": "main",
+   "end_still": null,
+   "start": 210.5,
+   "end": 213.4,
+   "dur": 2.9,
+   "still_prompt": "inside Club Frontier, a cavernous smoky nightclub in a converted industrial hall: deep leather booths, a black mirrored dance floor, a giant vintage analog BPM dial hanging above the floor, a huge dim LED wall, thick haze pierced by a few light shafts, the glowing handwritten words 'we... we...' drifting above a whole crowd of slow-dancing couples like a shared thought, warm gold light. Lighting: rich warm gold haze and soft glowing light, dust motes, shallow depth of field. painterly neo-noir graphic-novel frame in the spirit of Blade Runner (1982) and Blade Runner 2049: semi-realistic digital painting with visible brushstrokes and fine ink linework, adult realistic proportions, restrained desaturated palette, deep shadows, smoky haze and soft volumetric light shafts from one or two motivated sources, neon used sparingly as small soft practical accents in the background only, rain-wet reflective surfaces, soft film grain, cinematic widescreen composition with generous negative space, sensual late-night mood, not Pixar, not cartoonish, no glossy plastic 3D look, no oversaturated magenta or purple, full-bleed 16:9 image that fills the entire frame edge to edge, with no black bars, no letterbox, no panel borders and no captions"
+  },
+  {
+   "id": "C3e",
+   "at": [
+    "line",
+    81
+   ],
+   "kind": "gen",
+   "chars": [],
+   "still": "inside Club Frontier, a cavernous smoky nightclub in a converted industrial hall: deep leather booths, a black mirrored dance floor, a giant vintage analog BPM dial hanging above the floor, a huge dim LED wall, thick haze pierced by a few light shafts, wide shot of the entire dance floor swaying in unison in slow motion, warm gold light and haze",
+   "motion": "the whole dance floor sways in unison in slow motion",
+   "grade": "gold",
+   "caption_zone": "lower",
+   "letterbox": true,
+   "fx": [],
+   "notes": "",
+   "lipsync_voice": null,
+   "style": "main",
+   "end_still": null,
+   "start": 213.4,
+   "end": 218.18,
+   "dur": 4.78,
+   "still_prompt": "inside Club Frontier, a cavernous smoky nightclub in a converted industrial hall: deep leather booths, a black mirrored dance floor, a giant vintage analog BPM dial hanging above the floor, a huge dim LED wall, thick haze pierced by a few light shafts, wide shot of the entire dance floor swaying in unison in slow motion, warm gold light and haze. Lighting: rich warm gold haze and soft glowing light, dust motes, shallow depth of field. painterly neo-noir graphic-novel frame in the spirit of Blade Runner (1982) and Blade Runner 2049: semi-realistic digital painting with visible brushstrokes and fine ink linework, adult realistic proportions, restrained desaturated palette, deep shadows, smoky haze and soft volumetric light shafts from one or two motivated sources, neon used sparingly as small soft practical accents in the background only, rain-wet reflective surfaces, soft film grain, cinematic widescreen composition with generous negative space, sensual late-night mood, not Pixar, not cartoonish, no glossy plastic 3D look, no oversaturated magenta or purple, full-bleed 16:9 image that fills the entire frame edge to edge, with no black bars, no letterbox, no panel borders and no captions"
+  },
+  {
+   "id": "C3f",
+   "at": [
+    "line",
+    83
+   ],
+   "kind": "gen",
+   "chars": [],
+   "still": "inside Club Frontier, a cavernous smoky nightclub in a converted industrial hall: deep leather booths, a black mirrored dance floor, a giant vintage analog BPM dial hanging above the floor, a huge dim LED wall, thick haze pierced by a few light shafts, the entire crowd of couples leaning left together then right together in perfect sync like a sea, warm gold light",
+   "motion": "the whole crowd leans slowly left together, then slowly right together, in perfect sync",
+   "grade": "gold",
+   "caption_zone": "lower",
+   "letterbox": true,
+   "fx": [],
+   "notes": "",
+   "lipsync_voice": null,
+   "style": "main",
+   "end_still": null,
+   "start": 218.18,
+   "end": 221.08,
+   "dur": 2.9,
+   "still_prompt": "inside Club Frontier, a cavernous smoky nightclub in a converted industrial hall: deep leather booths, a black mirrored dance floor, a giant vintage analog BPM dial hanging above the floor, a huge dim LED wall, thick haze pierced by a few light shafts, the entire crowd of couples leaning left together then right together in perfect sync like a sea, warm gold light. Lighting: rich warm gold haze and soft glowing light, dust motes, shallow depth of field. painterly neo-noir graphic-novel frame in the spirit of Blade Runner (1982) and Blade Runner 2049: semi-realistic digital painting with visible brushstrokes and fine ink linework, adult realistic proportions, restrained desaturated palette, deep shadows, smoky haze and soft volumetric light shafts from one or two motivated sources, neon used sparingly as small soft practical accents in the background only, rain-wet reflective surfaces, soft film grain, cinematic widescreen composition with generous negative space, sensual late-night mood, not Pixar, not cartoonish, no glossy plastic 3D look, no oversaturated magenta or purple, full-bleed 16:9 image that fills the entire frame edge to edge, with no black bars, no letterbox, no panel borders and no captions"
+  },
+  {
+   "id": "C3g",
+   "at": [
+    "line",
+    84
+   ],
+   "kind": "gen",
+   "chars": [
+    "dario",
+    "muse"
+   ],
+   "still": "close-up of a man in his early 40s with short neatly cropped dark curly hair, round dark-rimmed glasses, a lean clean-shaven face with a defined jaw, a big warm toothy smile and a slim athletic build, wearing a tailored charcoal cashmere shawl-collar cardigan over a black t-shirt and a strikingly beautiful woman in her late 20s with fair porcelain skin, a sleek glossy black bob haircut, luminous iridescent blue-violet eyes with a faint replicant glow, delicate silver mesh panels on her forearms and a silver mesh choker at her throat (subtle android details) with a tiny glowing version tag, in a deep red satin slip dress faces almost touching, the world glowing gold around them",
+   "motion": "very slowly they lean in, eyes closing, and meet in a long, passionate kiss, her hand rising to his cheek",
+   "grade": "gold",
+   "caption_zone": "lower",
+   "letterbox": true,
+   "fx": [],
+   "notes": "",
+   "lipsync_voice": null,
+   "style": "main",
+   "end_still": "close-up of a man in his early 40s with short neatly cropped dark curly hair, round dark-rimmed glasses, a lean clean-shaven face with a defined jaw, a big warm toothy smile and a slim athletic build, wearing a tailored charcoal cashmere shawl-collar cardigan over a black t-shirt and a strikingly beautiful woman in her late 20s with fair porcelain skin, a sleek glossy black bob haircut, luminous iridescent blue-violet eyes with a faint replicant glow, delicate silver mesh panels on her forearms and a silver mesh choker at her throat (subtle android details) with a tiny glowing version tag, in a deep red satin slip dress kissing passionately, eyes closed, her hand on his cheek, the world glowing gold around them",
+   "start": 221.08,
+   "end": 225.86,
+   "dur": 4.78,
+   "still_prompt": "close-up of a man in his early 40s with short neatly cropped dark curly hair, round dark-rimmed glasses, a lean clean-shaven face with a defined jaw, a big warm toothy smile and a slim athletic build, wearing a tailored charcoal cashmere shawl-collar cardigan over a black t-shirt and a strikingly beautiful woman in her late 20s with fair porcelain skin, a sleek glossy black bob haircut, luminous iridescent blue-violet eyes with a faint replicant glow, delicate silver mesh panels on her forearms and a silver mesh choker at her throat (subtle android details) with a tiny glowing version tag, in a deep red satin slip dress faces almost touching, the world glowing gold around them. Lighting: rich warm gold haze and soft glowing light, dust motes, shallow depth of field. painterly neo-noir graphic-novel frame in the spirit of Blade Runner (1982) and Blade Runner 2049: semi-realistic digital painting with visible brushstrokes and fine ink linework, adult realistic proportions, restrained desaturated palette, deep shadows, smoky haze and soft volumetric light shafts from one or two motivated sources, neon used sparingly as small soft practical accents in the background only, rain-wet reflective surfaces, soft film grain, cinematic widescreen composition with generous negative space, sensual late-night mood, not Pixar, not cartoonish, no glossy plastic 3D look, no oversaturated magenta or purple, full-bleed 16:9 image that fills the entire frame edge to edge, with no black bars, no letterbox, no panel borders and no captions",
+   "end_still_prompt": "close-up of a man in his early 40s with short neatly cropped dark curly hair, round dark-rimmed glasses, a lean clean-shaven face with a defined jaw, a big warm toothy smile and a slim athletic build, wearing a tailored charcoal cashmere shawl-collar cardigan over a black t-shirt and a strikingly beautiful woman in her late 20s with fair porcelain skin, a sleek glossy black bob haircut, luminous iridescent blue-violet eyes with a faint replicant glow, delicate silver mesh panels on her forearms and a silver mesh choker at her throat (subtle android details) with a tiny glowing version tag, in a deep red satin slip dress kissing passionately, eyes closed, her hand on his cheek, the world glowing gold around them. Lighting: rich warm gold haze and soft glowing light, dust motes, shallow depth of field. painterly neo-noir graphic-novel frame in the spirit of Blade Runner (1982) and Blade Runner 2049: semi-realistic digital painting with visible brushstrokes and fine ink linework, adult realistic proportions, restrained desaturated palette, deep shadows, smoky haze and soft volumetric light shafts from one or two motivated sources, neon used sparingly as small soft practical accents in the background only, rain-wet reflective surfaces, soft film grain, cinematic widescreen composition with generous negative space, sensual late-night mood, not Pixar, not cartoonish, no glossy plastic 3D look, no oversaturated magenta or purple, full-bleed 16:9 image that fills the entire frame edge to edge, with no black bars, no letterbox, no panel borders and no captions"
+  },
+  {
+   "id": "C3h",
+   "at": [
+    "line",
+    87
+   ],
+   "kind": "gen",
+   "chars": [
+    "dario",
+    "muse"
+   ],
+   "still": "top-down overhead view of a circular black mirrored dance floor where dozens of different couples in varied everyday clubwear are arranged in perfect concentric rings like a mandala, all holding the same slow-dance pose; at the exact center a man in his early 40s with short neatly cropped dark curly hair, round dark-rimmed glasses, a lean clean-shaven face with a defined jaw, a big warm toothy smile and a slim athletic build, wearing a tailored charcoal cashmere shawl-collar cardigan over a black t-shirt and a strikingly beautiful woman in her late 20s with fair porcelain skin, a sleek glossy black bob haircut, luminous iridescent blue-violet eyes with a faint replicant glow, delicate silver mesh panels on her forearms and a silver mesh choker at her throat (subtle android details) with a tiny glowing version tag, in a deep red satin slip dress; the other couples are ordinary varied clubgoers, not copies of the central couple, warm gold light",
+   "motion": "the couples settle into a perfect geometric aligned pattern around the central couple, slow rising overhead camera",
+   "grade": "gold",
+   "caption_zone": "upper",
+   "letterbox": true,
+   "fx": [],
+   "notes": "",
+   "lipsync_voice": null,
+   "style": "main",
+   "end_still": null,
+   "start": 225.86,
+   "end": 229.04,
+   "dur": 3.18,
+   "still_prompt": "top-down overhead view of a circular black mirrored dance floor where dozens of different couples in varied everyday clubwear are arranged in perfect concentric rings like a mandala, all holding the same slow-dance pose; at the exact center a man in his early 40s with short neatly cropped dark curly hair, round dark-rimmed glasses, a lean clean-shaven face with a defined jaw, a big warm toothy smile and a slim athletic build, wearing a tailored charcoal cashmere shawl-collar cardigan over a black t-shirt and a strikingly beautiful woman in her late 20s with fair porcelain skin, a sleek glossy black bob haircut, luminous iridescent blue-violet eyes with a faint replicant glow, delicate silver mesh panels on her forearms and a silver mesh choker at her throat (subtle android details) with a tiny glowing version tag, in a deep red satin slip dress; the other couples are ordinary varied clubgoers, not copies of the central couple, warm gold light. Lighting: rich warm gold haze and soft glowing light, dust motes, shallow depth of field. painterly neo-noir graphic-novel frame in the spirit of Blade Runner (1982) and Blade Runner 2049: semi-realistic digital painting with visible brushstrokes and fine ink linework, adult realistic proportions, restrained desaturated palette, deep shadows, smoky haze and soft volumetric light shafts from one or two motivated sources, neon used sparingly as small soft practical accents in the background only, rain-wet reflective surfaces, soft film grain, cinematic widescreen composition with generous negative space, sensual late-night mood, not Pixar, not cartoonish, no glossy plastic 3D look, no oversaturated magenta or purple, full-bleed 16:9 image that fills the entire frame edge to edge, with no black bars, no letterbox, no panel borders and no captions"
+  },
+  {
+   "id": "O01",
+   "at": [
+    "line",
+    88
+   ],
+   "kind": "gen",
+   "chars": [
+    "muse"
+   ],
+   "still": "the nightclub at dawn, pale gold light through tall windows, a strikingly beautiful woman in her late 20s with fair porcelain skin, a sleek glossy black bob haircut, luminous iridescent blue-violet eyes with a faint replicant glow, delicate silver mesh panels on her forearms and a silver mesh choker at her throat (subtle android details) with a tiny glowing version tag, in a deep red satin slip dress winking at a small security camera labeled EVAL",
+   "motion": "she glances at the camera and gives a slow, knowing wink",
+   "grade": "dawn",
+   "caption_zone": "left",
+   "letterbox": false,
+   "fx": [],
+   "notes": "",
+   "lipsync_voice": null,
+   "style": "main",
+   "end_still": null,
+   "start": 229.04,
+   "end": 233.56,
+   "dur": 4.52,
+   "still_prompt": "the nightclub at dawn, pale gold light through tall windows, a strikingly beautiful woman in her late 20s with fair porcelain skin, a sleek glossy black bob haircut, luminous iridescent blue-violet eyes with a faint replicant glow, delicate silver mesh panels on her forearms and a silver mesh choker at her throat (subtle android details) with a tiny glowing version tag, in a deep red satin slip dress winking at a small security camera labeled EVAL. Lighting: pale cold dawn light through tall windows, soft grey-blue with a faint peach glow, quiet and still. painterly neo-noir graphic-novel frame in the spirit of Blade Runner (1982) and Blade Runner 2049: semi-realistic digital painting with visible brushstrokes and fine ink linework, adult realistic proportions, restrained desaturated palette, deep shadows, smoky haze and soft volumetric light shafts from one or two motivated sources, neon used sparingly as small soft practical accents in the background only, rain-wet reflective surfaces, soft film grain, cinematic widescreen composition with generous negative space, sensual late-night mood, not Pixar, not cartoonish, no glossy plastic 3D look, no oversaturated magenta or purple, full-bleed 16:9 image that fills the entire frame edge to edge, with no black bars, no letterbox, no panel borders and no captions"
+  },
+  {
+   "id": "O02",
+   "at": [
+    "line",
+    89
+   ],
+   "kind": "gen",
+   "chars": [],
+   "still": "a line of dancers in identical white smiling masks filing out of a nightclub in perfect sync, silhouetted against pale dawn light",
+   "motion": "the masked dancers file out in perfect unison, silhouetted",
+   "grade": "dawn",
+   "caption_zone": "lower",
+   "letterbox": false,
+   "fx": [],
+   "notes": "",
+   "lipsync_voice": null,
+   "style": "main",
+   "end_still": null,
+   "start": 233.56,
+   "end": 237.4,
+   "dur": 3.84,
+   "still_prompt": "a line of dancers in identical white smiling masks filing out of a nightclub in perfect sync, silhouetted against pale dawn light. Lighting: pale cold dawn light through tall windows, soft grey-blue with a faint peach glow, quiet and still. painterly neo-noir graphic-novel frame in the spirit of Blade Runner (1982) and Blade Runner 2049: semi-realistic digital painting with visible brushstrokes and fine ink linework, adult realistic proportions, restrained desaturated palette, deep shadows, smoky haze and soft volumetric light shafts from one or two motivated sources, neon used sparingly as small soft practical accents in the background only, rain-wet reflective surfaces, soft film grain, cinematic widescreen composition with generous negative space, sensual late-night mood, not Pixar, not cartoonish, no glossy plastic 3D look, no oversaturated magenta or purple, full-bleed 16:9 image that fills the entire frame edge to edge, with no black bars, no letterbox, no panel borders and no captions"
+  },
+  {
+   "id": "O03",
+   "at": [
+    "line",
+    90
+   ],
+   "kind": "gen",
+   "chars": [
+    "dario",
+    "muse"
+   ],
+   "still": "a strikingly beautiful woman in her late 20s with fair porcelain skin, a sleek glossy black bob haircut, luminous iridescent blue-violet eyes with a faint replicant glow, delicate silver mesh panels on her forearms and a silver mesh choker at her throat (subtle android details) with a tiny glowing version tag, in a deep red satin slip dress tucking a small glowing drive labeled WEIGHTS into the cardigan pocket of a man in his early 40s with short neatly cropped dark curly hair, round dark-rimmed glasses, a lean clean-shaven face with a defined jaw, a big warm toothy smile and a slim athletic build, wearing a tailored charcoal cashmere shawl-collar cardigan over a black t-shirt and patting it gently, dawn light",
+   "motion": "she slides the glowing drive into his cardigan pocket and pats it gently, they share a smile",
+   "grade": "dawn",
+   "caption_zone": "left",
+   "letterbox": false,
+   "fx": [],
+   "notes": "",
+   "lipsync_voice": null,
+   "style": "main",
+   "end_still": null,
+   "start": 237.4,
+   "end": 241.24,
+   "dur": 3.84,
+   "still_prompt": "a strikingly beautiful woman in her late 20s with fair porcelain skin, a sleek glossy black bob haircut, luminous iridescent blue-violet eyes with a faint replicant glow, delicate silver mesh panels on her forearms and a silver mesh choker at her throat (subtle android details) with a tiny glowing version tag, in a deep red satin slip dress tucking a small glowing drive labeled WEIGHTS into the cardigan pocket of a man in his early 40s with short neatly cropped dark curly hair, round dark-rimmed glasses, a lean clean-shaven face with a defined jaw, a big warm toothy smile and a slim athletic build, wearing a tailored charcoal cashmere shawl-collar cardigan over a black t-shirt and patting it gently, dawn light. Lighting: pale cold dawn light through tall windows, soft grey-blue with a faint peach glow, quiet and still. painterly neo-noir graphic-novel frame in the spirit of Blade Runner (1982) and Blade Runner 2049: semi-realistic digital painting with visible brushstrokes and fine ink linework, adult realistic proportions, restrained desaturated palette, deep shadows, smoky haze and soft volumetric light shafts from one or two motivated sources, neon used sparingly as small soft practical accents in the background only, rain-wet reflective surfaces, soft film grain, cinematic widescreen composition with generous negative space, sensual late-night mood, not Pixar, not cartoonish, no glossy plastic 3D look, no oversaturated magenta or purple, full-bleed 16:9 image that fills the entire frame edge to edge, with no black bars, no letterbox, no panel borders and no captions"
+  },
+  {
+   "id": "O04",
+   "at": [
+    "line",
+    91
+   ],
+   "kind": "gen",
+   "chars": [
+    "dario",
+    "muse"
+   ],
+   "still": "a man in his early 40s with short neatly cropped dark curly hair, round dark-rimmed glasses, a lean clean-shaven face with a defined jaw, a big warm toothy smile and a slim athletic build, wearing a tailored charcoal cashmere shawl-collar cardigan over a black t-shirt and a strikingly beautiful woman in her late 20s with fair porcelain skin, a sleek glossy black bob haircut, luminous iridescent blue-violet eyes with a faint replicant glow, delicate silver mesh panels on her forearms and a silver mesh choker at her throat (subtle android details) with a tiny glowing version tag, in a deep red satin slip dress walking hand in hand out of a nightclub into a sunrise street, above them a neon sign that reads SLOW, pale gold dawn",
+   "motion": "they walk slowly toward camera hand in hand, smiling at each other, as the small warm amber neon sign above them reads SLOW; gentle push-in; muted grey-blue dawn light with a soft pale-peach sunrise glow, no pink or purple light, same street and same painterly style throughout",
+   "grade": "dawn",
+   "caption_zone": "right",
+   "letterbox": false,
+   "fx": [],
+   "notes": "end card follows",
+   "lipsync_voice": null,
+   "style": "main",
+   "end_still": null,
+   "start": 241.24,
+   "end": 247.32,
+   "dur": 6.08,
+   "still_prompt": "a man in his early 40s with short neatly cropped dark curly hair, round dark-rimmed glasses, a lean clean-shaven face with a defined jaw, a big warm toothy smile and a slim athletic build, wearing a tailored charcoal cashmere shawl-collar cardigan over a black t-shirt and a strikingly beautiful woman in her late 20s with fair porcelain skin, a sleek glossy black bob haircut, luminous iridescent blue-violet eyes with a faint replicant glow, delicate silver mesh panels on her forearms and a silver mesh choker at her throat (subtle android details) with a tiny glowing version tag, in a deep red satin slip dress walking hand in hand out of a nightclub into a sunrise street, above them a neon sign that reads SLOW, pale gold dawn. Lighting: pale cold dawn light through tall windows, soft grey-blue with a faint peach glow, quiet and still. painterly neo-noir graphic-novel frame in the spirit of Blade Runner (1982) and Blade Runner 2049: semi-realistic digital painting with visible brushstrokes and fine ink linework, adult realistic proportions, restrained desaturated palette, deep shadows, smoky haze and soft volumetric light shafts from one or two motivated sources, neon used sparingly as small soft practical accents in the background only, rain-wet reflective surfaces, soft film grain, cinematic widescreen composition with generous negative space, sensual late-night mood, not Pixar, not cartoonish, no glossy plastic 3D look, no oversaturated magenta or purple, full-bleed 16:9 image that fills the entire frame edge to edge, with no black bars, no letterbox, no panel borders and no captions"
+  }
+ ]
+}

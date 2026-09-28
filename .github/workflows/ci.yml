@@ -1,0 +1,32 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  test:
+    # Offline and cheap: installs the core pipeline (no torch), checks that every Python file compiles, and runs the
+    # smoke tests. No secrets are configured, and nothing here calls fal, ElevenLabs, Notion, or any other API.
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v7
+
+      - uses: astral-sh/setup-uv@v7
+        with:
+          enable-cache: true
+
+      - name: Install dependencies
+        run: uv sync --frozen
+
+      - name: Check that every Python file compiles
+        run: git ls-files -z '*.py' | xargs -0 uv run --frozen python -m py_compile
+
+      - name: Run tests
+        run: uv run --frozen pytest -q

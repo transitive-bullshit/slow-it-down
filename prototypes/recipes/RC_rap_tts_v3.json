@@ -1,0 +1,138 @@
+{
+ "name": "RC_rap_tts_v3",
+ "window": [
+  170.6,
+  204.6
+ ],
+ "vocal_over_inst_lu": 4.0,
+ "clips": [
+  {
+   "src": "prototypes/raw/elevenlabs/tts_rap_eleven_v3.mp3",
+   "src_start": 0.361,
+   "src_end": 1.937,
+   "dst": 171.28,
+   "bus": "rap",
+   "fit": 1.990224
+  },
+  {
+   "src": "prototypes/raw/elevenlabs/tts_rap_eleven_v3.mp3",
+   "src_start": 2.037,
+   "src_end": 3.697,
+   "dst": 173.23,
+   "bus": "rap",
+   "fit": 1.990224
+  },
+  {
+   "src": "prototypes/raw/elevenlabs/tts_rap_eleven_v3.mp3",
+   "src_start": 3.777,
+   "src_end": 6.257,
+   "dst": 175.18,
+   "bus": "rap",
+   "fit": 1.990224
+  },
+  {
+   "src": "prototypes/raw/elevenlabs/tts_rap_eleven_v3.mp3",
+   "src_start": 6.297,
+   "src_end": 8.577,
+   "dst": 177.13,
+   "bus": "rap",
+   "fit": 1.990224
+  },
+  {
+   "src": "prototypes/raw/elevenlabs/tts_rap_eleven_v3.mp3",
+   "src_start": 8.689,
+   "src_end": 10.817,
+   "dst": 179.08,
+   "bus": "rap",
+   "fit": 1.990224
+  },
+  {
+   "src": "prototypes/raw/elevenlabs/tts_rap_eleven_v3.mp3",
+   "src_start": 10.887,
+   "src_end": 13.217,
+   "dst": 181.04,
+   "bus": "rap",
+   "fit": 1.990224
+  },
+  {
+   "src": "prototypes/raw/elevenlabs/tts_rap_eleven_v3.mp3",
+   "src_start": 13.313,
+   "src_end": 15.697,
+   "dst": 182.99,
+   "bus": "rap",
+   "fit": 1.990224
+  },
+  {
+   "src": "prototypes/raw/elevenlabs/tts_rap_eleven_v3.mp3",
+   "src_start": 15.777,
+   "src_end": 17.857,
+   "dst": 184.94,
+   "bus": "rap",
+   "fit": 1.990224
+  },
+  {
+   "src": "prototypes/raw/elevenlabs/tts_rap_eleven_v3.mp3",
+   "src_start": 18.017,
+   "src_end": 19.457,
+   "dst": 186.89,
+   "bus": "rap",
+   "fit": 1.990224
+  },
+  {
+   "src": "prototypes/raw/elevenlabs/tts_rap_eleven_v3.mp3",
+   "src_start": 19.585,
+   "src_end": 21.057,
+   "dst": 188.84,
+   "bus": "rap",
+   "fit": 1.990224
+  },
+  {
+   "src": "prototypes/raw/elevenlabs/tts_rap_eleven_v3.mp3",
+   "src_start": 21.137,
+   "src_end": 22.897,
+   "dst": 190.79,
+   "bus": "rap",
+   "fit": 1.990224
+  },
+  {
+   "src": "prototypes/raw/elevenlabs/tts_rap_eleven_v3.mp3",
+   "src_start": 23.004,
+   "src_end": 25.777,
+   "dst": 192.74,
+   "bus": "rap",
+   "fit": 1.990224
+  },
+  {
+   "src": "prototypes/raw/elevenlabs/tts_rap_eleven_v3.mp3",
+   "src_start": 25.964,
+   "src_end": 28.577,
+   "dst": 194.69,
+   "bus": "rap",
+   "fit": 1.990224
+  },
+  {
+   "src": "prototypes/raw/elevenlabs/tts_rap_eleven_v3.mp3",
+   "src_start": 28.677,
+   "src_end": 30.417,
+   "dst": 196.65,
+   "bus": "rap",
+   "fit": 1.990224
+  },
+  {
+   "src": "prototypes/raw/elevenlabs/tts_rap_eleven_v3.mp3",
+   "src_start": 30.497,
+   "src_end": 32.257,
+   "dst": 198.6,
+   "bus": "rap",
+   "fit": 1.990224
+  },
+  {
+   "src": "prototypes/raw/elevenlabs/tts_rap_eleven_v3.mp3",
+   "src_start": 32.35,
+   "src_end": 34.817,
+   "dst": 200.55,
+   "bus": "rap",
+   "fit": 1.990224
+  }
+ ]
+}

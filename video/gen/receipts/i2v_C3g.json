@@ -1,0 +1,24 @@
+{
+ "endpoint": "fal-ai/veo3.1/fast/first-last-frame-to-video",
+ "args": {
+  "prompt": "very slowly they lean in, eyes closing, and meet in a long, passionate kiss, her hand rising to his cheek Graceful slow motion. Painterly neo-noir graphic-novel animation: keep the hand-painted brushwork, ink lines and lighting of the first frame, same characters, faces and outfits throughout, smooth cinematic camera, no on-screen text changes.",
+  "first_frame_url": "https://v3b.fal.media/files/b/0aac3ad1/EbFVJu1PMlxCCaQeocmD-_C3g.png",
+  "resolution": "1080p",
+  "aspect_ratio": "16:9",
+  "generate_audio": false,
+  "safety_tolerance": "5",
+  "auto_fix": true,
+  "negative_prompt": "garbled or changing text, morphing faces, extra limbs, flicker, photorealistic, glossy 3D render, oversaturated neon",
+  "last_frame_url": "https://v3b.fal.media/files/b/0aac3ad2/abd5N0mNIHhhbGccERpVK_C3g_end.png",
+  "duration": "4s"
+ },
+ "seconds": 127.6,
+ "result": {
+  "video": {
+   "url": "https://v3b.fal.media/files/b/0aac3adf/jioLxqfTr583x9bXPz9ZS_8a00c75c403040be8f001ee3d3544348.mp4",
+   "content_type": "video/mp4",
+   "file_name": "8a00c75c403040be8f001ee3d3544348.mp4",
+   "file_size": 8623574
+  }
+ }
+}

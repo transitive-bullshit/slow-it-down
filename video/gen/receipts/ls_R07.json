@@ -1,0 +1,19 @@
+{
+ "endpoint": "fal-ai/bytedance/omnihuman/v1.5",
+ "args": {
+  "image_url": "https://v3b.fal.media/files/b/0aac32eb/bq9QULVDmQuF_aF7gg8K5_R07_in.jpg",
+  "audio_url": "https://v3b.fal.media/files/b/0aac32eb/bVm0HarpRLM9c2g4hXhjI_R07_vocal.wav",
+  "resolution": "720p",
+  "prompt": "he raps with swagger as the bridge sign glows behind him, singing expressively with natural mouth shapes, painterly cyberpunk-noir graphic-novel look, same character and outfit"
+ },
+ "seconds": 928.1,
+ "result": {
+  "video": {
+   "url": "https://v3b.fal.media/files/b/0aac3348/t2IZXArN3z-UOachgfNtm_video.mp4",
+   "content_type": "video/mp4",
+   "file_name": "video.mp4",
+   "file_size": 1704366
+  },
+  "duration": 3.58
+ }
+}

@@ -1,0 +1,24 @@
+{
+ "endpoint": "fal-ai/nano-banana-pro",
+ "args": {
+  "prompt": "character reference portrait, waist-up, three-quarter view, a strikingly beautiful woman in her late 20s with a sleek glossy black bob haircut, luminous iridescent blue-violet eyes, flawless skin with delicate silver mesh panels on her forearms and a silver mesh choker at her throat (subtle android details) with a tiny glowing version tag, in a liquid-silver sequin dress, warm gold light. stylized semi-realistic 3D animated film still, mature prestige adult-animation aesthetic, realistic proportions and anatomy, hand-painted brush textures on skin and fabric, cinematic volumetric light, deep inky blacks, rich neon and warm tones, shallow depth of field, anamorphic lens flare, sensual late-night R&B music video mood, 16:9 widescreen",
+  "aspect_ratio": "16:9",
+  "resolution": "2K",
+  "output_format": "png",
+  "safety_tolerance": "4"
+ },
+ "seconds": 24.2,
+ "result": {
+  "images": [
+   {
+    "url": "https://v3b.fal.media/files/b/0aac3108/CiUD1ktGGc0s-ecsWmsmc_WN13dbEU.png",
+    "content_type": "image/png",
+    "file_name": "CiUD1ktGGc0s-ecsWmsmc_WN13dbEU.png",
+    "file_size": null,
+    "width": null,
+    "height": null
+   }
+  ],
+  "description": ""
+ }
+}

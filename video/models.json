@@ -1,0 +1,119 @@
+{
+ "t2i": {
+  "endpoint": "fal-ai/nano-banana-pro",
+  "args": {
+   "aspect_ratio": "16:9",
+   "resolution": "2K",
+   "output_format": "png",
+   "safety_tolerance": "4"
+  }
+ },
+ "edit": {
+  "endpoint": "fal-ai/nano-banana-pro/edit",
+  "image_key": "image_urls",
+  "args": {
+   "aspect_ratio": "16:9",
+   "resolution": "2K",
+   "output_format": "png",
+   "safety_tolerance": "4"
+  }
+ },
+ "edit_fallback": {
+  "endpoint": "fal-ai/kling-image/o3/image-to-image",
+  "image_key": "image_urls",
+  "args": {
+   "aspect_ratio": "16:9",
+   "resolution": "2K",
+   "output_format": "png"
+  }
+ },
+ "i2v": {
+  "endpoint": "fal-ai/veo3.1/fast/image-to-video",
+  "image_key": "image_url",
+  "args": {
+   "resolution": "1080p",
+   "aspect_ratio": "16:9",
+   "generate_audio": false,
+   "negative_prompt": "garbled or changing text, morphing faces, extra limbs, flicker, photorealistic, glossy 3D render, oversaturated neon, smoke or spray shooting out of objects, liquid, mist jets",
+   "safety_tolerance": "5",
+   "auto_fix": true
+  },
+  "durations": [
+   4,
+   6,
+   8
+  ],
+  "duration_fmt": "{}s"
+ },
+ "i2v_fallback": {
+  "endpoint": "fal-ai/kling-video/v3/pro/image-to-video",
+  "image_key": "start_image_url",
+  "args": {
+   "generate_audio": false,
+   "negative_prompt": "blur, distortion, low quality, garbled text, morphing faces, photorealistic, 3D render"
+  },
+  "durations": [
+   3,
+   4,
+   5,
+   6,
+   7,
+   8
+  ],
+  "duration_fmt": "{}"
+ },
+ "lipsync": {
+  "endpoint": "fal-ai/bytedance/omnihuman/v1.5",
+  "image_key": "image_url",
+  "audio_key": "audio_url",
+  "prompt_key": "prompt",
+  "args": {
+   "resolution": "720p"
+  }
+ },
+ "lipsync_fallback": {
+  "endpoint": "fal-ai/creatify/aurora",
+  "image_key": "image_url",
+  "audio_key": "audio_url",
+  "prompt_key": "prompt",
+  "args": {
+   "resolution": "720p"
+  }
+ },
+ "i2v_workers": 6,
+ "i2v_wan": {
+  "endpoint": "fal-ai/wan/v2.2-a14b/image-to-video",
+  "image_key": "image_url",
+  "args": {
+   "resolution": "720p",
+   "aspect_ratio": "16:9",
+   "num_frames": 61,
+   "frames_per_second": 16,
+   "video_quality": "high",
+   "interpolator_model": "film",
+   "num_interpolated_frames": 1,
+   "adjust_fps_for_interpolation": true,
+   "negative_prompt": "blur, distortion, low quality, garbled text, morphing faces, photorealistic, 3D render, talking, lip sync, mouth moving, speaking, morphing shadow"
+  },
+  "end_key": "end_image_url"
+ },
+ "i2v_first_last": {
+  "endpoint": "fal-ai/veo3.1/fast/first-last-frame-to-video",
+  "image_key": "first_frame_url",
+  "end_key": "last_frame_url",
+  "args": {
+   "resolution": "1080p",
+   "aspect_ratio": "16:9",
+   "generate_audio": false,
+   "safety_tolerance": "5",
+   "auto_fix": true,
+   "negative_prompt": "garbled or changing text, morphing faces, extra limbs, flicker, photorealistic, glossy 3D render, oversaturated neon"
+  },
+  "durations": [
+   4,
+   6,
+   8
+  ],
+  "duration_fmt": "{}s"
+ }
+}

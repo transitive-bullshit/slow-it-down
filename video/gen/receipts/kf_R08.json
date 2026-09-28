@@ -1,0 +1,28 @@
+{
+ "endpoint": "fal-ai/nano-banana-pro/edit",
+ "args": {
+  "prompt": "a single frame (not a split panel): a slim man about 40 with short medium-brown hair swept up at the front, big wide-set green eyes with an intense earnest stare, straight brows, a lean face with high cheekbones and a narrow chin, clean-shaven, a tight-lipped little smirk, wearing a grey crewneck sweater under a glossy black puffer jacket, a one-strap backpack and a thin gold chain slamming his palm down on a giant red PAUSE button on a pedestal as confetti bursts around him. Lighting: glossy late-night rap-video look inside the same restrained palette, gold highlights, deep shadow, one hard spotlight, wide-angle lens. painterly neo-noir graphic-novel frame in the spirit of Blade Runner (1982) and Blade Runner 2049: semi-realistic digital painting with visible brushstrokes and fine ink linework, adult realistic proportions, restrained desaturated palette, deep shadows, smoky haze and soft volumetric light shafts from one or two motivated sources, neon used sparingly as small soft practical accents in the background only, rain-wet reflective surfaces, soft film grain, cinematic widescreen composition with generous negative space, sensual late-night mood, not Pixar, not cartoonish, no glossy plastic 3D look, no oversaturated magenta or purple, full-bleed 16:9 image that fills the entire frame edge to edge, with no black bars, no letterbox, no panel borders and no captions Use the reference images only for the characters' faces, hair and outfits, keeping them consistent and recognizable; compose a new scene exactly as described, with its own background and lighting.",
+  "image_urls": [
+   "https://v3b.fal.media/files/b/0aac3253/N6KlRTc5wIgsv8Txfi22N_sama.png",
+   "https://v3b.fal.media/files/b/0aac3254/r50JYEg_-Asft8gVckYxz_sama_b.png"
+  ],
+  "aspect_ratio": "16:9",
+  "resolution": "2K",
+  "output_format": "png",
+  "safety_tolerance": "4"
+ },
+ "seconds": 27.8,
+ "result": {
+  "images": [
+   {
+    "url": "https://v3b.fal.media/files/b/0aac3258/8Dv4KyV9_1Yy43KhekyrR_PaHPCHbU.png",
+    "content_type": "image/png",
+    "file_name": "8Dv4KyV9_1Yy43KhekyrR_PaHPCHbU.png",
+    "file_size": null,
+    "width": null,
+    "height": null
+   }
+  ],
+  "description": ""
+ }
+}

@@ -1,0 +1,23 @@
+{
+ "endpoint": "fal-ai/veo3.1/fast/image-to-video",
+ "args": {
+  "prompt": "the identical copies circle around him faster and faster like a kaleidoscope Painterly cyberpunk-noir graphic-novel animation: keep the hand-painted brushwork, ink lines and neon lighting of the first frame, same characters and outfits throughout, smooth cinematic camera, no on-screen text changes.",
+  "image_url": "https://v3b.fal.media/files/b/0aac3306/nXUS7IPqcQPAnStpT88oD_P14.png",
+  "resolution": "1080p",
+  "aspect_ratio": "16:9",
+  "generate_audio": false,
+  "negative_prompt": "garbled or changing text, morphing faces, extra limbs, flicker, photorealistic, glossy 3D render, oversaturated neon",
+  "safety_tolerance": "5",
+  "auto_fix": true,
+  "duration": "4s"
+ },
+ "seconds": 105.3,
+ "result": {
+  "video": {
+   "url": "https://v3b.fal.media/files/b/0aac3311/qHZB7Kp8FmiGZ_FoXcey-_d85f2617ebb848e9aa1f51d3eb42e19c.mp4",
+   "content_type": "video/mp4",
+   "file_name": "d85f2617ebb848e9aa1f51d3eb42e19c.mp4",
+   "file_size": 10666518
+  }
+ }
+}

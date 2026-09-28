@@ -1,0 +1,29 @@
+{
+ "endpoint": "fal-ai/nano-banana-pro/edit",
+ "args": {
+  "prompt": "a man in his early 40s with short neatly cropped dark curly hair, round dark-rimmed glasses, a lean clean-shaven face with a defined jaw, a big warm toothy smile and a slim athletic build, wearing a tailored charcoal cashmere shawl-collar cardigan over a black t-shirt, at the same desk, now looking up toward the window with a hopeful half-smile, face clearly visible in three-quarter view, a vivid magenta neon glow from the window spilling across his face (the only color in an otherwise black-and-white frame). He must be instantly recognizable as a graphic-novel caricature of Anthropic CEO Dario Amodei as he looks in recent photos: slim, with his characteristic friendly round face, full cheeks and wide warm smile, short dense dark curly hair, round dark-rimmed glasses. black-and-white painterly film-noir graphic-novel frame: semi-realistic digital painting, crisp ink linework, heavy film grain, hard fluorescent light, deep shadows, adult realistic proportions, not Pixar, not cartoonish, full-bleed 16:9 image that fills the entire frame edge to edge, with no black bars, no letterbox and no panel borders This is the last frame of the same shot as the final reference image: same location, lighting, camera, outfit and painterly style; use the other reference images only for the character's face and hair.",
+  "image_urls": [
+   "https://v3b.fal.media/files/b/0aac394d/-fs3lzC4Mi5-Y9r0ACq2t_dario.png",
+   "https://v3b.fal.media/files/b/0aac394e/Q3DAg3YE1c82dpDRteVzP_dario_b.png",
+   "https://v3b.fal.media/files/b/0aac3951/LaG9f_G37P-UFibtFpFs2_S02.png"
+  ],
+  "aspect_ratio": "16:9",
+  "resolution": "2K",
+  "output_format": "png",
+  "safety_tolerance": "4"
+ },
+ "seconds": 60.6,
+ "result": {
+  "images": [
+   {
+    "url": "https://v3b.fal.media/files/b/0aac3952/gHEAMsuNB0OaAHgjjwNXC_x7rOdCTh.png",
+    "content_type": "image/png",
+    "file_name": "gHEAMsuNB0OaAHgjjwNXC_x7rOdCTh.png",
+    "file_size": null,
+    "width": null,
+    "height": null
+   }
+  ],
+  "description": ""
+ }
+}

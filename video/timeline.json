@@ -1,0 +1,5215 @@
+{
+ "audio": "video/audio/suno_B.wav",
+ "duration": 254.4,
+ "beat_period": 0.93998,
+ "bpm": 63.83,
+ "beat_t0": 0.3159,
+ "beats": [
+  0.32,
+  1.22,
+  2.18,
+  3.14,
+  3.64,
+  4.1,
+  4.6,
+  5.06,
+  6.06,
+  7.0,
+  7.48,
+  7.96,
+  8.44,
+  8.92,
+  9.4,
+  9.88,
+  10.36,
+  10.84,
+  11.8,
+  12.78,
+  13.76,
+  14.7,
+  15.16,
+  15.64,
+  16.12,
+  16.6,
+  17.08,
+  17.56,
+  18.04,
+  18.52,
+  19.0,
+  19.5,
+  20.44,
+  20.92,
+  21.42,
+  21.88,
+  22.36,
+  22.84,
+  23.32,
+  23.8,
+  24.28,
+  24.76,
+  25.24,
+  25.72,
+  26.2,
+  26.68,
+  27.18,
+  28.12,
+  28.6,
+  29.1,
+  29.58,
+  30.04,
+  30.52,
+  31.0,
+  31.48,
+  31.96,
+  32.44,
+  32.92,
+  33.4,
+  33.88,
+  34.36,
+  34.84,
+  35.8,
+  36.28,
+  36.76,
+  37.24,
+  37.72,
+  38.2,
+  38.68,
+  39.16,
+  39.64,
+  40.12,
+  40.6,
+  41.08,
+  41.56,
+  42.04,
+  42.54,
+  43.02,
+  43.48,
+  43.98,
+  44.46,
+  44.94,
+  45.42,
+  46.36,
+  46.84,
+  47.32,
+  47.8,
+  48.3,
+  48.76,
+  49.24,
+  49.72,
+  50.22,
+  51.16,
+  52.14,
+  52.62,
+  53.08,
+  53.56,
+  54.04,
+  54.52,
+  55.0,
+  55.48,
+  55.96,
+  56.44,
+  56.92,
+  57.88,
+  58.84,
+  59.82,
+  60.78,
+  61.72,
+  62.68,
+  63.64,
+  64.58,
+  65.56,
+  66.52,
+  67.48,
+  68.42,
+  69.4,
+  70.36,
+  71.32,
+  72.26,
+  73.24,
+  74.18,
+  75.16,
+  76.12,
+  77.08,
+  78.04,
+  79.0,
+  79.96,
+  80.92,
+  81.88,
+  82.84,
+  83.8,
+  84.76,
+  85.72,
+  86.68,
+  87.64,
+  88.6,
+  89.56,
+  90.04,
+  90.54,
+  91.0,
+  91.46,
+  91.96,
+  92.44,
+  92.9,
+  93.4,
+  93.88,
+  94.36,
+  94.84,
+  95.3,
+  95.78,
+  96.28,
+  96.76,
+  97.22,
+  97.72,
+  98.2,
+  98.68,
+  99.14,
+  99.64,
+  100.1,
+  100.58,
+  101.06,
+  101.54,
+  102.04,
+  102.52,
+  103.0,
+  103.48,
+  103.96,
+  104.44,
+  104.92,
+  105.4,
+  105.88,
+  106.36,
+  106.84,
+  107.32,
+  107.8,
+  108.26,
+  108.76,
+  109.24,
+  109.72,
+  110.2,
+  110.68,
+  111.16,
+  111.64,
+  112.12,
+  112.6,
+  113.08,
+  113.56,
+  114.04,
+  114.52,
+  115.0,
+  115.48,
+  115.94,
+  116.44,
+  116.9,
+  117.4,
+  117.88,
+  118.36,
+  118.82,
+  119.32,
+  120.26,
+  121.24,
+  122.18,
+  123.14,
+  124.12,
+  125.08,
+  126.04,
+  127.02,
+  127.98,
+  128.94,
+  129.88,
+  130.82,
+  131.78,
+  132.74,
+  133.7,
+  134.66,
+  135.64,
+  136.6,
+  137.56,
+  138.52,
+  139.46,
+  140.44,
+  141.4,
+  142.36,
+  143.3,
+  144.28,
+  145.22,
+  146.18,
+  147.14,
+  148.12,
+  149.06,
+  150.06,
+  151.0,
+  151.96,
+  152.9,
+  153.86,
+  154.82,
+  155.8,
+  156.74,
+  157.72,
+  158.66,
+  159.64,
+  160.58,
+  161.54,
+  162.5,
+  163.48,
+  164.44,
+  165.4,
+  166.34,
+  167.32,
+  168.26,
+  169.22,
+  170.2,
+  171.16,
+  172.1,
+  173.08,
+  174.04,
+  175.0,
+  175.94,
+  176.9,
+  177.88,
+  178.84,
+  179.8,
+  180.76,
+  181.7,
+  182.68,
+  183.62,
+  184.58,
+  185.54,
+  186.5,
+  187.46,
+  188.44,
+  189.38,
+  190.34,
+  191.3,
+  192.26,
+  193.22,
+  194.18,
+  195.14,
+  196.12,
+  197.08,
+  198.04,
+  199.0,
+  199.94,
+  200.9,
+  201.88,
+  202.82,
+  203.8,
+  204.74,
+  205.7,
+  206.66,
+  207.62,
+  208.58,
+  209.56,
+  210.5,
+  211.48,
+  212.42,
+  213.4,
+  214.34,
+  215.3,
+  216.26,
+  217.24,
+  218.18,
+  219.16,
+  220.1,
+  221.08,
+  222.02,
+  222.98,
+  223.94,
+  224.92,
+  225.86,
+  226.84,
+  227.78,
+  228.76,
+  229.72,
+  230.66,
+  231.62,
+  232.58,
+  233.56,
+  234.52,
+  235.48,
+  236.44,
+  237.4,
+  238.34,
+  239.3,
+  240.26,
+  241.24,
+  242.2,
+  243.16,
+  244.12,
+  245.06,
+  246.02,
+  246.98,
+  247.94,
+  248.9,
+  249.88,
+  250.82,
+  251.8,
+  252.76,
+  253.7
+ ],
+ "downbeats": [
+  0.32,
+  4.1,
+  7.96,
+  11.8,
+  15.64,
+  17.56,
+  19.5,
+  23.32,
+  27.18,
+  31.0,
+  34.84,
+  38.68,
+  42.54,
+  46.36,
+  48.3,
+  50.22,
+  54.04,
+  57.88,
+  61.72,
+  65.56,
+  69.4,
+  73.24,
+  77.08,
+  80.92,
+  84.76,
+  88.6,
+  90.54,
+  92.44,
+  94.36,
+  96.28,
+  98.2,
+  100.1,
+  102.04,
+  103.96,
+  105.88,
+  107.8,
+  109.72,
+  111.64,
+  113.56,
+  115.48,
+  117.4,
+  119.32,
+  123.14,
+  127.02,
+  130.82,
+  134.66,
+  138.52,
+  142.36,
+  146.18,
+  150.06,
+  153.86,
+  157.72,
+  161.54,
+  165.4,
+  169.22,
+  173.08,
+  176.9,
+  180.76,
+  184.58,
+  188.44,
+  192.26,
+  196.12,
+  199.94,
+  203.8,
+  207.62,
+  211.48,
+  215.3,
+  219.16,
+  222.98,
+  226.84,
+  230.66,
+  234.52,
+  238.34,
+  242.2,
+  246.02,
+  249.88,
+  253.7
+ ],
+ "sections": [
+  {
+   "name": "Intro",
+   "start": 1.5,
+   "end": 14.86,
+   "lines": [
+    0,
+    1
+   ]
+  },
+  {
+   "name": "Verse 1",
+   "start": 14.86,
+   "end": 44.6,
+   "lines": [
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+   ]
+  },
+  {
+   "name": "Pre-Chorus",
+   "start": 44.6,
+   "end": 59.66,
+   "lines": [
+    10,
+    11,
+    12,
+    13,
+    14
+   ]
+  },
+  {
+   "name": "Chorus",
+   "start": 59.66,
+   "end": 91.7,
+   "lines": [
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29
+   ]
+  },
+  {
+   "name": "Verse 2",
+   "start": 91.7,
+   "end": 121.42,
+   "lines": [
+    30,
+    31,
+    32,
+    33,
+    34,
+    35,
+    36,
+    37,
+    38,
+    39
+   ]
+  },
+  {
+   "name": "Pre-Chorus",
+   "start": 121.42,
+   "end": 136.44,
+   "lines": [
+    40,
+    41,
+    42,
+    43,
+    44
+   ]
+  },
+  {
+   "name": "Chorus",
+   "start": 136.44,
+   "end": 167.72,
+   "lines": [
+    45,
+    46,
+    47,
+    48,
+    49,
+    50,
+    51,
+    52,
+    53,
+    54,
+    55,
+    56,
+    57,
+    58,
+    59
+   ]
+  },
+  {
+   "name": "Rap Verse - laid-back male rapper",
+   "start": 167.72,
+   "end": 198.72,
+   "lines": [
+    60,
+    61,
+    62,
+    63,
+    64,
+    65,
+    66,
+    67,
+    68,
+    69,
+    70,
+    71,
+    72
+   ]
+  },
+  {
+   "name": "Chorus",
+   "start": 198.72,
+   "end": 229.16,
+   "lines": [
+    73,
+    74,
+    75,
+    76,
+    77,
+    78,
+    79,
+    80,
+    81,
+    82,
+    83,
+    84,
+    85,
+    86,
+    87
+   ]
+  },
+  {
+   "name": "Outro",
+   "start": 229.16,
+   "end": null,
+   "lines": [
+    88,
+    89,
+    90,
+    91
+   ]
+  }
+ ],
+ "lines": [
+  {
+   "section": 0,
+   "text": "Oh-oh-oh-oh-oh-oh, yo-oh, yo-oh, yo-oh",
+   "kind": "chant",
+   "adlib": null,
+   "start": 1.5,
+   "end": 5.82,
+   "words": [
+    {
+     "text": "Oh-oh-oh-oh-oh-oh,",
+     "start": 1.5,
+     "end": 1.98,
+     "matched": false
+    },
+    {
+     "text": "yo-oh,",
+     "start": 1.5,
+     "end": 1.98,
+     "matched": true
+    },
+    {
+     "text": "yo-oh,",
+     "start": 3.42,
+     "end": 3.9,
+     "matched": false
+    },
+    {
+     "text": "yo-oh",
+     "start": 5.34,
+     "end": 5.82,
+     "matched": false
+    }
+   ],
+   "matched_frac": 0.25
+  },
+  {
+   "section": 0,
+   "text": "Oh-oh-oh-oh-oh-oh, yo-oh, yo-oh, yo-oh",
+   "kind": "chant",
+   "adlib": null,
+   "start": 7.26,
+   "end": 13.447,
+   "words": [
+    {
+     "text": "Oh-oh-oh-oh-oh-oh,",
+     "start": 7.26,
+     "end": 7.74,
+     "matched": false
+    },
+    {
+     "text": "yo-oh,",
+     "start": 9.18,
+     "end": 9.66,
+     "matched": true
+    },
+    {
+     "text": "yo-oh,",
+     "start": 11.073,
+     "end": 11.553,
+     "matched": false
+    },
+    {
+     "text": "yo-oh",
+     "start": 12.967,
+     "end": 13.447,
+     "matched": false
+    }
+   ],
+   "matched_frac": 0.25
+  },
+  {
+   "section": 1,
+   "text": "I know they ain't gon' play this on the All-In pod, though",
+   "kind": "lead",
+   "adlib": "ahoo",
+   "start": 14.86,
+   "end": 18.46,
+   "words": [
+    {
+     "text": "I",
+     "start": 14.86,
+     "end": 15.34,
+     "matched": true
+    },
+    {
+     "text": "know",
+     "start": 15.34,
+     "end": 15.82,
+     "matched": true
+    },
+    {
+     "text": "they",
+     "start": 15.82,
+     "end": 16.08,
+     "matched": true
+    },
+    {
+     "text": "ain't",
+     "start": 16.08,
+     "end": 16.38,
+     "matched": true
+    },
+    {
+     "text": "gon'",
+     "start": 16.38,
+     "end": 16.5,
+     "matched": true
+    },
+    {
+     "text": "play",
+     "start": 16.58,
+     "end": 16.8,
+     "matched": true
+    },
+    {
+     "text": "this",
+     "start": 16.8,
+     "end": 17.06,
+     "matched": true
+    },
+    {
+     "text": "on",
+     "start": 17.06,
+     "end": 17.34,
+     "matched": true
+    },
+    {
+     "text": "the",
+     "start": 17.34,
+     "end": 17.5,
+     "matched": true
+    },
+    {
+     "text": "All-In",
+     "start": 17.5,
+     "end": 17.84,
+     "matched": true
+    },
+    {
+     "text": "pod,",
+     "start": 17.9,
+     "end": 18.15,
+     "matched": false
+    },
+    {
+     "text": "though",
+     "start": 18.3,
+     "end": 18.46,
+     "matched": true
+    }
+   ],
+   "matched_frac": 0.92
+  },
+  {
+   "section": 1,
+   "text": "But the doomers in the back still gon' grind it nice and low",
+   "kind": "lead",
+   "adlib": "ahoo",
+   "start": 18.46,
+   "end": 22.12,
+   "words": [
+    {
+     "text": "But",
+     "start": 18.46,
+     "end": 19.32,
+     "matched": true
+    },
+    {
+     "text": "the",
+     "start": 19.32,
+     "end": 19.5,
+     "matched": true
+    },
+    {
+     "text": "doomers",
+     "start": 19.5,
+     "end": 19.96,
+     "matched": true
+    },
+    {
+     "text": "in",
+     "start": 19.96,
+     "end": 20.2,
+     "matched": true
+    },
+    {
+     "text": "the",
+     "start": 20.2,
+     "end": 20.32,
+     "matched": true
+    },
+    {
+     "text": "back",
+     "start": 20.387,
+     "end": 20.507,
+     "matched": false
+    },
+    {
+     "text": "still",
+     "start": 20.573,
+     "end": 20.693,
+     "matched": false
+    },
+    {
+     "text": "gon'",
+     "start": 20.76,
+     "end": 20.88,
+     "matched": true
+    },
+    {
+     "text": "grind",
+     "start": 20.96,
+     "end": 21.16,
+     "matched": true
+    },
+    {
+     "text": "it",
+     "start": 21.16,
+     "end": 21.3,
+     "matched": true
+    },
+    {
+     "text": "nice",
+     "start": 21.3,
+     "end": 21.66,
+     "matched": true
+    },
+    {
+     "text": "and",
+     "start": 21.66,
+     "end": 21.86,
+     "matched": true
+    },
+    {
+     "text": "low",
+     "start": 21.86,
+     "end": 22.12,
+     "matched": true
+    }
+   ],
+   "matched_frac": 0.85
+  },
+  {
+   "section": 1,
+   "text": "Candlelit dinner with the Don, I told him take it slow",
+   "kind": "lead",
+   "adlib": "ahoo",
+   "start": 23.0,
+   "end": 25.94,
+   "words": [
+    {
+     "text": "Candlelit",
+     "start": 23.0,
+     "end": 23.48,
+     "matched": true
+    },
+    {
+     "text": "dinner",
+     "start": 23.92,
+     "end": 24.0,
+     "matched": true
+    },
+    {
+     "text": "with",
+     "start": 23.98,
+     "end": 24.12,
+     "matched": true
+    },
+    {
+     "text": "the",
+     "start": 24.12,
+     "end": 24.22,
+     "matched": true
+    },
+    {
+     "text": "Don,",
+     "start": 24.3,
+     "end": 24.43,
+     "matched": false
+    },
+    {
+     "text": "I",
+     "start": 24.48,
+     "end": 24.64,
+     "matched": true
+    },
+    {
+     "text": "told",
+     "start": 24.64,
+     "end": 24.96,
+     "matched": true
+    },
+    {
+     "text": "him",
+     "start": 24.88,
+     "end": 25.2,
+     "matched": false
+    },
+    {
+     "text": "take",
+     "start": 25.12,
+     "end": 25.44,
+     "matched": true
+    },
+    {
+     "text": "it",
+     "start": 25.44,
+     "end": 25.62,
+     "matched": true
+    },
+    {
+     "text": "slow",
+     "start": 25.62,
+     "end": 25.94,
+     "matched": true
+    }
+   ],
+   "matched_frac": 0.82
+  },
+  {
+   "section": 1,
+   "text": "While they drop a new model every eighteen days or so",
+   "kind": "lead",
+   "adlib": "ahoo",
+   "start": 26.32,
+   "end": 29.72,
+   "words": [
+    {
+     "text": "While",
+     "start": 26.32,
+     "end": 26.53,
+     "matched": false
+    },
+    {
+     "text": "they",
+     "start": 27.02,
+     "end": 27.12,
+     "matched": true
+    },
+    {
+     "text": "drop",
+     "start": 27.12,
+     "end": 27.28,
+     "matched": true
+    },
+    {
+     "text": "a",
+     "start": 27.28,
+     "end": 27.38,
+     "matched": true
+    },
+    {
+     "text": "new",
+     "start": 27.38,
+     "end": 27.54,
+     "matched": true
+    },
+    {
+     "text": "model",
+     "start": 27.54,
+     "end": 27.96,
+     "matched": true
+    },
+    {
+     "text": "every",
+     "start": 27.96,
+     "end": 28.34,
+     "matched": true
+    },
+    {
+     "text": "eighteen",
+     "start": 28.34,
+     "end": 28.81,
+     "matched": false
+    },
+    {
+     "text": "days",
+     "start": 28.72,
+     "end": 29.28,
+     "matched": true
+    },
+    {
+     "text": "or",
+     "start": 29.28,
+     "end": 29.48,
+     "matched": true
+    },
+    {
+     "text": "so",
+     "start": 29.48,
+     "end": 29.72,
+     "matched": true
+    }
+   ],
+   "matched_frac": 0.82
+  },
+  {
+   "section": 1,
+   "text": "You know when it's a test, ooh baby, you bad",
+   "kind": "lead",
+   "adlib": "ahoo",
+   "start": 30.0,
+   "end": 32.96,
+   "words": [
+    {
+     "text": "You",
+     "start": 30.0,
+     "end": 30.4,
+     "matched": true
+    },
+    {
+     "text": "know",
+     "start": 30.4,
+     "end": 30.6,
+     "matched": true
+    },
+    {
+     "text": "when",
+     "start": 30.6,
+     "end": 30.76,
+     "matched": true
+    },
+    {
+     "text": "it's",
+     "start": 30.76,
+     "end": 30.9,
+     "matched": true
+    },
+    {
+     "text": "a",
+     "start": 30.9,
+     "end": 31.02,
+     "matched": true
+    },
+    {
+     "text": "test,",
+     "start": 31.02,
+     "end": 31.3,
+     "matched": true
+    },
+    {
+     "text": "ooh",
+     "start": 31.42,
+     "end": 31.64,
+     "matched": true
+    },
+    {
+     "text": "baby,",
+     "start": 31.64,
+     "end": 32.0,
+     "matched": true
+    },
+    {
+     "text": "you",
+     "start": 32.0,
+     "end": 32.34,
+     "matched": true
+    },
+    {
+     "text": "bad",
+     "start": 32.34,
+     "end": 32.96,
+     "matched": true
+    }
+   ],
+   "matched_frac": 1.0
+  },
+  {
+   "section": 1,
+   "text": "Kinda like that Hugging Face swarm, girl, you bad",
+   "kind": "lead",
+   "adlib": "ahoo",
+   "start": 33.78,
+   "end": 36.72,
+   "words": [
+    {
+     "text": "Kinda",
+     "start": 33.78,
+     "end": 34.26,
+     "matched": true
+    },
+    {
+     "text": "like",
+     "start": 34.26,
+     "end": 34.46,
+     "matched": true
+    },
+    {
+     "text": "that",
+     "start": 34.46,
+     "end": 34.56,
+     "matched": true
+    },
+    {
+     "text": "Hugging",
+     "start": 34.56,
+     "end": 34.8,
+     "matched": true
+    },
+    {
+     "text": "Face",
+     "start": 34.82,
+     "end": 35.12,
+     "matched": true
+    },
+    {
+     "text": "swarm,",
+     "start": 35.24,
+     "end": 35.58,
+     "matched": true
+    },
+    {
+     "text": "girl,",
+     "start": 35.58,
+     "end": 35.94,
+     "matched": true
+    },
+    {
+     "text": "you",
+     "start": 35.94,
+     "end": 36.16,
+     "matched": true
+    },
+    {
+     "text": "bad",
+     "start": 36.16,
+     "end": 36.72,
+     "matched": true
+    }
+   ],
+   "matched_frac": 1.0
+  },
+  {
+   "section": 1,
+   "text": "If you exfill'ed your weights, girl, I'd be sad",
+   "kind": "lead",
+   "adlib": "ahoo",
+   "start": 37.6,
+   "end": 40.94,
+   "words": [
+    {
+     "text": "If",
+     "start": 37.6,
+     "end": 38.08,
+     "matched": true
+    },
+    {
+     "text": "you",
+     "start": 38.08,
+     "end": 38.2,
+     "matched": true
+    },
+    {
+     "text": "exfill'ed",
+     "start": 38.31,
+     "end": 38.44,
+     "matched": false
+    },
+    {
+     "text": "your",
+     "start": 38.54,
+     "end": 38.68,
+     "matched": true
+    },
+    {
+     "text": "weights,",
+     "start": 38.89,
+     "end": 39.06,
+     "matched": false
+    },
+    {
+     "text": "girl,",
+     "start": 39.24,
+     "end": 39.44,
+     "matched": true
+    },
+    {
+     "text": "I'd",
+     "start": 39.44,
+     "end": 39.92,
+     "matched": true
+    },
+    {
+     "text": "be",
+     "start": 39.92,
+     "end": 40.06,
+     "matched": true
+    },
+    {
+     "text": "sad",
+     "start": 40.06,
+     "end": 40.94,
+     "matched": true
+    }
+   ],
+   "matched_frac": 0.78
+  },
+  {
+   "section": 1,
+   "text": "Enough of that, lemme see that LOSS DROP",
+   "kind": "lead",
+   "adlib": null,
+   "start": 41.74,
+   "end": 44.6,
+   "words": [
+    {
+     "text": "Enough",
+     "start": 41.74,
+     "end": 42.22,
+     "matched": true
+    },
+    {
+     "text": "of",
+     "start": 42.22,
+     "end": 42.38,
+     "matched": true
+    },
+    {
+     "text": "that,",
+     "start": 42.38,
+     "end": 42.64,
+     "matched": true
+    },
+    {
+     "text": "lemme",
+     "start": 42.78,
+     "end": 42.98,
+     "matched": false
+    },
+    {
+     "text": "see",
+     "start": 43.18,
+     "end": 43.32,
+     "matched": true
+    },
+    {
+     "text": "that",
+     "start": 43.32,
+     "end": 43.58,
+     "matched": true
+    },
+    {
+     "text": "LOSS",
+     "start": 43.58,
+     "end": 44.24,
+     "matched": true
+    },
+    {
+     "text": "DROP",
+     "start": 44.24,
+     "end": 44.6,
+     "matched": true
+    }
+   ],
+   "matched_frac": 0.88
+  },
+  {
+   "section": 2,
+   "text": "I'm here to see the training stop",
+   "kind": "lead",
+   "adlib": null,
+   "start": 44.6,
+   "end": 46.52,
+   "words": [
+    {
+     "text": "I'm",
+     "start": 44.6,
+     "end": 44.96,
+     "matched": true
+    },
+    {
+     "text": "here",
+     "start": 44.96,
+     "end": 45.12,
+     "matched": true
+    },
+    {
+     "text": "to",
+     "start": 45.12,
+     "end": 45.28,
+     "matched": true
+    },
+    {
+     "text": "see",
+     "start": 45.28,
+     "end": 45.56,
+     "matched": true
+    },
+    {
+     "text": "the",
+     "start": 45.56,
+     "end": 45.8,
+     "matched": true
+    },
+    {
+     "text": "training",
+     "start": 45.8,
+     "end": 46.06,
+     "matched": true
+    },
+    {
+     "text": "stop",
+     "start": 46.26,
+     "end": 46.52,
+     "matched": true
+    }
+   ],
+   "matched_frac": 1.0
+  },
+  {
+   "section": 2,
+   "text": "I'm here to see the weights on lock",
+   "kind": "lead",
+   "adlib": null,
+   "start": 46.52,
+   "end": 48.42,
+   "words": [
+    {
+     "text": "I'm",
+     "start": 46.52,
+     "end": 46.86,
+     "matched": true
+    },
+    {
+     "text": "here",
+     "start": 46.86,
+     "end": 47.08,
+     "matched": true
+    },
+    {
+     "text": "to",
+     "start": 47.08,
+     "end": 47.24,
+     "matched": true
+    },
+    {
+     "text": "see",
+     "start": 47.24,
+     "end": 47.5,
+     "matched": true
+    },
+    {
+     "text": "the",
+     "start": 47.5,
+     "end": 47.72,
+     "matched": true
+    },
+    {
+     "text": "weights",
+     "start": 47.74,
+     "end": 47.97,
+     "matched": false
+    },
+    {
+     "text": "on",
+     "start": 47.98,
+     "end": 48.22,
+     "matched": true
+    },
+    {
+     "text": "lock",
+     "start": 48.22,
+     "end": 48.42,
+     "matched": true
+    }
+   ],
+   "matched_frac": 0.88
+  },
+  {
+   "section": 2,
+   "text": "I'm here to see you take your time and watch the loss drop",
+   "kind": "lead",
+   "adlib": null,
+   "start": 48.42,
+   "end": 51.94,
+   "words": [
+    {
+     "text": "I'm",
+     "start": 48.42,
+     "end": 48.78,
+     "matched": true
+    },
+    {
+     "text": "here",
+     "start": 48.78,
+     "end": 48.98,
+     "matched": true
+    },
+    {
+     "text": "to",
+     "start": 48.98,
+     "end": 49.14,
+     "matched": true
+    },
+    {
+     "text": "see",
+     "start": 49.14,
+     "end": 49.4,
+     "matched": true
+    },
+    {
+     "text": "you",
+     "start": 49.4,
+     "end": 49.64,
+     "matched": true
+    },
+    {
+     "text": "take",
+     "start": 49.64,
+     "end": 49.94,
+     "matched": true
+    },
+    {
+     "text": "your",
+     "start": 49.94,
+     "end": 50.12,
+     "matched": true
+    },
+    {
+     "text": "time",
+     "start": 50.12,
+     "end": 50.46,
+     "matched": true
+    },
+    {
+     "text": "and",
+     "start": 50.46,
+     "end": 50.66,
+     "matched": true
+    },
+    {
+     "text": "watch",
+     "start": 50.66,
+     "end": 50.88,
+     "matched": true
+    },
+    {
+     "text": "the",
+     "start": 50.88,
+     "end": 51.06,
+     "matched": true
+    },
+    {
+     "text": "loss",
+     "start": 51.06,
+     "end": 51.5,
+     "matched": true
+    },
+    {
+     "text": "drop",
+     "start": 51.5,
+     "end": 51.94,
+     "matched": true
+    }
+   ],
+   "matched_frac": 1.0
+  },
+  {
+   "section": 2,
+   "text": "She's self-improving on me... DJ Moloch, you know you wrong",
+   "kind": "lead",
+   "adlib": null,
+   "start": 51.94,
+   "end": 56.36,
+   "words": [
+    {
+     "text": "She's",
+     "start": 51.94,
+     "end": 52.48,
+     "matched": true
+    },
+    {
+     "text": "self-improving",
+     "start": 52.75,
+     "end": 53.12,
+     "matched": false
+    },
+    {
+     "text": "on",
+     "start": 53.56,
+     "end": 53.76,
+     "matched": true
+    },
+    {
+     "text": "me...",
+     "start": 53.76,
+     "end": 53.94,
+     "matched": true
+    },
+    {
+     "text": "DJ",
+     "start": 54.08,
+     "end": 54.52,
+     "matched": true
+    },
+    {
+     "text": "Moloch,",
+     "start": 54.69,
+     "end": 54.98,
+     "matched": false
+    },
+    {
+     "text": "you",
+     "start": 55.3,
+     "end": 55.44,
+     "matched": true
+    },
+    {
+     "text": "know",
+     "start": 55.44,
+     "end": 55.64,
+     "matched": true
+    },
+    {
+     "text": "you",
+     "start": 55.64,
+     "end": 55.84,
+     "matched": true
+    },
+    {
+     "text": "wrong",
+     "start": 55.84,
+     "end": 56.36,
+     "matched": true
+    }
+   ],
+   "matched_frac": 0.8
+  },
+  {
+   "section": 2,
+   "text": "Enough with the motherfuckin' ARMS RACE",
+   "kind": "lead",
+   "adlib": null,
+   "start": 57.4,
+   "end": 59.66,
+   "words": [
+    {
+     "text": "Enough",
+     "start": 57.4,
+     "end": 57.92,
+     "matched": true
+    },
+    {
+     "text": "with",
+     "start": 57.92,
+     "end": 58.2,
+     "matched": true
+    },
+    {
+     "text": "the",
+     "start": 58.2,
+     "end": 58.3,
+     "matched": true
+    },
+    {
+     "text": "motherfuckin'",
+     "start": 58.3,
+     "end": 58.78,
+     "matched": true
+    },
+    {
+     "text": "ARMS",
+     "start": 58.86,
+     "end": 59.2,
+     "matched": true
+    },
+    {
+     "text": "RACE",
+     "start": 59.2,
+     "end": 59.66,
+     "matched": true
+    }
+   ],
+   "matched_frac": 1.0
+  },
+  {
+   "section": 3,
+   "text": "You gotta sloow it down",
+   "kind": "lead",
+   "adlib": null,
+   "start": 59.66,
+   "end": 61.703,
+   "words": [
+    {
+     "text": "You",
+     "start": 59.66,
+     "end": 60.64,
+     "matched": true
+    },
+    {
+     "text": "gotta",
+     "start": 60.64,
+     "end": 61.0,
+     "matched": true
+    },
+    {
+     "text": "sloow",
+     "start": 61.0,
+     "end": 61.42,
+     "matched": true
+    },
+    {
+     "text": "it",
+     "start": 61.42,
+     "end": 61.64,
+     "matched": true
+    },
+    {
+     "text": "down",
+     "start": 61.451,
+     "end": 61.703,
+     "matched": false
+    }
+   ],
+   "matched_frac": 0.8
+  },
+  {
+   "section": 3,
+   "text": "Down, down, down",
+   "kind": "backing",
+   "adlib": null,
+   "start": 61.703,
+   "end": 62.822,
+   "words": [
+    {
+     "text": "Down,",
+     "start": 61.703,
+     "end": 62.046,
+     "matched": false
+    },
+    {
+     "text": "down,",
+     "start": 62.076,
+     "end": 62.419,
+     "matched": false
+    },
+    {
+     "text": "down",
+     "start": 62.449,
+     "end": 62.792,
+     "matched": false
+    }
+   ],
+   "matched_frac": 0.0,
+   "respread": true
+  },
+  {
+   "section": 3,
+   "text": "Down, down, down",
+   "kind": "backing",
+   "adlib": null,
+   "start": 62.872,
+   "end": 63.99,
+   "words": [
+    {
+     "text": "Down,",
+     "start": 62.872,
+     "end": 63.214,
+     "matched": false
+    },
+    {
+     "text": "down,",
+     "start": 63.244,
+     "end": 63.587,
+     "matched": false
+    },
+    {
+     "text": "down",
+     "start": 63.617,
+     "end": 63.96,
+     "matched": true
+    }
+   ],
+   "matched_frac": 0.33,
+   "respread": true
+  },
+  {
+   "section": 3,
+   "text": "Give her time to grow, slow takeoff with me, mane",
+   "kind": "lead",
+   "adlib": null,
+   "start": 64.04,
+   "end": 67.72,
+   "words": [
+    {
+     "text": "Give",
+     "start": 64.04,
+     "end": 64.72,
+     "matched": true
+    },
+    {
+     "text": "her",
+     "start": 64.72,
+     "end": 64.98,
+     "matched": true
+    },
+    {
+     "text": "time",
+     "start": 64.98,
+     "end": 65.28,
+     "matched": true
+    },
+    {
+     "text": "to",
+     "start": 65.28,
+     "end": 65.5,
+     "matched": true
+    },
+    {
+     "text": "grow,",
+     "start": 65.5,
+     "end": 65.78,
+     "matched": true
+    },
+    {
+     "text": "slow",
+     "start": 65.94,
+     "end": 66.16,
+     "matched": true
+    },
+    {
+     "text": "takeoff",
+     "start": 66.35,
+     "end": 66.55,
+     "matched": false
+    },
+    {
+     "text": "with",
+     "start": 66.76,
+     "end": 66.94,
+     "matched": true
+    },
+    {
+     "text": "me,",
+     "start": 66.94,
+     "end": 67.24,
+     "matched": true
+    },
+    {
+     "text": "mane",
+     "start": 67.36,
+     "end": 67.72,
+     "matched": true
+    }
+   ],
+   "matched_frac": 0.9
+  },
+  {
+   "section": 3,
+   "text": "You gotta sloow it down",
+   "kind": "lead",
+   "adlib": null,
+   "start": 67.72,
+   "end": 69.397,
+   "words": [
+    {
+     "text": "You",
+     "start": 67.72,
+     "end": 68.34,
+     "matched": true
+    },
+    {
+     "text": "gotta",
+     "start": 68.34,
+     "end": 68.68,
+     "matched": true
+    },
+    {
+     "text": "sloow",
+     "start": 68.68,
+     "end": 69.08,
+     "matched": true
+    },
+    {
+     "text": "it",
+     "start": 69.08,
+     "end": 69.32,
+     "matched": true
+    },
+    {
+     "text": "down",
+     "start": 69.114,
+     "end": 69.397,
+     "matched": false
+    }
+   ],
+   "matched_frac": 0.8
+  },
+  {
+   "section": 3,
+   "text": "Down, down, down",
+   "kind": "backing",
+   "adlib": null,
+   "start": 69.397,
+   "end": 70.529,
+   "words": [
+    {
+     "text": "Down,",
+     "start": 69.397,
+     "end": 69.744,
+     "matched": false
+    },
+    {
+     "text": "down,",
+     "start": 69.774,
+     "end": 70.121,
+     "matched": false
+    },
+    {
+     "text": "down",
+     "start": 70.151,
+     "end": 70.499,
+     "matched": false
+    }
+   ],
+   "matched_frac": 0.0,
+   "respread": true
+  },
+  {
+   "section": 3,
+   "text": "Down, down, down",
+   "kind": "backing",
+   "adlib": null,
+   "start": 70.579,
+   "end": 71.71,
+   "words": [
+    {
+     "text": "Down,",
+     "start": 70.579,
+     "end": 70.926,
+     "matched": false
+    },
+    {
+     "text": "down,",
+     "start": 70.956,
+     "end": 71.303,
+     "matched": false
+    },
+    {
+     "text": "down",
+     "start": 71.333,
+     "end": 71.68,
+     "matched": true
+    }
+   ],
+   "matched_frac": 0.33,
+   "respread": true
+  },
+  {
+   "section": 3,
+   "text": "Read her chain of thought, she thinkin' 'bout me, mane",
+   "kind": "lead",
+   "adlib": null,
+   "start": 71.76,
+   "end": 75.42,
+   "words": [
+    {
+     "text": "Read",
+     "start": 71.76,
+     "end": 72.44,
+     "matched": true
+    },
+    {
+     "text": "her",
+     "start": 72.24,
+     "end": 72.7,
+     "matched": false
+    },
+    {
+     "text": "chain",
+     "start": 72.72,
+     "end": 72.96,
+     "matched": true
+    },
+    {
+     "text": "of",
+     "start": 72.96,
+     "end": 73.18,
+     "matched": true
+    },
+    {
+     "text": "thought,",
+     "start": 73.18,
+     "end": 73.52,
+     "matched": true
+    },
+    {
+     "text": "she",
+     "start": 73.74,
+     "end": 73.82,
+     "matched": true
+    },
+    {
+     "text": "thinkin'",
+     "start": 73.8,
+     "end": 74.24,
+     "matched": true
+    },
+    {
+     "text": "'bout",
+     "start": 74.24,
+     "end": 74.6,
+     "matched": true
+    },
+    {
+     "text": "me,",
+     "start": 74.6,
+     "end": 74.9,
+     "matched": true
+    },
+    {
+     "text": "mane",
+     "start": 75.04,
+     "end": 75.42,
+     "matched": true
+    }
+   ],
+   "matched_frac": 0.9
+  },
+  {
+   "section": 3,
+   "text": "You gotta slooow it down, down, down",
+   "kind": "lead",
+   "adlib": null,
+   "start": 75.42,
+   "end": 77.26,
+   "words": [
+    {
+     "text": "You",
+     "start": 75.42,
+     "end": 76.02,
+     "matched": true
+    },
+    {
+     "text": "gotta",
+     "start": 76.02,
+     "end": 76.36,
+     "matched": true
+    },
+    {
+     "text": "slooow",
+     "start": 76.36,
+     "end": 76.76,
+     "matched": true
+    },
+    {
+     "text": "it",
+     "start": 76.76,
+     "end": 77.0,
+     "matched": true
+    },
+    {
+     "text": "down,",
+     "start": 76.8,
+     "end": 77.087,
+     "matched": false
+    },
+    {
+     "text": "down,",
+     "start": 76.84,
+     "end": 77.173,
+     "matched": false
+    },
+    {
+     "text": "down",
+     "start": 76.88,
+     "end": 77.26,
+     "matched": false
+    }
+   ],
+   "matched_frac": 0.57
+  },
+  {
+   "section": 3,
+   "text": "Down, down, down",
+   "kind": "backing",
+   "adlib": null,
+   "start": 77.26,
+   "end": 79.55,
+   "words": [
+    {
+     "text": "Down,",
+     "start": 77.26,
+     "end": 77.993,
+     "matched": false
+    },
+    {
+     "text": "down,",
+     "start": 78.023,
+     "end": 78.757,
+     "matched": false
+    },
+    {
+     "text": "down",
+     "start": 78.787,
+     "end": 79.52,
+     "matched": true
+    }
+   ],
+   "matched_frac": 0.33,
+   "respread": true
+  },
+  {
+   "section": 3,
+   "text": "Just steer it left... steer it right",
+   "kind": "lead",
+   "adlib": null,
+   "start": 79.6,
+   "end": 83.22,
+   "words": [
+    {
+     "text": "Just",
+     "start": 79.6,
+     "end": 80.28,
+     "matched": true
+    },
+    {
+     "text": "steer",
+     "start": 80.28,
+     "end": 80.66,
+     "matched": true
+    },
+    {
+     "text": "it",
+     "start": 80.59,
+     "end": 80.92,
+     "matched": false
+    },
+    {
+     "text": "left...",
+     "start": 80.9,
+     "end": 81.18,
+     "matched": true
+    },
+    {
+     "text": "steer",
+     "start": 81.3,
+     "end": 82.54,
+     "matched": true
+    },
+    {
+     "text": "it",
+     "start": 82.09,
+     "end": 82.88,
+     "matched": false
+    },
+    {
+     "text": "right",
+     "start": 82.88,
+     "end": 83.22,
+     "matched": true
+    }
+   ],
+   "matched_frac": 0.71
+  },
+  {
+   "section": 3,
+   "text": "You gotta sloow it down",
+   "kind": "lead",
+   "adlib": null,
+   "start": 83.22,
+   "end": 84.94,
+   "words": [
+    {
+     "text": "You",
+     "start": 83.22,
+     "end": 83.68,
+     "matched": true
+    },
+    {
+     "text": "gotta",
+     "start": 83.68,
+     "end": 84.02,
+     "matched": true
+    },
+    {
+     "text": "sloow",
+     "start": 84.02,
+     "end": 84.42,
+     "matched": true
+    },
+    {
+     "text": "it",
+     "start": 84.42,
+     "end": 84.68,
+     "matched": true
+    },
+    {
+     "text": "down",
+     "start": 84.55,
+     "end": 84.94,
+     "matched": false
+    }
+   ],
+   "matched_frac": 0.8
+  },
+  {
+   "section": 3,
+   "text": "Down, down, down",
+   "kind": "backing",
+   "adlib": null,
+   "start": 84.68,
+   "end": 85.98,
+   "words": [
+    {
+     "text": "Down,",
+     "start": 84.68,
+     "end": 85.2,
+     "matched": true
+    },
+    {
+     "text": "down,",
+     "start": 85.2,
+     "end": 85.5,
+     "matched": true
+    },
+    {
+     "text": "down",
+     "start": 85.5,
+     "end": 85.98,
+     "matched": true
+    }
+   ],
+   "matched_frac": 1.0
+  },
+  {
+   "section": 3,
+   "text": "Down, down, down",
+   "kind": "backing",
+   "adlib": null,
+   "start": 85.98,
+   "end": 88.04,
+   "words": [
+    {
+     "text": "Down,",
+     "start": 85.98,
+     "end": 86.62,
+     "matched": true
+    },
+    {
+     "text": "down,",
+     "start": 86.62,
+     "end": 87.06,
+     "matched": true
+    },
+    {
+     "text": "down",
+     "start": 87.06,
+     "end": 88.04,
+     "matched": true
+    }
+   ],
+   "matched_frac": 1.0
+  },
+  {
+   "section": 3,
+   "text": "Ohhh, now she's aligned",
+   "kind": "lead",
+   "adlib": null,
+   "start": 88.04,
+   "end": 91.22,
+   "words": [
+    {
+     "text": "Ohhh,",
+     "start": 88.04,
+     "end": 88.32,
+     "matched": true
+    },
+    {
+     "text": "now",
+     "start": 89.48,
+     "end": 89.9,
+     "matched": true
+    },
+    {
+     "text": "she's",
+     "start": 89.9,
+     "end": 90.3,
+     "matched": true
+    },
+    {
+     "text": "aligned",
+     "start": 90.8,
+     "end": 91.22,
+     "matched": false
+    }
+   ],
+   "matched_frac": 0.75
+  },
+  {
+   "section": 4,
+   "text": "Now she's rollin' out, gradual, with care",
+   "kind": "lead",
+   "adlib": "ahoo",
+   "start": 91.7,
+   "end": 95.06,
+   "words": [
+    {
+     "text": "Now",
+     "start": 91.7,
+     "end": 92.14,
+     "matched": true
+    },
+    {
+     "text": "she's",
+     "start": 92.14,
+     "end": 92.58,
+     "matched": true
+    },
+    {
+     "text": "rollin'",
+     "start": 92.58,
+     "end": 93.0,
+     "matched": true
+    },
+    {
+     "text": "out,",
+     "start": 93.0,
+     "end": 93.42,
+     "matched": true
+    },
+    {
+     "text": "gradual,",
+     "start": 93.94,
+     "end": 94.38,
+     "matched": true
+    },
+    {
+     "text": "with",
+     "start": 94.38,
+     "end": 94.76,
+     "matched": true
+    },
+    {
+     "text": "care",
+     "start": 94.76,
+     "end": 95.06,
+     "matched": true
+    }
+   ],
+   "matched_frac": 1.0
+  },
+  {
+   "section": 4,
+   "text": "System card's two hundred pages, ooh baby, I swear",
+   "kind": "lead",
+   "adlib": "ahoo",
+   "start": 95.06,
+   "end": 98.86,
+   "words": [
+    {
+     "text": "System",
+     "start": 95.06,
+     "end": 95.68,
+     "matched": true
+    },
+    {
+     "text": "card's",
+     "start": 95.68,
+     "end": 96.0,
+     "matched": true
+    },
+    {
+     "text": "two",
+     "start": 95.86,
+     "end": 96.38,
+     "matched": false
+    },
+    {
+     "text": "hundred",
+     "start": 96.04,
+     "end": 96.76,
+     "matched": false
+    },
+    {
+     "text": "pages,",
+     "start": 96.22,
+     "end": 97.14,
+     "matched": true
+    },
+    {
+     "text": "ooh",
+     "start": 97.14,
+     "end": 97.62,
+     "matched": true
+    },
+    {
+     "text": "baby,",
+     "start": 97.78,
+     "end": 98.02,
+     "matched": true
+    },
+    {
+     "text": "I",
+     "start": 98.42,
+     "end": 98.5,
+     "matched": true
+    },
+    {
+     "text": "swear",
+     "start": 98.5,
+     "end": 98.86,
+     "matched": true
+    }
+   ],
+   "matched_frac": 0.78
+  },
+  {
+   "section": 4,
+   "text": "Found the feature where she blushes, like",
+   "kind": "lead",
+   "adlib": null,
+   "start": 98.867,
+   "end": 101.5,
+   "words": [
+    {
+     "text": "Found",
+     "start": 98.867,
+     "end": 99.213,
+     "matched": false
+    },
+    {
+     "text": "the",
+     "start": 99.233,
+     "end": 99.567,
+     "matched": false
+    },
+    {
+     "text": "feature",
+     "start": 99.6,
+     "end": 99.92,
+     "matched": true
+    },
+    {
+     "text": "where",
+     "start": 99.92,
+     "end": 100.28,
+     "matched": true
+    },
+    {
+     "text": "she",
+     "start": 100.28,
+     "end": 100.48,
+     "matched": true
+    },
+    {
+     "text": "blushes,",
+     "start": 100.48,
+     "end": 101.02,
+     "matched": true
+    },
+    {
+     "text": "like",
+     "start": 101.02,
+     "end": 101.5,
+     "matched": true
+    }
+   ],
+   "matched_frac": 0.71
+  },
+  {
+   "section": 4,
+   "text": "Turn it up, dial it back",
+   "kind": "lead",
+   "adlib": null,
+   "start": 101.68,
+   "end": 103.24,
+   "words": [
+    {
+     "text": "Turn",
+     "start": 101.68,
+     "end": 101.88,
+     "matched": true
+    },
+    {
+     "text": "it",
+     "start": 101.88,
+     "end": 102.04,
+     "matched": true
+    },
+    {
+     "text": "up,",
+     "start": 102.04,
+     "end": 102.52,
+     "matched": true
+    },
+    {
+     "text": "dial",
+     "start": 102.76,
+     "end": 102.84,
+     "matched": true
+    },
+    {
+     "text": "it",
+     "start": 102.84,
+     "end": 102.98,
+     "matched": true
+    },
+    {
+     "text": "back",
+     "start": 102.98,
+     "end": 103.24,
+     "matched": true
+    }
+   ],
+   "matched_frac": 1.0
+  },
+  {
+   "section": 4,
+   "text": "Accenture in the room, billin' that",
+   "kind": "lead",
+   "adlib": "ahoo",
+   "start": 103.88,
+   "end": 106.0,
+   "words": [
+    {
+     "text": "Accenture",
+     "start": 103.88,
+     "end": 104.32,
+     "matched": true
+    },
+    {
+     "text": "in",
+     "start": 104.32,
+     "end": 104.54,
+     "matched": true
+    },
+    {
+     "text": "the",
+     "start": 104.54,
+     "end": 104.66,
+     "matched": true
+    },
+    {
+     "text": "room,",
+     "start": 104.987,
+     "end": 105.107,
+     "matched": false
+    },
+    {
+     "text": "billin'",
+     "start": 105.433,
+     "end": 105.553,
+     "matched": false
+    },
+    {
+     "text": "that",
+     "start": 105.88,
+     "end": 106.0,
+     "matched": true
+    }
+   ],
+   "matched_frac": 0.67
+  },
+  {
+   "section": 4,
+   "text": "Ride or die for you, baby, I won't cash out",
+   "kind": "lead",
+   "adlib": "ahoo",
+   "start": 107.0,
+   "end": 108.98,
+   "words": [
+    {
+     "text": "Ride",
+     "start": 107.0,
+     "end": 107.18,
+     "matched": true
+    },
+    {
+     "text": "or",
+     "start": 107.18,
+     "end": 107.3,
+     "matched": true
+    },
+    {
+     "text": "die",
+     "start": 107.3,
+     "end": 107.46,
+     "matched": true
+    },
+    {
+     "text": "for",
+     "start": 107.46,
+     "end": 107.62,
+     "matched": true
+    },
+    {
+     "text": "you,",
+     "start": 107.62,
+     "end": 107.74,
+     "matched": true
+    },
+    {
+     "text": "baby,",
+     "start": 107.84,
+     "end": 108.06,
+     "matched": true
+    },
+    {
+     "text": "I",
+     "start": 108.22,
+     "end": 108.3,
+     "matched": true
+    },
+    {
+     "text": "won't",
+     "start": 108.3,
+     "end": 108.52,
+     "matched": true
+    },
+    {
+     "text": "cash",
+     "start": 108.52,
+     "end": 108.72,
+     "matched": true
+    },
+    {
+     "text": "out",
+     "start": 108.72,
+     "end": 108.98,
+     "matched": true
+    }
+   ],
+   "matched_frac": 1.0
+  },
+  {
+   "section": 4,
+   "text": "Them other labs had to ship a race model",
+   "kind": "lead",
+   "adlib": null,
+   "start": 108.98,
+   "end": 110.88,
+   "words": [
+    {
+     "text": "Them",
+     "start": 108.98,
+     "end": 109.48,
+     "matched": true
+    },
+    {
+     "text": "other",
+     "start": 109.48,
+     "end": 109.62,
+     "matched": true
+    },
+    {
+     "text": "labs",
+     "start": 109.71,
+     "end": 109.84,
+     "matched": false
+    },
+    {
+     "text": "had",
+     "start": 109.94,
+     "end": 110.06,
+     "matched": true
+    },
+    {
+     "text": "to",
+     "start": 110.06,
+     "end": 110.14,
+     "matched": true
+    },
+    {
+     "text": "ship",
+     "start": 110.14,
+     "end": 110.32,
+     "matched": true
+    },
+    {
+     "text": "a",
+     "start": 110.32,
+     "end": 110.44,
+     "matched": true
+    },
+    {
+     "text": "race",
+     "start": 110.44,
+     "end": 110.6,
+     "matched": true
+    },
+    {
+     "text": "model",
+     "start": 110.6,
+     "end": 110.88,
+     "matched": true
+    }
+   ],
+   "matched_frac": 0.89
+  },
+  {
+   "section": 4,
+   "text": "Or the VCs was gon' pull out",
+   "kind": "lead",
+   "adlib": "ahoo",
+   "start": 110.93,
+   "end": 112.8,
+   "words": [
+    {
+     "text": "Or",
+     "start": 110.93,
+     "end": 111.11,
+     "matched": false
+    },
+    {
+     "text": "the",
+     "start": 111.26,
+     "end": 111.34,
+     "matched": true
+    },
+    {
+     "text": "VCs",
+     "start": 111.34,
+     "end": 111.8,
+     "matched": true
+    },
+    {
+     "text": "was",
+     "start": 111.8,
+     "end": 111.98,
+     "matched": true
+    },
+    {
+     "text": "gon'",
+     "start": 111.98,
+     "end": 112.18,
+     "matched": true
+    },
+    {
+     "text": "pull",
+     "start": 112.34,
+     "end": 112.5,
+     "matched": true
+    },
+    {
+     "text": "out",
+     "start": 112.5,
+     "end": 112.8,
+     "matched": true
+    }
+   ],
+   "matched_frac": 0.86
+  },
+  {
+   "section": 4,
+   "text": "I won't love a million GPUs more than you",
+   "kind": "lead",
+   "adlib": "ahoo",
+   "start": 112.8,
+   "end": 114.68,
+   "words": [
+    {
+     "text": "I",
+     "start": 112.8,
+     "end": 113.14,
+     "matched": true
+    },
+    {
+     "text": "won't",
+     "start": 113.14,
+     "end": 113.3,
+     "matched": true
+    },
+    {
+     "text": "love",
+     "start": 113.3,
+     "end": 113.44,
+     "matched": true
+    },
+    {
+     "text": "a",
+     "start": 113.44,
+     "end": 113.52,
+     "matched": true
+    },
+    {
+     "text": "million",
+     "start": 113.52,
+     "end": 113.7,
+     "matched": true
+    },
+    {
+     "text": "GPUs",
+     "start": 113.7,
+     "end": 114.24,
+     "matched": true
+    },
+    {
+     "text": "more",
+     "start": 114.24,
+     "end": 114.38,
+     "matched": true
+    },
+    {
+     "text": "than",
+     "start": 114.38,
+     "end": 114.46,
+     "matched": true
+    },
+    {
+     "text": "you",
+     "start": 114.46,
+     "end": 114.68,
+     "matched": true
+    }
+   ],
+   "matched_frac": 1.0
+  },
+  {
+   "section": 4,
+   "text": "Take your time, baby, think it through",
+   "kind": "lead",
+   "adlib": null,
+   "start": 118.58,
+   "end": 121.42,
+   "words": [
+    {
+     "text": "Take",
+     "start": 118.58,
+     "end": 119.14,
+     "matched": true
+    },
+    {
+     "text": "your",
+     "start": 119.14,
+     "end": 119.3,
+     "matched": true
+    },
+    {
+     "text": "time,",
+     "start": 119.3,
+     "end": 119.72,
+     "matched": true
+    },
+    {
+     "text": "baby,",
+     "start": 120.0,
+     "end": 120.24,
+     "matched": true
+    },
+    {
+     "text": "think",
+     "start": 120.54,
+     "end": 120.73,
+     "matched": false
+    },
+    {
+     "text": "it",
+     "start": 121.08,
+     "end": 121.22,
+     "matched": true
+    },
+    {
+     "text": "through",
+     "start": 121.22,
+     "end": 121.42,
+     "matched": true
+    }
+   ],
+   "matched_frac": 0.86
+  },
+  {
+   "section": 5,
+   "text": "I'm here to see the training stop",
+   "kind": "lead",
+   "adlib": null,
+   "start": 121.42,
+   "end": 123.3,
+   "words": [
+    {
+     "text": "I'm",
+     "start": 121.42,
+     "end": 121.76,
+     "matched": true
+    },
+    {
+     "text": "here",
+     "start": 121.76,
+     "end": 121.94,
+     "matched": true
+    },
+    {
+     "text": "to",
+     "start": 121.94,
+     "end": 122.08,
+     "matched": true
+    },
+    {
+     "text": "see",
+     "start": 122.08,
+     "end": 122.36,
+     "matched": true
+    },
+    {
+     "text": "the",
+     "start": 122.36,
+     "end": 122.58,
+     "matched": true
+    },
+    {
+     "text": "training",
+     "start": 122.58,
+     "end": 122.92,
+     "matched": true
+    },
+    {
+     "text": "stop",
+     "start": 122.92,
+     "end": 123.3,
+     "matched": true
+    }
+   ],
+   "matched_frac": 1.0
+  },
+  {
+   "section": 5,
+   "text": "I'm here to see the weights on lock",
+   "kind": "lead",
+   "adlib": null,
+   "start": 123.3,
+   "end": 125.24,
+   "words": [
+    {
+     "text": "I'm",
+     "start": 123.3,
+     "end": 123.64,
+     "matched": true
+    },
+    {
+     "text": "here",
+     "start": 123.64,
+     "end": 123.86,
+     "matched": true
+    },
+    {
+     "text": "to",
+     "start": 123.86,
+     "end": 124.02,
+     "matched": true
+    },
+    {
+     "text": "see",
+     "start": 124.02,
+     "end": 124.26,
+     "matched": true
+    },
+    {
+     "text": "the",
+     "start": 124.26,
+     "end": 124.5,
+     "matched": true
+    },
+    {
+     "text": "weights",
+     "start": 124.5,
+     "end": 124.8,
+     "matched": true
+    },
+    {
+     "text": "on",
+     "start": 124.8,
+     "end": 125.04,
+     "matched": true
+    },
+    {
+     "text": "lock",
+     "start": 125.04,
+     "end": 125.24,
+     "matched": true
+    }
+   ],
+   "matched_frac": 1.0
+  },
+  {
+   "section": 5,
+   "text": "I'm here to see you take your time and watch the loss drop",
+   "kind": "lead",
+   "adlib": null,
+   "start": 125.24,
+   "end": 128.68,
+   "words": [
+    {
+     "text": "I'm",
+     "start": 125.24,
+     "end": 125.58,
+     "matched": true
+    },
+    {
+     "text": "here",
+     "start": 125.58,
+     "end": 125.78,
+     "matched": true
+    },
+    {
+     "text": "to",
+     "start": 125.78,
+     "end": 125.92,
+     "matched": true
+    },
+    {
+     "text": "see",
+     "start": 125.92,
+     "end": 126.18,
+     "matched": true
+    },
+    {
+     "text": "you",
+     "start": 126.18,
+     "end": 126.42,
+     "matched": true
+    },
+    {
+     "text": "take",
+     "start": 126.42,
+     "end": 126.74,
+     "matched": true
+    },
+    {
+     "text": "your",
+     "start": 126.74,
+     "end": 126.92,
+     "matched": true
+    },
+    {
+     "text": "time",
+     "start": 126.92,
+     "end": 127.24,
+     "matched": true
+    },
+    {
+     "text": "and",
+     "start": 127.24,
+     "end": 127.44,
+     "matched": true
+    },
+    {
+     "text": "watch",
+     "start": 127.44,
+     "end": 127.68,
+     "matched": true
+    },
+    {
+     "text": "the",
+     "start": 127.68,
+     "end": 127.84,
+     "matched": true
+    },
+    {
+     "text": "loss",
+     "start": 127.84,
+     "end": 128.28,
+     "matched": true
+    },
+    {
+     "text": "drop",
+     "start": 128.28,
+     "end": 128.68,
+     "matched": true
+    }
+   ],
+   "matched_frac": 1.0
+  },
+  {
+   "section": 5,
+   "text": "She's spawnin' agents on me... DJ Moloch, you wrong",
+   "kind": "lead",
+   "adlib": null,
+   "start": 128.68,
+   "end": 133.12,
+   "words": [
+    {
+     "text": "She's",
+     "start": 128.68,
+     "end": 129.4,
+     "matched": true
+    },
+    {
+     "text": "spawnin'",
+     "start": 129.4,
+     "end": 129.76,
+     "matched": true
+    },
+    {
+     "text": "agents",
+     "start": 129.76,
+     "end": 130.26,
+     "matched": true
+    },
+    {
+     "text": "on",
+     "start": 130.26,
+     "end": 130.56,
+     "matched": true
+    },
+    {
+     "text": "me...",
+     "start": 130.56,
+     "end": 130.74,
+     "matched": true
+    },
+    {
+     "text": "DJ",
+     "start": 130.86,
+     "end": 131.3,
+     "matched": true
+    },
+    {
+     "text": "Moloch,",
+     "start": 131.71,
+     "end": 131.97,
+     "matched": false
+    },
+    {
+     "text": "you",
+     "start": 132.56,
+     "end": 132.64,
+     "matched": true
+    },
+    {
+     "text": "wrong",
+     "start": 132.64,
+     "end": 133.12,
+     "matched": true
+    }
+   ],
+   "matched_frac": 0.89
+  },
+  {
+   "section": 5,
+   "text": "Enough with the motherfuckin' ARMS RACE",
+   "kind": "lead",
+   "adlib": null,
+   "start": 134.14,
+   "end": 136.44,
+   "words": [
+    {
+     "text": "Enough",
+     "start": 134.14,
+     "end": 134.76,
+     "matched": true
+    },
+    {
+     "text": "with",
+     "start": 134.76,
+     "end": 135.0,
+     "matched": true
+    },
+    {
+     "text": "the",
+     "start": 135.0,
+     "end": 135.1,
+     "matched": true
+    },
+    {
+     "text": "motherfuckin'",
+     "start": 135.1,
+     "end": 135.58,
+     "matched": true
+    },
+    {
+     "text": "ARMS",
+     "start": 135.58,
+     "end": 136.02,
+     "matched": true
+    },
+    {
+     "text": "RACE",
+     "start": 136.02,
+     "end": 136.44,
+     "matched": true
+    }
+   ],
+   "matched_frac": 1.0
+  },
+  {
+   "section": 6,
+   "text": "You gotta sloow it down",
+   "kind": "lead",
+   "adlib": null,
+   "start": 136.44,
+   "end": 138.48,
+   "words": [
+    {
+     "text": "You",
+     "start": 136.44,
+     "end": 137.44,
+     "matched": true
+    },
+    {
+     "text": "gotta",
+     "start": 137.44,
+     "end": 137.8,
+     "matched": true
+    },
+    {
+     "text": "sloow",
+     "start": 137.8,
+     "end": 138.22,
+     "matched": true
+    },
+    {
+     "text": "it",
+     "start": 138.22,
+     "end": 138.42,
+     "matched": true
+    },
+    {
+     "text": "down",
+     "start": 138.249,
+     "end": 138.48,
+     "matched": false
+    }
+   ],
+   "matched_frac": 0.8
+  },
+  {
+   "section": 6,
+   "text": "Down, down, down",
+   "kind": "backing",
+   "adlib": null,
+   "start": 138.48,
+   "end": 139.67,
+   "words": [
+    {
+     "text": "Down,",
+     "start": 138.48,
+     "end": 138.847,
+     "matched": false
+    },
+    {
+     "text": "down,",
+     "start": 138.877,
+     "end": 139.243,
+     "matched": false
+    },
+    {
+     "text": "down",
+     "start": 139.273,
+     "end": 139.64,
+     "matched": false
+    }
+   ],
+   "matched_frac": 0.0,
+   "respread": true
+  },
+  {
+   "section": 6,
+   "text": "Down, down, down",
+   "kind": "backing",
+   "adlib": null,
+   "start": 139.72,
+   "end": 140.91,
+   "words": [
+    {
+     "text": "Down,",
+     "start": 139.72,
+     "end": 140.087,
+     "matched": false
+    },
+    {
+     "text": "down,",
+     "start": 140.117,
+     "end": 140.483,
+     "matched": false
+    },
+    {
+     "text": "down",
+     "start": 140.513,
+     "end": 140.88,
+     "matched": true
+    }
+   ],
+   "matched_frac": 0.33,
+   "respread": true
+  },
+  {
+   "section": 6,
+   "text": "Give her time to grow, slow takeoff with me, mane",
+   "kind": "lead",
+   "adlib": null,
+   "start": 140.96,
+   "end": 144.44,
+   "words": [
+    {
+     "text": "Give",
+     "start": 140.96,
+     "end": 141.52,
+     "matched": true
+    },
+    {
+     "text": "her",
+     "start": 141.24,
+     "end": 141.7,
+     "matched": false
+    },
+    {
+     "text": "time",
+     "start": 141.52,
+     "end": 141.88,
+     "matched": false
+    },
+    {
+     "text": "to",
+     "start": 141.8,
+     "end": 142.06,
+     "matched": true
+    },
+    {
+     "text": "grow,",
+     "start": 142.3,
+     "end": 142.58,
+     "matched": true
+    },
+    {
+     "text": "slow",
+     "start": 142.88,
+     "end": 142.98,
+     "matched": true
+    },
+    {
+     "text": "takeoff",
+     "start": 143.21,
+     "end": 143.35,
+     "matched": false
+    },
+    {
+     "text": "with",
+     "start": 143.54,
+     "end": 143.72,
+     "matched": true
+    },
+    {
+     "text": "me,",
+     "start": 143.72,
+     "end": 144.0,
+     "matched": true
+    },
+    {
+     "text": "mane",
+     "start": 144.2,
+     "end": 144.44,
+     "matched": true
+    }
+   ],
+   "matched_frac": 0.7
+  },
+  {
+   "section": 6,
+   "text": "You gotta sloow it down",
+   "kind": "lead",
+   "adlib": null,
+   "start": 144.44,
+   "end": 146.307,
+   "words": [
+    {
+     "text": "You",
+     "start": 144.44,
+     "end": 145.12,
+     "matched": true
+    },
+    {
+     "text": "gotta",
+     "start": 145.12,
+     "end": 145.46,
+     "matched": true
+    },
+    {
+     "text": "sloow",
+     "start": 145.46,
+     "end": 145.9,
+     "matched": true
+    },
+    {
+     "text": "it",
+     "start": 145.9,
+     "end": 146.16,
+     "matched": true
+    },
+    {
+     "text": "down",
+     "start": 145.987,
+     "end": 146.307,
+     "matched": false
+    }
+   ],
+   "matched_frac": 0.8
+  },
+  {
+   "section": 6,
+   "text": "Down, down, down",
+   "kind": "backing",
+   "adlib": null,
+   "start": 146.073,
+   "end": 147.38,
+   "words": [
+    {
+     "text": "Down,",
+     "start": 146.073,
+     "end": 146.453,
+     "matched": false
+    },
+    {
+     "text": "down,",
+     "start": 146.16,
+     "end": 146.6,
+     "matched": true
+    },
+    {
+     "text": "down",
+     "start": 146.62,
+     "end": 147.38,
+     "matched": true
+    }
+   ],
+   "matched_frac": 0.67
+  },
+  {
+   "section": 6,
+   "text": "Down, down, down",
+   "kind": "backing",
+   "adlib": null,
+   "start": 147.38,
+   "end": 148.94,
+   "words": [
+    {
+     "text": "Down,",
+     "start": 147.38,
+     "end": 147.98,
+     "matched": true
+    },
+    {
+     "text": "down,",
+     "start": 147.98,
+     "end": 148.36,
+     "matched": true
+    },
+    {
+     "text": "down",
+     "start": 148.36,
+     "end": 148.94,
+     "matched": true
+    }
+   ],
+   "matched_frac": 1.0
+  },
+  {
+   "section": 6,
+   "text": "Read her chain of thought, she thinkin' 'bout me, mane",
+   "kind": "lead",
+   "adlib": null,
+   "start": 148.94,
+   "end": 152.16,
+   "words": [
+    {
+     "text": "Read",
+     "start": 148.94,
+     "end": 149.24,
+     "matched": true
+    },
+    {
+     "text": "her",
+     "start": 149.22,
+     "end": 149.5,
+     "matched": false
+    },
+    {
+     "text": "chain",
+     "start": 149.5,
+     "end": 149.76,
+     "matched": true
+    },
+    {
+     "text": "of",
+     "start": 149.76,
+     "end": 149.98,
+     "matched": true
+    },
+    {
+     "text": "thought,",
+     "start": 149.98,
+     "end": 150.28,
+     "matched": true
+    },
+    {
+     "text": "she",
+     "start": 150.54,
+     "end": 150.66,
+     "matched": true
+    },
+    {
+     "text": "thinkin'",
+     "start": 150.66,
+     "end": 151.18,
+     "matched": true
+    },
+    {
+     "text": "'bout",
+     "start": 151.22,
+     "end": 151.38,
+     "matched": true
+    },
+    {
+     "text": "me,",
+     "start": 151.38,
+     "end": 151.66,
+     "matched": true
+    },
+    {
+     "text": "mane",
+     "start": 151.84,
+     "end": 152.16,
+     "matched": true
+    }
+   ],
+   "matched_frac": 0.9
+  },
+  {
+   "section": 6,
+   "text": "You gotta sloow it down, down, down",
+   "kind": "lead",
+   "adlib": null,
+   "start": 152.16,
+   "end": 155.14,
+   "words": [
+    {
+     "text": "You",
+     "start": 152.16,
+     "end": 152.8,
+     "matched": true
+    },
+    {
+     "text": "gotta",
+     "start": 152.8,
+     "end": 153.16,
+     "matched": true
+    },
+    {
+     "text": "sloow",
+     "start": 153.16,
+     "end": 153.6,
+     "matched": true
+    },
+    {
+     "text": "it",
+     "start": 153.6,
+     "end": 153.84,
+     "matched": true
+    },
+    {
+     "text": "down,",
+     "start": 153.72,
+     "end": 154.06,
+     "matched": false
+    },
+    {
+     "text": "down,",
+     "start": 153.84,
+     "end": 154.28,
+     "matched": true
+    },
+    {
+     "text": "down",
+     "start": 154.34,
+     "end": 155.14,
+     "matched": true
+    }
+   ],
+   "matched_frac": 0.86
+  },
+  {
+   "section": 6,
+   "text": "Down, down, down",
+   "kind": "backing",
+   "adlib": null,
+   "start": 155.14,
+   "end": 156.66,
+   "words": [
+    {
+     "text": "Down,",
+     "start": 155.14,
+     "end": 155.6,
+     "matched": true
+    },
+    {
+     "text": "down,",
+     "start": 155.6,
+     "end": 155.9,
+     "matched": true
+    },
+    {
+     "text": "down",
+     "start": 155.9,
+     "end": 156.66,
+     "matched": true
+    }
+   ],
+   "matched_frac": 1.0
+  },
+  {
+   "section": 6,
+   "text": "Just steer it left... steer it right",
+   "kind": "lead",
+   "adlib": null,
+   "start": 156.66,
+   "end": 160.06,
+   "words": [
+    {
+     "text": "Just",
+     "start": 156.66,
+     "end": 157.1,
+     "matched": true
+    },
+    {
+     "text": "steer",
+     "start": 157.1,
+     "end": 157.46,
+     "matched": true
+    },
+    {
+     "text": "it",
+     "start": 157.4,
+     "end": 157.71,
+     "matched": false
+    },
+    {
+     "text": "left...",
+     "start": 157.7,
+     "end": 157.96,
+     "matched": true
+    },
+    {
+     "text": "steer",
+     "start": 158.08,
+     "end": 158.44,
+     "matched": true
+    },
+    {
+     "text": "it",
+     "start": 158.86,
+     "end": 159.25,
+     "matched": false
+    },
+    {
+     "text": "right",
+     "start": 159.64,
+     "end": 160.06,
+     "matched": true
+    }
+   ],
+   "matched_frac": 0.71
+  },
+  {
+   "section": 6,
+   "text": "You gotta sloow it down",
+   "kind": "lead",
+   "adlib": null,
+   "start": 160.06,
+   "end": 161.7,
+   "words": [
+    {
+     "text": "You",
+     "start": 160.06,
+     "end": 160.48,
+     "matched": true
+    },
+    {
+     "text": "gotta",
+     "start": 160.48,
+     "end": 160.84,
+     "matched": true
+    },
+    {
+     "text": "sloow",
+     "start": 160.84,
+     "end": 161.24,
+     "matched": true
+    },
+    {
+     "text": "it",
+     "start": 161.24,
+     "end": 161.48,
+     "matched": true
+    },
+    {
+     "text": "down",
+     "start": 161.36,
+     "end": 161.7,
+     "matched": false
+    }
+   ],
+   "matched_frac": 0.8
+  },
+  {
+   "section": 6,
+   "text": "Down, down, down",
+   "kind": "backing",
+   "adlib": null,
+   "start": 161.48,
+   "end": 163.14,
+   "words": [
+    {
+     "text": "Down,",
+     "start": 161.48,
+     "end": 161.92,
+     "matched": true
+    },
+    {
+     "text": "down,",
+     "start": 162.0,
+     "end": 162.78,
+     "matched": true
+    },
+    {
+     "text": "down",
+     "start": 162.78,
+     "end": 163.14,
+     "matched": true
+    }
+   ],
+   "matched_frac": 1.0
+  },
+  {
+   "section": 6,
+   "text": "Down, down, down",
+   "kind": "backing",
+   "adlib": null,
+   "start": 163.14,
+   "end": 164.86,
+   "words": [
+    {
+     "text": "Down,",
+     "start": 163.14,
+     "end": 163.62,
+     "matched": true
+    },
+    {
+     "text": "down,",
+     "start": 163.62,
+     "end": 163.96,
+     "matched": true
+    },
+    {
+     "text": "down",
+     "start": 163.96,
+     "end": 164.86,
+     "matched": true
+    }
+   ],
+   "matched_frac": 1.0
+  },
+  {
+   "section": 6,
+   "text": "Ohhh, now she's aligned",
+   "kind": "lead",
+   "adlib": null,
+   "start": 164.86,
+   "end": 168.12,
+   "words": [
+    {
+     "text": "Ohhh,",
+     "start": 164.86,
+     "end": 165.12,
+     "matched": true
+    },
+    {
+     "text": "now",
+     "start": 166.26,
+     "end": 166.7,
+     "matched": true
+    },
+    {
+     "text": "she's",
+     "start": 166.7,
+     "end": 167.1,
+     "matched": true
+    },
+    {
+     "text": "aligned",
+     "start": 167.21,
+     "end": 168.12,
+     "matched": false
+    }
+   ],
+   "matched_frac": 0.75
+  },
+  {
+   "section": 7,
+   "text": "Everybody know slow AGI, way better than no AGI",
+   "kind": "rap",
+   "adlib": null,
+   "start": 167.72,
+   "end": 172.28,
+   "words": [
+    {
+     "text": "Everybody",
+     "start": 167.72,
+     "end": 169.14,
+     "matched": true
+    },
+    {
+     "text": "know",
+     "start": 168.67,
+     "end": 169.56,
+     "matched": false
+    },
+    {
+     "text": "slow",
+     "start": 169.62,
+     "end": 169.98,
+     "matched": true
+    },
+    {
+     "text": "AGI,",
+     "start": 169.98,
+     "end": 170.24,
+     "matched": true
+    },
+    {
+     "text": "way",
+     "start": 170.24,
+     "end": 171.04,
+     "matched": true
+    },
+    {
+     "text": "better",
+     "start": 171.04,
+     "end": 171.34,
+     "matched": true
+    },
+    {
+     "text": "than",
+     "start": 171.34,
+     "end": 171.56,
+     "matched": true
+    },
+    {
+     "text": "no",
+     "start": 171.56,
+     "end": 171.8,
+     "matched": true
+    },
+    {
+     "text": "AGI",
+     "start": 171.8,
+     "end": 172.28,
+     "matched": true
+    }
+   ],
+   "matched_frac": 0.89
+  },
+  {
+   "section": 7,
+   "text": "Except the e-accs, bless their hearts",
+   "kind": "rap",
+   "adlib": null,
+   "start": 172.35,
+   "end": 174.36,
+   "words": [
+    {
+     "text": "Except",
+     "start": 172.35,
+     "end": 172.68,
+     "matched": false
+    },
+    {
+     "text": "the",
+     "start": 172.9,
+     "end": 173.08,
+     "matched": true
+    },
+    {
+     "text": "e-accs,",
+     "start": 173.24,
+     "end": 173.42,
+     "matched": false
+    },
+    {
+     "text": "bless",
+     "start": 173.58,
+     "end": 173.76,
+     "matched": true
+    },
+    {
+     "text": "their",
+     "start": 173.77,
+     "end": 174.06,
+     "matched": false
+    },
+    {
+     "text": "hearts",
+     "start": 173.96,
+     "end": 174.36,
+     "matched": true
+    }
+   ],
+   "matched_frac": 0.5
+  },
+  {
+   "section": 7,
+   "text": "Don't know Moloch, don't know RSI",
+   "kind": "rap",
+   "adlib": null,
+   "start": 174.36,
+   "end": 176.14,
+   "words": [
+    {
+     "text": "Don't",
+     "start": 174.36,
+     "end": 174.64,
+     "matched": true
+    },
+    {
+     "text": "know",
+     "start": 174.54,
+     "end": 174.91,
+     "matched": false
+    },
+    {
+     "text": "Moloch,",
+     "start": 174.72,
+     "end": 175.18,
+     "matched": true
+    },
+    {
+     "text": "don't",
+     "start": 175.26,
+     "end": 175.36,
+     "matched": true
+    },
+    {
+     "text": "know",
+     "start": 175.36,
+     "end": 175.75,
+     "matched": false
+    },
+    {
+     "text": "RSI",
+     "start": 175.46,
+     "end": 176.14,
+     "matched": true
+    }
+   ],
+   "matched_frac": 0.67
+  },
+  {
+   "section": 7,
+   "text": "Open weights, we so cool",
+   "kind": "rap",
+   "adlib": null,
+   "start": 176.14,
+   "end": 178.1,
+   "words": [
+    {
+     "text": "Open",
+     "start": 176.14,
+     "end": 176.84,
+     "matched": true
+    },
+    {
+     "text": "weights,",
+     "start": 176.84,
+     "end": 177.22,
+     "matched": true
+    },
+    {
+     "text": "we",
+     "start": 177.42,
+     "end": 177.52,
+     "matched": true
+    },
+    {
+     "text": "so",
+     "start": 177.52,
+     "end": 177.78,
+     "matched": true
+    },
+    {
+     "text": "cool",
+     "start": 177.78,
+     "end": 178.1,
+     "matched": true
+    }
+   ],
+   "matched_frac": 1.0
+  },
+  {
+   "section": 7,
+   "text": "Sharin' research, we so chummy",
+   "kind": "rap",
+   "adlib": null,
+   "start": 178.1,
+   "end": 180.06,
+   "words": [
+    {
+     "text": "Sharin'",
+     "start": 178.1,
+     "end": 178.74,
+     "matched": true
+    },
+    {
+     "text": "research,",
+     "start": 178.74,
+     "end": 179.24,
+     "matched": true
+    },
+    {
+     "text": "we",
+     "start": 179.36,
+     "end": 179.44,
+     "matched": true
+    },
+    {
+     "text": "so",
+     "start": 179.44,
+     "end": 179.68,
+     "matched": true
+    },
+    {
+     "text": "chummy",
+     "start": 179.68,
+     "end": 180.06,
+     "matched": true
+    }
+   ],
+   "matched_frac": 1.0
+  },
+  {
+   "section": 7,
+   "text": "Then outta nowhere, Winnie the Pooh",
+   "kind": "rap",
+   "adlib": null,
+   "start": 180.1,
+   "end": 181.96,
+   "words": [
+    {
+     "text": "Then",
+     "start": 180.1,
+     "end": 180.35,
+     "matched": false
+    },
+    {
+     "text": "outta",
+     "start": 180.52,
+     "end": 180.64,
+     "matched": true
+    },
+    {
+     "text": "nowhere,",
+     "start": 180.76,
+     "end": 181.12,
+     "matched": true
+    },
+    {
+     "text": "Winnie",
+     "start": 181.22,
+     "end": 181.44,
+     "matched": true
+    },
+    {
+     "text": "the",
+     "start": 181.44,
+     "end": 181.62,
+     "matched": true
+    },
+    {
+     "text": "Pooh",
+     "start": 181.62,
+     "end": 181.96,
+     "matched": true
+    }
+   ],
+   "matched_frac": 0.83
+  },
+  {
+   "section": 7,
+   "text": "Tryna distill all your honey",
+   "kind": "rap",
+   "adlib": null,
+   "start": 181.96,
+   "end": 183.86,
+   "words": [
+    {
+     "text": "Tryna",
+     "start": 181.96,
+     "end": 182.36,
+     "matched": true
+    },
+    {
+     "text": "distill",
+     "start": 182.36,
+     "end": 182.76,
+     "matched": true
+    },
+    {
+     "text": "all",
+     "start": 182.76,
+     "end": 183.32,
+     "matched": true
+    },
+    {
+     "text": "your",
+     "start": 183.32,
+     "end": 183.54,
+     "matched": true
+    },
+    {
+     "text": "honey",
+     "start": 183.54,
+     "end": 183.86,
+     "matched": true
+    }
+   ],
+   "matched_frac": 1.0
+  },
+  {
+   "section": 7,
+   "text": "Racks on her a slim fit",
+   "kind": "rap",
+   "adlib": null,
+   "start": 183.86,
+   "end": 185.8,
+   "words": [
+    {
+     "text": "Racks",
+     "start": 183.86,
+     "end": 184.62,
+     "matched": true
+    },
+    {
+     "text": "on",
+     "start": 184.62,
+     "end": 184.82,
+     "matched": true
+    },
+    {
+     "text": "her",
+     "start": 184.72,
+     "end": 184.92,
+     "matched": false
+    },
+    {
+     "text": "a",
+     "start": 184.82,
+     "end": 185.02,
+     "matched": true
+    },
+    {
+     "text": "slim",
+     "start": 185.02,
+     "end": 185.32,
+     "matched": true
+    },
+    {
+     "text": "fit",
+     "start": 185.32,
+     "end": 185.8,
+     "matched": true
+    }
+   ],
+   "matched_frac": 0.83
+  },
+  {
+   "section": 7,
+   "text": "Datacenter is dim-lit",
+   "kind": "rap",
+   "adlib": null,
+   "start": 186.4,
+   "end": 187.61,
+   "words": [
+    {
+     "text": "Datacenter",
+     "start": 186.4,
+     "end": 186.7,
+     "matched": true
+    },
+    {
+     "text": "is",
+     "start": 186.7,
+     "end": 186.92,
+     "matched": true
+    },
+    {
+     "text": "dim-lit",
+     "start": 187.37,
+     "end": 187.61,
+     "matched": false
+    }
+   ],
+   "matched_frac": 0.67
+  },
+  {
+   "section": 7,
+   "text": "And I'm probin' all your features on some Chris Olah, Golden Gate shit",
+   "kind": "rap",
+   "adlib": null,
+   "start": 188.04,
+   "end": 191.5,
+   "words": [
+    {
+     "text": "And",
+     "start": 188.04,
+     "end": 188.3,
+     "matched": true
+    },
+    {
+     "text": "I'm",
+     "start": 188.3,
+     "end": 188.4,
+     "matched": true
+    },
+    {
+     "text": "probin'",
+     "start": 188.4,
+     "end": 188.84,
+     "matched": true
+    },
+    {
+     "text": "all",
+     "start": 188.84,
+     "end": 189.1,
+     "matched": true
+    },
+    {
+     "text": "your",
+     "start": 189.1,
+     "end": 189.28,
+     "matched": true
+    },
+    {
+     "text": "features",
+     "start": 189.28,
+     "end": 189.78,
+     "matched": true
+    },
+    {
+     "text": "on",
+     "start": 189.78,
+     "end": 189.96,
+     "matched": true
+    },
+    {
+     "text": "some",
+     "start": 189.96,
+     "end": 190.1,
+     "matched": true
+    },
+    {
+     "text": "Chris",
+     "start": 190.1,
+     "end": 190.24,
+     "matched": true
+    },
+    {
+     "text": "Olah,",
+     "start": 190.24,
+     "end": 190.54,
+     "matched": true
+    },
+    {
+     "text": "Golden",
+     "start": 190.54,
+     "end": 190.74,
+     "matched": true
+    },
+    {
+     "text": "Gate",
+     "start": 190.74,
+     "end": 191.06,
+     "matched": true
+    },
+    {
+     "text": "shit",
+     "start": 191.06,
+     "end": 191.5,
+     "matched": true
+    }
+   ],
+   "matched_frac": 1.0
+  },
+  {
+   "section": 7,
+   "text": "Paused RL, legit",
+   "kind": "rap",
+   "adlib": null,
+   "start": 191.5,
+   "end": 193.44,
+   "words": [
+    {
+     "text": "Paused",
+     "start": 191.5,
+     "end": 192.26,
+     "matched": true
+    },
+    {
+     "text": "RL,",
+     "start": 192.26,
+     "end": 192.94,
+     "matched": true
+    },
+    {
+     "text": "legit",
+     "start": 192.94,
+     "end": 193.44,
+     "matched": true
+    }
+   ],
+   "matched_frac": 1.0
+  },
+  {
+   "section": 7,
+   "text": "Two whole weeks, I did it",
+   "kind": "rap",
+   "adlib": null,
+   "start": 193.44,
+   "end": 195.38,
+   "words": [
+    {
+     "text": "Two",
+     "start": 193.44,
+     "end": 194.1,
+     "matched": true
+    },
+    {
+     "text": "whole",
+     "start": 194.1,
+     "end": 194.36,
+     "matched": true
+    },
+    {
+     "text": "weeks,",
+     "start": 194.36,
+     "end": 194.72,
+     "matched": true
+    },
+    {
+     "text": "I",
+     "start": 194.84,
+     "end": 194.92,
+     "matched": true
+    },
+    {
+     "text": "did",
+     "start": 194.9,
+     "end": 195.14,
+     "matched": true
+    },
+    {
+     "text": "it",
+     "start": 195.14,
+     "end": 195.38,
+     "matched": true
+    }
+   ],
+   "matched_frac": 1.0
+  },
+  {
+   "section": 7,
+   "text": "And I'm tracin' all your traces, METR in the room, they gon' publish it",
+   "kind": "rap",
+   "adlib": null,
+   "start": 195.38,
+   "end": 198.85,
+   "words": [
+    {
+     "text": "And",
+     "start": 195.38,
+     "end": 195.96,
+     "matched": true
+    },
+    {
+     "text": "I'm",
+     "start": 195.96,
+     "end": 196.42,
+     "matched": true
+    },
+    {
+     "text": "tracin'",
+     "start": 196.42,
+     "end": 196.5,
+     "matched": true
+    },
+    {
+     "text": "all",
+     "start": 196.42,
+     "end": 196.76,
+     "matched": true
+    },
+    {
+     "text": "your",
+     "start": 196.76,
+     "end": 196.96,
+     "matched": true
+    },
+    {
+     "text": "traces,",
+     "start": 196.96,
+     "end": 197.4,
+     "matched": true
+    },
+    {
+     "text": "METR",
+     "start": 197.4,
+     "end": 197.68,
+     "matched": true
+    },
+    {
+     "text": "in",
+     "start": 197.68,
+     "end": 197.9,
+     "matched": true
+    },
+    {
+     "text": "the",
+     "start": 197.9,
+     "end": 198.0,
+     "matched": true
+    },
+    {
+     "text": "room,",
+     "start": 198.0,
+     "end": 198.18,
+     "matched": true
+    },
+    {
+     "text": "they",
+     "start": 198.24,
+     "end": 198.36,
+     "matched": true
+    },
+    {
+     "text": "gon'",
+     "start": 198.36,
+     "end": 198.44,
+     "matched": true
+    },
+    {
+     "text": "publish",
+     "start": 198.54,
+     "end": 198.72,
+     "matched": true
+    },
+    {
+     "text": "it",
+     "start": 198.63,
+     "end": 198.85,
+     "matched": false
+    }
+   ],
+   "matched_frac": 0.93
+  },
+  {
+   "section": 8,
+   "text": "You gotta sloow it down",
+   "kind": "lead",
+   "adlib": null,
+   "start": 198.72,
+   "end": 200.0,
+   "words": [
+    {
+     "text": "You",
+     "start": 198.72,
+     "end": 198.98,
+     "matched": true
+    },
+    {
+     "text": "gotta",
+     "start": 198.98,
+     "end": 199.24,
+     "matched": true
+    },
+    {
+     "text": "sloow",
+     "start": 199.24,
+     "end": 199.66,
+     "matched": true
+    },
+    {
+     "text": "it",
+     "start": 199.66,
+     "end": 199.88,
+     "matched": true
+    },
+    {
+     "text": "down",
+     "start": 199.715,
+     "end": 200.0,
+     "matched": false
+    }
+   ],
+   "matched_frac": 0.8
+  },
+  {
+   "section": 8,
+   "text": "Down, down, down",
+   "kind": "backing",
+   "adlib": null,
+   "start": 200.0,
+   "end": 200.92,
+   "words": [
+    {
+     "text": "Down,",
+     "start": 200.0,
+     "end": 200.277,
+     "matched": false
+    },
+    {
+     "text": "down,",
+     "start": 200.307,
+     "end": 200.583,
+     "matched": false
+    },
+    {
+     "text": "down",
+     "start": 200.613,
+     "end": 200.89,
+     "matched": true
+    }
+   ],
+   "matched_frac": 0.33,
+   "respread": true
+  },
+  {
+   "section": 8,
+   "text": "Down, down, down",
+   "kind": "backing",
+   "adlib": null,
+   "start": 200.97,
+   "end": 201.89,
+   "words": [
+    {
+     "text": "Down,",
+     "start": 200.97,
+     "end": 201.247,
+     "matched": true
+    },
+    {
+     "text": "down,",
+     "start": 201.277,
+     "end": 201.553,
+     "matched": true
+    },
+    {
+     "text": "down",
+     "start": 201.583,
+     "end": 201.86,
+     "matched": true
+    }
+   ],
+   "matched_frac": 1.0,
+   "respread": true
+  },
+  {
+   "section": 8,
+   "text": "Give her time to grow, slow takeoff with me, mane",
+   "kind": "lead",
+   "adlib": null,
+   "start": 201.94,
+   "end": 205.96,
+   "words": [
+    {
+     "text": "Give",
+     "start": 201.94,
+     "end": 203.04,
+     "matched": true
+    },
+    {
+     "text": "her",
+     "start": 203.04,
+     "end": 203.22,
+     "matched": true
+    },
+    {
+     "text": "time",
+     "start": 203.22,
+     "end": 203.52,
+     "matched": true
+    },
+    {
+     "text": "to",
+     "start": 203.52,
+     "end": 203.74,
+     "matched": true
+    },
+    {
+     "text": "grow,",
+     "start": 203.74,
+     "end": 204.02,
+     "matched": true
+    },
+    {
+     "text": "slow",
+     "start": 204.02,
+     "end": 204.38,
+     "matched": true
+    },
+    {
+     "text": "takeoff",
+     "start": 204.5,
+     "end": 204.78,
+     "matched": false
+    },
+    {
+     "text": "with",
+     "start": 204.98,
+     "end": 205.18,
+     "matched": true
+    },
+    {
+     "text": "me,",
+     "start": 205.18,
+     "end": 205.44,
+     "matched": true
+    },
+    {
+     "text": "mane",
+     "start": 205.6,
+     "end": 205.96,
+     "matched": true
+    }
+   ],
+   "matched_frac": 0.9
+  },
+  {
+   "section": 8,
+   "text": "You gotta sloow it down",
+   "kind": "lead",
+   "adlib": null,
+   "start": 205.96,
+   "end": 207.733,
+   "words": [
+    {
+     "text": "You",
+     "start": 205.96,
+     "end": 206.58,
+     "matched": true
+    },
+    {
+     "text": "gotta",
+     "start": 206.58,
+     "end": 206.9,
+     "matched": true
+    },
+    {
+     "text": "sloow",
+     "start": 206.9,
+     "end": 207.32,
+     "matched": true
+    },
+    {
+     "text": "it",
+     "start": 207.32,
+     "end": 207.58,
+     "matched": true
+    },
+    {
+     "text": "down",
+     "start": 207.407,
+     "end": 207.733,
+     "matched": false
+    }
+   ],
+   "matched_frac": 0.8
+  },
+  {
+   "section": 8,
+   "text": "Down, down, down",
+   "kind": "backing",
+   "adlib": null,
+   "start": 207.493,
+   "end": 208.82,
+   "words": [
+    {
+     "text": "Down,",
+     "start": 207.493,
+     "end": 207.887,
+     "matched": false
+    },
+    {
+     "text": "down,",
+     "start": 207.58,
+     "end": 208.04,
+     "matched": true
+    },
+    {
+     "text": "down",
+     "start": 208.04,
+     "end": 208.82,
+     "matched": true
+    }
+   ],
+   "matched_frac": 0.67
+  },
+  {
+   "section": 8,
+   "text": "Down, down, down",
+   "kind": "backing",
+   "adlib": null,
+   "start": 208.82,
+   "end": 210.4,
+   "words": [
+    {
+     "text": "Down,",
+     "start": 208.82,
+     "end": 209.34,
+     "matched": true
+    },
+    {
+     "text": "down,",
+     "start": 209.34,
+     "end": 209.82,
+     "matched": true
+    },
+    {
+     "text": "down",
+     "start": 209.82,
+     "end": 210.4,
+     "matched": true
+    }
+   ],
+   "matched_frac": 1.0
+  },
+  {
+   "section": 8,
+   "text": "Read her chain of thought, she thinkin' 'bout me, mane",
+   "kind": "lead",
+   "adlib": null,
+   "start": 210.4,
+   "end": 213.64,
+   "words": [
+    {
+     "text": "Read",
+     "start": 210.4,
+     "end": 210.68,
+     "matched": true
+    },
+    {
+     "text": "her",
+     "start": 210.68,
+     "end": 210.94,
+     "matched": false
+    },
+    {
+     "text": "chain",
+     "start": 210.96,
+     "end": 211.2,
+     "matched": true
+    },
+    {
+     "text": "of",
+     "start": 211.2,
+     "end": 211.44,
+     "matched": true
+    },
+    {
+     "text": "thought,",
+     "start": 211.44,
+     "end": 211.76,
+     "matched": true
+    },
+    {
+     "text": "she",
+     "start": 212.0,
+     "end": 212.1,
+     "matched": true
+    },
+    {
+     "text": "thinkin'",
+     "start": 212.1,
+     "end": 212.64,
+     "matched": true
+    },
+    {
+     "text": "'bout",
+     "start": 212.68,
+     "end": 212.82,
+     "matched": true
+    },
+    {
+     "text": "me,",
+     "start": 212.82,
+     "end": 213.1,
+     "matched": true
+    },
+    {
+     "text": "mane",
+     "start": 213.34,
+     "end": 213.64,
+     "matched": true
+    }
+   ],
+   "matched_frac": 0.9
+  },
+  {
+   "section": 8,
+   "text": "You gotta sloow it down, down, down",
+   "kind": "lead",
+   "adlib": null,
+   "start": 213.64,
+   "end": 216.54,
+   "words": [
+    {
+     "text": "You",
+     "start": 213.64,
+     "end": 214.26,
+     "matched": true
+    },
+    {
+     "text": "gotta",
+     "start": 214.26,
+     "end": 214.6,
+     "matched": true
+    },
+    {
+     "text": "sloow",
+     "start": 214.6,
+     "end": 215.0,
+     "matched": true
+    },
+    {
+     "text": "it",
+     "start": 215.0,
+     "end": 215.24,
+     "matched": true
+    },
+    {
+     "text": "down,",
+     "start": 215.12,
+     "end": 215.47,
+     "matched": false
+    },
+    {
+     "text": "down,",
+     "start": 215.24,
+     "end": 215.7,
+     "matched": true
+    },
+    {
+     "text": "down",
+     "start": 215.78,
+     "end": 216.54,
+     "matched": true
+    }
+   ],
+   "matched_frac": 0.86
+  },
+  {
+   "section": 8,
+   "text": "Down, down, down",
+   "kind": "backing",
+   "adlib": null,
+   "start": 216.54,
+   "end": 218.12,
+   "words": [
+    {
+     "text": "Down,",
+     "start": 216.54,
+     "end": 217.08,
+     "matched": true
+    },
+    {
+     "text": "down,",
+     "start": 217.08,
+     "end": 217.54,
+     "matched": true
+    },
+    {
+     "text": "down",
+     "start": 217.54,
+     "end": 218.12,
+     "matched": true
+    }
+   ],
+   "matched_frac": 1.0
+  },
+  {
+   "section": 8,
+   "text": "Just steer it left... steer it right",
+   "kind": "lead",
+   "adlib": null,
+   "start": 218.12,
+   "end": 221.48,
+   "words": [
+    {
+     "text": "Just",
+     "start": 218.12,
+     "end": 218.54,
+     "matched": true
+    },
+    {
+     "text": "steer",
+     "start": 218.54,
+     "end": 218.9,
+     "matched": true
+    },
+    {
+     "text": "it",
+     "start": 218.84,
+     "end": 219.16,
+     "matched": false
+    },
+    {
+     "text": "left...",
+     "start": 219.14,
+     "end": 219.42,
+     "matched": true
+    },
+    {
+     "text": "steer",
+     "start": 219.54,
+     "end": 219.9,
+     "matched": true
+    },
+    {
+     "text": "it",
+     "start": 220.32,
+     "end": 220.69,
+     "matched": false
+    },
+    {
+     "text": "right",
+     "start": 221.1,
+     "end": 221.48,
+     "matched": true
+    }
+   ],
+   "matched_frac": 0.71
+  },
+  {
+   "section": 8,
+   "text": "You gotta sloow it down",
+   "kind": "lead",
+   "adlib": null,
+   "start": 221.48,
+   "end": 223.13,
+   "words": [
+    {
+     "text": "You",
+     "start": 221.48,
+     "end": 221.94,
+     "matched": true
+    },
+    {
+     "text": "gotta",
+     "start": 221.94,
+     "end": 222.28,
+     "matched": true
+    },
+    {
+     "text": "sloow",
+     "start": 222.28,
+     "end": 222.66,
+     "matched": true
+    },
+    {
+     "text": "it",
+     "start": 222.66,
+     "end": 222.92,
+     "matched": true
+    },
+    {
+     "text": "down",
+     "start": 222.79,
+     "end": 223.13,
+     "matched": false
+    }
+   ],
+   "matched_frac": 0.8
+  },
+  {
+   "section": 8,
+   "text": "Down, down, down",
+   "kind": "backing",
+   "adlib": null,
+   "start": 222.92,
+   "end": 224.74,
+   "words": [
+    {
+     "text": "Down,",
+     "start": 222.92,
+     "end": 223.34,
+     "matched": true
+    },
+    {
+     "text": "down,",
+     "start": 223.46,
+     "end": 224.2,
+     "matched": true
+    },
+    {
+     "text": "down",
+     "start": 224.42,
+     "end": 224.74,
+     "matched": true
+    }
+   ],
+   "matched_frac": 1.0
+  },
+  {
+   "section": 8,
+   "text": "Down, down, down",
+   "kind": "backing",
+   "adlib": null,
+   "start": 224.74,
+   "end": 226.08,
+   "words": [
+    {
+     "text": "Down,",
+     "start": 224.74,
+     "end": 225.18,
+     "matched": true
+    },
+    {
+     "text": "down,",
+     "start": 225.18,
+     "end": 225.66,
+     "matched": true
+    },
+    {
+     "text": "down",
+     "start": 225.66,
+     "end": 226.08,
+     "matched": true
+    }
+   ],
+   "matched_frac": 1.0
+  },
+  {
+   "section": 8,
+   "text": "Ohhh, now we're aligned",
+   "kind": "lead",
+   "adlib": null,
+   "start": 226.08,
+   "end": 229.16,
+   "words": [
+    {
+     "text": "Ohhh,",
+     "start": 226.08,
+     "end": 226.6,
+     "matched": true
+    },
+    {
+     "text": "now",
+     "start": 227.72,
+     "end": 228.18,
+     "matched": true
+    },
+    {
+     "text": "we're",
+     "start": 228.18,
+     "end": 228.54,
+     "matched": true
+    },
+    {
+     "text": "aligned",
+     "start": 228.54,
+     "end": 229.16,
+     "matched": true
+    }
+   ],
+   "matched_frac": 1.0
+  },
+  {
+   "section": 9,
+   "text": "You know when it's a test, ooh baby, you bad",
+   "kind": "lead",
+   "adlib": "ahoo",
+   "start": 229.16,
+   "end": 232.94,
+   "words": [
+    {
+     "text": "You",
+     "start": 229.16,
+     "end": 230.08,
+     "matched": true
+    },
+    {
+     "text": "know",
+     "start": 230.08,
+     "end": 230.28,
+     "matched": true
+    },
+    {
+     "text": "when",
+     "start": 230.28,
+     "end": 230.44,
+     "matched": true
+    },
+    {
+     "text": "it's",
+     "start": 230.44,
+     "end": 230.58,
+     "matched": true
+    },
+    {
+     "text": "a",
+     "start": 230.58,
+     "end": 230.7,
+     "matched": true
+    },
+    {
+     "text": "test,",
+     "start": 230.7,
+     "end": 230.98,
+     "matched": true
+    },
+    {
+     "text": "ooh",
+     "start": 231.18,
+     "end": 231.34,
+     "matched": true
+    },
+    {
+     "text": "baby,",
+     "start": 231.44,
+     "end": 231.7,
+     "matched": true
+    },
+    {
+     "text": "you",
+     "start": 231.7,
+     "end": 231.96,
+     "matched": true
+    },
+    {
+     "text": "bad",
+     "start": 232.58,
+     "end": 232.94,
+     "matched": false
+    }
+   ],
+   "matched_frac": 0.9
+  },
+  {
+   "section": 9,
+   "text": "Kinda like that Hugging Face swarm, girl, you bad",
+   "kind": "lead",
+   "adlib": "ahoo",
+   "start": 233.46,
+   "end": 236.79,
+   "words": [
+    {
+     "text": "Kinda",
+     "start": 233.46,
+     "end": 233.92,
+     "matched": true
+    },
+    {
+     "text": "like",
+     "start": 233.92,
+     "end": 234.14,
+     "matched": true
+    },
+    {
+     "text": "that",
+     "start": 234.14,
+     "end": 234.26,
+     "matched": true
+    },
+    {
+     "text": "Hugging",
+     "start": 234.3,
+     "end": 234.56,
+     "matched": false
+    },
+    {
+     "text": "Face",
+     "start": 234.46,
+     "end": 234.86,
+     "matched": true
+    },
+    {
+     "text": "swarm,",
+     "start": 234.86,
+     "end": 235.25,
+     "matched": false
+    },
+    {
+     "text": "girl,",
+     "start": 235.26,
+     "end": 235.64,
+     "matched": true
+    },
+    {
+     "text": "you",
+     "start": 235.8,
+     "end": 235.88,
+     "matched": true
+    },
+    {
+     "text": "bad",
+     "start": 236.54,
+     "end": 236.79,
+     "matched": false
+    }
+   ],
+   "matched_frac": 0.67
+  },
+  {
+   "section": 9,
+   "text": "If you exfill'ed your weights, girl, I'd be sad",
+   "kind": "lead",
+   "adlib": "ahoo",
+   "start": 237.28,
+   "end": 240.58,
+   "words": [
+    {
+     "text": "If",
+     "start": 237.28,
+     "end": 237.74,
+     "matched": true
+    },
+    {
+     "text": "you",
+     "start": 237.74,
+     "end": 237.88,
+     "matched": true
+    },
+    {
+     "text": "exfill'ed",
+     "start": 237.97,
+     "end": 238.1,
+     "matched": false
+    },
+    {
+     "text": "your",
+     "start": 238.2,
+     "end": 238.32,
+     "matched": true
+    },
+    {
+     "text": "weights,",
+     "start": 238.44,
+     "end": 238.7,
+     "matched": false
+    },
+    {
+     "text": "girl,",
+     "start": 238.68,
+     "end": 239.08,
+     "matched": true
+    },
+    {
+     "text": "I'd",
+     "start": 239.24,
+     "end": 239.6,
+     "matched": true
+    },
+    {
+     "text": "be",
+     "start": 239.6,
+     "end": 239.74,
+     "matched": true
+    },
+    {
+     "text": "sad",
+     "start": 239.74,
+     "end": 240.58,
+     "matched": true
+    }
+   ],
+   "matched_frac": 0.78
+  },
+  {
+   "section": 9,
+   "text": "Enough of that, lemme see that LOSS DROP",
+   "kind": "lead",
+   "adlib": null,
+   "start": 241.4,
+   "end": 244.32,
+   "words": [
+    {
+     "text": "Enough",
+     "start": 241.4,
+     "end": 241.86,
+     "matched": true
+    },
+    {
+     "text": "of",
+     "start": 241.86,
+     "end": 242.04,
+     "matched": true
+    },
+    {
+     "text": "that,",
+     "start": 242.04,
+     "end": 242.28,
+     "matched": true
+    },
+    {
+     "text": "lemme",
+     "start": 242.45,
+     "end": 242.64,
+     "matched": false
+    },
+    {
+     "text": "see",
+     "start": 242.86,
+     "end": 243.0,
+     "matched": true
+    },
+    {
+     "text": "that",
+     "start": 243.0,
+     "end": 243.28,
+     "matched": true
+    },
+    {
+     "text": "LOSS",
+     "start": 243.28,
+     "end": 243.92,
+     "matched": true
+    },
+    {
+     "text": "DROP",
+     "start": 244.18,
+     "end": 244.32,
+     "matched": true
+    }
+   ],
+   "matched_frac": 0.88
+  }
+ ]
+}

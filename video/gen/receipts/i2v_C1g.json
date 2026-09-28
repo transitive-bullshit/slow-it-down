@@ -1,0 +1,23 @@
+{
+ "endpoint": "fal-ai/veo3.1/fast/image-to-video",
+ "args": {
+  "prompt": "they dance together slowly and rhythmically in sync, her arms raised above her head swaying from side to side as she lets go, his hands guiding her hips left and then right, both getting into the groove Graceful slow motion. Painterly neo-noir graphic-novel animation: keep the hand-painted brushwork, ink lines and lighting of the first frame, same characters, faces and outfits throughout, smooth cinematic camera, no on-screen text changes.",
+  "image_url": "https://v3b.fal.media/files/b/0aac3ad1/WEEgZmAvxMgHVaZyfCVDQ_C1g.png",
+  "resolution": "1080p",
+  "aspect_ratio": "16:9",
+  "generate_audio": false,
+  "negative_prompt": "garbled or changing text, morphing faces, extra limbs, flicker, photorealistic, glossy 3D render, oversaturated neon, smoke or spray shooting out of objects, liquid, mist jets",
+  "safety_tolerance": "5",
+  "auto_fix": true,
+  "duration": "4s"
+ },
+ "seconds": 123.2,
+ "result": {
+  "video": {
+   "url": "https://v3b.fal.media/files/b/0aac3ade/ijEFm5yn5BquiQOr9Jx_y_2d0f4142da1b4ba9a18eeaa2ee34ffb3.mp4",
+   "content_type": "video/mp4",
+   "file_name": "2d0f4142da1b4ba9a18eeaa2ee34ffb3.mp4",
+   "file_size": 7989748
+  }
+ }
+}
