@@ -4,7 +4,7 @@
 
 [![Slow It Down – AI Music Video](https://assets.cultural-alignment.com/personal-site/media/5a28d2e05504f914a9e2fa0935e3ccc7ff960b865aae0c8cfd1a91fcd682bffa.webp)](https://www.transitivebullsh.it/projects/slow-it-down-ai-music-video)
 
-**[▶ Watch the video and read the write-up](https://www.transitivebullsh.it/projects/slow-it-down-ai-music-video)**
+**[▶ Watch on YouTube](https://www.youtube.com/watch?v=Tz6gQDN9qG0)** · **[Read the write-up](https://www.transitivebullsh.it/projects/slow-it-down-ai-music-video)**
 
 An AI-made R&B parody of THE-DREAM feat. Fabolous, “Slow It Down” (2013), made almost entirely by Claude Code with Opus 5.5, Suno, and fal. This repo is the whole working directory behind it.
 
