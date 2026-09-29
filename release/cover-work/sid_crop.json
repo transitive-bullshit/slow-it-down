@@ -1,0 +1,16 @@
+{
+  "model": "fal-ai/nano-banana-pro/edit",
+  "source": "video/poster/base/B_shh.png",
+  "precrop_box": [
+    420,
+    0,
+    2752,
+    1536
+  ],
+  "prompt": "Reframe this exact painting as a square 1:1 album cover by extending the canvas upward and downward (outpainting), not by cropping or redrawing. Keep her exactly as she is: the same face, glossy black bob, glowing violet eyes, the slash of warm amber light across her eyes, the finger pressed to her dark red lips, the silver mesh choker with its tiny glowing tag, the red satin slip dress, and the same painterly neo-noir graphic-novel brushwork, ink linework and colors. Above: the full top of her black bob and more dark smoky night-street haze. Below: a little more of her shoulders and the wet, reflective street with amber reflections; her dress neckline stays exactly as it is. She stays in the right half of the frame and the left side stays empty dark smoky haze with soft amber bokeh, clear space for a title. No text, letters or readable signage anywhere in the image.",
+  "aspect_ratio": "1:1",
+  "resolution": "4K",
+  "output_format": "png",
+  "num_images": 1,
+  "safety_tolerance": "5"
+}
