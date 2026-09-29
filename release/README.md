@@ -7,8 +7,9 @@ Everything DistroKid asks for, ready to upload. The media files are git-ignored 
 | `Slow It Down - Travis Fischer.wav` | The master: Suno V6 take B (`video/audio/suno_B.wav`), unaltered. 48 kHz / 16-bit stereo, 4:14, −14.6 LUFS. |
 | `cover.jpg` | 3000×3000 RGB. The poster's muse (base `B_shh`) outpainted to a square with nano-banana-pro, plus the poster's neon title with the teal "down down" staircase. |
 | `cover-title-only.jpg` | The same image with only "slow it down" on it. This is the safer upload, because DistroKid only allows cover text that matches the title or the artist name. |
+| `cover-vertical.jpg` | 1440×2560 cover for TikTok: `sid_full` outpainted to 9:16 (`cover-work/sid_vert_d`, copied to `sid_vert.png`), with the title stacked "slow / it / down" down the left side. Her face and the title stay inside the 3:4 crop TikTok's profile grid shows. Instagram fits a Reel's cover to the video's shape, so the 16:9 Reel uses `video/poster/poster.png` instead. |
 | `lyrics.txt` | The written lyrics (`docs/lyrics-current.txt`) in the order the take sings them, with Suno's pronunciation and pacing hacks undone: METR (not "Meter"), "exfilled", no stretched vowels, CAPS or `...` pause cues. |
-| `make_cover.py`, `make_lyrics.py` | Rebuild the covers (from `cover-work/sid_full.png`, whose fal receipt sits next to it) and the lyrics. |
+| `make_cover.py`, `make_lyrics.py` | Rebuild the covers (`make_cover.py [square] [vertical]`, from the outpaints in `cover-work/`, each with its fal receipt next to it) and the lyrics. |
 
 ## DistroKid form
 
