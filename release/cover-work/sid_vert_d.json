@@ -1,0 +1,10 @@
+{
+  "model": "fal-ai/nano-banana-pro/edit",
+  "source": "release/cover-work/sid_full.png (downscaled to 2048)",
+  "prompt": "Reframe this exact painting as a tall vertical 9:16 phone-screen poster by extending the canvas upward and downward (outpainting), not by redrawing her. Keep her exactly as she is: the same face, glossy black bob, glowing violet eyes, the slash of warm amber light across her eyes, the finger pressed to her dark red lips, the silver mesh choker with its tiny glowing tag, the red satin slip dress, and the same painterly neo-noir graphic-novel brushwork, ink linework and colors. Her face sits in the upper-middle of the frame, right of center. Above her: dark rainy night-city haze with faint lit skyscraper windows and soft amber bokeh. Below: her figure continues naturally and unbroken down to the bottom edge of the frame, the red satin slip dress falling into deep shadow at hip level. The left side of the frame, beside and below her shoulder, is dark smoky haze with soft amber bokeh, empty space for a title. She is the only figure in the image. No text, letters or readable signage anywhere in the image.",
+  "aspect_ratio": "9:16",
+  "resolution": "2K",
+  "output_format": "png",
+  "num_images": 1,
+  "safety_tolerance": "5"
+}
