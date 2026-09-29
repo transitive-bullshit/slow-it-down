@@ -88,7 +88,6 @@ video/gen/receipts/    the prompt, parameters, and result of every paid generati
 video/tools/           the compositor: captions (ASS/libass), grades, cards, and the final render
 video/review/          the scene-by-scene review tool and my feedback history (feedback_v3.md, feedback_v4.md)
 video/poster/          the first-frame poster options
-social/drafts/         per-platform launch copy (Threads, Bluesky, LinkedIn), pushed to Postiz as drafts
 release/               the DistroKid kit: square cover, store lyrics, form answers (the WAV and covers are git-ignored)
 video/notion/          the script that published the write-up to Notion
 ```
