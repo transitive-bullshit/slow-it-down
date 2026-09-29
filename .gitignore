@@ -118,3 +118,6 @@ video/scout/uploads.json
 # --- superseded working files
 video/*_backup.py
 video/timeline_provisional.json
+
+# --- local working state: per-platform social post copy (posted via Postiz, not versioned)
+social/drafts/
